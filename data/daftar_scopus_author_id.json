@@ -1,0 +1,49 @@
+{
+  "versi": 1,
+  "ditetapkan": "2026-11-22",
+  "catatan": "Enam Scopus Author ID diberikan pengguna. ID yang berbeda tidak disamakan dengan ID SINTA/GARUDA; dokumen Scopus disimpan per Author ID dan dideduplikasi berdasarkan EID/DOI. Identitas tiga ID belum terkonfirmasi.",
+  "profiles": [
+    {
+      "scopus_author_id": "58996427700",
+      "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=58996427700",
+      "slug_dosen": "dedi",
+      "nama_terverifikasi": "Muhammad Dedi Irawan",
+      "sumber_identitas": "https://jurnal.unimed.ac.id/2012/index.php/cess/id/about/editorialHistory"
+    },
+    {
+      "scopus_author_id": "57214153048",
+      "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57214153048",
+      "slug_dosen": null,
+      "nama_terverifikasi": null,
+      "sumber_identitas": null
+    },
+    {
+      "scopus_author_id": "60570206100",
+      "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=60570206100",
+      "slug_dosen": null,
+      "nama_terverifikasi": null,
+      "sumber_identitas": null
+    },
+    {
+      "scopus_author_id": "57222343067",
+      "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57222343067",
+      "slug_dosen": "puji",
+      "nama_terverifikasi": "Puji Sari Ramadhan",
+      "sumber_identitas": "https://jurnal.ilmubersama.com/index.php/hello_world/Reviewer"
+    },
+    {
+      "scopus_author_id": "60904491000",
+      "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=60904491000",
+      "slug_dosen": null,
+      "nama_terverifikasi": null,
+      "sumber_identitas": null
+    },
+    {
+      "scopus_author_id": "58190434200",
+      "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=58190434200",
+      "slug_dosen": "rakhmat",
+      "nama_terverifikasi": "Rakhmat Kurniawan R",
+      "sumber_identitas": "https://si.uinsu.ac.id/organisasi"
+    }
+  ]
+}
