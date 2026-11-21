@@ -1,0 +1,115 @@
+{
+  "versi": 2,
+  "dibuat_utc": "2026-11-22",
+  "sumber": "Ringkasan profil publik SINTA yang terindeks mesin pencari; cache, bukan sinkronisasi live",
+  "sumber_pemeriksaan": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=books",
+  "status_keakuratan": "Cuplikan SINTA diindeks sekitar tiga bulan sebelum pemeriksaan 22 November 2026. Statistik belum divalidasi ulang secara live.",
+  "dosen": [
+    {
+      "slug": "siddik",
+      "nama": "Muhammad Siddik Hasibuan",
+      "sinta_id": "5983919",
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5983919/?view=scopus",
+      "status": "belum_tersinkron",
+      "metrik_scopus": {
+        "dokumen": null,
+        "sitasi": null,
+        "dokumen_disitasi": null,
+        "h_index": null,
+        "i10_index": null
+      },
+      "jumlah_terlihat": 0,
+      "daftar_lengkap": false,
+      "publikasi": []
+    },
+    {
+      "slug": "dedi",
+      "nama": "Muhammad Dedi Irawan",
+      "sinta_id": "6054939",
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=scopus",
+      "status": "cache_terakhir",
+      "metrik_scopus": {
+        "dokumen": 3,
+        "sitasi": 9,
+        "dokumen_disitasi": 2,
+        "h_index": 1,
+        "i10_index": 0
+      },
+      "sumber_metrik": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=books",
+      "catatan_sumber": "Snapshot SINTA hasil pengindeksan, bukan data real-time",
+      "jumlah_terlihat": 0,
+      "daftar_lengkap": false,
+      "publikasi": []
+    },
+    {
+      "slug": "rakhmat",
+      "nama": "Rakhmat Kurniawan R",
+      "sinta_id": "6160028",
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=scopus",
+      "status": "belum_tersinkron",
+      "metrik_scopus": {
+        "dokumen": null,
+        "sitasi": null,
+        "dokumen_disitasi": null,
+        "h_index": null,
+        "i10_index": null
+      },
+      "jumlah_terlihat": 0,
+      "daftar_lengkap": false,
+      "publikasi": []
+    },
+    {
+      "slug": "aidil",
+      "nama": "Aidil Halim Lubis",
+      "sinta_id": "6795618",
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6795618/?view=scopus",
+      "status": "belum_tersinkron",
+      "metrik_scopus": {
+        "dokumen": null,
+        "sitasi": null,
+        "dokumen_disitasi": null,
+        "h_index": null,
+        "i10_index": null
+      },
+      "jumlah_terlihat": 0,
+      "daftar_lengkap": false,
+      "publikasi": []
+    },
+    {
+      "slug": "ika",
+      "nama": "Ika Yusnita Sari",
+      "sinta_id": "6745259",
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6745259/?view=scopus",
+      "status": "belum_tersinkron",
+      "metrik_scopus": {
+        "dokumen": null,
+        "sitasi": null,
+        "dokumen_disitasi": null,
+        "h_index": null,
+        "i10_index": null
+      },
+      "jumlah_terlihat": 0,
+      "daftar_lengkap": false,
+      "publikasi": []
+    },
+    {
+      "slug": "puji",
+      "nama": "Puji Sari Ramadhan",
+      "sinta_id": "6089755",
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089755/?view=scopus",
+      "status": "belum_tersinkron",
+      "metrik_scopus": {
+        "dokumen": null,
+        "sitasi": null,
+        "dokumen_disitasi": null,
+        "h_index": null,
+        "i10_index": null
+      },
+      "jumlah_terlihat": 0,
+      "daftar_lengkap": false,
+      "publikasi": []
+    }
+  ],
+  "publikasi": [],
+  "catatan": "3 dokumen adalah total milik profil Dedi pada cache, bukan daftar tiga EID. Lima dosen lain belum dapat diakses; kosong bukan nol. Dua kandidat jurnal dari pemeriksaan ISSN/Scopus tidak boleh dijumlahkan sebagai dokumen tersendiri."
+}
