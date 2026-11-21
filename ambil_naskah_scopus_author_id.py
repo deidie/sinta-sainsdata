@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Ambil naskah berdasarkan 6 Scopus Author ID langsung dari API resmi Elsevier.
+"""Ambil artikel, prosiding, buku, dan bab buku dari 6 Scopus Author ID.
 
 Tidak mengganti Scopus Author ID dengan SINTA ID, dan tidak mengasumsikan
-semua ID dimiliki dosen tertentu. Bila API key/izin tidak tersedia, data
+semua ID dimiliki dosen tertentu. Karya tidak perlu ada di GARUDA, dan DOI tidak wajib untuk buku. Bila API key/izin tidak tersedia, data
 lama dipertahankan dan status ditandai belum diverifikasi.
 """
 from __future__ import annotations
@@ -48,6 +48,21 @@ def fetch(api_key,inst,sid,start):
  except HTTPError as e:return {"status":e.code,"error":"http_error"}
  except (URLError,TimeoutError,OSError,ValueError) as e:return {"error":type(e).__name__}
 
+def publication_ids(value):
+ """Scopus bisa mengembalikan ISBN/ISSN sebagai string, daftar, atau objek."""
+ if value is None:return []
+ if isinstance(value,list):
+  found=[]
+  for item in value:found.extend(publication_ids(item))
+  return list(dict.fromkeys(found))
+ if isinstance(value,dict):
+  found=[]
+  for key in ("$","value","text","@value","@_fa"):
+   if key in value and key!="@_fa":found.extend(publication_ids(value[key]))
+  return list(dict.fromkeys(found))
+ clean=str(value).strip()
+ return [clean] if clean else []
+
 def document(entry,sid):
  if not isinstance(entry,dict):return None
  eid=str(entry.get("eid") or "").strip()
@@ -57,27 +72,37 @@ def document(entry,sid):
  if not title:return None
  cover=str(entry.get("prism:coverDate") or "").strip()
  year=int(cover[:4]) if re.match(r"^(?:19|20)\d\d",cover) else None
- links=entry.get("link") or []
  scopus_url="https://www.scopus.com/record/display.uri?eid="+eid+"&origin=resultslist"
- return {"scopus_eid":eid,"doi":doi,"judul":title,
-   "penulis_utama":str(entry.get("dc:creator") or ""),
+ isbn=publication_ids(entry.get("prism:isbn"))
+ issn=publication_ids(entry.get("prism:issn"))
+ eissn=publication_ids(entry.get("prism:eIssn"))
+ tipe=str(entry.get("subtypeDescription") or "").strip()
+ sumber=str(entry.get("prism:aggregationType") or "").strip()
+ # Buku nonserial memakai ISBN, bukan ISSN jurnal. DOI tidak wajib untuk buku.
+ jenis="buku_atau_bab_buku" if ("book" in tipe.casefold() or sumber.casefold()=="book") else (
+       "prosiding" if "conference" in tipe.casefold() or "conference" in sumber.casefold() else "artikel_atau_lainnya")
+ return {"scopus_eid":eid,"doi":doi,"isbn":isbn,"issn":issn,"eissn":eissn,
+   "judul":title,"penulis_utama":str(entry.get("dc:creator") or ""),
    "jurnal":str(entry.get("prism:publicationName") or ""),
    "tahun":year,"tanggal_terbit":cover or None,
-   "tipe":entry.get("prism:aggregationType"),
+   "tipe":sumber or None,"jenis_dokumen_scopus":tipe or None,
+   "kategori_tampilan":jenis,
    "sitasi_scopus":int(entry["citedby-count"]) if str(entry.get("citedby-count") or "").isdigit() else None,
    "scopus_bukti_url":scopus_url,
    "scopus_author_ids":[sid],
    "sumber":"Elsevier Scopus Search API, query authid"}
 
 def merge(list_docs):
+ """Scopus EID adalah identitas primer; DOI dapat kosong pada buku."""
  merged={}
  for d in list_docs:
-  key=("doi:"+d["doi"]) if d.get("doi") else ("eid:"+d["scopus_eid"])
-  if key in merged:
-   previous=merged[key]
-   previous["scopus_author_ids"]=sorted(set(previous["scopus_author_ids"]+d["scopus_author_ids"]))
-   if not previous.get("doi") and d.get("doi"):previous["doi"]=d["doi"]
-  else:merged[key]=d
+  eid=d["scopus_eid"]
+  if eid in merged:
+   old=merged[eid]
+   old["scopus_author_ids"]=sorted(set(old["scopus_author_ids"]+d["scopus_author_ids"]))
+   for field in ("doi","isbn","issn","eissn","jenis_dokumen_scopus","kategori_tampilan"):
+    if not old.get(field) and d.get(field):old[field]=d[field]
+  else:merged[eid]=d.copy()
  return sorted(merged.values(),key=lambda d:(-(d.get("tahun") or 0),d["judul"].casefold()))
 
 def main():
@@ -160,7 +185,7 @@ def main():
   OUTPUT.parent.mkdir(parents=True,exist_ok=True)
   OUTPUT.write_text(json.dumps({"versi":1,"diperbarui_utc":now,
     "sumber":"Elsevier Scopus Search API berdasarkan Scopus Author ID",
-    "peringatan":"Jumlah berasal dari API dan artikel memiliki EID. Nama ID yang belum terverifikasi tidak dikaitkan otomatis dengan dosen lain. Tidak menggunakan GARUDA untuk menyatakan artikel Scopus.",
+    "peringatan":"Seluruh jenis karya berasal dari API Scopus dan memakai EID; buku dan bab buku boleh tanpa DOI. Nama ID yang belum terverifikasi tidak dikaitkan otomatis dengan dosen lain. GARUDA tidak digunakan sebagai sumber Scopus.",
     "profil":rows,"naskah_unik":all_docs,"jumlah_naskah_unik":len(all_docs)},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  STATUS.parent.mkdir(parents=True,exist_ok=True)
  STATUS.write_text(json.dumps({"diperiksa_utc":now,"api_key_tersedia":bool(key),
