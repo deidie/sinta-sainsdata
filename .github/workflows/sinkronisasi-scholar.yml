@@ -1,0 +1,34 @@
+name: Sinkronisasi Publikasi Google Scholar
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "22 1 1 * *"
+permissions:
+  contents: write
+concurrency:
+  group: sainsdata-scholar-sync
+  cancel-in-progress: false
+jobs:
+  scholar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Ambil Google Scholar dari Apps Script
+        env:
+          SCHOLAR_WEBAPP_URL: ${{ vars.SCHOLAR_WEBAPP_URL }}
+        run: |
+          if [ -z "$SCHOLAR_WEBAPP_URL" ]; then unset SCHOLAR_WEBAPP_URL; fi
+          python sinkronisasi_scholar.py
+      - name: Commit jika data berhasil berubah
+        run: |
+          git add hasil/publikasi_scholar.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update data publikasi Google Scholar"
+            git push
+          fi
