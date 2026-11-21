@@ -1,0 +1,62 @@
+{
+  "versi": 1,
+  "keterangan": "Peringkat artikel tercantum bersama DOI spesifik pada halaman GARUDA milik penulis di SINTA, bukan inferensi dari peringkat jurnal saat ini.",
+  "artikel": [
+    {
+      "doi": "10.54314/jssr.v9i1.5856",
+      "peringkat": 4,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "ditinjau_tanggal": "2026-11-22",
+      "metode": "DOI dan Accred Sinta pada profil penulis SINTA resmi"
+    },
+    {
+      "doi": "10.47065/tin.v6i9.9350",
+      "peringkat": 4,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "ditinjau_tanggal": "2026-11-22",
+      "metode": "DOI dan Accred Sinta pada profil penulis SINTA resmi"
+    },
+    {
+      "doi": "10.24114/cess.v11i1.72110",
+      "peringkat": 4,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "ditinjau_tanggal": "2026-11-22",
+      "metode": "DOI dan Accred Sinta pada profil penulis SINTA resmi"
+    },
+    {
+      "doi": "10.24114/cess.v11i1.72255",
+      "peringkat": 4,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "ditinjau_tanggal": "2026-11-22",
+      "metode": "DOI dan Accred Sinta pada profil penulis SINTA resmi"
+    },
+    {
+      "doi": "10.30865/json.v7i3.9661",
+      "peringkat": 3,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "ditinjau_tanggal": "2026-11-22",
+      "metode": "DOI dan Accred Sinta pada profil penulis SINTA resmi"
+    },
+    {
+      "doi": "10.47065/tin.v6i11.9674",
+      "peringkat": 4,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "ditinjau_tanggal": "2026-11-22",
+      "metode": "DOI dan Accred Sinta pada profil penulis SINTA resmi"
+    },
+    {
+      "doi": "10.31294/simpatik.v6i1.12598",
+      "peringkat": 5,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "ditinjau_tanggal": "2026-11-22",
+      "metode": "DOI dan Accred Sinta pada profil penulis SINTA resmi"
+    },
+    {
+      "doi": "10.62712/juktisi.v5i1.1037",
+      "peringkat": 4,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "ditinjau_tanggal": "2026-11-22",
+      "metode": "DOI dan Accred Sinta pada profil penulis SINTA resmi"
+    }
+  ]
+}
