@@ -1,5 +1,5 @@
 {
-  "diperbarui_utc": "2026-11-21T17:56:21.499798+00:00",
+  "diperbarui_utc": "2026-11-21T17:58:04.856894+00:00",
   "jurnal": [
     {
       "nama_garuda": "(JurTI) Jurnal Teknologi Informasi",
@@ -24,6 +24,12 @@
       "nama_sinta": "Bulletin of Computer Science Research",
       "peringkat_jurnal_terkini": 4,
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9602"
+    },
+    {
+      "nama_garuda": "Bulletin of Information Technology (BIT)",
+      "nama_sinta": "Bulletin of Information Technology (BIT)",
+      "peringkat_jurnal_terkini": 4,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8745"
     },
     {
       "nama_garuda": "CESS (Journal of Computer Engineering, System and Science)",
@@ -54,6 +60,12 @@
       "nama_sinta": "INFOKUM",
       "peringkat_jurnal_terkini": 5,
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7139"
+    },
+    {
+      "nama_garuda": "InfoTekJar : Jurnal Nasional Informatika dan Teknologi Jaringan",
+      "nama_sinta": "InfoTekJar: Jurnal Nasional Informatika dan Teknologi Jaringan",
+      "peringkat_jurnal_terkini": 4,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/433"
     },
     {
       "nama_garuda": "JISTech (Journal of Islamic Science and Technology)",
@@ -122,6 +134,12 @@
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9432"
     },
     {
+      "nama_garuda": "JURNAL FASILKOM",
+      "nama_sinta": "Jurnal FASILKOM",
+      "peringkat_jurnal_terkini": 4,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10086"
+    },
+    {
       "nama_garuda": "Jurnal Ilmiah Komputasi",
       "nama_sinta": "Jurnal Ilmiah Komputasi",
       "peringkat_jurnal_terkini": 4,
@@ -162,6 +180,18 @@
       "nama_sinta": "Jurnal Multimedia dan Teknologi Informasi (Jatilima)",
       "peringkat_jurnal_terkini": 4,
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10953"
+    },
+    {
+      "nama_garuda": "Jurnal Pendidikan Informatika (EDUMATIC)",
+      "nama_sinta": "Edumatic: Jurnal Pendidikan Informatika",
+      "peringkat_jurnal_terkini": 3,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4682"
+    },
+    {
+      "nama_garuda": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD)",
+      "nama_sinta": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD)",
+      "peringkat_jurnal_terkini": 4,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/12475"
     },
     {
       "nama_garuda": "Jurnal Sistem Komputer dan Informatika (JSON)",
@@ -248,6 +278,12 @@
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3323"
     },
     {
+      "nama_garuda": "STORAGE: Jurnal Ilmiah Teknik dan Ilmu Komputer",
+      "nama_sinta": "STORAGE: Jurnal Ilmiah Teknik dan Ilmu Komputer",
+      "peringkat_jurnal_terkini": 4,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/14870"
+    },
+    {
       "nama_garuda": "sudo Jurnal Teknik Informatika",
       "nama_sinta": "sudo Jurnal Teknik Informatika",
       "peringkat_jurnal_terkini": 5,
@@ -278,5 +314,5 @@
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11024"
     }
   ],
-  "jurnal_tercocokkan": 46
+  "jurnal_tercocokkan": 52
 }

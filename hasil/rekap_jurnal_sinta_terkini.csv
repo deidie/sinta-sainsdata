@@ -1,21 +1,21 @@
 ﻿level,dosen,tahun,jumlah_rekaman,S1,S2,S3,S4,S5,S6,belum_tercocokkan
-Prodi (unik),,Semua tahun,417,0,0,47,142,48,4,176
-Prodi (unik),,2026,43,0,0,5,12,1,0,25
-Prodi (unik),,2025,89,0,0,11,34,2,0,42
-Prodi (unik),,2024,127,0,0,18,52,12,0,45
-Prodi (unik),,2023,68,0,0,6,24,6,0,32
-Prodi (unik),,2022,37,0,0,1,10,8,0,18
+Prodi (unik),,Semua tahun,417,0,0,49,152,48,4,164
+Prodi (unik),,2026,43,0,0,5,14,1,0,23
+Prodi (unik),,2025,89,0,0,11,36,2,0,40
+Prodi (unik),,2024,127,0,0,18,54,12,0,43
+Prodi (unik),,2023,68,0,0,7,25,6,0,30
+Prodi (unik),,2022,37,0,0,2,11,8,0,16
 Prodi (unik),,2021,13,0,0,1,2,5,0,5
 Prodi (unik),,2020,14,0,0,3,4,4,0,3
-Prodi (unik),,2019,7,0,0,0,1,3,0,3
+Prodi (unik),,2019,7,0,0,0,2,3,0,2
 Prodi (unik),,2018,8,0,0,1,1,4,1,1
 Prodi (unik),,2017,8,0,0,1,2,3,1,1
 Prodi (unik),,2016,2,0,0,0,0,0,2,0
-Prodi (unik),,2013,1,0,0,0,0,0,0,1
-Dosen,Muhammad Siddik Hasibuan,Semua tahun,80,0,0,11,24,4,4,37
-Dosen,Muhammad Siddik Hasibuan,2026,9,0,0,1,1,0,0,7
+Prodi (unik),,2013,1,0,0,0,1,0,0,0
+Dosen,Muhammad Siddik Hasibuan,Semua tahun,80,0,0,11,26,4,4,35
+Dosen,Muhammad Siddik Hasibuan,2026,9,0,0,1,2,0,0,6
 Dosen,Muhammad Siddik Hasibuan,2025,10,0,0,4,3,0,0,3
-Dosen,Muhammad Siddik Hasibuan,2024,28,0,0,5,11,2,0,10
+Dosen,Muhammad Siddik Hasibuan,2024,28,0,0,5,12,2,0,9
 Dosen,Muhammad Siddik Hasibuan,2023,13,0,0,0,4,0,0,9
 Dosen,Muhammad Siddik Hasibuan,2022,7,0,0,0,1,1,0,5
 Dosen,Muhammad Siddik Hasibuan,2021,2,0,0,0,1,0,0,1
@@ -24,31 +24,31 @@ Dosen,Muhammad Siddik Hasibuan,2019,3,0,0,0,0,1,0,2
 Dosen,Muhammad Siddik Hasibuan,2018,3,0,0,1,1,0,1,0
 Dosen,Muhammad Siddik Hasibuan,2017,1,0,0,0,0,0,1,0
 Dosen,Muhammad Siddik Hasibuan,2016,2,0,0,0,0,0,2,0
-Dosen,Muhammad Dedi Irawan,Semua tahun,164,0,0,15,46,18,0,85
-Dosen,Muhammad Dedi Irawan,2026,16,0,0,0,4,0,0,12
+Dosen,Muhammad Dedi Irawan,Semua tahun,164,0,0,16,51,18,0,79
+Dosen,Muhammad Dedi Irawan,2026,16,0,0,0,5,0,0,11
 Dosen,Muhammad Dedi Irawan,2025,29,0,0,2,5,1,0,21
 Dosen,Muhammad Dedi Irawan,2024,38,0,0,4,11,4,0,19
-Dosen,Muhammad Dedi Irawan,2023,33,0,0,4,13,3,0,13
-Dosen,Muhammad Dedi Irawan,2022,21,0,0,1,9,2,0,9
+Dosen,Muhammad Dedi Irawan,2023,33,0,0,5,14,3,0,11
+Dosen,Muhammad Dedi Irawan,2022,21,0,0,1,10,2,0,8
 Dosen,Muhammad Dedi Irawan,2021,7,0,0,1,1,0,0,5
 Dosen,Muhammad Dedi Irawan,2020,7,0,0,3,2,0,0,2
-Dosen,Muhammad Dedi Irawan,2019,3,0,0,0,0,2,0,1
+Dosen,Muhammad Dedi Irawan,2019,3,0,0,0,1,2,0,0
 Dosen,Muhammad Dedi Irawan,2018,5,0,0,0,0,4,0,1
 Dosen,Muhammad Dedi Irawan,2017,4,0,0,0,1,2,0,1
-Dosen,Muhammad Dedi Irawan,2013,1,0,0,0,0,0,0,1
-Dosen,Rakhmat Kurniawan R,Semua tahun,131,0,0,19,51,26,0,35
+Dosen,Muhammad Dedi Irawan,2013,1,0,0,0,1,0,0,0
+Dosen,Rakhmat Kurniawan R,Semua tahun,131,0,0,20,52,26,0,33
 Dosen,Rakhmat Kurniawan R,2026,13,0,0,4,6,0,0,3
-Dosen,Rakhmat Kurniawan R,2025,41,0,0,4,22,1,0,14
+Dosen,Rakhmat Kurniawan R,2025,41,0,0,4,23,1,0,13
 Dosen,Rakhmat Kurniawan R,2024,48,0,0,9,21,7,0,11
 Dosen,Rakhmat Kurniawan R,2023,10,0,0,2,1,3,0,4
-Dosen,Rakhmat Kurniawan R,2022,7,0,0,0,0,5,0,2
+Dosen,Rakhmat Kurniawan R,2022,7,0,0,1,0,5,0,1
 Dosen,Rakhmat Kurniawan R,2021,5,0,0,0,0,5,0,0
 Dosen,Rakhmat Kurniawan R,2020,6,0,0,0,1,4,0,1
 Dosen,Rakhmat Kurniawan R,2017,1,0,0,0,0,1,0,0
-Dosen,Aidil Halim Lubis,Semua tahun,37,0,0,2,19,3,0,13
+Dosen,Aidil Halim Lubis,Semua tahun,37,0,0,2,20,3,0,12
 Dosen,Aidil Halim Lubis,2026,3,0,0,0,1,1,0,1
 Dosen,Aidil Halim Lubis,2025,10,0,0,1,5,1,0,3
-Dosen,Aidil Halim Lubis,2024,12,0,0,0,8,1,0,3
+Dosen,Aidil Halim Lubis,2024,12,0,0,0,9,1,0,2
 Dosen,Aidil Halim Lubis,2023,7,0,0,0,3,0,0,4
 Dosen,Aidil Halim Lubis,2022,2,0,0,0,0,0,0,2
 Dosen,Aidil Halim Lubis,2019,1,0,0,0,1,0,0,0
@@ -59,6 +59,6 @@ Dosen,Ika Yusnita Sari,2025,1,0,0,1,0,0,0,0
 Dosen,Ika Yusnita Sari,2024,7,0,0,0,2,0,0,5
 Dosen,Ika Yusnita Sari,2023,5,0,0,0,3,0,0,2
 Dosen,Ika Yusnita Sari,2022,2,0,0,0,0,1,0,1
-Dosen,Puji Sari Ramadhan,Semua tahun,2,0,0,0,0,0,0,2
+Dosen,Puji Sari Ramadhan,Semua tahun,2,0,0,0,1,0,0,1
 Dosen,Puji Sari Ramadhan,2026,1,0,0,0,0,0,0,1
-Dosen,Puji Sari Ramadhan,2025,1,0,0,0,0,0,0,1
+Dosen,Puji Sari Ramadhan,2025,1,0,0,0,1,0,0,0

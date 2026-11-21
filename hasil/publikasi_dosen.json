@@ -1291,11 +1291,12 @@
           "garuda_document_id": "3976965",
           "garuda_author_id": "2406700",
           "halaman_sumber": 7,
-          "jurnal_sinta_peringkat_terkini": null,
-          "jurnal_sinta_url": null,
-          "jurnal_sinta_status_verifikasi": "nama_belum_ditemukan",
+          "jurnal_sinta_peringkat_terkini": 4,
+          "jurnal_sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10086",
+          "jurnal_sinta_status_verifikasi": "profil_jurnal_resmi_terindeks",
           "sinta_bukti_url": null,
-          "sinta_status_verifikasi": "belum_terverifikasi"
+          "sinta_status_verifikasi": "belum_terverifikasi",
+          "jurnal_sinta_diperiksa": "2026-11-22"
         },
         {
           "judul": "UML dan ERD Proses Sistem Informasi Korespondondensi Pada Dinas Pemuda dan Olahraga Sumatera Utara",
@@ -1352,11 +1353,12 @@
           "garuda_document_id": "6068499",
           "garuda_author_id": "2406700",
           "halaman_sumber": 7,
-          "jurnal_sinta_peringkat_terkini": null,
-          "jurnal_sinta_url": null,
-          "jurnal_sinta_status_verifikasi": "nama_belum_ditemukan",
+          "jurnal_sinta_peringkat_terkini": 4,
+          "jurnal_sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/14870",
+          "jurnal_sinta_status_verifikasi": "profil_jurnal_resmi_terindeks",
           "sinta_bukti_url": null,
-          "sinta_status_verifikasi": "belum_terverifikasi"
+          "sinta_status_verifikasi": "belum_terverifikasi",
+          "jurnal_sinta_diperiksa": "2026-11-22"
         },
         {
           "judul": "Perbandingan algoritma clustering dbscan dan k-means dalam pengelompokan siswa terbaik",
@@ -1804,11 +1806,12 @@
           "garuda_document_id": "1213162",
           "garuda_author_id": "1197451",
           "halaman_sumber": 1,
-          "jurnal_sinta_peringkat_terkini": null,
-          "jurnal_sinta_url": null,
-          "jurnal_sinta_status_verifikasi": "nama_belum_ditemukan",
+          "jurnal_sinta_peringkat_terkini": 4,
+          "jurnal_sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/433",
+          "jurnal_sinta_status_verifikasi": "profil_jurnal_resmi_terindeks",
           "sinta_bukti_url": null,
-          "sinta_status_verifikasi": "belum_terverifikasi"
+          "sinta_status_verifikasi": "belum_terverifikasi",
+          "jurnal_sinta_diperiksa": "2026-11-22"
         },
         {
           "judul": "Penerapan Metode Analytical Hierarchy Process (AHP) dalam Perekrutan Petugas Keamanan",
@@ -2277,11 +2280,12 @@
           "garuda_document_id": "3199681",
           "garuda_author_id": "1197451",
           "halaman_sumber": 3,
-          "jurnal_sinta_peringkat_terkini": null,
-          "jurnal_sinta_url": null,
-          "jurnal_sinta_status_verifikasi": "nama_belum_ditemukan",
+          "jurnal_sinta_peringkat_terkini": 4,
+          "jurnal_sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8745",
+          "jurnal_sinta_status_verifikasi": "profil_jurnal_resmi_terindeks",
           "sinta_bukti_url": null,
-          "sinta_status_verifikasi": "belum_terverifikasi"
+          "sinta_status_verifikasi": "belum_terverifikasi",
+          "jurnal_sinta_diperiksa": "2026-11-22"
         },
         {
           "judul": "Analisis Manejemen Resiko Keamanan Data Sistem Informasi Berdasarkan Indeks Keamanan Informasi (KAMI) ISO 27001:2013",
@@ -2297,11 +2301,12 @@
           "garuda_document_id": "3199690",
           "garuda_author_id": "1197451",
           "halaman_sumber": 4,
-          "jurnal_sinta_peringkat_terkini": null,
-          "jurnal_sinta_url": null,
-          "jurnal_sinta_status_verifikasi": "nama_belum_ditemukan",
+          "jurnal_sinta_peringkat_terkini": 4,
+          "jurnal_sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8745",
+          "jurnal_sinta_status_verifikasi": "profil_jurnal_resmi_terindeks",
           "sinta_bukti_url": null,
-          "sinta_status_verifikasi": "belum_terverifikasi"
+          "sinta_status_verifikasi": "belum_terverifikasi",
+          "jurnal_sinta_diperiksa": "2026-11-22"
         },
         {
           "judul": "Analisis Penerapan Sistem Informasi Pengawasan dan Perlindungan Konsumen (SISWASPK) dengan Metode Think Aloud",
@@ -2440,11 +2445,12 @@
           "garuda_document_id": "3493243",
           "garuda_author_id": "1197451",
           "halaman_sumber": 4,
-          "jurnal_sinta_peringkat_terkini": null,
-          "jurnal_sinta_url": null,
-          "jurnal_sinta_status_verifikasi": "nama_belum_ditemukan",
+          "jurnal_sinta_peringkat_terkini": 4,
+          "jurnal_sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/12475",
+          "jurnal_sinta_status_verifikasi": "profil_jurnal_resmi_terindeks",
           "sinta_bukti_url": null,
-          "sinta_status_verifikasi": "belum_terverifikasi"
+          "sinta_status_verifikasi": "belum_terverifikasi",
+          "jurnal_sinta_diperiksa": "2026-11-22"
         },
         {
           "judul": "Penerapan Metode Entropy dan MOORA Dalam Pemilihan Investasi Saham LQ45 Berbasis Keputusan",
@@ -2606,11 +2612,12 @@
           "garuda_document_id": "3983527",
           "garuda_author_id": "1197451",
           "halaman_sumber": 5,
-          "jurnal_sinta_peringkat_terkini": null,
-          "jurnal_sinta_url": null,
-          "jurnal_sinta_status_verifikasi": "nama_belum_ditemukan",
+          "jurnal_sinta_peringkat_terkini": 3,
+          "jurnal_sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4682",
+          "jurnal_sinta_status_verifikasi": "profil_jurnal_resmi_terindeks",
           "sinta_bukti_url": null,
-          "sinta_status_verifikasi": "belum_terverifikasi"
+          "sinta_status_verifikasi": "belum_terverifikasi",
+          "jurnal_sinta_diperiksa": "2026-11-22"
         },
         {
           "judul": "Implementation of K-Means Clustering in Recognizing Crime Hotspots and Traffic Issues Through GIS",
@@ -4857,11 +4864,12 @@
           "garuda_document_id": "6759305",
           "garuda_author_id": "1197451",
           "halaman_sumber": 17,
-          "jurnal_sinta_peringkat_terkini": null,
-          "jurnal_sinta_url": null,
-          "jurnal_sinta_status_verifikasi": "nama_belum_ditemukan",
+          "jurnal_sinta_peringkat_terkini": 4,
+          "jurnal_sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/433",
+          "jurnal_sinta_status_verifikasi": "profil_jurnal_resmi_terindeks",
           "sinta_bukti_url": null,
-          "sinta_status_verifikasi": "belum_terverifikasi"
+          "sinta_status_verifikasi": "belum_terverifikasi",
+          "jurnal_sinta_diperiksa": "2026-11-22"
         },
         {
           "judul": "Implementasi Algoritma C 5.0 untuk Identifikasi Pola Transaksi Penjualan: (Studi Kasus: Basnul Café)",
@@ -5334,11 +5342,12 @@
           "garuda_document_id": "2849115",
           "garuda_author_id": "1733344",
           "halaman_sumber": 2,
-          "jurnal_sinta_peringkat_terkini": null,
-          "jurnal_sinta_url": null,
-          "jurnal_sinta_status_verifikasi": "nama_belum_ditemukan",
+          "jurnal_sinta_peringkat_terkini": 3,
+          "jurnal_sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4682",
+          "jurnal_sinta_status_verifikasi": "profil_jurnal_resmi_terindeks",
           "sinta_bukti_url": null,
-          "sinta_status_verifikasi": "belum_terverifikasi"
+          "sinta_status_verifikasi": "belum_terverifikasi",
+          "jurnal_sinta_diperiksa": "2026-11-22"
         },
         {
           "judul": "Document Based Text Data Security Using the Prime Generator Algorithm Fermat's and the ElGamal Algorithm",
@@ -7285,11 +7294,12 @@
           "garuda_document_id": "5787935",
           "garuda_author_id": "1733344",
           "halaman_sumber": 12,
-          "jurnal_sinta_peringkat_terkini": null,
-          "jurnal_sinta_url": null,
-          "jurnal_sinta_status_verifikasi": "nama_belum_ditemukan",
+          "jurnal_sinta_peringkat_terkini": 4,
+          "jurnal_sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/14870",
+          "jurnal_sinta_status_verifikasi": "profil_jurnal_resmi_terindeks",
           "sinta_bukti_url": null,
-          "sinta_status_verifikasi": "belum_terverifikasi"
+          "sinta_status_verifikasi": "belum_terverifikasi",
+          "jurnal_sinta_diperiksa": "2026-11-22"
         },
         {
           "judul": "Penerapan Algoritma C4.5 untuk Analisis Tingkat Kepuasan Santriwan Santriwati Pesantren Darul Ulum Mambaul Huda",
@@ -8155,11 +8165,12 @@
           "garuda_document_id": "4113678",
           "garuda_author_id": "621444",
           "halaman_sumber": 2,
-          "jurnal_sinta_peringkat_terkini": null,
-          "jurnal_sinta_url": null,
-          "jurnal_sinta_status_verifikasi": "nama_belum_ditemukan",
+          "jurnal_sinta_peringkat_terkini": 4,
+          "jurnal_sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10086",
+          "jurnal_sinta_status_verifikasi": "profil_jurnal_resmi_terindeks",
           "sinta_bukti_url": null,
-          "sinta_status_verifikasi": "belum_terverifikasi"
+          "sinta_status_verifikasi": "belum_terverifikasi",
+          "jurnal_sinta_diperiksa": "2026-11-22"
         },
         {
           "judul": "Kombinasi Algoritma Beaufort Chiper dan Hill Chiper Dalam Mengamankan File Dokumen Berbasis Mobile",
@@ -8966,11 +8977,12 @@
           "garuda_document_id": "5763742",
           "garuda_author_id": "10712505",
           "halaman_sumber": 1,
-          "jurnal_sinta_peringkat_terkini": null,
-          "jurnal_sinta_url": null,
-          "jurnal_sinta_status_verifikasi": "nama_belum_ditemukan",
+          "jurnal_sinta_peringkat_terkini": 4,
+          "jurnal_sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/12475",
+          "jurnal_sinta_status_verifikasi": "profil_jurnal_resmi_terindeks",
           "sinta_bukti_url": null,
-          "sinta_status_verifikasi": "belum_terverifikasi"
+          "sinta_status_verifikasi": "belum_terverifikasi",
+          "jurnal_sinta_diperiksa": "2026-11-22"
         },
         {
           "judul": "Sistem Otomatisasi Sepeda Motor Berbasis IoT Dengan Telegram",
@@ -9004,7 +9016,7 @@
       }
     }
   ],
-  "sinta_pencocokan_utc": "2026-11-21T17:56:21.499798+00:00",
+  "sinta_pencocokan_utc": "2026-11-21T17:58:04.856894+00:00",
   "sinta_metode": "Peringkat terkini jurnal dari katalog profil SINTA resmi; akreditasi artikel hanya dari bukti DOI spesifik atau SK historis terverifikasi",
   "catatan_sinta": "Peringkat jurnal terkini berbeda dari peringkat saat artikel terbit; tanda belum terverifikasi bukan berarti jurnal tidak terakreditasi."
 }

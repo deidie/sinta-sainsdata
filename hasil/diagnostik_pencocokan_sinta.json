@@ -1,13 +1,13 @@
 {
-  "waktu": "2026-11-21T17:56:21.499798+00:00",
-  "nama_jurnal_dalam_katalog": 46,
-  "jurnal_unik_tercocokkan": 46,
-  "rekaman_dengan_rank_jurnal_teramati": 249,
+  "waktu": "2026-11-21T17:58:04.856894+00:00",
+  "nama_jurnal_dalam_katalog": 52,
+  "jurnal_unik_tercocokkan": 52,
+  "rekaman_dengan_rank_jurnal_teramati": 261,
   "rekaman_dengan_rank_artikel_terverifikasi": 8,
-  "rekaman_tanpa_rank_jurnal": 181,
+  "rekaman_tanpa_rank_jurnal": 169,
   "alasan": {
-    "profil_sinta_resmi_terindeks": 249,
-    "nama_belum_ditemukan": 181
+    "profil_sinta_resmi_terindeks": 261,
+    "nama_belum_ditemukan": 169
   },
   "jurnal_belum_tercocokkan": [
     {
@@ -47,18 +47,6 @@
       "rekaman": 2
     },
     {
-      "nama": "JURNAL FASILKOM",
-      "rekaman": 2
-    },
-    {
-      "nama": "STORAGE: Jurnal Ilmiah Teknik dan Ilmu Komputer",
-      "rekaman": 2
-    },
-    {
-      "nama": "InfoTekJar : Jurnal Nasional Informatika dan Teknologi Jaringan",
-      "rekaman": 2
-    },
-    {
       "nama": "Jurnal Abdi Mas Adzkia",
       "rekaman": 2
     },
@@ -68,18 +56,6 @@
     },
     {
       "nama": "Jurnal Penelitian Medan Agama MEDAN AGAMA",
-      "rekaman": 2
-    },
-    {
-      "nama": "Bulletin of Information Technology (BIT)",
-      "rekaman": 2
-    },
-    {
-      "nama": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD)",
-      "rekaman": 2
-    },
-    {
-      "nama": "Jurnal Pendidikan Informatika (EDUMATIC)",
       "rekaman": 2
     },
     {

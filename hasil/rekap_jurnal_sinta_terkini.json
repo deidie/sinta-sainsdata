@@ -1,62 +1,62 @@
 {
-  "diperbarui_utc": "2026-11-21T17:56:21.595536+00:00",
+  "diperbarui_utc": "2026-11-21T17:58:04.917226+00:00",
   "jenis_rekap": "Peringkat terkini jurnal SINTA pada sumber terindeks resmi, BUKAN akreditasi historis artikel",
   "rekaman_per_dosen_dengan_duplikasi_kolaborasi": 430,
   "artikel_unik_prodi": 417,
   "rekap_unik_prodi": {
     "S1": 0,
     "S2": 0,
-    "S3": 47,
-    "S4": 142,
+    "S3": 49,
+    "S4": 152,
     "S5": 48,
     "S6": 4,
-    "belum_tercocokkan": 176
+    "belum_tercocokkan": 164
   },
   "rekap_tahunan_unik_prodi": {
     "2026": {
       "S1": 0,
       "S2": 0,
       "S3": 5,
-      "S4": 12,
+      "S4": 14,
       "S5": 1,
       "S6": 0,
-      "belum_tercocokkan": 25
+      "belum_tercocokkan": 23
     },
     "2025": {
       "S1": 0,
       "S2": 0,
       "S3": 11,
-      "S4": 34,
+      "S4": 36,
       "S5": 2,
       "S6": 0,
-      "belum_tercocokkan": 42
+      "belum_tercocokkan": 40
     },
     "2024": {
       "S1": 0,
       "S2": 0,
       "S3": 18,
-      "S4": 52,
+      "S4": 54,
       "S5": 12,
       "S6": 0,
-      "belum_tercocokkan": 45
+      "belum_tercocokkan": 43
     },
     "2023": {
       "S1": 0,
       "S2": 0,
-      "S3": 6,
-      "S4": 24,
+      "S3": 7,
+      "S4": 25,
       "S5": 6,
       "S6": 0,
-      "belum_tercocokkan": 32
+      "belum_tercocokkan": 30
     },
     "2022": {
       "S1": 0,
       "S2": 0,
-      "S3": 1,
-      "S4": 10,
+      "S3": 2,
+      "S4": 11,
       "S5": 8,
       "S6": 0,
-      "belum_tercocokkan": 18
+      "belum_tercocokkan": 16
     },
     "2021": {
       "S1": 0,
@@ -80,10 +80,10 @@
       "S1": 0,
       "S2": 0,
       "S3": 0,
-      "S4": 1,
+      "S4": 2,
       "S5": 3,
       "S6": 0,
-      "belum_tercocokkan": 3
+      "belum_tercocokkan": 2
     },
     "2018": {
       "S1": 0,
@@ -116,10 +116,10 @@
       "S1": 0,
       "S2": 0,
       "S3": 0,
-      "S4": 0,
+      "S4": 1,
       "S5": 0,
       "S6": 0,
-      "belum_tercocokkan": 1
+      "belum_tercocokkan": 0
     }
   },
   "rekap_per_dosen": [
@@ -131,20 +131,20 @@
         "S1": 0,
         "S2": 0,
         "S3": 11,
-        "S4": 24,
+        "S4": 26,
         "S5": 4,
         "S6": 4,
-        "belum_tercocokkan": 37
+        "belum_tercocokkan": 35
       },
       "per_tahun": {
         "2026": {
           "S1": 0,
           "S2": 0,
           "S3": 1,
-          "S4": 1,
+          "S4": 2,
           "S5": 0,
           "S6": 0,
-          "belum_tercocokkan": 7
+          "belum_tercocokkan": 6
         },
         "2025": {
           "S1": 0,
@@ -159,10 +159,10 @@
           "S1": 0,
           "S2": 0,
           "S3": 5,
-          "S4": 11,
+          "S4": 12,
           "S5": 2,
           "S6": 0,
-          "belum_tercocokkan": 10
+          "belum_tercocokkan": 9
         },
         "2023": {
           "S1": 0,
@@ -245,21 +245,21 @@
       "peringkat_jurnal": {
         "S1": 0,
         "S2": 0,
-        "S3": 15,
-        "S4": 46,
+        "S3": 16,
+        "S4": 51,
         "S5": 18,
         "S6": 0,
-        "belum_tercocokkan": 85
+        "belum_tercocokkan": 79
       },
       "per_tahun": {
         "2026": {
           "S1": 0,
           "S2": 0,
           "S3": 0,
-          "S4": 4,
+          "S4": 5,
           "S5": 0,
           "S6": 0,
-          "belum_tercocokkan": 12
+          "belum_tercocokkan": 11
         },
         "2025": {
           "S1": 0,
@@ -282,20 +282,20 @@
         "2023": {
           "S1": 0,
           "S2": 0,
-          "S3": 4,
-          "S4": 13,
+          "S3": 5,
+          "S4": 14,
           "S5": 3,
           "S6": 0,
-          "belum_tercocokkan": 13
+          "belum_tercocokkan": 11
         },
         "2022": {
           "S1": 0,
           "S2": 0,
           "S3": 1,
-          "S4": 9,
+          "S4": 10,
           "S5": 2,
           "S6": 0,
-          "belum_tercocokkan": 9
+          "belum_tercocokkan": 8
         },
         "2021": {
           "S1": 0,
@@ -319,10 +319,10 @@
           "S1": 0,
           "S2": 0,
           "S3": 0,
-          "S4": 0,
+          "S4": 1,
           "S5": 2,
           "S6": 0,
-          "belum_tercocokkan": 1
+          "belum_tercocokkan": 0
         },
         "2018": {
           "S1": 0,
@@ -346,10 +346,10 @@
           "S1": 0,
           "S2": 0,
           "S3": 0,
-          "S4": 0,
+          "S4": 1,
           "S5": 0,
           "S6": 0,
-          "belum_tercocokkan": 1
+          "belum_tercocokkan": 0
         }
       }
     },
@@ -360,11 +360,11 @@
       "peringkat_jurnal": {
         "S1": 0,
         "S2": 0,
-        "S3": 19,
-        "S4": 51,
+        "S3": 20,
+        "S4": 52,
         "S5": 26,
         "S6": 0,
-        "belum_tercocokkan": 35
+        "belum_tercocokkan": 33
       },
       "per_tahun": {
         "2026": {
@@ -380,10 +380,10 @@
           "S1": 0,
           "S2": 0,
           "S3": 4,
-          "S4": 22,
+          "S4": 23,
           "S5": 1,
           "S6": 0,
-          "belum_tercocokkan": 14
+          "belum_tercocokkan": 13
         },
         "2024": {
           "S1": 0,
@@ -406,11 +406,11 @@
         "2022": {
           "S1": 0,
           "S2": 0,
-          "S3": 0,
+          "S3": 1,
           "S4": 0,
           "S5": 5,
           "S6": 0,
-          "belum_tercocokkan": 2
+          "belum_tercocokkan": 1
         },
         "2021": {
           "S1": 0,
@@ -449,10 +449,10 @@
         "S1": 0,
         "S2": 0,
         "S3": 2,
-        "S4": 19,
+        "S4": 20,
         "S5": 3,
         "S6": 0,
-        "belum_tercocokkan": 13
+        "belum_tercocokkan": 12
       },
       "per_tahun": {
         "2026": {
@@ -477,10 +477,10 @@
           "S1": 0,
           "S2": 0,
           "S3": 0,
-          "S4": 8,
+          "S4": 9,
           "S5": 1,
           "S6": 0,
-          "belum_tercocokkan": 3
+          "belum_tercocokkan": 2
         },
         "2023": {
           "S1": 0,
@@ -589,10 +589,10 @@
         "S1": 0,
         "S2": 0,
         "S3": 0,
-        "S4": 0,
+        "S4": 1,
         "S5": 0,
         "S6": 0,
-        "belum_tercocokkan": 2
+        "belum_tercocokkan": 1
       },
       "per_tahun": {
         "2026": {
@@ -608,10 +608,10 @@
           "S1": 0,
           "S2": 0,
           "S3": 0,
-          "S4": 0,
+          "S4": 1,
           "S5": 0,
           "S6": 0,
-          "belum_tercocokkan": 1
+          "belum_tercocokkan": 0
         }
       }
     }
