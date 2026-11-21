@@ -1,5 +1,5 @@
 {
-  "diperbarui_utc": "2026-11-21T17:58:48.890165+00:00",
+  "diperbarui_utc": "2026-11-21T18:08:33.719615+00:00",
   "jurnal": [
     {
       "nama_garuda": "(JurTI) Jurnal Teknologi Informasi",
@@ -56,6 +56,12 @@
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11755"
     },
     {
+      "nama_garuda": "Indonesian Journal of Information Systems",
+      "nama_sinta": "Indonesian Journal of Information Systems",
+      "peringkat_jurnal_terkini": 2,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7848"
+    },
+    {
       "nama_garuda": "INFOKUM",
       "nama_sinta": "INFOKUM",
       "peringkat_jurnal_terkini": 5,
@@ -110,6 +116,12 @@
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4143"
     },
     {
+      "nama_garuda": "Journal of Information System and Informatics",
+      "nama_sinta": "Journal of Information Systems and Informatics",
+      "peringkat_jurnal_terkini": 2,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7045"
+    },
+    {
       "nama_garuda": "Journal of Information System Research (JOSH)",
       "nama_sinta": "Journal of Information System Research (JOSH)",
       "peringkat_jurnal_terkini": 4,
@@ -126,6 +138,12 @@
       "nama_sinta": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH",
       "peringkat_jurnal_terkini": 4,
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353"
+    },
+    {
+      "nama_garuda": "JSINBIS (Jurnal Sistem Informasi Bisnis)",
+      "nama_sinta": "JSINBIS (Jurnal Sistem Informasi Bisnis)",
+      "peringkat_jurnal_terkini": 2,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/1074"
     },
     {
       "nama_garuda": "Jurasik (Jurnal Riset Sistem Informasi dan Teknik Informatika)",
@@ -156,6 +174,12 @@
       "nama_sinta": "Jurnal Informatika Teknologi dan Sains (Jinteks)",
       "peringkat_jurnal_terkini": 4,
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8942"
+    },
+    {
+      "nama_garuda": "JURNAL INFOTEL",
+      "nama_sinta": "JURNAL INFOTEL",
+      "peringkat_jurnal_terkini": 1,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/1170"
     },
     {
       "nama_garuda": "Jurnal IPTEK Bagi Masyarakat",
@@ -200,10 +224,22 @@
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8054"
     },
     {
+      "nama_garuda": "Jurnal Teknik Informatika (Jutif)",
+      "nama_sinta": "Jurnal Teknik Informatika (JUTIF)",
+      "peringkat_jurnal_terkini": 2,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8538"
+    },
+    {
       "nama_garuda": "JURNAL TEKNOLOGI DAN OPEN SOURCE",
       "nama_sinta": "JURNAL TEKNOLOGI DAN OPEN SOURCE",
       "peringkat_jurnal_terkini": 4,
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5936"
+    },
+    {
+      "nama_garuda": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+      "nama_sinta": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+      "peringkat_jurnal_terkini": 2,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/1093"
     },
     {
       "nama_garuda": "Jurnal Teknologi Sistem Informasi dan Aplikasi",
@@ -278,6 +314,12 @@
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3323"
     },
     {
+      "nama_garuda": "SPEKTA (Jurnal Pengabdian Kepada Masyarakat : Teknologi dan Aplikasi)",
+      "nama_sinta": "SPEKTA (Jurnal Pengabdian Kepada Masyarakat : Teknologi dan Aplikasi)",
+      "peringkat_jurnal_terkini": 2,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10609"
+    },
+    {
       "nama_garuda": "STORAGE: Jurnal Ilmiah Teknik dan Ilmu Komputer",
       "nama_sinta": "STORAGE: Jurnal Ilmiah Teknik dan Ilmu Komputer",
       "peringkat_jurnal_terkini": 4,
@@ -314,5 +356,5 @@
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11024"
     }
   ],
-  "jurnal_tercocokkan": 52
+  "jurnal_tercocokkan": 59
 }
