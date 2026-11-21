@@ -1,11 +1,23 @@
 {
-  "diperbarui_utc": "2026-11-21T17:54:16.237159+00:00",
+  "diperbarui_utc": "2026-11-21T17:55:14.980169+00:00",
   "jurnal": [
     {
       "nama_garuda": "(JurTI) Jurnal Teknologi Informasi",
       "nama_sinta": "(JurTI) Jurnal Teknologi Informasi",
       "peringkat_jurnal_terkini": 5,
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5604"
+    },
+    {
+      "nama_garuda": "ALGORITMA : JURNAL ILMU KOMPUTER DAN INFORMATIKA",
+      "nama_sinta": "Algoritma: Jurnal Ilmu Komputer dan Informatika",
+      "peringkat_jurnal_terkini": 5,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13980"
+    },
+    {
+      "nama_garuda": "Blend Sains Jurnal Teknik",
+      "nama_sinta": "Blend Sains Jurnal Teknik",
+      "peringkat_jurnal_terkini": 4,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/14231"
     },
     {
       "nama_garuda": "Bulletin of Computer Science Research",
@@ -24,6 +36,18 @@
       "nama_sinta": "IJISTECH (International Journal of Information System and Technology)",
       "peringkat_jurnal_terkini": 5,
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5619"
+    },
+    {
+      "nama_garuda": "Indonesian Journal of Artificial Intelligence and Data Mining",
+      "nama_sinta": "Indonesian Journal of Artificial Intelligence and Data Mining",
+      "peringkat_jurnal_terkini": 3,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/6365"
+    },
+    {
+      "nama_garuda": "Indonesian Journal of Data Science, IoT, Machine Learning and Informatics",
+      "nama_sinta": "Indonesian Journal of Data Science, IoT, Machine Learning and Informatics",
+      "peringkat_jurnal_terkini": 4,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11755"
     },
     {
       "nama_garuda": "INFOKUM",
@@ -92,6 +116,18 @@
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353"
     },
     {
+      "nama_garuda": "Jurasik (Jurnal Riset Sistem Informasi dan Teknik Informatika)",
+      "nama_sinta": "Jurasik (Jurnal Riset Sistem Informasi dan Teknik Informatika)",
+      "peringkat_jurnal_terkini": 4,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9432"
+    },
+    {
+      "nama_garuda": "Jurnal Ilmiah Komputasi",
+      "nama_sinta": "Jurnal Ilmiah Komputasi",
+      "peringkat_jurnal_terkini": 4,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/2162"
+    },
+    {
       "nama_garuda": "Jurnal Ilmu Komputer dan Sistem Informasi",
       "nama_sinta": "Jurnal Ilmu Komputer dan Sistem Informasi (JIRSI)",
       "peringkat_jurnal_terkini": 4,
@@ -116,6 +152,12 @@
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8971"
     },
     {
+      "nama_garuda": "Jurnal Mantik",
+      "nama_sinta": "Jurnal Mantik",
+      "peringkat_jurnal_terkini": 4,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/6343"
+    },
+    {
       "nama_garuda": "Jurnal Multimedia dan Teknologi Informasi (Jatilima)",
       "nama_sinta": "Jurnal Multimedia dan Teknologi Informasi (Jatilima)",
       "peringkat_jurnal_terkini": 4,
@@ -126,6 +168,12 @@
       "nama_sinta": "Jurnal Sistem Komputer dan Informatika (JSON)",
       "peringkat_jurnal_terkini": 3,
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8054"
+    },
+    {
+      "nama_garuda": "JURNAL TEKNOLOGI DAN OPEN SOURCE",
+      "nama_sinta": "JURNAL TEKNOLOGI DAN OPEN SOURCE",
+      "peringkat_jurnal_terkini": 4,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5936"
     },
     {
       "nama_garuda": "Jurnal Teknologi Sistem Informasi dan Aplikasi",
@@ -140,6 +188,12 @@
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9035"
     },
     {
+      "nama_garuda": "Jurnal Teknovasi : Jurnal Teknik dan Inovasi",
+      "nama_sinta": "Jurnal Teknovasi : Jurnal Teknik dan Inovasi Mesin Otomotif, Komputer, Industri dan Elektronika",
+      "peringkat_jurnal_terkini": 6,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3047"
+    },
+    {
       "nama_garuda": "KLIK: Kajian Ilmiah Informatika dan Komputer",
       "nama_sinta": "KLIK: Kajian Ilmiah Informatika dan Komputer",
       "peringkat_jurnal_terkini": 4,
@@ -150,6 +204,36 @@
       "nama_sinta": "MALCOM: Indonesian Journal of Machine Learning and Computer Science",
       "peringkat_jurnal_terkini": 3,
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11292"
+    },
+    {
+      "nama_garuda": "METIK JURNAL (AKREDITASI SINTA 3)",
+      "nama_sinta": "METIK JURNAL",
+      "peringkat_jurnal_terkini": 3,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/589"
+    },
+    {
+      "nama_garuda": "PIKSEL : Penelitian Ilmu Komputer Sistem Embedded and Logic",
+      "nama_sinta": "PIKSEL : Penelitian Ilmu Komputer Sistem Embedded and Logic",
+      "peringkat_jurnal_terkini": 3,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5132"
+    },
+    {
+      "nama_garuda": "Resolusi : Rekayasa Teknik Informatika dan Informasi",
+      "nama_sinta": "RESOLUSI : REKAYASA TEKNIK INFORMATIKA DAN INFORMASI",
+      "peringkat_jurnal_terkini": 5,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10571"
+    },
+    {
+      "nama_garuda": "Simtek : jurnal sistem informasi dan teknik komputer",
+      "nama_sinta": "Simtek : Jurnal Sistem Informasi dan Teknik Komputer",
+      "peringkat_jurnal_terkini": 4,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9123"
+    },
+    {
+      "nama_garuda": "Sinkron : jurnal dan penelitian teknik informatika",
+      "nama_sinta": "Sinkron : Jurnal dan Penelitian Teknik Informatika",
+      "peringkat_jurnal_terkini": 3,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3320"
     },
     {
       "nama_garuda": "Sistem Pendukung Keputusan dengan Aplikasi",
@@ -164,6 +248,18 @@
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3323"
     },
     {
+      "nama_garuda": "sudo Jurnal Teknik Informatika",
+      "nama_sinta": "sudo Jurnal Teknik Informatika",
+      "peringkat_jurnal_terkini": 5,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/14660"
+    },
+    {
+      "nama_garuda": "Techno.Com",
+      "nama_sinta": "Techno.Com",
+      "peringkat_jurnal_terkini": 4,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/41"
+    },
+    {
       "nama_garuda": "The Indonesian Journal of Computer Science",
       "nama_sinta": "The Indonesian Journal of Computer Science",
       "peringkat_jurnal_terkini": 5,
@@ -174,7 +270,13 @@
       "nama_sinta": "TIN: Terapan Informatika Nusantara",
       "peringkat_jurnal_terkini": 4,
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10960"
+    },
+    {
+      "nama_garuda": "VISA: Journal of Vision and Ideas",
+      "nama_sinta": "Journal of Vision and Ideas (VISA)",
+      "peringkat_jurnal_terkini": 5,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11024"
     }
   ],
-  "jurnal_tercocokkan": 29
+  "jurnal_tercocokkan": 46
 }

@@ -1,25 +1,17 @@
 {
-  "waktu": "2026-11-21T17:54:16.237159+00:00",
-  "nama_jurnal_dalam_katalog": 29,
-  "jurnal_unik_tercocokkan": 29,
-  "rekaman_dengan_rank_jurnal_teramati": 198,
+  "waktu": "2026-11-21T17:55:14.980169+00:00",
+  "nama_jurnal_dalam_katalog": 46,
+  "jurnal_unik_tercocokkan": 46,
+  "rekaman_dengan_rank_jurnal_teramati": 249,
   "rekaman_dengan_rank_artikel_terverifikasi": 8,
-  "rekaman_tanpa_rank_jurnal": 232,
+  "rekaman_tanpa_rank_jurnal": 181,
   "alasan": {
-    "profil_sinta_resmi_terindeks": 198,
-    "nama_belum_ditemukan": 232
+    "profil_sinta_resmi_terindeks": 249,
+    "nama_belum_ditemukan": 181
   },
   "jurnal_belum_tercocokkan": [
     {
-      "nama": "Jurnal Teknovasi : Jurnal Teknik dan Inovasi",
-      "rekaman": 4
-    },
-    {
       "nama": "International Conference on Sciences Development and Technology The 1st ICoSDTech 2021",
-      "rekaman": 4
-    },
-    {
-      "nama": "VISA: Journal of Vision and Ideas",
       "rekaman": 4
     },
     {
@@ -27,64 +19,12 @@
       "rekaman": 4
     },
     {
-      "nama": "Indonesian Journal of Data Science, IoT, Machine Learning and Informatics",
-      "rekaman": 4
-    },
-    {
       "nama": "Marsipature Hutanabe: Jurnal Pengabdian Kepada Masyarakat",
       "rekaman": 4
     },
     {
-      "nama": "Indonesian Journal of Artificial Intelligence and Data Mining",
-      "rekaman": 3
-    },
-    {
-      "nama": "METIK JURNAL (AKREDITASI SINTA 3)",
-      "rekaman": 3
-    },
-    {
       "nama": "Cosmic Jurnal Teknik",
       "rekaman": 3
-    },
-    {
-      "nama": "PIKSEL : Penelitian Ilmu Komputer Sistem Embedded and Logic",
-      "rekaman": 3
-    },
-    {
-      "nama": "Blend Sains Jurnal Teknik",
-      "rekaman": 3
-    },
-    {
-      "nama": "Resolusi : Rekayasa Teknik Informatika dan Informasi",
-      "rekaman": 3
-    },
-    {
-      "nama": "Simtek : jurnal sistem informasi dan teknik komputer",
-      "rekaman": 3
-    },
-    {
-      "nama": "JURNAL TEKNOLOGI DAN OPEN SOURCE",
-      "rekaman": 3
-    },
-    {
-      "nama": "sudo Jurnal Teknik Informatika",
-      "rekaman": 3
-    },
-    {
-      "nama": "Jurasik (Jurnal Riset Sistem Informasi dan Teknik Informatika)",
-      "rekaman": 3
-    },
-    {
-      "nama": "Sinkron : jurnal dan penelitian teknik informatika",
-      "rekaman": 3
-    },
-    {
-      "nama": "Techno.Com",
-      "rekaman": 2
-    },
-    {
-      "nama": "ALGORITMA : JURNAL ILMU KOMPUTER DAN INFORMATIKA",
-      "rekaman": 2
     },
     {
       "nama": "JURNAL PENGABDIAN KEPADA MASYARAKAT",
@@ -95,19 +35,11 @@
       "rekaman": 2
     },
     {
-      "nama": "Jurnal Mantik",
-      "rekaman": 2
-    },
-    {
       "nama": "JURNAL TEKNOLOGI INFORMASI DAN KOMUNIKASI",
       "rekaman": 2
     },
     {
       "nama": "Jurnal Pengabdian Masyarakat",
-      "rekaman": 2
-    },
-    {
-      "nama": "Jurnal Ilmiah Komputasi",
       "rekaman": 2
     },
     {
@@ -500,10 +432,6 @@
     },
     {
       "nama": "International Journal of Informatics and Communication Technology (IJ-ICT)",
-      "rekaman": 1
-    },
-    {
-      "nama": "Algoritma: Jurnal Ilmu Komputer dan Informatika",
       "rekaman": 1
     },
     {
