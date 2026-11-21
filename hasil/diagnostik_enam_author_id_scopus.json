@@ -1,0 +1,109 @@
+{
+  "diperiksa_utc": "2026-11-21T18:42:15.837737+00:00",
+  "sumber": "OpenAlex Author ID alias scopus:... dan profil institusi",
+  "peringatan": "OpenAlex bukan rekaman Scopus; identitas penulis dan daftar karya harus dibedakan dari rekaman Scopus resmi.",
+  "profil": [
+    {
+      "scopus_author_id": "58996427700",
+      "sumber_identitas": {
+        "nama": "Muhammad Dedi Irawan",
+        "slug": "dedi",
+        "sumber": "https://jurnal.unimed.ac.id/2012/index.php/cess/id/about/editorialHistory"
+      },
+      "status": "akses_atau_kecocokan_belum_tersedia",
+      "percobaan": [
+        {
+          "format": "scopus:58996427700",
+          "http": 404
+        },
+        {
+          "format": "profile_url",
+          "http": 404
+        }
+      ]
+    },
+    {
+      "scopus_author_id": "57214153048",
+      "sumber_identitas": null,
+      "status": "akses_atau_kecocokan_belum_tersedia",
+      "percobaan": [
+        {
+          "format": "scopus:57214153048",
+          "http": 404
+        },
+        {
+          "format": "profile_url",
+          "http": 404
+        }
+      ]
+    },
+    {
+      "scopus_author_id": "60570206100",
+      "sumber_identitas": null,
+      "status": "akses_atau_kecocokan_belum_tersedia",
+      "percobaan": [
+        {
+          "format": "scopus:60570206100",
+          "http": 404
+        },
+        {
+          "format": "profile_url",
+          "http": 404
+        }
+      ]
+    },
+    {
+      "scopus_author_id": "57222343067",
+      "sumber_identitas": {
+        "nama": "Puji Sari Ramadhan",
+        "slug": "puji",
+        "sumber": "https://jurnal.ilmubersama.com/index.php/hello_world/Reviewer"
+      },
+      "status": "akses_atau_kecocokan_belum_tersedia",
+      "percobaan": [
+        {
+          "format": "scopus:57222343067",
+          "http": 404
+        },
+        {
+          "format": "profile_url",
+          "http": 404
+        }
+      ]
+    },
+    {
+      "scopus_author_id": "60904491000",
+      "sumber_identitas": null,
+      "status": "akses_atau_kecocokan_belum_tersedia",
+      "percobaan": [
+        {
+          "format": "scopus:60904491000",
+          "http": 404
+        },
+        {
+          "format": "profile_url",
+          "http": 404
+        }
+      ]
+    },
+    {
+      "scopus_author_id": "58190434200",
+      "sumber_identitas": {
+        "nama": "Rakhmat Kurniawan R",
+        "slug": "rakhmat",
+        "sumber": "https://si.uinsu.ac.id/organisasi"
+      },
+      "status": "akses_atau_kecocokan_belum_tersedia",
+      "percobaan": [
+        {
+          "format": "scopus:58190434200",
+          "http": 404
+        },
+        {
+          "format": "profile_url",
+          "http": 404
+        }
+      ]
+    }
+  ]
+}
