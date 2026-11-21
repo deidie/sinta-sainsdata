@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "cari_scopus_tanpa_api.py"
+      - "cari_buku_crossref_tanpa_garuda.py"
       - "data/kandidat_publikasi_scopus.json"
       - ".github/workflows/cari-scopus-tanpa-api.yml"
   schedule:
@@ -25,6 +26,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Cari buku dan bab buku Crossref menurut enam dosen tanpa GARUDA
+        run: python cari_buku_crossref_tanpa_garuda.py
       - name: Cocokkan ISSN, ISBN dan DOI dengan daftar resmi Elsevier
         run: python cari_scopus_tanpa_api.py
       - name: Periksa kualitas hasil tanpa klaim artikel palsu
@@ -45,7 +48,7 @@ jobs:
           PY
       - name: Simpan rekap dan bukti Scopus
         run: |
-          git add hasil/rekap_scopus_tanpa_api.json hasil/pemeriksaan_scopus_tanpa_api.json
+          git add hasil/rekap_scopus_tanpa_api.json hasil/pemeriksaan_scopus_tanpa_api.json hasil/kandidat_buku_scopus_crossref.json
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
