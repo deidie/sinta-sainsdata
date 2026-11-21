@@ -1,12 +1,11 @@
-name: Ambil publikasi semua dosen (GARUDA dan SINTA)
+name: Publikasi Dosen Otomatis (GARUDA, SINTA, Scopus)
 
 on:
-  workflow_dispatch:  # Tetap bisa dijalankan manual
+  workflow_dispatch:
   schedule:
     - cron: "17 5 1 * *"
       timezone: "Asia/Jakarta"
 
-# Mengizinkan GitHub Actions menyimpan JSON hasil pengambilan ke repository.
 permissions:
   contents: write
 
@@ -17,7 +16,7 @@ concurrency:
 jobs:
   ambil-publikasi:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - name: Ambil file repository
         uses: actions/checkout@v4
@@ -27,7 +26,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Ambil seluruh publikasi enam dosen
+      - name: Ambil GARUDA dan verifikasi SINTA serta Scopus (satu file Python)
+        env:
+          SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
+          SCOPUS_INST_TOKEN: ${{ secrets.SCOPUS_INST_TOKEN }}
+          SCOPUS_MAX_REQUESTS: '100'
         run: python cek_sinta.py
 
       - name: Periksa data sebelum diterbitkan
@@ -35,38 +38,53 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-
           path = Path('hasil/publikasi_dosen.json')
           if not path.is_file():
-              raise SystemExit('GAGAL: file publikasi_dosen.json tidak dibuat.')
+              raise SystemExit('GAGAL: publikasi_dosen.json tidak dibuat')
           data = json.loads(path.read_text(encoding='utf-8'))
           dosen = data.get('dosen', [])
-          slugs = {str(d.get('slug', '')) for d in dosen}
-          expected = {'siddik', 'dedi', 'rakhmat', 'aidil', 'ika', 'puji'}
-          if slugs != expected or len(dosen) != 6:
-              raise SystemExit('GAGAL: data tidak memuat tepat enam dosen yang diharapkan.')
-          missing = [d.get('nama', d.get('slug')) for d in dosen
-                     if not isinstance(d.get('publikasi_garuda'), list)
-                     or len(d['publikasi_garuda']) == 0]
-          if missing:
-              raise SystemExit('GAGAL: publikasi tidak tersedia untuk: ' + ', '.join(missing))
-          total = sum(len(d['publikasi_garuda']) for d in dosen)
-          print(f'Validasi berhasil: {len(dosen)} dosen, {total} rekaman publikasi.')
+          expected = {'siddik','dedi','rakhmat','aidil','ika','puji'}
+          if len(dosen) != 6 or {str(d.get('slug','')) for d in dosen} != expected:
+              raise SystemExit('GAGAL: daftar enam dosen tidak cocok')
+          if any(not isinstance(d.get('publikasi_garuda'),list) or not d['publikasi_garuda'] for d in dosen):
+              raise SystemExit('GAGAL: ada dosen tanpa publikasi')
+          for d in dosen:
+              for a in d['publikasi_garuda']:
+                  rank = a.get('peringkat_sinta')
+                  if rank is not None and (type(rank) is not int or rank not in range(1,7) or not a.get('sinta_bukti_url')):
+                      raise SystemExit('GAGAL: peringkat SINTA tidak valid/tanpa bukti')
+          rekap = json.loads(Path('hasil/rekap_sinta.json').read_text(encoding='utf-8'))
+          if rekap['total_rekaman'] != sum(len(d['publikasi_garuda']) for d in dosen):
+              raise SystemExit('GAGAL: rekap SINTA tidak konsisten')
+          scopus = json.loads(Path('hasil/rekap_scopus.json').read_text(encoding='utf-8'))
+          if scopus['total_rekaman'] != rekap['total_rekaman']:
+              raise SystemExit('GAGAL: total rekaman Scopus dan SINTA tidak konsisten')
+          n_valid_scopus = 0
+          for d in dosen:
+              for a in d['publikasi_garuda']:
+                  if a.get('status_indeks_scopus') == 'terindeks':
+                      n_valid_scopus += 1
+                      if not a.get('scopus_eid') or not a.get('scopus_bukti_url'):
+                          raise SystemExit('GAGAL: artikel Scopus tanpa bukti EID / tautan')
+          if n_valid_scopus != scopus['artikel_scopus_terverifikasi']:
+              raise SystemExit('GAGAL: rekap Scopus tidak sesuai dengan artikel')
+          print(f'Validasi: {len(dosen)} dosen, {rekap["total_rekaman"]} rekaman; '
+                f'SINTA={rekap["artikel_sinta_terverifikasi"]}, Scopus={n_valid_scopus} terverifikasi')
           PY
 
-      - name: Terbitkan JSON dan CSV ke branch main untuk GitHub Pages
+      - name: Terbitkan data JSON dan CSV di GitHub Pages
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add hasil/publikasi_dosen.json hasil/publikasi_dosen.csv hasil/diagnostik_sinta.json
+          git add -A hasil/
           if git diff --cached --quiet; then
             echo "Data tidak berubah; tidak perlu commit."
           else
-            git commit -m "Perbarui data publikasi dosen"
+            git commit -m "Perbarui publikasi dan pencocokan SINTA Scopus"
             git push origin HEAD:main
           fi
 
-      - name: Simpan hasil untuk pemeriksaan
+      - name: Simpan hasil pemeriksaan
         if: always()
         uses: actions/upload-artifact@v4
         with:
