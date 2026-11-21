@@ -1,38 +1,47 @@
-name: Sinkronisasi Publikasi Google Scholar
+name: Sinkronisasi Publikasi Google Scholar (Lengkap)
+
 on:
   push:
     paths:
       - ".github/workflows/sinkronisasi-scholar.yml"
-      - "sinkronisasi_scholar.py"
+      - "sinkronisasi_scholar_lengkap.py"
   workflow_dispatch:
   schedule:
-    - cron: "22 1 1 * *"
+    - cron: "22 1 1 * *" # setiap tanggal 1, 08:22 WIB
+
 permissions:
   contents: write
+
 concurrency:
   group: sainsdata-scholar-sync
   cancel-in-progress: false
+
 jobs:
   scholar:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Ambil Google Scholar dari Apps Script
+      - name: Ambil seluruh artikel Scholar per dosen (100 artikel per halaman)
         env:
-          SCHOLAR_WEBAPP_URL: ${{ vars.SCHOLAR_WEBAPP_URL }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: |
-          if [ -z "$SCHOLAR_WEBAPP_URL" ]; then unset SCHOLAR_WEBAPP_URL; fi
-          python sinkronisasi_scholar.py
-      - name: Commit jika data berhasil berubah
+          if [ -z "$SERPAPI_KEY" ]; then
+            echo "::error::Tambahkan repository secret SERPAPI_KEY di Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+          python sinkronisasi_scholar_lengkap.py
+      - name: Commit data hanya setelah semua profil lengkap
         run: |
           git add hasil/publikasi_scholar.json
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "Update data publikasi Google Scholar"
+            git commit -m "Perbarui seluruh artikel Google Scholar"
             git push
+          else
+            echo "Snapshot tidak berubah."
           fi
