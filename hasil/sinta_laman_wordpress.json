@@ -1,0 +1,4684 @@
+{
+ "versi": 1,
+ "dibuat_tanggal": "2026-11-22",
+ "sumber": "Data GARUDA dan katalog jurnal SINTA repositori; bukti historis diutamakan.",
+ "metode": "Jumlah SINTA = pemadanan jurnal SINTA. Peringkat tahun terbit digunakan jika ada bukti; yang lain memakai peringkat jurnal terkini dan berlabel jurnal_saat_ini.",
+ "total_publikasi_unik": 417,
+ "total_sinta": 262,
+ "per_tahun": [
+  {
+   "tahun": 2026,
+   "publikasi": 43,
+   "sinta": 23,
+   "peringkat": {
+    "S4": 15,
+    "S3": 5,
+    "S2": 1,
+    "S5": 2
+   },
+   "historis_terverifikasi": 9
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 89,
+   "sinta": 51,
+   "peringkat": {
+    "S3": 11,
+    "S4": 36,
+    "S2": 2,
+    "S5": 2
+   },
+   "historis_terverifikasi": 1
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 127,
+   "sinta": 84,
+   "peringkat": {
+    "S4": 54,
+    "S5": 12,
+    "S3": 18
+   },
+   "historis_terverifikasi": 0
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 68,
+   "sinta": 41,
+   "peringkat": {
+    "S4": 25,
+    "S2": 3,
+    "S5": 6,
+    "S3": 7
+   },
+   "historis_terverifikasi": 1
+  },
+  {
+   "tahun": 2022,
+   "publikasi": 37,
+   "sinta": 21,
+   "peringkat": {
+    "S5": 8,
+    "S4": 11,
+    "S3": 2
+   },
+   "historis_terverifikasi": 0
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 13,
+   "sinta": 8,
+   "peringkat": {
+    "S4": 2,
+    "S3": 1,
+    "S5": 5
+   },
+   "historis_terverifikasi": 0
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 14,
+   "sinta": 12,
+   "peringkat": {
+    "S4": 4,
+    "S3": 3,
+    "S2": 1,
+    "S5": 4
+   },
+   "historis_terverifikasi": 0
+  },
+  {
+   "tahun": 2019,
+   "publikasi": 7,
+   "sinta": 5,
+   "peringkat": {
+    "S5": 3,
+    "S4": 2
+   },
+   "historis_terverifikasi": 0
+  },
+  {
+   "tahun": 2018,
+   "publikasi": 8,
+   "sinta": 7,
+   "peringkat": {
+    "S3": 1,
+    "S4": 1,
+    "S6": 1,
+    "S5": 4
+   },
+   "historis_terverifikasi": 0
+  },
+  {
+   "tahun": 2017,
+   "publikasi": 8,
+   "sinta": 7,
+   "peringkat": {
+    "S6": 1,
+    "S4": 2,
+    "S5": 3,
+    "S3": 1
+   },
+   "historis_terverifikasi": 0
+  },
+  {
+   "tahun": 2016,
+   "publikasi": 2,
+   "sinta": 2,
+   "peringkat": {
+    "S6": 2
+   },
+   "historis_terverifikasi": 0
+  },
+  {
+   "tahun": 2013,
+   "publikasi": 1,
+   "sinta": 1,
+   "peringkat": {
+    "S4": 1
+   },
+   "historis_terverifikasi": 0
+  }
+ ],
+ "per_dosen": [
+  {
+   "slug": "siddik",
+   "nama": "Muhammad Siddik Hasibuan",
+   "total": 48,
+   "peringkat": {
+    "S3": 11,
+    "S4": 26,
+    "S5": 4,
+    "S6": 4,
+    "S2": 3
+   },
+   "historis_terverifikasi": 0
+  },
+  {
+   "slug": "dedi",
+   "nama": "Muhammad Dedi Irawan",
+   "total": 88,
+   "peringkat": {
+    "S3": 16,
+    "S4": 51,
+    "S5": 18,
+    "S2": 3
+   },
+   "historis_terverifikasi": 3
+  },
+  {
+   "slug": "rakhmat",
+   "nama": "Rakhmat Kurniawan R",
+   "total": 101,
+   "peringkat": {
+    "S4": 53,
+    "S5": 27,
+    "S2": 1,
+    "S3": 20
+   },
+   "historis_terverifikasi": 8
+  },
+  {
+   "slug": "aidil",
+   "nama": "Aidil Halim Lubis",
+   "total": 25,
+   "peringkat": {
+    "S3": 2,
+    "S5": 3,
+    "S4": 20
+   },
+   "historis_terverifikasi": 0
+  },
+  {
+   "slug": "ika",
+   "nama": "Ika Yusnita Sari",
+   "total": 7,
+   "peringkat": {
+    "S4": 5,
+    "S5": 1,
+    "S3": 1
+   },
+   "historis_terverifikasi": 0
+  },
+  {
+   "slug": "puji",
+   "nama": "Puji Sari Ramadhan",
+   "total": 1,
+   "peringkat": {
+    "S4": 1
+   },
+   "historis_terverifikasi": 0
+  }
+ ],
+ "peringkat": {
+  "S3": 49,
+  "S4": 153,
+  "S5": 49,
+  "S6": 4,
+  "S2": 7
+ },
+ "artikel": [
+  {
+   "judul": "Pemeriksa Lembar Jawaban dengan Image Recognition",
+   "tahun": 2018,
+   "doi": "10.31289/jite.v2i1.1496",
+   "jurnal": "JOURNAL OF INFORMATICS AND TELECOMMUNICATION ENGINEERING Vol 2, No 1 (2018): EDISI JULI",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4143",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.31289/jite.v2i1.1496",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Pendekatan Initial Centroid Search Untuk Meningkatkan Efisiensi Iterasi Klustering K-Means",
+   "tahun": 2020,
+   "doi": "10.33633/tc.v19i4.3875",
+   "jurnal": "Techno.Com Vol 19, No 4 (2020): November 2020",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/41",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.33633/tc.v19i4.3875",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analisis Serangan Deface Menggunakan Backdoor Shell Pada Website",
+   "tahun": 2018,
+   "doi": "10.33633/tc.v17i4.1887",
+   "jurnal": "Techno.Com Vol 17, No 4 (2018): November 2018",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/41",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.33633/tc.v17i4.1887",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Prototype Smart Home With Voice Recognition Berbasis Arduino Uno",
+   "tahun": 2019,
+   "doi": "10.30829/algoritma.v3i1.4440",
+   "jurnal": "ALGORITMA : JURNAL ILMU KOMPUTER DAN INFORMATIKA Vol 3, No 1 (2019): April 2019",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13980",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.30829/algoritma.v3i1.4440",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PERBANDINGAN METODE SIMPLE ADDITIVE WEIGHTING (SAW) DAN ANALYCTICAL HIERARCHY PROCESS (AHP) DALAM MENENTUKAN REKOMENDASI SHUTTLECOCK BADMINTON TERBAIK",
+   "tahun": 2021,
+   "doi": "10.30829/jistech.v6i2.11072",
+   "jurnal": "JISTech (Journal of Islamic Science and Technology) Vol 6, No 2 (2021)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11879",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.30829/jistech.v6i2.11072",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PURWARUPA DISPERSI UDARA DALAM RUANGAN MEROKOK",
+   "tahun": 2020,
+   "doi": "10.30829/jistech.v5i1.7659",
+   "jurnal": "JISTech (Journal of Islamic Science and Technology) Vol 5, No 1 (2020)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11879",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik",
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.30829/jistech.v5i1.7659",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "MODEL ANALISIS ANCAMAN SYN FLOODING DALAM JARINGAN",
+   "tahun": 2018,
+   "doi": "10.55445/teknovasi.v5i1.227",
+   "jurnal": "Jurnal Teknovasi : Jurnal Teknik dan Inovasi Vol 5, No 1 (2018): Teknovasi April 2018",
+   "sinta_jurnal_kini": 6,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3047",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.55445/teknovasi.v5i1.227",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 6,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "RUTE TRAYEK ANGKUTAN UMUM DENGAN GOOGLE API",
+   "tahun": 2017,
+   "doi": "10.55445/teknovasi.v4i1.4",
+   "jurnal": "Jurnal Teknovasi : Jurnal Teknik dan Inovasi Vol 4, No 1 (2017): Teknovasi April 2017",
+   "sinta_jurnal_kini": 6,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3047",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.55445/teknovasi.v4i1.4",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 6,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "ANALISIS PERHITUNGAN HPP MENENTUKAN HARGA PENJUALAN YANG TERBAIK UNTUK UKM",
+   "tahun": 2016,
+   "doi": "10.55445/teknovasi.v3i2.65",
+   "jurnal": "Jurnal Teknovasi : Jurnal Teknik dan Inovasi Vol 3, No 2 (2016): Teknovasi Oktober 2016",
+   "sinta_jurnal_kini": 6,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3047",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.55445/teknovasi.v3i2.65",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 6,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "KEYLOGGER PADA ASPEK KEAMANAN KOMPUTER",
+   "tahun": 2016,
+   "doi": "10.55445/teknovasi.v3i1.73",
+   "jurnal": "Jurnal Teknovasi : Jurnal Teknik dan Inovasi Vol 3, No 1 (2016): Teknovasi April 2016",
+   "sinta_jurnal_kini": 6,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3047",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.55445/teknovasi.v3i1.73",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 6,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "AUTOMATIC FISH SORTER WITH MICROCONTROLLER BASED SUGENO FUZZY LOGIC",
+   "tahun": 2022,
+   "doi": null,
+   "jurnal": "INFOKUM Vol. 10 No. 03 (2022): August, Data Mining, Image Processing, and artificial intelligence",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7139",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik",
+    "rakhmat"
+   ],
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3037061",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Klasterisasi Wilayah Prioritas Vaksin Menggunakan Algoritma K-Means Clustering",
+   "tahun": 2023,
+   "doi": "10.30865/klik.v4i3.1334",
+   "jurnal": "KLIK: Kajian Ilmiah Informatika dan Komputer Vol. 4 No. 3 (2023): Desember 2023",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10375",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.30865/klik.v4i3.1334",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Application of the support vector machine algorithm in the classification of livable houses",
+   "tahun": 2023,
+   "doi": "10.35335/mantik.v7i3.4155",
+   "jurnal": "Jurnal Mantik Vol. 7 No. 3 (2023): November: Manajemen, Teknologi Informatika dan Komunikasi (Mantik)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/6343",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.35335/mantik.v7i3.4155",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Data Mining Menggunakan Metode Teknik Klasifikasi Untuk Melihat Potensi Kepatuhan Wajib Pajak Kendaraan",
+   "tahun": 2024,
+   "doi": "10.55537/cosie.v3i1.710",
+   "jurnal": "Journal of Computer Science and Informatics Engineering Vol 3 No 1 (2024): Januari",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15325",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.55537/cosie.v3i1.710",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Algoritma K-Means Untuk Mengetahui Tingkat Kepatuhan Wajib Pajak Kendaraan Bermotor Pada UPT Samsat Medan Selatan",
+   "tahun": 2023,
+   "doi": "10.55537/cosie.v2i4.711",
+   "jurnal": "Journal of Computer Science and Informatics Engineering Vol 2 No 4 (2023): Oktober",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15325",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.55537/cosie.v2i4.711",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analisis Keamanan Jaringan Smart Grid PLN Menggunakan Metode Blockchain dalam Konteks Kemananan Cyber",
+   "tahun": 2024,
+   "doi": "10.55537/cosie.v3i2.849",
+   "jurnal": "Journal of Computer Science and Informatics Engineering Vol 3 No 2 (2024): April",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15325",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.55537/cosie.v3i2.849",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Lobster Sales Prediction Using Adaptive Neuro Fuzzy Inference System (ANFIS) In Simeulue District",
+   "tahun": 2024,
+   "doi": "10.30645/ijistech.v7i6.339",
+   "jurnal": "IJISTECH (International Journal of Information System and Technology) Vol 7, No 6 (2024): The April edition",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5619",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik",
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.30645/ijistech.v7i6.339",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Clustering Daerah Rawan Angin Puting Beliung Pada Kabupaten Di Sumatera Utara Dengan Algoritma K-Means",
+   "tahun": 2024,
+   "doi": "10.32409/jikstik.23.2.3578",
+   "jurnal": "Jurnal Ilmiah Komputasi Vol. 23 No. 2 (2024): Jurnal Ilmiah Komputasi : Vol. 23 No 2, Juni 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/2162",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik",
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.32409/jikstik.23.2.3578",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Classification of Watermelon Ripeness Levels Using HSV Color Space Transformation and K-Nearest Neighbor Method",
+   "tahun": 2024,
+   "doi": "10.47709/cnahpc.v6i3.3999",
+   "jurnal": "Journal of Computer Networks, Architecture and High Performance Computing Vol. 6 No. 3 (2024): Articles Research Volume 6 Issue 3, July 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7735",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.47709/cnahpc.v6i3.3999",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementation of a Convolutional Neural Network Algorithm in Classifying Vegetable Freshness Based on Image",
+   "tahun": 2024,
+   "doi": "10.37899/journallamultiapp.v5i4.1461",
+   "jurnal": "Journal La Multiapp Vol. 5 No. 4 (2024): Journal La Multiapp",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10973",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.37899/journallamultiapp.v5i4.1461",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analysis of the Corpus with Naïve Bayes in Determining Sentiment Labeling",
+   "tahun": 2024,
+   "doi": "10.37899/journallamultiapp.v5i4.1465",
+   "jurnal": "Journal La Multiapp Vol. 5 No. 4 (2024): Journal La Multiapp",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10973",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.37899/journallamultiapp.v5i4.1465",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Measurement of Centroid Distance in Determining Stunting Clusters",
+   "tahun": 2024,
+   "doi": "10.37899/journallamultiapp.v5i3.1479",
+   "jurnal": "Journal La Multiapp Vol. 5 No. 3 (2024): Journal La Multiapp",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10973",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.37899/journallamultiapp.v5i3.1479",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "SISTEM PAKAR DIAGNOSIS AWAL PENYAKIT FARINGITIS DAN LARINGITIS MENGGUNAKAN METODE FORWARD CHAINING DAN CERTAINTY FACTOR",
+   "tahun": 2024,
+   "doi": "10.54314/jssr.v7i3.2144",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 7, No 3 (2024): August 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v7i3.2144",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PENERAPAN METODE HAAR-LIKE FEATURE DAN ALGORITMA ADABOOST DALAM PENENTUAN KLASIFIKASI HAMA TANAMAN KOPI",
+   "tahun": 2024,
+   "doi": "10.54314/jssr.v7i1.1718",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 7, No 1 (2024): February 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v7i1.1718",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Algoritma K-Means Untuk Clustering Tempat Makan Di Batubara",
+   "tahun": 2022,
+   "doi": "10.55537/cosie.v1i1.27",
+   "jurnal": "Journal of Computer Science and Informatics Engineering Vol 1 No 1 (2022): Januari",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15325",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.55537/cosie.v1i1.27",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Clustering Panjang Ruas Jalan di BBPJN Sumut Menggunakan Algoritma K-Means",
+   "tahun": 2023,
+   "doi": "10.55537/cosie.v2i1.567",
+   "jurnal": "Journal of Computer Science and Informatics Engineering Vol 2 No 1 (2023): Januari",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15325",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.55537/cosie.v2i1.567",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PENERAPAN ALGORITMA K-MEANS CLUSTERING UNTUK PENCATATAN PENCAPAIAN KINERJA KARYAWAN",
+   "tahun": 2024,
+   "doi": "10.54314/jssr.v7i4.2311",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 7, No 4 (2024): November 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v7i4.2311",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PERBANDINGAN METODE AUTOREGRESIF INTEGRATED MOVING AVERAGE (ARIMA) DAN ALGORITMA MONTE CARLO UNTUK MEMPREDIKSI SUATU HARGA BAHAN POKOK",
+   "tahun": 2024,
+   "doi": "10.54314/jssr.v7i4.2315",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 7, No 4 (2024): November 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v7i4.2315",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Optimization of Distribution Routes Using the Genetic Algorithm in the Traveling Salesman Problem",
+   "tahun": 2025,
+   "doi": "10.30871/jaic.v9i1.8864",
+   "jurnal": "Journal of Applied Informatics and Computing Vol. 9 No. 1 (2025): February 2025",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4696",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.30871/jaic.v9i1.8864",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sentiment Analysis on Application X on the Use of Red Oil Using the Naïve Bayes Method",
+   "tahun": 2025,
+   "doi": "10.24014/ijaidm.v8i1.35422",
+   "jurnal": "Indonesian Journal of Artificial Intelligence and Data Mining Vol 8, No 1 (2025): March 2025",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/6365",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.24014/ijaidm.v8i1.35422",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analisis Perbandingan Silhouette dengan Elbow pada Algoritma K-Means dan DBSCAN",
+   "tahun": 2025,
+   "doi": "10.47002/metik.v9i1.1027",
+   "jurnal": "METIK JURNAL (AKREDITASI SINTA 3) Vol. 9 No. 1 (2025): METIK Jurnal",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/589",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.47002/metik.v9i1.1027",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Comparison of Naïve Bayes and Dempster Shafer Algorithms for the Diagnosis of ARI Diseases",
+   "tahun": 2025,
+   "doi": "10.55537/cosie.v4i3.1161",
+   "jurnal": "Journal of Computer Science and Informatics Engineering Vol 4 No 3 (2025): July",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15325",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.55537/cosie.v4i3.1161",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Initial Centroid Pada Algoritma K-Means Dan K-Medoids",
+   "tahun": 2025,
+   "doi": "10.54209/jatilima.v7i03.1615",
+   "jurnal": "Jurnal Multimedia dan Teknologi Informasi (Jatilima) Vol. 7 No. 03 (2025): Jatilima : Jurnal Multimedia Dan Teknologi Informasi",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10953",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.54209/jatilima.v7i03.1615",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Pendekatan Bayes-HDSS dalam Menentukan Status Pantauan Gizi Balita",
+   "tahun": 2023,
+   "doi": "10.25126/jtiik.2023107437",
+   "jurnal": "Jurnal Teknologi Informasi dan Ilmu Komputer Vol 10 No 5: Oktober 2023",
+   "sinta_jurnal_kini": 2,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/1093",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.25126/jtiik.2023107437",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 2,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "TEXT CLUSTERING IN KARO LANGUAGE USING TF-IDF WEIGHTING AND K-MEANS CLUSTERING",
+   "tahun": 2023,
+   "doi": "10.52436/1.jutif.2023.4.5.1462",
+   "jurnal": "Jurnal Teknik Informatika (Jutif) Vol. 4 No. 5 (2023): JUTIF Volume 4, Number 5, October 2023",
+   "sinta_jurnal_kini": 2,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8538",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.52436/1.jutif.2023.4.5.1462",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 2,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Sistem Pendukung Keputusan Dalam Memilih Supplier Menggunakan Metode Analytical Hierarchy Process (AHP)",
+   "tahun": 2024,
+   "doi": "10.32493/jtsi.v7i1.38269",
+   "jurnal": "Jurnal Teknologi Sistem Informasi dan Aplikasi Vol. 7 No. 1 (2024): Jurnal Teknologi Sistem Informasi dan Aplikasi",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10336",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.32493/jtsi.v7i1.38269",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Sistem Pendukung Keputusan dalam Memilih Supplier Menggunakan Metode Analytical Hierarchy Process (AHP)",
+   "tahun": 2024,
+   "doi": "10.32493/jtsi.v7i1.39286",
+   "jurnal": "Jurnal Teknologi Sistem Informasi dan Aplikasi Vol. 7 No. 1 (2024): Jurnal Teknologi Sistem Informasi dan Aplikasi",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10336",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.32493/jtsi.v7i1.39286",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Best Student Classification using Ensemble Random Forest Method",
+   "tahun": 2024,
+   "doi": "10.32520/stmsi.v13i3.4101",
+   "jurnal": "Sistemasi: Jurnal Sistem Informasi Vol 13, No 3 (2024): Sistemasi: Jurnal Sistem Informasi",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3323",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.32520/stmsi.v13i3.4101",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Clustering Medical Record Data on Diabetes Disease using Divisive Analysis Clustering Method",
+   "tahun": 2024,
+   "doi": "10.32520/stmsi.v13i4.4380",
+   "jurnal": "Sistemasi: Jurnal Sistem Informasi Vol 13, No 4 (2024): Sistemasi: Jurnal Sistem Informasi",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3323",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.32520/stmsi.v13i4.4380",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Pengatur Kelembaban dan Suhu Kumbung Jamur Tiram Otomatis Menggunakan Mikrokontroller Atmega328 dengan Logika Fuzzy Berbasis Iot",
+   "tahun": 2024,
+   "doi": "10.47467/visa.v4i3.3023",
+   "jurnal": "VISA: Journal of Vision and Ideas Vol. 4 No. 3 (2024): VISA: Journal of Vision and Ideas",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11024",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik",
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47467/visa.v4i3.3023",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Peningkatan Akurasi Named Entity Recognition (NER) Dengan Fine-Tuning BERT Pada Dataset Bahasa Indonesia",
+   "tahun": 2025,
+   "doi": "10.24114/cess.v10i2.67219",
+   "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol. 10 No. 2 (2025): Juli 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.24114/cess.v10i2.67219",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Pemantau Suhu dan Kelembapan Kandang Puyuh Menggunakan Metode Logika Fuzzy Sugeno Berbasis Internet of Things",
+   "tahun": 2024,
+   "doi": "10.37859/jf.v14i1.6977",
+   "jurnal": "JURNAL FASILKOM Vol. 14 No. 1 (2024): Jurnal FASILKOM (teknologi inFormASi dan ILmu KOMputer)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10086",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.37859/jf.v14i1.6977",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Prediksi Penjualan Salad Buah Kembar Berbasis Produk Homemade Berdasarkan Data Transaksi Menggunakan K-Nearest Neighbor",
+   "tahun": 2025,
+   "doi": "10.55537/j-ibm.v5i1.1248",
+   "jurnal": "Jurnal IPTEK Bagi Masyarakat Vol 5 No 1 (2025)",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13148",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik",
+    "aidil"
+   ],
+   "url": "https://doi.org/10.55537/j-ibm.v5i1.1248",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "KLASIFIKASI JENIS TANAMAN ANGGREK BERDASARKAN DAUN MENGGUNAKAN METODE PRINCIPAL COMPONENT ANALYSIS DAN K-NEAREST NEIGHBOR",
+   "tahun": 2026,
+   "doi": "10.55123/storage.v5i1.7086",
+   "jurnal": "STORAGE: Jurnal Ilmiah Teknik dan Ilmu Komputer Vol. 5 No. 1 (2026): Februari",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/14870",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.55123/storage.v5i1.7086",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Comparison of Apriori and FP-Growth Algorithms in Analyzing Association Rules",
+   "tahun": 2024,
+   "doi": "10.33558/piksel.v12i2.9965",
+   "jurnal": "PIKSEL : Penelitian Ilmu Komputer Sistem Embedded and Logic Vol. 12 No. 2 (2024): September 2024",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5132",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.33558/piksel.v12i2.9965",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Detecting Data Leakage in Cloud Storage Using Decision Tree Classification",
+   "tahun": 2025,
+   "doi": "10.51519/journalisi.v7i3.1215",
+   "jurnal": "Journal of Information System and Informatics Vol 7 No 3 (2025): September",
+   "sinta_jurnal_kini": 2,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7045",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.51519/journalisi.v7i3.1215",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 2,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Obesity Level Classification Using the Gaussian Naive Bayes and 10-Fold Cross-Validation",
+   "tahun": 2026,
+   "doi": "10.55537/cosie.v5i4.1855",
+   "jurnal": "Journal of Computer Science and Informatics Engineering Vol 5 No 4 (2026)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15325",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.55537/cosie.v5i4.1855",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementation of Village Information Digitalization through the Development of the Pasi Village Website Portal",
+   "tahun": 2026,
+   "doi": "10.55537/j-ibm.v6i2.1936",
+   "jurnal": "Jurnal IPTEK Bagi Masyarakat Vol 6 No 2 (2026)",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13148",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "siddik"
+   ],
+   "url": "https://doi.org/10.55537/j-ibm.v6i2.1936",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Expert System for Areca Plant Disease Detection Using Forward Chaining Method",
+   "tahun": 2020,
+   "doi": "10.33558/piksel.v8i2.2291",
+   "jurnal": "PIKSEL : Penelitian Ilmu Komputer Sistem Embedded and Logic Vol 8 No 2 (2020): September 2020",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5132",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.33558/piksel.v8i2.2291",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Pendukung Keputusan Menentukan Tempat KKN (Kuliah Kerja Nyata) Menggunakan Metode Logika Fuzzy",
+   "tahun": 2020,
+   "doi": "10.24114/cess.v5i2.19665",
+   "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol 5, No 2 (2020): JULI 2020",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.24114/cess.v5i2.19665",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "SISTEM PAKAR DIAGNOSA PENYAKIT PARU-PARU PADA ANAK DENGAN METODE DEMPSTER-SHAFER",
+   "tahun": 2017,
+   "doi": "10.24114/cess.v2i1.7179",
+   "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol 2, No 1 (2017): Januari 2017",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.24114/cess.v2i1.7179",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Decision Support System with SMART Method in Regional Manager Selection",
+   "tahun": 2022,
+   "doi": "10.24114/cess.v7i1.32170",
+   "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol 7, No 1 (2022): January 2022",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.24114/cess.v7i1.32170",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Model Dan Simulasi Prototype Rangkaian Digital Konversi Gerbang AND, OR, NOT Menjadi Gerbang NAND Dan NOR",
+   "tahun": 2019,
+   "doi": "10.30743/infotekjar.v4i1.1689",
+   "jurnal": "InfoTekJar : Jurnal Nasional Informatika dan Teknologi Jaringan Vol 4, No 1 (2019): InfoTekJar September",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/433",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.30743/infotekjar.v4i1.1689",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Rancang Bangun Sistem Pakar Mendiagnosa Penyakit Tanaman Kelapa Sawit Menggunakan Metode Bayes Berbasis Android (Studi Kasus : Perkebunan PTPN 4 Air Batu)",
+   "tahun": 2018,
+   "doi": "10.36294/jurti.v2i1.403",
+   "jurnal": "(JurTI) Jurnal Teknologi Informasi Vol 2, No 1 (2018): JUNI 2018",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5604",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.36294/jurti.v2i1.403",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "IMPLEMENTASI KRIPTOGRAFI VIGENERE CIPHER DENGAN PHP",
+   "tahun": 2017,
+   "doi": "10.36294/jurti.v1i1.21",
+   "jurnal": "(JurTI) Jurnal Teknologi Informasi Vol 1, No 1 (2017): JUNI 2017",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5604",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.36294/jurti.v1i1.21",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "SISTEM PENGGAJIAN KARYAWAN PADA LKP GRACE EDUCATION CENTER",
+   "tahun": 2017,
+   "doi": "10.36294/jurti.v1i2.286",
+   "jurnal": "(JurTI) Jurnal Teknologi Informasi Vol 1, No 2 (2017): DESEMBER 2017",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5604",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.36294/jurti.v1i2.286",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "MODEL DAN SIMULASI PERBANDINGAN PROTOTYPE RANGKAIAN DIGITAL HALF ADDER ALU STANDAR DENGAN INOVASI RANGKAIAN DIGITAL HALF ADDER ALU",
+   "tahun": 2018,
+   "doi": "10.36294/jurti.v2i1.414",
+   "jurnal": "(JurTI) Jurnal Teknologi Informasi Vol 2, No 1 (2018): JUNI 2018",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5604",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.36294/jurti.v2i1.414",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "MOBILE APP EDUCATION GANGGUAN PENCERNAAN MANUSIA BERBASIS MULTIMEDIA MENGGUNAKAN ADOBE ANIMATE CC",
+   "tahun": 2019,
+   "doi": "10.36294/jurti.v3i2.1009",
+   "jurnal": "(JurTI) Jurnal Teknologi Informasi Vol 3, No 2 (2019): DESEMBER 2019",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5604",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.36294/jurti.v3i2.1009",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "ANALISIS SISTEM ARSIP DI KANTOR REGIONAL SEKRETARIAT PEMERINTAH KABUPATEN BATU BARA",
+   "tahun": 2019,
+   "doi": "10.36294/jurti.v3i1.694",
+   "jurnal": "(JurTI) Jurnal Teknologi Informasi Vol 3, No 1 (2019): JUNI 2019",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5604",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.36294/jurti.v3i1.694",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "IMPLEMENTASI LOGIKA FUZZY DALAM MENENTUKAN JURUSAN BAGI SISWA BARU SEKOLAH MENENGAH KEJURUAN (SMK) NEGERI 1 AIR PUTIH",
+   "tahun": 2018,
+   "doi": "10.36294/jurti.v2i2.427",
+   "jurnal": "(JurTI) Jurnal Teknologi Informasi Vol 2, No 2 (2018): DESEMBER 2018",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5604",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.36294/jurti.v2i2.427",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi E-Arsip Pada Program Studi Teknik Informatika",
+   "tahun": 2018,
+   "doi": "10.36294/jurti.v2i1.411",
+   "jurnal": "(JurTI) Jurnal Teknologi Informasi Vol 2, No 1 (2018): JUNI 2018",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5604",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.36294/jurti.v2i1.411",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Decision Support System Determining Computer Virus Protection Applications Using Simple Additive Weighting (SAW) Method",
+   "tahun": 2021,
+   "doi": "10.47709/cnahpc.v3i1.936",
+   "jurnal": "Journal of Computer Networks, Architecture and High Performance Computing Vol. 3 No. 1 (2021): Computer Networks, Architecture and High Performance Computing, January 2021",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7735",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.47709/cnahpc.v3i1.936",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "APLIKASI TRACKING REAL TIME ANGKUTAN KOTA MEDAN BERBASIS ANDROID",
+   "tahun": 2020,
+   "doi": "10.30829/jistech.v5i2.8794",
+   "jurnal": "JISTech (Journal of Islamic Science and Technology) Vol 5, No 2 (2020)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11879",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.30829/jistech.v5i2.8794",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi Certainty Factor Untuk Diagnosis Penyakit dan Hama Pada Pelepah dan Daun Kelapa Sawit Beserta Penanganannya",
+   "tahun": 2022,
+   "doi": "10.47065/josh.v3i3.1455",
+   "jurnal": "Journal of Information System Research (JOSH) Vol 3 No 3 (2022): April 2022",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8355",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.47065/josh.v3i3.1455",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Cobit 5 dalam Evaluasi Tata Kelola Teknologi Informasi (Studi Kasus: Dinas Perindustrian dan Perdagangan Provinsi Sumatera Utara)",
+   "tahun": 2020,
+   "doi": "10.32493/jtsi.v3i4.6154",
+   "jurnal": "Jurnal Teknologi Sistem Informasi dan Aplikasi Vol 3, No 4 (2020): Jurnal Teknologi Sistem Informasi dan Aplikasi",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10336",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.32493/jtsi.v3i4.6154",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Informasi Monitoring Pembayaran Listrik Berbasis Web pada PT. PLN (Persero) ULP Berastagi Menggunakan Metode User Centered Design",
+   "tahun": 2023,
+   "doi": "10.56211/blendsains.v1i3.174",
+   "jurnal": "Blend Sains Jurnal Teknik Vol. 1 No. 3 (2023): Edisi Januari",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/14231",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.56211/blendsains.v1i3.174",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analisis Website Tapanuli Tengah Menggunakan Metode Open Web Application Security Project Zap (Owasp Zap)",
+   "tahun": 2022,
+   "doi": "10.47065/bit.v3i4.389",
+   "jurnal": "Bulletin of Information Technology (BIT) Vol 3 No 4: Desember 2022",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8745",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.47065/bit.v3i4.389",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analisis Manejemen Resiko Keamanan Data Sistem Informasi Berdasarkan Indeks Keamanan Informasi (KAMI) ISO 27001:2013",
+   "tahun": 2013,
+   "doi": "10.47065/bit.v3i4.421",
+   "jurnal": "Bulletin of Information Technology (BIT) Vol 3 No 4: Desember 2022",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8745",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.47065/bit.v3i4.421",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi Metode Breadth First Search pada Sistem Pakar Rekomendasi Gugatan Cerai di Pengadilan Agama",
+   "tahun": 2023,
+   "doi": "10.53513/jsk.v6i1.7419",
+   "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol. 6 No. 1 (2023): J-SISKO TECH EDISI JANUARI",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9035",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.53513/jsk.v6i1.7419",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Decision Support System for Determining Employee Movements Using the COPRAS Method",
+   "tahun": 2023,
+   "doi": "10.24114/cess.v8i1.43002",
+   "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol 8, No 1 (2023): January 2023",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.24114/cess.v8i1.43002",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analisis Aplikasi Sikar dengan Metode Triangulasi Pengelolaan Surat Masuk dan Keluar",
+   "tahun": 2023,
+   "doi": "10.56211/blendsains.v1i4.226",
+   "jurnal": "Blend Sains Jurnal Teknik Vol. 1 No. 4 (2023): Edisi April",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/14231",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.56211/blendsains.v1i4.226",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Pakar Mendiagnosis Nutrisi Tanaman Hidroponik Menggunakan Metode Dempster Shafer",
+   "tahun": 2023,
+   "doi": "10.53513/jursi.v2i3.7591",
+   "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 2 No. 3 (2023): EDISI MEI 2023",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/12475",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.53513/jursi.v2i3.7591",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Metode Entropy dan MOORA Dalam Pemilihan Investasi Saham LQ45 Berbasis Keputusan",
+   "tahun": 2023,
+   "doi": "10.30865/resolusi.v3i5.764",
+   "jurnal": "Resolusi : Rekayasa Teknik Informatika dan Informasi Vol. 3 No. 5 (2023): RESOLUSI May 2023",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10571",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.30865/resolusi.v3i5.764",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "SISTEM PENDUKUNG KEPUTUSAN PEMILIHAN TEMPAT VAKSINASI PASCA PANDEMI COVID-19 MENGGUNAKAN METODE AHP DAN SMART",
+   "tahun": 2023,
+   "doi": "10.54314/jssr.v6i2.1302",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 6, No 2 (2023): June 2023",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v6i2.1302",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Optimization of Village Budget Plan Selection Based on Priorities Using Method Promethee and Borda",
+   "tahun": 2023,
+   "doi": "10.33558/piksel.v11i2.7890",
+   "jurnal": "PIKSEL : Penelitian Ilmu Komputer Sistem Embedded and Logic Vol 11 No 2 (2023): September 2023",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5132",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.33558/piksel.v11i2.7890",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Kombinasi Fuzzy Sugeno dan Profile Matching Dalam Pemilihan Pestisida Tanaman Padi Berbasis Android",
+   "tahun": 2023,
+   "doi": "10.30865/klik.v4i1.938",
+   "jurnal": "KLIK: Kajian Ilmiah Informatika dan Komputer Vol. 4 No. 1 (2023): Agustus 2023",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10375",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.30865/klik.v4i1.938",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Pengembangan Aplikasi Layanan Pasien Menerapkan Metode Rapid Aplication Development Berbasis Mobile",
+   "tahun": 2023,
+   "doi": "10.47065/josh.v4i4.3557",
+   "jurnal": "Journal of Information System Research (JOSH) Vol 4 No 4 (2023): Juli 2023",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8355",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.47065/josh.v4i4.3557",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "The Effect of Augmented Reality on Glasses Purchasing Decisions Using the Structural Equation Model Method",
+   "tahun": 2023,
+   "doi": "10.31289/jite.v7i1.10084",
+   "jurnal": "JOURNAL OF INFORMATICS AND TELECOMMUNICATION ENGINEERING Vol. 7 No. 1 (2023): Issues July 2023",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4143",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.31289/jite.v7i1.10084",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Pakar menggunakan Metode Certainty Factor Mendiagnosa Gizi Buruk Balita berbasis Android",
+   "tahun": 2023,
+   "doi": "10.29408/edumatic.v7i2.24340",
+   "jurnal": "Jurnal Pendidikan Informatika (EDUMATIC) Vol 7 No 2 (2023): Edumatic: Jurnal Pendidikan Informatika",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4682",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.29408/edumatic.v7i2.24340",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementation of K-Means Clustering in Recognizing Crime Hotspots and Traffic Issues Through GIS",
+   "tahun": 2024,
+   "doi": "10.47709/cnahpc.v6i2.3771",
+   "jurnal": "Journal of Computer Networks, Architecture and High Performance Computing Vol. 6 No. 2 (2024): Articles Research Volume 6 Issue 2, April 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7735",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.47709/cnahpc.v6i2.3771",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PENERAPAN METODE FORWARD CHAINING DAN DEMPSTER SHAFER PADA SISTEM PAKAR DIAGNOSIS KANKER LEHER RAHIM",
+   "tahun": 2024,
+   "doi": "10.54314/jssr.v7i2.1874",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 7, No 2 (2024): May 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v7i2.1874",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Pengembangan Sistem Informasi Manajemen Pasien Rumah Sakit Berbasis Web Menggunakan Rapid Application Development",
+   "tahun": 2024,
+   "doi": "10.36294/jurti.v8i1.4055",
+   "jurnal": "JurTI (Jurnal Teknologi Informasi) Vol 8, No 1 (2024): JUNI 2024",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5604",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.36294/jurti.v8i1.4055",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Application of Bootstrap in Building Fertilizer Inventory System Applications",
+   "tahun": 2022,
+   "doi": "10.55537/jistr.v1i2.102",
+   "jurnal": "Journal of Information Systems and Technology Research Vol. 1 No. 2 (2022): May 2022",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15336",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/jistr.v1i2.102",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Blackbox Test on Web Based Employed Attendance Information System Design",
+   "tahun": 2022,
+   "doi": "10.55537/jistr.v1i3.220",
+   "jurnal": "Journal of Information Systems and Technology Research Vol. 1 No. 3 (2022): September 2022",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15336",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/jistr.v1i3.220",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Employee Information System Design Of KAI Property Management Limited Liability Company Medan Based On Android",
+   "tahun": 2023,
+   "doi": "10.55537/jistr.v2i2.224",
+   "jurnal": "Journal of Information Systems and Technology Research Vol. 2 No. 2 (2023): May 2023",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15336",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/jistr.v2i2.224",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Application of The WEBUSE Method in Analyzing National Industrial Information Systems",
+   "tahun": 2023,
+   "doi": "10.55537/jistr.v2i1.513",
+   "jurnal": "Journal of Information Systems and Technology Research Vol. 2 No. 1 (2023): January 2023",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15336",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/jistr.v2i1.513",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi Metode Waterfall Dalam Sistem Aplikasi Money Recording Berbasis Web",
+   "tahun": 2024,
+   "doi": "10.47065/bulletincsr.v4i2.326",
+   "jurnal": "Bulletin of Computer Science Research Vol. 4 No. 2 (2024): Februari 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9602",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.47065/bulletincsr.v4i2.326",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Perancangan Aplikasi Pengelolaan Data Pegawai Berbasis Mobile Menggunakan Kodular dan Airtable",
+   "tahun": 2024,
+   "doi": "10.47065/bulletincsr.v4i2.335",
+   "jurnal": "Bulletin of Computer Science Research Vol. 4 No. 2 (2024): Februari 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9602",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.47065/bulletincsr.v4i2.335",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi Metode AHP dan SAW Menentukan Kreasi Inovasi Daur Ulang Terbaik Pada Bank Sampah",
+   "tahun": 2024,
+   "doi": "10.47065/bulletincsr.v4i3.343",
+   "jurnal": "Bulletin of Computer Science Research Vol. 4 No. 3 (2024): April 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9602",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.47065/bulletincsr.v4i3.343",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Metode TOPSIS dan Profile Matching Sistem Pendukung Keputusan Seleksi Siswa Peserta LKS",
+   "tahun": 2024,
+   "doi": "10.30865/resolusi.v4i4.1694",
+   "jurnal": "Resolusi : Rekayasa Teknik Informatika dan Informasi Vol. 4 No. 4 (2024): RESOLUSI March 2024",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10571",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.30865/resolusi.v4i4.1694",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Pakar Dalam Deteksi Dini Kista Ovarium Menggunakan Kombinasi Forward Chaining dan Certainty Factor",
+   "tahun": 2024,
+   "doi": "10.30865/resolusi.v4i6.1957",
+   "jurnal": "Resolusi : Rekayasa Teknik Informatika dan Informasi Vol. 4 No. 6 (2024): RESOLUSI July 2024",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10571",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.30865/resolusi.v4i6.1957",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "KOMBINASI METODE BACKWARD CHAINING DAN CERTAINTY FACTOR MENDIAGNOSA PENYAKIT GANGGUAN ANSIETAS",
+   "tahun": 2023,
+   "doi": "10.54314/jssr.v6i3.1469",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 6, No 3 (2023): October 2023",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v6i3.1469",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Informasi Pengaduan Jaringan Internet pada Dinas Komunikasi dan Informatika Padang Lawas Berbasis Web",
+   "tahun": 2022,
+   "doi": "10.56211/blendsains.v1i1.65",
+   "jurnal": "Blend Sains Jurnal Teknik Vol. 1 No. 1 (2022): Edisi Juli",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/14231",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.56211/blendsains.v1i1.65",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan QR Code Pada Aplikasi Absensi Karyawan Menggunakan Bootstrap",
+   "tahun": 2022,
+   "doi": "10.55537/cosie.v1i3.103",
+   "jurnal": "Journal of Computer Science and Informatics Engineering Vol 1 No 3 (2022): Juli",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15325",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/cosie.v1i3.103",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Penginputan Data Barang Strategis Berbasis Web Pada Toko Bangunan di Kota Medan (Studi Kasus:DISPERINDAG Provinsi SumateraUtara)",
+   "tahun": 2023,
+   "doi": "10.55537/cosie.v2i2.240",
+   "jurnal": "Journal of Computer Science and Informatics Engineering Vol 2 No 2 (2023): April",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15325",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/cosie.v2i2.240",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Combination of Forward Chaining and Certainty Factor Methods In An Expert System for Diagnosis of Cattle Diseases",
+   "tahun": 2025,
+   "doi": "10.30645/ijistech.v8i5.375",
+   "jurnal": "IJISTECH (International Journal of Information System and Technology) Vol 8, No 5 (2025): The February edition",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5619",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.30645/ijistech.v8i5.375",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementation of the Single Moving Average Method in Forecasting Sales of Motorcycle Spare Parts",
+   "tahun": 2025,
+   "doi": "10.20895/dinda.v5i1.1791",
+   "jurnal": "Indonesian Journal of Data Science, IoT, Machine Learning and Informatics Vol 5 No 1 (2025): February",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11755",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.20895/dinda.v5i1.1791",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Application Of Expert System In Determining Diseases In Potato Plants",
+   "tahun": 2025,
+   "doi": "10.24002/ijis.v7i2.10213",
+   "jurnal": "Indonesian Journal of Information Systems Vol. 7 No. 2 (2025): February 2025",
+   "sinta_jurnal_kini": 2,
+   "sinta_saat_terbit": 2,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7848",
+   "sinta_bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6707296/?view=garuda",
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.24002/ijis.v7i2.10213",
+   "tipe_peringkat": "periode_terbit",
+   "peringkat_tampilan": 2,
+   "jenis_label": "tahun_terbit"
+  },
+  {
+   "judul": "SIMBAUD: Sistem Informasi Monitoring Tumbuh Kembang Anak Usia Dini di Sekolah PAUD",
+   "tahun": 2025,
+   "doi": "10.24114/cess.v10i1.65926",
+   "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol. 10 No. 1 (2025): Januari 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.24114/cess.v10i1.65926",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Pemilihan Abang Kakak Tebing Tinggi dengan Metode Profile Matching Berbasis Website",
+   "tahun": 2025,
+   "doi": "10.47002/metik.v9i2.1081",
+   "jurnal": "METIK JURNAL (AKREDITASI SINTA 3) Vol. 9 No. 2 (2025): METIK Jurnal",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/589",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.47002/metik.v9i2.1081",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Informasi Monitoring Penyewa Kios Pasar Inpres Berbasis Web Menggunakan Algoritma Bubble Sort",
+   "tahun": 2025,
+   "doi": "10.54209/jatilima.v7i03.1608",
+   "jurnal": "Jurnal Multimedia dan Teknologi Informasi (Jatilima) Vol. 7 No. 03 (2025): Jatilima : Jurnal Multimedia Dan Teknologi Informasi",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10953",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.54209/jatilima.v7i03.1608",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "IMPLEMENTASI METODE FEATURE DRIVEN DEVELOPMENT PADA SISTEM INFORMASI PELAYANAN MASYARAKAT",
+   "tahun": 2025,
+   "doi": "10.51876/simtek.v10i2.1609",
+   "jurnal": "Simtek : jurnal sistem informasi dan teknik komputer Vol. 10 No. 2 (2025): Oktober 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9123",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.51876/simtek.v10i2.1609",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Penjadwalan Bimbingan Konseling dengan Menerapkan Algoritma Shortest Job First",
+   "tahun": 2024,
+   "doi": "10.47065/tin.v4i10.5024",
+   "jurnal": "TIN: Terapan Informatika Nusantara Vol 4 No 10 (2024): March 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10960",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.47065/tin.v4i10.5024",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi AHP Dan Promethee Dalam Pemilihan Bengkel Resmi Terbaik Di Deli Serdang",
+   "tahun": 2023,
+   "doi": "10.53513/jsk.v6i2.8363",
+   "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol. 6 No. 2 (2023): J-SISKO TECH EDISI JULI",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9035",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.53513/jsk.v6i2.8363",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Cobit 5 dalam Evaluasi Tata Kelola Teknologi Informasi (Studi Kasus: Dinas Perindustrian dan Perdagangan Provinsi Sumatera Utara)",
+   "tahun": 2020,
+   "doi": null,
+   "jurnal": "Jurnal Teknologi Sistem Informasi dan Aplikasi Vol. 3 No. 4 (2020): Jurnal Teknologi Sistem Informasi dan Aplikasi",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10336",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/4004784",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Kombinasi Metode Double Moving Average dan Double Exponential Smoothing dalam Memprediksi Persediaan Suku Cadang Alat Berat",
+   "tahun": 2024,
+   "doi": "10.32493/jtsi.v7i1.38256",
+   "jurnal": "Jurnal Teknologi Sistem Informasi dan Aplikasi Vol. 7 No. 1 (2024): Jurnal Teknologi Sistem Informasi dan Aplikasi",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10336",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.32493/jtsi.v7i1.38256",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "APLIKASI PEMILIHAN JOK MOBIL DI TEMEX JOK BERBASIS WEB MENGGUNAKAN METODE SAW DAN AHP",
+   "tahun": 2023,
+   "doi": "10.30829/jistech.v8i1.22759",
+   "jurnal": "JISTech (Journal of Islamic Science and Technology) Vol 8, No 1 (2023)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11879",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.30829/jistech.v8i1.22759",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Optimalisasi Penggunaan Software Pengolah Kata Bagi Siswa Madrasah Aliyah Al-Washliyah Medan",
+   "tahun": 2021,
+   "doi": "10.55537/jibm.v1i1.4",
+   "jurnal": "Jurnal IPTEK Bagi Masyarakat Vol 1 No 1 (2021)",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13148",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/jibm.v1i1.4",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "TOBA-TOBA.COM: Solusi Cerdas Dalam Meningkatkan Pertumbuhan Ekonomi Masyarakat Sumatera Utara Di Era Revolusi 4.0",
+   "tahun": 2022,
+   "doi": "10.55537/jibm.v1i3.142",
+   "jurnal": "Jurnal IPTEK Bagi Masyarakat Vol 1 No 3 (2022)",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13148",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/jibm.v1i3.142",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi Algoritma Moora Dalam Rekomendasi Pemilihan Imam",
+   "tahun": 2023,
+   "doi": "10.55537/jibm.v2i3.627",
+   "jurnal": "Jurnal IPTEK Bagi Masyarakat Vol 2 No 3 (2023)",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13148",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/jibm.v2i3.627",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Rancang Bangun Landing Page Kepegawaian Dengan Menerapkan Framework Laravel Berbasis Website",
+   "tahun": 2023,
+   "doi": "10.55537/jibm.v3i2.732",
+   "jurnal": "Jurnal IPTEK Bagi Masyarakat Vol 3 No 2 (2023)",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13148",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/jibm.v3i2.732",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi Metode Prototype Pada Perancangan Aplikasi Absensi Pramubakti Berbasis Android Dengan Fitur Geolocation",
+   "tahun": 2024,
+   "doi": "10.55537/jibm.v3i3.733",
+   "jurnal": "Jurnal IPTEK Bagi Masyarakat Vol 3 No 3 (2024)",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13148",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/jibm.v3i3.733",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi Aplikasi Inventaris Barang Kantor untuk Efektivitas Aset",
+   "tahun": 2024,
+   "doi": "10.55537/jibm.v4i1.866",
+   "jurnal": "Jurnal IPTEK Bagi Masyarakat Vol 4 No 1 (2024)",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13148",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/jibm.v4i1.866",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Pemetaan Lokasi Tanah Dijual Berbasis Web Menggunakan Metode Haversine untuk Meningkatkan Akses Informasi bagi Masyarakat",
+   "tahun": 2024,
+   "doi": "10.55537/jibm.v4i2.1002",
+   "jurnal": "Jurnal IPTEK Bagi Masyarakat Vol 4 No 2 (2024)",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13148",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/jibm.v4i2.1002",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Pakar Diagnosis Gangguan Binge Eating Menggunakan Metode Forward Chaining untuk Peningkatan Layanan Kesehatan Masyarakat",
+   "tahun": 2025,
+   "doi": "10.55537/j-ibm.v5i1.1081",
+   "jurnal": "Jurnal IPTEK Bagi Masyarakat Vol 5 No 1 (2025)",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13148",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/j-ibm.v5i1.1081",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Ujian Tilawatil Qur`an",
+   "tahun": 2023,
+   "doi": "10.20895/infotel.v15i1.848",
+   "jurnal": "JURNAL INFOTEL Vol 15 No 1 (2023): February 2023",
+   "sinta_jurnal_kini": 1,
+   "sinta_saat_terbit": 2,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/1170",
+   "sinta_bukti_url": "https://purwokerto.telkomuniversity.ac.id/jurnal-infotel-lppm-ittp-terakreditasi-sinta-2/",
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.20895/infotel.v15i1.848",
+   "tipe_peringkat": "periode_terbit",
+   "peringkat_tampilan": 2,
+   "jenis_label": "tahun_terbit"
+  },
+  {
+   "judul": "Aplikasi E-Hrd: Sistem Pendataan Pensiun di PT Perkebunan Nusantara II Kwala Madu Menggunakan Boostrap",
+   "tahun": 2022,
+   "doi": "10.70340/jirsi.v1i1.3",
+   "jurnal": "Jurnal Ilmu Komputer dan Sistem Informasi Vol. 1 No. 1 (2022): Mei 2022",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/16614",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.70340/jirsi.v1i1.3",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Perancangan Aplikasi Input Laporan Data Single Line Diagram Unit Layanan Pengadaan PLN SUMUT",
+   "tahun": 2023,
+   "doi": "10.70340/jirsi.v2i2.22",
+   "jurnal": "Jurnal Ilmu Komputer dan Sistem Informasi Vol. 2 No. 2 (2023): Mei 2023",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/16614",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.70340/jirsi.v2i2.22",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Perancangan Sistem Infomasi Penjadwalan Kegiatan Pada KPU Berbasis Web",
+   "tahun": 2024,
+   "doi": "10.70340/jirsi.v3i1.92",
+   "jurnal": "Jurnal Ilmu Komputer dan Sistem Informasi Vol. 3 No. 1 (2024): Januari 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/16614",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.70340/jirsi.v3i1.92",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PENERAPAN METODOLOGI PENGEMBANGAN SISTEM WATERFALL PENGEMBANGAN APLIKASI BUKU TAMU BERBASIS ANDROID",
+   "tahun": 2024,
+   "doi": "10.70340/jirsi.v3i2.93",
+   "jurnal": "Jurnal Ilmu Komputer dan Sistem Informasi Vol. 3 No. 2 (2024): Mei 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/16614",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.70340/jirsi.v3i2.93",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Development of MDLC-Based WebAR and WebVR Platforms as Digital Educational Media for Batik Motifs",
+   "tahun": 2026,
+   "doi": "10.12928/spekta.v7i1.15674",
+   "jurnal": "SPEKTA (Jurnal Pengabdian Kepada Masyarakat : Teknologi dan Aplikasi) Vol. 7 No. 1 (2026)",
+   "sinta_jurnal_kini": 2,
+   "sinta_saat_terbit": 2,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10609",
+   "sinta_bukti_url": "https://journal2.uad.ac.id/index.php/spekta/announcement/view/237",
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.12928/spekta.v7i1.15674",
+   "tipe_peringkat": "periode_terbit",
+   "peringkat_tampilan": 2,
+   "jenis_label": "tahun_terbit"
+  },
+  {
+   "judul": "Kombinasi Metode WP dan MAUT Dalam Pemilihan Tanaman Anggrek Kualitas Ekspor Berbasis WEB",
+   "tahun": 2022,
+   "doi": "10.55537/spk.v1i1.35",
+   "jurnal": "Sistem Pendukung Keputusan dengan Aplikasi Vol 1 No 1 (2022)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/12420",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/spk.v1i1.35",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Pembelian Limbah Yang Dapat Didaur Ulang Menggunakan Metode Simple Multi-Attribute Ratting Technique",
+   "tahun": 2022,
+   "doi": "10.55537/spk.v1i2.214",
+   "jurnal": "Sistem Pendukung Keputusan dengan Aplikasi Vol 1 No 2 (2022)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/12420",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/spk.v1i2.214",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Pendukung Keputusan Pembuatan Properti Kayu Menggunakan Metode AHP-MAUT",
+   "tahun": 2023,
+   "doi": "10.55537/spk.v2i2.635",
+   "jurnal": "Sistem Pendukung Keputusan dengan Aplikasi Vol 2 No 2 (2023)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/12420",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/spk.v2i2.635",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Kombinasi AHP-TOPSIS untuk Pemilihan Dosen Terbaik Berdasarkan Metriks SINTA",
+   "tahun": 2024,
+   "doi": "10.55537/spk.v3i1.751",
+   "jurnal": "Sistem Pendukung Keputusan dengan Aplikasi Vol 3 No 1 (2024)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/12420",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/spk.v3i1.751",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Pembentukan Model Hirarki Tren Penelitian Berdasarkan Analisis Bibliometrik: Studi Kasus ANP Menggunakan Bibliometrix di R",
+   "tahun": 2024,
+   "doi": "10.55537/spk.v3i2.884",
+   "jurnal": "Sistem Pendukung Keputusan dengan Aplikasi Vol 3 No 2 (2024)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/12420",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/spk.v3i2.884",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Integrated Integrated Decision Support System for Student Academic Activities Using a Combination of AHP and SMART Methods",
+   "tahun": 2025,
+   "doi": "10.36378/jtos.v8i2.5059",
+   "jurnal": "JURNAL TEKNOLOGI DAN OPEN SOURCE Vol. 8 No. 2 (2025): Jurnal Teknologi dan Open Source, December 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5936",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.36378/jtos.v8i2.5059",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi RAD (Rapid Application Development) dan Uji Black Box pada Administrasi E-Arsip",
+   "tahun": 2022,
+   "doi": "10.56211/sudo.v1i2.19",
+   "jurnal": "sudo Jurnal Teknik Informatika Vol. 1 No. 2 (2022): Edisi Juni",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/14660",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.56211/sudo.v1i2.19",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Penginputan Data Bahan Pokok pada Pasar Tradisional Sumatera Utara Berbasis Website di Disperindag Sumut",
+   "tahun": 2022,
+   "doi": "10.56211/sudo.v1i3.27",
+   "jurnal": "sudo Jurnal Teknik Informatika Vol. 1 No. 3 (2022): Edisi September",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/14660",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.56211/sudo.v1i3.27",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analisis Penerapan Activity-Based Costing dalam Optimalisasi Keputusan Biaya pada Sistem Informasi Berbasis Teknologi",
+   "tahun": 2026,
+   "doi": "10.24114/cess.v11i1.71844",
+   "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol. 11 No. 1 (2026): Januari 2026",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.24114/cess.v11i1.71844",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Pengembangan Aplikasi E-Learning Berbasis Mobile dengan Model Agile untuk Meningkatkan Pembelajaran pada Sekolah Menengah Atas",
+   "tahun": 2026,
+   "doi": "10.30645/jurasik.v11i2.986",
+   "jurnal": "Jurasik (Jurnal Riset Sistem Informasi dan Teknik Informatika) Vol 11, No 2 (2026): Edisi Agustus",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9432",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.30645/jurasik.v11i2.986",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi Metode Multilevel Feedback Queue Untuk Sistem Antrian Pembelian Produk Olahan Susu Sapi",
+   "tahun": 2026,
+   "doi": "10.30645/jurasik.v11i2.983",
+   "jurnal": "Jurasik (Jurnal Riset Sistem Informasi dan Teknik Informatika) Vol 11, No 2 (2026): Edisi Agustus",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9432",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.30645/jurasik.v11i2.983",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Decision Support System for Medical Equipment Supplier Selection Recommendations Using MABAC and SAW Methods",
+   "tahun": 2026,
+   "doi": "10.55537/cosie.v5i3.1873",
+   "jurnal": "Journal of Computer Science and Informatics Engineering Vol 5 No 3 (2026): July",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15325",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.55537/cosie.v5i3.1873",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Model Decision Tree C5.0 untuk Penilaian Lokasi Strategis Pemasangan Media Promosi Luar Ruang",
+   "tahun": 2026,
+   "doi": "10.30743/infotekjar.v11i1.14288",
+   "jurnal": "InfoTekJar : Jurnal Nasional Informatika dan Teknologi Jaringan Vol 11, No 1 (2026): INFO TEKJAR SEPTEMBER",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/433",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.30743/infotekjar.v11i1.14288",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi Metode VIKOR - AHP Dalam Perekrutan Jurnalis pada Kantor Sumut Pos",
+   "tahun": 2024,
+   "doi": "10.30645/jurasik.v9i2.825",
+   "jurnal": "Jurasik (Jurnal Riset Sistem Informasi dan Teknik Informatika) Vol 9, No 2 (2024): Edisi Agustus",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9432",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.30645/jurasik.v9i2.825",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Perancangan Sistem Monitoring Perjalanan Dinas Pada Komisi Pemilihan Umum Provinsi Sumatera Utara Berbasis Web",
+   "tahun": 2024,
+   "doi": "10.30829/algoritma.v8i1.21440",
+   "jurnal": "Algoritma: Jurnal Ilmu Komputer dan Informatika Vol 8, No 1 (2024): April 2024",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13980",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "dedi"
+   ],
+   "url": "https://doi.org/10.30829/algoritma.v8i1.21440",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Evaluasi Performa Support Vector Machine Classifier Terhadap Penyakit Mental",
+   "tahun": 2020,
+   "doi": "10.21456/vol10iss2pp203-210",
+   "jurnal": "JSINBIS (Jurnal Sistem Informasi Bisnis) Vol 10, No 2 (2020): Volume 10 Nomor 2 Tahun 2020",
+   "sinta_jurnal_kini": 2,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/1074",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.21456/vol10iss2pp203-210",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 2,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Prototype of Temperature Control For Cold Chamber Using Fuzzy Based on Microcontroller",
+   "tahun": 2020,
+   "doi": "10.30645/ijistech.v3i2.63",
+   "jurnal": "IJISTECH (International Journal of Information System and Technology) Vol 3, No 2 (2020): May",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5619",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.30645/ijistech.v3i2.63",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "APPLICATION OF SPEED UP ROBUST FEATURES (SURF) AND FEATURES FROM ACCELERATED SEGMENT TEST (FAST) FOR INTRODUCTION OF PLACE",
+   "tahun": 2020,
+   "doi": null,
+   "jurnal": "INFOKUM Vol. 9 No. 1,Desember (2020): Data Mining, Image Processing,artificial intelligence, networking",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7139",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2150599",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "APPLICATION OF SMART ENVIRONMENT WITH FUZZY LOGIC METHOD BASED ON INTERNET OF THINGS",
+   "tahun": 2020,
+   "doi": null,
+   "jurnal": "INFOKUM Vol. 9 No. 1,Desember (2020): Data Mining, Image Processing,artificial intelligence, networking",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7139",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2150602",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "APPLICATION OF FUZZY LOGIC IN AUTOMATIC COOLING COMPUTER DESIGN USING PELTIER BASED ON ATMEGA328 MICROCONTROLLER",
+   "tahun": 2021,
+   "doi": null,
+   "jurnal": "INFOKUM Vol. 10 No. 1 (2021): Desember, Data Mining, Image Processing, and artificial intelligence",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7139",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2484726",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Digital Image Security System Using Spritz Algorithm",
+   "tahun": 2021,
+   "doi": null,
+   "jurnal": "INFOKUM Vol. 10 No. 1 (2021): Desember, Data Mining, Image Processing, and artificial intelligence",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7139",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2619773",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementation Of Sugeno Fuzzy Logic Method On Microcontroller Based On Tomato Sorter",
+   "tahun": 2021,
+   "doi": null,
+   "jurnal": "INFOKUM Vol. 10 No. 1 (2021): Desember, Data Mining, Image Processing, and artificial intelligence",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7139",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2739065",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Edge Detection To Detect Broken Bone On X-Ray Images Using Kirsch Method",
+   "tahun": 2021,
+   "doi": null,
+   "jurnal": "INFOKUM Vol. 10 No. 1 (2021): Desember, Data Mining, Image Processing, and artificial intelligence",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7139",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2739066",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Validasi Keaslian Dokumen Digital Berbasis QR-Code",
+   "tahun": 2020,
+   "doi": "10.36294/jurti.v4i2.1722",
+   "jurnal": "(JurTI) Jurnal Teknologi Informasi Vol 4, No 2 (2020): DESEMBER 2020",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5604",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.36294/jurti.v4i2.1722",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "RANCANG BANGUN APLIKASI PENGAMAN ISI FILE DOKUMEN DENGAN ALGORITMA RSA",
+   "tahun": 2017,
+   "doi": "10.30829/algoritma.v1i01.1309",
+   "jurnal": "ALGORITMA : JURNAL ILMU KOMPUTER DAN INFORMATIKA Vol 1, No 01 (2017): November 2017",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13980",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.30829/algoritma.v1i01.1309",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Model Prediksi Kelulusan Mahasiswa Tepat Waktu dengan Metode Naïve Bayes",
+   "tahun": 2022,
+   "doi": "10.29408/edumatic.v6i1.4789",
+   "jurnal": "Jurnal Pendidikan Informatika (EDUMATIC) Vol 6, No 1 (2022): Edumatic: Jurnal Pendidikan Informatika",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4682",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.29408/edumatic.v6i1.4789",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Document Based Text Data Security Using the Prime Generator Algorithm Fermat's and the ElGamal Algorithm",
+   "tahun": 2021,
+   "doi": null,
+   "jurnal": "INFOKUM Vol. 10 No. 1 (2021): Desember, Data Mining, Image Processing, and artificial intelligence",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7139",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2861446",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PROTOTYPE ROAD GUIDE TOOL FOR BLIND PEOPLE BASED ON FUZZY LOGIC",
+   "tahun": 2022,
+   "doi": null,
+   "jurnal": "INFOKUM Vol. 10 No. 03 (2022): August, Data Mining, Image Processing, and artificial intelligence",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7139",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3037056",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penentuan Rute Dan Tarif Perjalanan Angkutan Umum Di Kota Medan Menggunakan Algoritma A*",
+   "tahun": 2023,
+   "doi": "10.53513/jsk.v6i1.7402",
+   "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol. 6 No. 1 (2023): J-SISKO TECH EDISI JANUARI",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9035",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.53513/jsk.v6i1.7402",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Natural Language Processing Pada Aplikasi Chatbot Info Layanan Kantor Menggunakan Naive Bayes Algorithm",
+   "tahun": 2023,
+   "doi": "10.53513/jsk.v6i1.7413",
+   "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol. 6 No. 1 (2023): J-SISKO TECH EDISI JANUARI",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9035",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.53513/jsk.v6i1.7413",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "DESIGN AND CONSTRUCTION OF CAR RENTAL MONITORING SYSTEM BASED ON MICROCONTROLLER INTEGRATED THROUGH SMARTPHONE USING FUZZY MAMDANI METHOD",
+   "tahun": 2022,
+   "doi": null,
+   "jurnal": "INFOKUM Vol. 10 No. 02 (2022): Juni, Data Mining, Image Processing, and artificial intelligence",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7139",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3037041",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi Algoritma Knuth Morris Pratt Dalam Pencocokan String Pada Kamus Indonesia–Korea",
+   "tahun": 2023,
+   "doi": "10.30865/json.v5i1.6149",
+   "jurnal": "Jurnal Sistem Komputer dan Informatika (JSON) Vol 5, No 1 (2023): September 2023",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8054",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.30865/json.v5i1.6149",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Prediksi Hasil Panen Pertanian Salak di Daerah Tapanuli Selatan Menggunakan Algoritma SVM (Support Vector Machine)",
+   "tahun": 2023,
+   "doi": "10.30865/klik.v4i2.1246",
+   "jurnal": "KLIK: Kajian Ilmiah Informatika dan Komputer Vol. 4 No. 2 (2023): Oktober 2023",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10375",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.30865/klik.v4i2.1246",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "APPLICATION OF THE ELGAMAL ALGORITHM TO WEB-BASED TEXT MESSAGE SECURITY",
+   "tahun": 2022,
+   "doi": null,
+   "jurnal": "INFOKUM Vol. 10 No. 02 (2022): Juni, Data Mining, Image Processing, and artificial intelligence",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7139",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3727941",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Prediksi Harga Tandan Buah Segar dengan Algoritma K-Nearest Neighbor",
+   "tahun": 2023,
+   "doi": "10.30865/json.v5i1.6818",
+   "jurnal": "Jurnal Sistem Komputer dan Informatika (JSON) Vol 5, No 1 (2023): September 2023",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8054",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.30865/json.v5i1.6818",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Scheduling Subject used Genetical Algoritms (Case Studies: SMP Negeri 1 Delitua)",
+   "tahun": 2024,
+   "doi": "10.35335/mantik.v7i4.4792",
+   "jurnal": "Jurnal Mantik Vol. 7 No. 4 (2024): February: Manajemen, Teknologi Informatika dan Komunikasi (Mantik)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/6343",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.35335/mantik.v7i4.4792",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PENERAPAN METODE GRAY LEVEL CO-OCCURRENCE MATRIX DAN KNN UNTUK MENDETEKSI TINGKAT KEMATANGAN BUAH MENGKUDU",
+   "tahun": 2024,
+   "doi": "10.54314/jssr.v7i2.1836",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 7, No 2 (2024): May 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v7i2.1836",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PROTOTYPE ALAT PENGATUR TEMPERATUR RUANG KERJA PADA RUMAH MENGGUNAKAN LOGIKA FUZZY TSUKAMOTO BERBASIS IOT",
+   "tahun": 2024,
+   "doi": "10.54314/jssr.v7i1.1714",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 7, No 1 (2024): February 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v7i1.1714",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "ANALISIS PERBANDINGAN ALGORITMA HARMONIC MEAN FILTER DAN GEOMETRIC MEAN FILTER UNTUK REDUKSI GAUSSIAN NOISE PADA CITRA DIGITAL",
+   "tahun": 2024,
+   "doi": "10.54314/jssr.v7i2.1869",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 7, No 2 (2024): May 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v7i2.1869",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "SISTEM KENDALI SUHU PADA KANDANG DOC BERBASIS MIKROKONTROLER ARDUINO UNO DENGAN METODE LOGIKA FUZZY MAMDANI",
+   "tahun": 2024,
+   "doi": "10.54314/jssr.v7i2.1935",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 7, No 2 (2024): May 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v7i2.1935",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sentiment Analysis Of Indonesian State Army Police Neutrality Sentiment Towards The 2024 Election On X Using The Support Vector Machine Algorithm",
+   "tahun": 2024,
+   "doi": "10.33395/sinkron.v8i3.13841",
+   "jurnal": "Sinkron : jurnal dan penelitian teknik informatika Vol. 8 No. 3 (2024): Research Artikel Volume 8 Issue 3, July 2024",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3320",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.33395/sinkron.v8i3.13841",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Using Fuzzy Tsukamoto Method In Forecasting The Amount Medication Requrementsat In The Hospital",
+   "tahun": 2024,
+   "doi": "10.33395/sinkron.v8i3.13926",
+   "jurnal": "Sinkron : jurnal dan penelitian teknik informatika Vol. 8 No. 3 (2024): Research Artikel Volume 8 Issue 3, July 2024",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3320",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.33395/sinkron.v8i3.13926",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "APLIKASI PENERJEMAH BAHASA BATAK TOBA KE BAHASA INDONESIA MENGGUNAKAN ALGORITMA BOYER MOORE BERBASIS ANDROID",
+   "tahun": 2024,
+   "doi": "10.51876/simtek.v9i1.364",
+   "jurnal": "Simtek : jurnal sistem informasi dan teknik komputer Vol. 9 No. 1 (2024): April 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9123",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.51876/simtek.v9i1.364",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Design and Development of A Web-Based Internet Complaint Information System using A Rule-Based Method at PT Integra Kreasitama Solusindo",
+   "tahun": 2024,
+   "doi": "10.30645/ijistech.v8i2.355",
+   "jurnal": "IJISTECH (International Journal of Information System and Technology) Vol 8, No 2 (2024): The August edition",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5619",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.30645/ijistech.v8i2.355",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sentiment Analysis of Public Comments on Coldplay Concerts on Twitter Using the Naïve Bayes Method",
+   "tahun": 2024,
+   "doi": "10.47709/cnahpc.v6i3.4202",
+   "jurnal": "Journal of Computer Networks, Architecture and High Performance Computing Vol. 6 No. 3 (2024): Articles Research Volume 6 Issue 3, July 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7735",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47709/cnahpc.v6i3.4202",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Algoritma Support Vector Machine Untuk Mendeteksi Autisme",
+   "tahun": 2024,
+   "doi": "10.47065/josyc.v5i4.5692",
+   "jurnal": "Journal of Computer System and Informatics (JoSYC) Vol 5 No 4 (2024): August 2024",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8861",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47065/josyc.v5i4.5692",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sentiment Analysis towards Full Movie Dirty Vote 2024 in X Using Support Vector Machine Method",
+   "tahun": 2024,
+   "doi": "10.37899/journallamultiapp.v5i4.1459",
+   "jurnal": "Journal La Multiapp Vol. 5 No. 4 (2024): Journal La Multiapp",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10973",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.37899/journallamultiapp.v5i4.1459",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Prototype of Microcontroller Based Water Pump Control System for Lettuce Plants Using Fuzzy Tsukamoto",
+   "tahun": 2024,
+   "doi": "10.37899/journallamultiapp.v5i4.1462",
+   "jurnal": "Journal La Multiapp Vol. 5 No. 4 (2024): Journal La Multiapp",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10973",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.37899/journallamultiapp.v5i4.1462",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi K-Means Clustering dalam Mengklasifikasi Pengaruh Les Terhadap Prestasi Siswa dengan Metode Elbow",
+   "tahun": 2024,
+   "doi": "10.47065/josyc.v6i1.6201",
+   "jurnal": "Journal of Computer System and Informatics (JoSYC) Vol 6 No 1 (2024): November 2024",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8861",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47065/josyc.v6i1.6201",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi Metode Vikor Dalam Perekrutan Pegawai Tetap dan Cadangan Pada Mandali Packaging",
+   "tahun": 2024,
+   "doi": "10.47065/josyc.v6i1.6290",
+   "jurnal": "Journal of Computer System and Informatics (JoSYC) Vol 6 No 1 (2024): November 2024",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8861",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47065/josyc.v6i1.6290",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Classification of The Level of Public Satisfaction With the Use of Water Tourism Jetski in Balai Ujung Tanjung Using the Naïve Bayes Algorithm",
+   "tahun": 2024,
+   "doi": "10.24014/ijaidm.v7i2.32761",
+   "jurnal": "Indonesian Journal of Artificial Intelligence and Data Mining Vol 7, No 2 (2024): September 2024",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/6365",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.24014/ijaidm.v7i2.32761",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Application of Canny Method to Detect Vehicle License Plate in Tanjung Balai City Government Mess Area",
+   "tahun": 2024,
+   "doi": "10.24014/ijaidm.v7i2.32426",
+   "jurnal": "Indonesian Journal of Artificial Intelligence and Data Mining Vol 7, No 2 (2024): September 2024",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/6365",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.24014/ijaidm.v7i2.32426",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi Algoritma K-Means untuk Pengelompokan Data Penjualan Berdasarkan Pola Penjualan: Implementation of K-Means Algorithm for Clustering Sales Data Based on Sales Patterns",
+   "tahun": 2025,
+   "doi": "10.57152/malcom.v5i1.1773",
+   "jurnal": "MALCOM: Indonesian Journal of Machine Learning and Computer Science Vol. 5 No. 1 (2025): MALCOM January 2025",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11292",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.57152/malcom.v5i1.1773",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analysis Of Opinion Sentiment Towards Electric Vehicle Tax On Social Media X Using The Support Vector Machine (SVM) Method",
+   "tahun": 2024,
+   "doi": "10.47709/cnahpc.v6i4.4739",
+   "jurnal": "Journal of Computer Networks, Architecture and High Performance Computing Vol. 6 No. 4 (2024): Articles Research October 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7735",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47709/cnahpc.v6i4.4739",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Measuring Water Content in Hydroponic Plants Based on PH Values and Nutriens Using Fuzzy Logic Microcontroller Based Tsukamoto",
+   "tahun": 2024,
+   "doi": "10.47709/cnahpc.v6i4.4764",
+   "jurnal": "Journal of Computer Networks, Architecture and High Performance Computing Vol. 6 No. 4 (2024): Articles Research October 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7735",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47709/cnahpc.v6i4.4764",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analysis of Drug Sales Patterns in the Belawan Naval Hospital Pharmacy Using Apriori Algorithm",
+   "tahun": 2024,
+   "doi": "10.47709/cnahpc.v6i4.4805",
+   "jurnal": "Journal of Computer Networks, Architecture and High Performance Computing Vol. 6 No. 4 (2024): Articles Research October 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7735",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47709/cnahpc.v6i4.4805",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Prediction of the Number of Patient Visits in a Psychiatric Hospital Prof. Dr. M. Ildrem Using Naive Bayesian Algorithm",
+   "tahun": 2025,
+   "doi": "10.47709/cnahpc.v7i1.5145",
+   "jurnal": "Journal of Computer Networks, Architecture and High Performance Computing Vol. 7 No. 1 (2025): Article Research January 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7735",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47709/cnahpc.v7i1.5145",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Web-Based Monitoring Information System for Official Travel Letters on Food Security and North Sumatera Horticulture",
+   "tahun": 2025,
+   "doi": "10.20895/dinda.v5i1.1789",
+   "jurnal": "Indonesian Journal of Data Science, IoT, Machine Learning and Informatics Vol 5 No 1 (2025): February",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11755",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.20895/dinda.v5i1.1789",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Stock Information System for All Smartphone Brands Using Barcode",
+   "tahun": 2025,
+   "doi": "10.20895/dinda.v5i1.1790",
+   "jurnal": "Indonesian Journal of Data Science, IoT, Machine Learning and Informatics Vol 5 No 1 (2025): February",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11755",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.20895/dinda.v5i1.1790",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "SISTEM INFORMASI PREDIKSI HASIL PANEN KELAPA SAWIT BERDASARKAN DATA PRODUKSI TBS DENGAN MENGGUNAKAN METODE DOUBLE EKSPONENTIAL SMOOTHING",
+   "tahun": 2025,
+   "doi": "10.51401/jinteks.v7i1.5549",
+   "jurnal": "Jurnal Informatika Teknologi dan Sains (Jinteks) Vol 7 No 1 (2025): EDISI 23",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8942",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.51401/jinteks.v7i1.5549",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PENERAPAN ALGORITMA K-MEANS CLUSTERING DALAM MENENTUKAN PELUANG MASUK SISWA KE UNIVERSITAS NEGERI",
+   "tahun": 2025,
+   "doi": "10.51401/jinteks.v7i1.5586",
+   "jurnal": "Jurnal Informatika Teknologi dan Sains (Jinteks) Vol 7 No 1 (2025): EDISI 23",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8942",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.51401/jinteks.v7i1.5586",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Application of the C4.5 Algorithm for Predicting Banana Chips Production Demand (Case Study at UD. Sinar Sejahtera Medan)",
+   "tahun": 2024,
+   "doi": "10.36378/jtos.v7i2.3975",
+   "jurnal": "JURNAL TEKNOLOGI DAN OPEN SOURCE Vol. 7 No. 2 (2024): Jurnal Teknologi dan Open Source, December 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5936",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.36378/jtos.v7i2.3975",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analisis Sentimen Terhadap Kinerja Program Walikota Medan pada Media Sosial X Menggunakan Support Vector Machine: Sentiment Analysis of The Performance of Medan Mayor Program on Social Media X Using Support Vector Machine",
+   "tahun": 2024,
+   "doi": "10.57152/malcom.v4i4.1685",
+   "jurnal": "MALCOM: Indonesian Journal of Machine Learning and Computer Science Vol. 4 No. 4 (2024): MALCOM October 2024",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11292",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.57152/malcom.v4i4.1685",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analisis Sentimen pada Ulasan Aplikasi Sirekap di Google Play Menggunakan Algoritma Naive Bayes: Sentiment Analysis on Sirekap App Reviews on Google Play Using Naive Bayes Algorithm",
+   "tahun": 2024,
+   "doi": "10.57152/malcom.v4i4.1693",
+   "jurnal": "MALCOM: Indonesian Journal of Machine Learning and Computer Science Vol. 4 No. 4 (2024): MALCOM October 2024",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11292",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.57152/malcom.v4i4.1693",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Peramalan Jumlah Permintaan Container Dengan Algoritma Regresi Linear",
+   "tahun": 2024,
+   "doi": "10.47065/josh.v6i1.6047",
+   "jurnal": "Journal of Information System Research (JOSH) Vol 6 No 1 (2024): Oktober 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8355",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47065/josh.v6i1.6047",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analisis Sentimen Menggunakan Metode Naïve Bayes Tentang Program Mudik Gratis Pemerintah Kota Medan 2024",
+   "tahun": 2024,
+   "doi": "10.24114/cess.v10i1.65930",
+   "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol. 10 No. 1 (2025): Januari 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.24114/cess.v10i1.65930",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PENERAPAN ALGORITMA RANDOM FOREST UNTUK PREDIKSI PEJUALAN DAN PERSEDIAN PRODUK PADA TOKO FROZEN FOOD ANISA",
+   "tahun": 2025,
+   "doi": "10.51401/jinteks.v7i2.5760",
+   "jurnal": "Jurnal Informatika Teknologi dan Sains (Jinteks) Vol 7 No 2 (2025): EDISI 24",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8942",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.51401/jinteks.v7i2.5760",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Pendukung Keputusan Penerima Bantuan Usaha Mikro Menggunakan Metode AHP dan SAW Berbasis Web",
+   "tahun": 2025,
+   "doi": "10.30829/jistech.v10i1.24159",
+   "jurnal": "JISTech (Journal of Islamic Science and Technology) Vol 10, No 1 (2025)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11879",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.30829/jistech.v10i1.24159",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Clustering pada Sistem Informasi Pengaduan Masyarakat Fitur Geolokasi untuk Penanganan Kasus Kriminal",
+   "tahun": 2025,
+   "doi": "10.47002/metik.v9i1.1035",
+   "jurnal": "METIK JURNAL (AKREDITASI SINTA 3) Vol. 9 No. 1 (2025): METIK Jurnal",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/589",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47002/metik.v9i1.1035",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Classification eligibility recipient BPJS in ward sendang sari using the naive bayes method",
+   "tahun": 2025,
+   "doi": "10.35335/mandiri.v14i1.405",
+   "jurnal": "Jurnal Mandiri IT Vol. 14 No. 1 (2025): July: Computer Science and Field.",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8971",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.35335/mandiri.v14i1.405",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Port Risk Mitigation with FMEA Method on Port Operational Information System at PT. Pelindo (Persero) Sibolga Branch: Case Study at Port of Sibolga",
+   "tahun": 2025,
+   "doi": "10.31289/jite.v9i1.15400",
+   "jurnal": "JOURNAL OF INFORMATICS AND TELECOMMUNICATION ENGINEERING Vol. 9 No. 1 (2025): Issues July 2025",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4143",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.31289/jite.v9i1.15400",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sentiment analysis towards naturalization of Indonesian National Team Players on social media x using the Naive Bayes method",
+   "tahun": 2025,
+   "doi": "10.35335/mandiri.v14i1.412",
+   "jurnal": "Jurnal Mandiri IT Vol. 14 No. 1 (2025): July: Computer Science and Field.",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8971",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.35335/mandiri.v14i1.412",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Forecasting building permit submissions with fuzzy time series at DPMPTSP Medan",
+   "tahun": 2025,
+   "doi": "10.35335/mandiri.v14i1.444",
+   "jurnal": "Jurnal Mandiri IT Vol. 14 No. 1 (2025): July: Computer Science and Field.",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8971",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.35335/mandiri.v14i1.444",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementation of the K-Nearest Neighbor Algorithm for Birth Rate Prediction",
+   "tahun": 2025,
+   "doi": "10.30871/jaic.v9i4.9886",
+   "jurnal": "Journal of Applied Informatics and Computing Vol. 9 No. 4 (2025): August 2025",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4696",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.30871/jaic.v9i4.9886",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi Metode Fuzzy Mamdani Untuk Pemilihan Keramik Rumah Bangunan",
+   "tahun": 2025,
+   "doi": "10.54209/jatilima.v7i03.1644",
+   "jurnal": "Jurnal Multimedia dan Teknologi Informasi (Jatilima) Vol. 7 No. 03 (2025): Jatilima : Jurnal Multimedia Dan Teknologi Informasi",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10953",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.54209/jatilima.v7i03.1644",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sentiment analysis of privacy issues in the digital era using the naïve bayes method",
+   "tahun": 2025,
+   "doi": "10.35335/mandiri.v14i2.450",
+   "jurnal": "Jurnal Mandiri IT Vol. 14 No. 2 (2025): Computer Science and Field",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8971",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.35335/mandiri.v14i2.450",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Rekomendasi Pemilihan Saham Blue-Chip di Bursa Efek Indonesia Menggunakan Fuzzy Mamdani",
+   "tahun": 2025,
+   "doi": "10.47065/tin.v6i5.8465",
+   "jurnal": "TIN: Terapan Informatika Nusantara Vol 6 No 5 (2025): October 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10960",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47065/tin.v6i5.8465",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Text Mining Pada Sistem Penyeleksian Judul Skripsi Menggunakan Algoritma Latent Dirichlet Allocation(LDA)",
+   "tahun": 2022,
+   "doi": "10.33022/ijcs.v11i3.3120",
+   "jurnal": "The Indonesian Journal of Computer Science Vol. 11 No. 3 (2022): The Indonesian Journal of Computer Science",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4997",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.33022/ijcs.v11i3.3120",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analisis Sentimen Mengenai Childfree Menggunakan Metode Naïve Bayes: Analisis Sentimen Mengenai Childfree Menggunakan Metode Naïve Bayes",
+   "tahun": 2024,
+   "doi": "10.33022/ijcs.v13i4.4136",
+   "jurnal": "The Indonesian Journal of Computer Science Vol. 13 No. 4 (2024): The Indonesian Journal of Computer Science",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4997",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.33022/ijcs.v13i4.4136",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Pencarian Rute Terpendek Dalam Pendistribusian Darah di Palang Merah Indonesia (PMI) dengan Algoritma Dijkstra",
+   "tahun": 2024,
+   "doi": "10.47065/tin.v4i11.5028",
+   "jurnal": "TIN: Terapan Informatika Nusantara Vol 4 No 11 (2024): April 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10960",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47065/tin.v4i11.5028",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Hyperparameter Optimization of Naive Bayes for Supervisor Recommendation in Computer Science",
+   "tahun": 2025,
+   "doi": "10.47065/tin.v6i5.8478",
+   "jurnal": "TIN: Terapan Informatika Nusantara Vol 6 No 5 (2025): October 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10960",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47065/tin.v6i5.8478",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Pengatur Temperatur Minuman pada Dispenser Berbasis Mikrokontroler dengan Logika Fuzzy Mamdani",
+   "tahun": 2024,
+   "doi": "10.32493/jtsi.v7i1.37925",
+   "jurnal": "Jurnal Teknologi Sistem Informasi dan Aplikasi Vol. 7 No. 1 (2024): Jurnal Teknologi Sistem Informasi dan Aplikasi",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10336",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.32493/jtsi.v7i1.37925",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Algoritma Backpropagation untuk Prediksi Hasil Panen Padi di Kabupaten Labuhan Batu Utara",
+   "tahun": 2024,
+   "doi": "10.32493/jtsi.v7i1.38318",
+   "jurnal": "Jurnal Teknologi Sistem Informasi dan Aplikasi Vol. 7 No. 1 (2024): Jurnal Teknologi Sistem Informasi dan Aplikasi",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10336",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.32493/jtsi.v7i1.38318",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sentiment Analysis in Determining Service Performance between In-Driver and Gojek based on Public Opinion using the Naive Bayes Method",
+   "tahun": 2024,
+   "doi": "10.32520/stmsi.v13i3.4156",
+   "jurnal": "Sistemasi: Jurnal Sistem Informasi Vol 13, No 3 (2024): Sistemasi: Jurnal Sistem Informasi",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3323",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.32520/stmsi.v13i3.4156",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Metode PID pada Sistem Pemberi Pakan Kucing Otomatis Berbasis IOT (Internet of Things)",
+   "tahun": 2025,
+   "doi": "10.47467/visa.v5i1.5772",
+   "jurnal": "VISA: Journal of Vision and Ideas Vol. 5 No. 1 (2025): Journal of Vision and Ideas (VISA)",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11024",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat",
+    "aidil"
+   ],
+   "url": "https://doi.org/10.47467/visa.v5i1.5772",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Pendukung Keputusan Menggunakan Metode MABAC Dalam Sistem Informasi Bedah Rumah",
+   "tahun": 2024,
+   "doi": "10.47065/josh.v5i4.5549",
+   "jurnal": "Journal of Information System Research (JOSH) Vol 5 No 4 (2024): Juli 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8355",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47065/josh.v5i4.5549",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Informasi Absensi Pegawai Menggunakan Location Based Service pada Kantor Camat Berbasis Website",
+   "tahun": 2024,
+   "doi": "10.47065/josh.v5i4.5568",
+   "jurnal": "Journal of Information System Research (JOSH) Vol 5 No 4 (2024): Juli 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8355",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47065/josh.v5i4.5568",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analisis Sentimen Pengguna Terhadap Layanan Aplikasi Seabank Indonesia di Instagram Menggunakan Metode Support Vector Machine",
+   "tahun": 2024,
+   "doi": "10.47065/josh.v5i4.5620",
+   "jurnal": "Journal of Information System Research (JOSH) Vol 5 No 4 (2024): Juli 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8355",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47065/josh.v5i4.5620",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analisis Sentimen Terhadap Kesehatan Mental Remaja Menggunakan Metode Naive Bayes",
+   "tahun": 2024,
+   "doi": "10.47065/josh.v5i4.5644",
+   "jurnal": "Journal of Information System Research (JOSH) Vol 5 No 4 (2024): Juli 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8355",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47065/josh.v5i4.5644",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Implementasi Metode ROC dan MABAC pada Aplikasi Pemberian Sanksi Pelanggaran Kedisiplinan Siswa",
+   "tahun": 2025,
+   "doi": "10.24114/cess.v10i2.67144",
+   "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol. 10 No. 2 (2025): Juli 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.24114/cess.v10i2.67144",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Prototype Sistem Pemantauan Kebocoran Gas LPG Menggunakan Sensor MQ-5 dan DHT11 dengan Metode Fuzzy Mamdani",
+   "tahun": 2025,
+   "doi": "10.24114/cess.v10i2.67148",
+   "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol. 10 No. 2 (2025): Juli 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.24114/cess.v10i2.67148",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Antrian Pasien Berbasis Web Dengan Algoritma Circular Queue Pada Klinik Pratama Rawat Inap Ar-Razi",
+   "tahun": 2025,
+   "doi": "10.24114/cess.v10i2.67447",
+   "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol. 10 No. 2 (2025): Juli 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.24114/cess.v10i2.67447",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "RANCANG BANGUN SISTEM KONTROL SUHU, KELEMBABAN DAN CAHAYA PADA RUMAH WALET MENGGUNAKAN FUZZY BERBASIS MIKROKONTROLER",
+   "tahun": 2025,
+   "doi": "10.54314/jssr.v8i4.4684",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 8, No 4 (2025): November 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat",
+    "aidil"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v8i4.4684",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PERANCANGAN SISTEM E-COMMERCE J2 KOPI TAKENGON BERBASIS WEB MENGGUNAKAN METODE CONTENT-BASED FILTERING",
+   "tahun": 2025,
+   "doi": "10.55123/storage.v4i4.6578",
+   "jurnal": "STORAGE: Jurnal Ilmiah Teknik dan Ilmu Komputer Vol. 4 No. 4 (2025): November",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/14870",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.55123/storage.v4i4.6578",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "REDUKSI DIMENSI PADA KLASIFIKASI DATA KANKER PROSTAT MENGGUNAKAN PRINCIPAL COMPONENT ANALYSIS DAN RANDOM FOREST",
+   "tahun": 2026,
+   "doi": "10.54314/jssr.v9i1.5856",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 9, No 1 (2026): February 2026",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": 4,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v9i1.5856",
+   "tipe_peringkat": "periode_terbit",
+   "peringkat_tampilan": 4,
+   "jenis_label": "tahun_terbit"
+  },
+  {
+   "judul": "Prototipe Sistem Cerdas dalam Pengairan Rumah Tangga Berbasis IOT Menggunakan Metode Logika Fuzzy Sugeno",
+   "tahun": 2026,
+   "doi": "10.30865/json.v7i3.9661",
+   "jurnal": "Jurnal Sistem Komputer dan Informatika (JSON) Vol. 7 No. 3 (2026): Maret 2026",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": 3,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8054",
+   "sinta_bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.30865/json.v7i3.9661",
+   "tipe_peringkat": "periode_terbit",
+   "peringkat_tampilan": 3,
+   "jenis_label": "tahun_terbit"
+  },
+  {
+   "judul": "Penerapan Text Mining Pada Sistem Rekomendasi Pembimbing Skripsi Mahasiswa Menggunakan Algoritma Naive Bayes Classifier di Program Studi Ilmu Komputer UIN Sumatera Utara Medan",
+   "tahun": 2023,
+   "doi": "10.33022/ijcs.v12i6.3500",
+   "jurnal": "The Indonesian Journal of Computer Science Vol. 12 No. 6 (2023): The Indonesian Journal of Computer Science",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4997",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.33022/ijcs.v12i6.3500",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Pendukung Keputusan Penerimaan Dana Bantuan Sosial Menggunakan Algoritma Decision Tree (C5.0) Di Kantor Desa Blankahan",
+   "tahun": 2026,
+   "doi": "10.31294/simpatik.v6i1.12598",
+   "jurnal": "Simpatik: Jurnal Sistem Informasi dan Informatika Vol. 6 No. 1 (2026): Juni 2026",
+   "sinta_jurnal_kini": null,
+   "sinta_saat_terbit": 5,
+   "sinta_url": null,
+   "sinta_bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.31294/simpatik.v6i1.12598",
+   "tipe_peringkat": "periode_terbit",
+   "peringkat_tampilan": 5,
+   "jenis_label": "tahun_terbit"
+  },
+  {
+   "judul": "Analisis Sentimen Publik Terhadap Revisi UU TNI 2025 Menggunakan Algoritma Naïve Bayes",
+   "tahun": 2025,
+   "doi": "10.70340/jirsi.v5i2.380",
+   "jurnal": "Jurnal Ilmu Komputer dan Sistem Informasi Vol. 5 No. 2 (2025): Mei 2026",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/16614",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.70340/jirsi.v5i2.380",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Algoritma K-Means Dalam Pengelompokan UMKM Berdasarkan Potensi Pertumbuhan Berbasis Web",
+   "tahun": 2026,
+   "doi": "10.62712/juktisi.v5i1.1037",
+   "jurnal": "Jurnal Komputer Teknologi Informasi Sistem Komputer (JUKTISI) Vol. 5 No. 1 (2026): Juni 2026",
+   "sinta_jurnal_kini": null,
+   "sinta_saat_terbit": 4,
+   "sinta_url": null,
+   "sinta_bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.62712/juktisi.v5i1.1037",
+   "tipe_peringkat": "periode_terbit",
+   "peringkat_tampilan": 4,
+   "jenis_label": "tahun_terbit"
+  },
+  {
+   "judul": "Analysis of Public Sentiment Towards Retired Military Officers' Pressure to Impeach the Vice President Through X Using Decision Tree",
+   "tahun": 2025,
+   "doi": "10.36378/jtos.v8i2.5138",
+   "jurnal": "JURNAL TEKNOLOGI DAN OPEN SOURCE Vol. 8 No. 2 (2025): Jurnal Teknologi dan Open Source, December 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5936",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.36378/jtos.v8i2.5138",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Klasifikasi Teks Komentar Pengguna Aplikasi Access By Kai di Google Play Store Menggunakan Metode Naïve Bayes",
+   "tahun": 2025,
+   "doi": "10.47065/bulletincsr.v5i4.575",
+   "jurnal": "Bulletin of Computer Science Research Vol. 5 No. 4 (2025): June 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9602",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47065/bulletincsr.v5i4.575",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Klasifikasi Tingkat Kepuasan Peserta Pelatihan Balai Besar Pelatihan Vokasi dan Produktivitas Menggunakan Algoritma C5.0",
+   "tahun": 2025,
+   "doi": "10.47065/bulletincsr.v5i5.733",
+   "jurnal": "Bulletin of Computer Science Research Vol. 5 No. 5 (2025): August 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9602",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47065/bulletincsr.v5i5.733",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Naive Bayes dalam Mengidentifikasi Penyebab Remaja Desa Terlibat dalam Judi Online",
+   "tahun": 2026,
+   "doi": "10.47065/tin.v6i9.9350",
+   "jurnal": "TIN: Terapan Informatika Nusantara Vol 6 No 9 (2026): February 2026",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": 4,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10960",
+   "sinta_bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47065/tin.v6i9.9350",
+   "tipe_peringkat": "periode_terbit",
+   "peringkat_tampilan": 4,
+   "jenis_label": "tahun_terbit"
+  },
+  {
+   "judul": "Implementasi Metode Canny dalam Sistem Penempatan Foto Kartu Identitas Siswa Otomatis",
+   "tahun": 2026,
+   "doi": "10.47065/tin.v6i11.9674",
+   "jurnal": "TIN: Terapan Informatika Nusantara Vol 6 No 11 (2026): April 2026",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": 4,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10960",
+   "sinta_bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.47065/tin.v6i11.9674",
+   "tipe_peringkat": "periode_terbit",
+   "peringkat_tampilan": 4,
+   "jenis_label": "tahun_terbit"
+  },
+  {
+   "judul": "Implementasi Internet of Thing (IoT) untuk Monitoring dan Kontrol Energi Listrik Rumah Tangga Menggunakan Fuzzy Tsukamoto",
+   "tahun": 2026,
+   "doi": "10.24114/cess.v11i1.72110",
+   "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol. 11 No. 1 (2026): Januari 2026",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": 4,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+   "sinta_bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.24114/cess.v11i1.72110",
+   "tipe_peringkat": "periode_terbit",
+   "peringkat_tampilan": 4,
+   "jenis_label": "tahun_terbit"
+  },
+  {
+   "judul": "Implementasi Konsumsi Energi Listrik Perabotan Rumah Tangga Berbasis IoT Menggunakan ESP-32, Sensor PZEM 004T dan Fuzzy Mamdani",
+   "tahun": 2026,
+   "doi": "10.24114/cess.v11i1.72255",
+   "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol. 11 No. 1 (2026): Januari 2026",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": 4,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+   "sinta_bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.24114/cess.v11i1.72255",
+   "tipe_peringkat": "periode_terbit",
+   "peringkat_tampilan": 4,
+   "jenis_label": "tahun_terbit"
+  },
+  {
+   "judul": "Patient Visit Prediction Using the C5.0 Algorithm at Regina Maris Hospital",
+   "tahun": 2026,
+   "doi": "10.55537/cosie.v5i2.1670",
+   "jurnal": "Journal of Computer Science and Informatics Engineering Vol 5 No 2 (2026): April",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15325",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.55537/cosie.v5i2.1670",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Design and Evaluation of a Web-Based Employee Performance Appraisal System Using Weighted Key Performance Indicators",
+   "tahun": 2026,
+   "doi": "10.55537/j-ibm.v6i1.1783",
+   "jurnal": "Jurnal IPTEK Bagi Masyarakat Vol 6 No 1 (2026)",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13148",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.55537/j-ibm.v6i1.1783",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Decision Tree Classification of Rule-Based MSME Sector Labels for Widowed and Divorced Women Using Socioeconomic Factors",
+   "tahun": 2026,
+   "doi": "10.55537/j-ibm.v6i1.1820",
+   "jurnal": "Jurnal IPTEK Bagi Masyarakat Vol 6 No 1 (2026)",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13148",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.55537/j-ibm.v6i1.1820",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Design and Development of a Web-Based Elderly Health Monitoring Information System",
+   "tahun": 2026,
+   "doi": "10.55537/j-ibm.v6i2.1923",
+   "jurnal": "Jurnal IPTEK Bagi Masyarakat Vol 6 No 2 (2026)",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13148",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "rakhmat"
+   ],
+   "url": "https://doi.org/10.55537/j-ibm.v6i2.1923",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analisis Routing EIGRP dalam Menentukan Router yang dilalui pada WAN",
+   "tahun": 2017,
+   "doi": null,
+   "jurnal": "Sinkron : jurnal dan penelitian teknik informatika Vol. 1 No. 2 (2017): SinkrOn Volume 1 Nomor 2 April 2017",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3320",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1502417",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "ENKRIPSI DATA DENGAN ALGORITMA KRIPTROGRAFI NOEKEON",
+   "tahun": 2017,
+   "doi": "10.24114/cess.v2i1.4966",
+   "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol 2, No 1 (2017): Januari 2017",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.24114/cess.v2i1.4966",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "ANALISIS PEMBERIAN BANDWIDTH PADA ROUTER DENGAN MENGGUNAKAN PROTOKOL EIGRP DALAM MENENTUKAN KECEPATAN DATA YANG DILALUI PADA WAN",
+   "tahun": 2019,
+   "doi": "10.30829/jistech.v4i1.5447",
+   "jurnal": "JISTech (Journal of Islamic Science and Technology) Vol 4, No 1 (2019)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11879",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.30829/jistech.v4i1.5447",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PERANCANGAN SISTEM INFORMASI JADWAL KEGIATAN PEGAWAI BERBASIS WEB",
+   "tahun": 2023,
+   "doi": "10.51876/simtek.v8i1.173",
+   "jurnal": "Simtek : jurnal sistem informasi dan teknik komputer Vol. 8 No. 1 (2023): April 2023",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9123",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.51876/simtek.v8i1.173",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "IMPLEMENTASI DATA MINING PADA PERSEDIAAN OBAT DI APOTEK RITONGA FARMA MENGGUNAKAN ALGORITMA NAÏVE BAYES",
+   "tahun": 2024,
+   "doi": "10.54314/jssr.v7i1.1676",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 7, No 1 (2024): February 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v7i1.1676",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "IMPLEMENTASI ALGORITMA VIGENERE DAN ALGORITMA F5 UNTUK KEAMANAN TEKS PADA CITRA",
+   "tahun": 2024,
+   "doi": "10.54314/jssr.v7i2.1857",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 7, No 2 (2024): May 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v7i2.1857",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PERANCANGAN APLIKASI PENCARIAN LOKASI VAKSIN MENGGUNAKAN METODE HAVERSINE BERBASIS ANDROID",
+   "tahun": 2024,
+   "doi": "10.54314/jssr.v7i1.1673",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 7, No 1 (2024): February 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v7i1.1673",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "IMPLEMENTASI SISTEM INFORMASI PENGELOLAAN BARANG INVENTARIS MILIK NEGARA STUDI KASUS BALAI DIKLAT KEAGAMAAN MEDAN",
+   "tahun": 2023,
+   "doi": "10.51401/jinteks.v5i4.3504",
+   "jurnal": "Jurnal Informatika Teknologi dan Sains (Jinteks) Vol 5 No 4 (2023): EDISI 18",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8942",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.51401/jinteks.v5i4.3504",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Decision Support System For Chicken Animal Feed Selection Using The Fuzzy Tsukamoto Method",
+   "tahun": 2024,
+   "doi": "10.30645/ijistech.v7i5.330",
+   "jurnal": "IJISTECH (International Journal of Information System and Technology) Vol 7, No 5 (2024): The February edition",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5619",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.30645/ijistech.v7i5.330",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PENERAPAN DATA MINING UNTUK PREDIKSI PENJUALAN PRODUK ELEKTRONIK TERLARIS MENGGUNAKAN METODE K-NEAREST NEIGHBOR",
+   "tahun": 2024,
+   "doi": "10.54314/jssr.v7i3.2153",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 7, No 3 (2024): August 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v7i3.2153",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Prediksi Harga Pangan di Tengah Isu Ketidakpastian Global Menggunakan Metode Regresi Linear dan Regresi Polinomial",
+   "tahun": 2024,
+   "doi": "10.37859/jf.v14i2.6996",
+   "jurnal": "JURNAL FASILKOM Vol. 14 No. 2 (2024): Jurnal FASILKOM (teknologi inFormASi dan ILmu KOMputer)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10086",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.37859/jf.v14i2.6996",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Kombinasi Algoritma Beaufort Chiper dan Hill Chiper Dalam Mengamankan File Dokumen Berbasis Mobile",
+   "tahun": 2024,
+   "doi": "10.30829/jistech.v9i2.22633",
+   "jurnal": "JISTech (Journal of Islamic Science and Technology) Vol 9, No 2 (2024)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11879",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.30829/jistech.v9i2.22633",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Public Complaints Application at Binjai City Police Using the Waterfall Method to Improve the Performance of Binjai District Police",
+   "tahun": 2025,
+   "doi": "10.55537/cosie.v4i3.1130",
+   "jurnal": "Journal of Computer Science and Informatics Engineering Vol 4 No 3 (2025): July",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15325",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.55537/cosie.v4i3.1130",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sentiment Analysis on TikTok Discourse Surrounding the 2024 North Sumatra Gubernatorial Election Using Support Vector Machine Algorithm",
+   "tahun": 2024,
+   "doi": "10.47709/cnahpc.v7i3.6549",
+   "jurnal": "Journal of Computer Networks, Architecture and High Performance Computing Vol. 7 No. 3 (2025): Articles Research July 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7735",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.47709/cnahpc.v7i3.6549",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analysis of Public Sentiment Toward the Increase in VAT Rates Using the SVM Algorithm",
+   "tahun": 2025,
+   "doi": "10.20895/dinda.v5i2.2025",
+   "jurnal": "Indonesian Journal of Data Science, IoT, Machine Learning and Informatics Vol 5 No 2 (2025): August",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11755",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.20895/dinda.v5i2.2025",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sentiment Analysis of Public Opinion on Facebook Monetization in Social Media Using the SVM Algorithm",
+   "tahun": 2025,
+   "doi": "10.47065/tin.v6i3.8210",
+   "jurnal": "TIN: Terapan Informatika Nusantara Vol 6 No 3 (2025): August 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10960",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.47065/tin.v6i3.8210",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Deteksi Kecenderungan Perilaku Agresif Akibat Pengaruh Smartphone Terhadap Psikologis Anak Menggunakan Metode Teorema Bayes dan Certainty Factor",
+   "tahun": 2024,
+   "doi": "10.47065/tin.v4i12.5112",
+   "jurnal": "TIN: Terapan Informatika Nusantara Vol 4 No 12 (2024): May 2024",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10960",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.47065/tin.v4i12.5112",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "SISTEM PENGUKURAN DAN OTOMATISASI DAYA LISTRIK RUMAH TANGGA MENGGUNAKAN LOGIKA FUZZY TSUKAMOTO",
+   "tahun": 2025,
+   "doi": "10.54314/jssr.v8i2.3166",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 8, No 2 (2025): May 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v8i2.3166",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "PENJADWALAN DAN REKOMENDASI DOSEN PENGUJI SIDANG MUNAQASYAH BERBASIS CLOUD-AI INTEGRATED SYSTEM",
+   "tahun": 2026,
+   "doi": "10.54314/jssr.v9i1.5771",
+   "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 9, No 1 (2026): February 2026",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.54314/jssr.v9i1.5771",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Metode Simple Multi Attribute Rating Technique pada Pemilihan Cafe Terfavorit",
+   "tahun": 2023,
+   "doi": "10.55537/spk.v2i1.114",
+   "jurnal": "Sistem Pendukung Keputusan dengan Aplikasi Vol 2 No 1 (2023)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/12420",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.55537/spk.v2i1.114",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Analisis Sentimen Debat Capres dan Cawapres Indonesia 2024 Menggunakan Metode Bert",
+   "tahun": 2024,
+   "doi": "10.70340/jirsi.v5i3.703",
+   "jurnal": "Jurnal Ilmu Komputer dan Sistem Informasi Vol. 5 No. 3 (2026): September 2026",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/16614",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.70340/jirsi.v5i3.703",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Perbandingan Algoritma SVM dan Logistic Regression dalam Klasifikasi Sentimen Masyarakat terhadap Program MBG",
+   "tahun": 2026,
+   "doi": "10.56211/sudo.v5i3.1966",
+   "jurnal": "sudo Jurnal Teknik Informatika Vol. 5 No. 3 (2026): Edisi September",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/14660",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "aidil"
+   ],
+   "url": "https://doi.org/10.56211/sudo.v5i3.1966",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Pendukung Keputusan Calon Penerimaan Bantuan Program Indonesia Pintar Menggunakan Metode TOPSIS",
+   "tahun": 2023,
+   "doi": "10.54209/jatilima.v5i01.395",
+   "jurnal": "Jurnal Multimedia dan Teknologi Informasi (Jatilima) Vol. 5 No. 01 (2023): Jatilima : Jurnal Multimedia Dan Teknologi Informasi",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10953",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "ika"
+   ],
+   "url": "https://doi.org/10.54209/jatilima.v5i01.395",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "DECISION MAKING SYSTEM USING THE TOPSIS METHOD IN DETERMINING THE POSITION OF ASN EMPLOYEES",
+   "tahun": 2023,
+   "doi": "10.54209/jatilima.v5i02.412",
+   "jurnal": "Jurnal Multimedia dan Teknologi Informasi (Jatilima) Vol. 5 No. 02 (2023): Jurnal Multimedia dan Teknologi Informasi (Jatilima)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10953",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "ika"
+   ],
+   "url": "https://doi.org/10.54209/jatilima.v5i02.412",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "APPLICATION OF THE TREND MOMENT METHOD FOR FORECAST SALES OF SONGKET FABRIC PRODUCTS AT UD. MANDIRI PERKASA",
+   "tahun": 2022,
+   "doi": "10.58471/infokum.v10i5.1257",
+   "jurnal": "INFOKUM Vol. 10 No. 5 (2022): December, Computer and Communication",
+   "sinta_jurnal_kini": 5,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7139",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "ika"
+   ],
+   "url": "https://doi.org/10.58471/infokum.v10i5.1257",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 5,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penentuan Obat Penyakit Gigi pada Sistem Pendukung Keputusan Menggunakan Metode Topsis",
+   "tahun": 2023,
+   "doi": "10.54209/jatilima.v5i02.467",
+   "jurnal": "Jurnal Multimedia dan Teknologi Informasi (Jatilima) Vol. 5 No. 02 (2023): Jurnal Multimedia dan Teknologi Informasi (Jatilima)",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10953",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "ika"
+   ],
+   "url": "https://doi.org/10.54209/jatilima.v5i02.467",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Determining Product Category Sales Patterns to Maintain Inventory Stability Using the fp-Growth Algorithm",
+   "tahun": 2024,
+   "doi": "10.54209/jatilima.v6i02.681",
+   "jurnal": "Jurnal Multimedia dan Teknologi Informasi (Jatilima) Vol. 6 No. 02 (2024): Jatilima : Jurnal Multimedia Dan Teknologi Informasi",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10953",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "ika"
+   ],
+   "url": "https://doi.org/10.54209/jatilima.v6i02.681",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Penerapan Metode SAW dengan Pembobotan ROC Dalam Sistem Pendukung Keputusan Penerimaan Beasiswa KIP Kuliah",
+   "tahun": 2025,
+   "doi": "10.30865/json.v6i3.8606",
+   "jurnal": "Jurnal Sistem Komputer dan Informatika (JSON) Vol 6, No 3 (2025): Maret 2025",
+   "sinta_jurnal_kini": 3,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8054",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "ika"
+   ],
+   "url": "https://doi.org/10.30865/json.v6i3.8606",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 3,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "The Influence of Computer Technology in Improving Learning Effectiveness at Imelda University Medan",
+   "tahun": 2024,
+   "doi": "10.54209/jatilima.v6i03.1179",
+   "jurnal": "Jurnal Multimedia dan Teknologi Informasi (Jatilima) Vol. 6 No. 03 (2024): Jatilima : Jurnal Multimedia Dan Teknologi Informasi",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10953",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "ika"
+   ],
+   "url": "https://doi.org/10.54209/jatilima.v6i03.1179",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  },
+  {
+   "judul": "Sistem Pendukung Keputusan Menentukan Delegasi SMA Swasta Primbana Mengikuti OSN Kimia Menggunakan Metode MABAC",
+   "tahun": 2025,
+   "doi": "10.53513/jursi.v4i6.9709",
+   "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 4 No. 6 (2025): EDISI NOVEMBER 2025",
+   "sinta_jurnal_kini": 4,
+   "sinta_saat_terbit": null,
+   "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/12475",
+   "sinta_bukti_url": null,
+   "dosen": [
+    "puji"
+   ],
+   "url": "https://doi.org/10.53513/jursi.v4i6.9709",
+   "tipe_peringkat": "peringkat_jurnal_terkini",
+   "peringkat_tampilan": 4,
+   "jenis_label": "jurnal_saat_ini"
+  }
+ ]
+}
