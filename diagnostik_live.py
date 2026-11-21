@@ -3,7 +3,7 @@
 Tidak mengubah publikasi_scholar.json atau publikasi_dosen.json.
 Tidak melewati CAPTCHA, HTTP 403, atau login. Tidak menampilkan API key.
 """
-import json,os,re,time
+import json,os,re,time,html
 from datetime import datetime,timezone
 from pathlib import Path
 from urllib.request import Request,urlopen
@@ -47,7 +47,8 @@ def main():
     # Test all public GARUDA profile pages, fast status and shown count, no pages crawl.
     for slug,author_id in zip(SLUGS,GARUDA_IDS):
         status,body=sample("https://garuda.kemdiktisaintek.go.id/author/view/"+author_id)
-        m=re.search(r"(?:Published\\s*:\\s*|Found\\s+)([\\d,.]+)\\s+Documents",body,re.I)
+        plain=re.sub(r"\\s+"," ",html.unescape(re.sub(r"<[^>]+>"," ",body)))
+        m=re.search(r"(?:Published\\s*:\\s*|Found\\s+)([\\d,.]+)\\s+Documents",plain,re.I)
         status["jumlah_ditampilkan"]=int(re.sub(r"\\D","",m.group(1))) if m else None
         status["nama_terdeteksi"]=slug if slug in SLUGS and status["status"]=="received" else None
         result["garuda"][slug]=status
