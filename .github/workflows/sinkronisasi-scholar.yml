@@ -1,5 +1,9 @@
 name: Sinkronisasi Publikasi Google Scholar
 on:
+  push:
+    paths:
+      - ".github/workflows/sinkronisasi-scholar.yml"
+      - "sinkronisasi_scholar.py"
   workflow_dispatch:
   schedule:
     - cron: "22 1 1 * *"
