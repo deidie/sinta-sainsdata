@@ -1,0 +1,102 @@
+{
+  "diperiksa_utc": "2026-11-21T17:42:34.251936+00:00",
+  "metode": "GET publik dengan batas waktu; tidak melewati proteksi",
+  "scholar": {
+    "snapshot": [
+      {
+        "slug": "siddik",
+        "artikel_tersimpan": 8,
+        "cakupan_lengkap": false
+      },
+      {
+        "slug": "dedi",
+        "artikel_tersimpan": 8,
+        "cakupan_lengkap": false
+      },
+      {
+        "slug": "rakhmat",
+        "artikel_tersimpan": 8,
+        "cakupan_lengkap": false
+      },
+      {
+        "slug": "aidil",
+        "artikel_tersimpan": 8,
+        "cakupan_lengkap": false
+      },
+      {
+        "slug": "ika",
+        "artikel_tersimpan": 8,
+        "cakupan_lengkap": false
+      },
+      {
+        "slug": "puji",
+        "artikel_tersimpan": 8,
+        "cakupan_lengkap": false
+      }
+    ],
+    "akses_langsung_sampel": {
+      "http": 403,
+      "error": "HTTP 403",
+      "status": "denied_or_unreachable",
+      "jumlah_baris_artikel_halaman": null
+    }
+  },
+  "garuda": {
+    "siddik": {
+      "http": 200,
+      "status": "received",
+      "jumlah_ditampilkan": null,
+      "nama_terdeteksi": "siddik"
+    },
+    "dedi": {
+      "http": 200,
+      "status": "received",
+      "jumlah_ditampilkan": null,
+      "nama_terdeteksi": "dedi"
+    },
+    "rakhmat": {
+      "http": 200,
+      "status": "received",
+      "jumlah_ditampilkan": null,
+      "nama_terdeteksi": "rakhmat"
+    },
+    "aidil": {
+      "http": 200,
+      "status": "received",
+      "jumlah_ditampilkan": null,
+      "nama_terdeteksi": "aidil"
+    },
+    "ika": {
+      "http": 200,
+      "status": "received",
+      "jumlah_ditampilkan": null,
+      "nama_terdeteksi": "ika"
+    },
+    "puji": {
+      "http": 200,
+      "status": "received",
+      "jumlah_ditampilkan": null,
+      "nama_terdeteksi": "puji"
+    },
+    "snapshot_total_terambil": 430
+  },
+  "sinta": {
+    "profil_penulis_sampel": {
+      "http": 403,
+      "error": "HTTP 403",
+      "status": "denied_or_unreachable"
+    },
+    "jurnal_cess_sampel": {
+      "http": 403,
+      "error": "HTTP 403",
+      "status": "denied_or_unreachable",
+      "peringkat_jurnal_tampilan": null
+    }
+  },
+  "scopus": {
+    "api_key_tersedia": false,
+    "uji_doi": {
+      "status": "tidak_diuji_tanpa_api_key"
+    }
+  }
+}
