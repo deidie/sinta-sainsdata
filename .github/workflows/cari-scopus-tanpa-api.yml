@@ -48,11 +48,16 @@ jobs:
           PY
       - name: Simpan rekap dan bukti Scopus
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Mulai dari HEAD terbaru sebelum membuat commit hasil audit.
+          # Jaga file kerja hasil audit, tetapi jangan tulis ulang commit dari eksekusi lain.
+          git fetch origin main
+          git reset --mixed origin/main
           git add hasil/rekap_scopus_tanpa_api.json hasil/pemeriksaan_scopus_tanpa_api.json hasil/kandidat_buku_scopus_crossref.json
           if ! git diff --cached --quiet; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -m "Cari Scopus berdasarkan ISSN ISBN dari sumber resmi Elsevier"
-            git pull --rebase origin main
             git push origin HEAD:main
+          else
+            echo "Hasil sudah tersedia; tidak ada perubahan"
           fi
