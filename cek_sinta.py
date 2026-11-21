@@ -214,10 +214,22 @@ def parse_publications(html, base_url, source_id, source_page):
                  for label,href,_ in container.links()]
         source_url = next((href for label,href in links if 'original source' in label.lower()), None)
         authors = []
+        
         for label, href in links:
-            if re.search(r'/author/view/\d+', urlparse(href).path) and label and label not in authors:
-                authors.append(label)
+            if re.search(r'/author/view/\d+', urlparse(href).path):
+                cleaned = re.split(
+                    r'\b(?:Show Abstract|Download Original|Original Source)\b',
+                    label,
+                    maxsplit=1,
+                    flags=re.I
+                )[0]
+                cleaned = normalize(cleaned).strip(' ;|')
+
+                if cleaned and cleaned not in authors:
+                    authors.append(cleaned)
+
         doi = extract_doi(container)
+
         # Metadata tidak ditemukan tidak boleh direka.
         year = None
         year_match = YEAR_RE.search(text)
