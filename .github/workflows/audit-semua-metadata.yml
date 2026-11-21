@@ -1,0 +1,50 @@
+name: Audit Semua DOI GARUDA Crossref OpenAlex
+
+on:
+  push:
+    paths:
+      - "uji_semua_doi_crossref_openalex.py"
+      - ".github/workflows/audit-semua-metadata.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit-semua-metadata
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Bandingkan semua DOI ke Crossref dan OpenAlex
+        run: python uji_semua_doi_crossref_openalex.py
+      - name: Validasi jumlah rekaman
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("hasil/rekap_metadata_crossref_openalex.json")
+          d=json.loads(p.read_text(encoding="utf8"))
+          assert d["diperiksa_total_doi_unik"]>=100
+          assert sum(d["hasil"]["crossref"].values())==d["diperiksa_total_doi_unik"]
+          assert sum(d["hasil"]["openalex"].values())==d["diperiksa_total_doi_unik"]
+          assert d["scopus_terverifikasi"] is None
+          print("Validasi OK:",d["diperiksa_total_doi_unik"])
+          PY
+      - name: Commit metadata terpisah dari data utama
+        run: |
+          git add hasil/metadata_crossref_openalex.json hasil/rekap_metadata_crossref_openalex.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Audit semua DOI GARUDA ke Crossref dan OpenAlex"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
