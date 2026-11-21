@@ -50,6 +50,10 @@ def main():
         plain=re.sub(r"\\s+"," ",html.unescape(re.sub(r"<[^>]+>"," ",body)))
         m=re.search(r"(?:Published\\s*:\\s*|Found\\s+)([\\d,.]+)\\s+Documents",plain,re.I)
         status["jumlah_ditampilkan"]=int(re.sub(r"\\D","",m.group(1))) if m else None
+        status["panjang_html"]=len(body)
+        status["ada_published"]="Published" in plain
+        status["ada_documents"]="Documents" in plain
+        if m is None: status["cuplikan_teks"]=plain[:160]
         status["nama_terdeteksi"]=slug if slug in SLUGS and status["status"]=="received" else None
         result["garuda"][slug]=status
         time.sleep(0.6)
