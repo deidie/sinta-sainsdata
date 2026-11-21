@@ -1,0 +1,37 @@
+name: Uji Crossref dan OpenAlex dari DOI GARUDA
+
+on:
+  push:
+    paths:
+      - "uji_crossref_openalex.py"
+      - ".github/workflows/uji-crossref-openalex.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit-metadata-garuda
+  cancel-in-progress: false
+
+jobs:
+  uji-metadata:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Uji DOI per dosen ke Crossref dan OpenAlex
+        run: python uji_crossref_openalex.py
+      - name: Simpan diagnostik metadata
+        run: |
+          git add hasil/diagnostik_crossref_openalex.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Audit metadata GARUDA melalui Crossref dan OpenAlex"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
