@@ -1,0 +1,57 @@
+name: Perkaya Data GARUDA dengan Katalog SINTA
+
+on:
+  push:
+    paths:
+      - "cocokkan_garuda_sinta_katalog.py"
+      - "data/katalog_jurnal_sinta.json"
+      - "data/bukti_artikel_sinta.json"
+      - ".github/workflows/perkaya-sinta.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publikasi-sainsdata
+  cancel-in-progress: false
+
+jobs:
+  cocokkan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Cocokkan nama jurnal SINTA dan bukti DOI ke GARUDA
+        run: python cocokkan_garuda_sinta_katalog.py
+      - name: Perbarui label artikel untuk laman publikasi
+        run: python buat_label_publikasi.py
+      - name: Validasi hasil
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('hasil/publikasi_dosen.json').read_text(encoding='utf-8'))
+          rekap=json.loads(Path('hasil/rekap_sinta.json').read_text(encoding='utf-8'))
+          dokumen=[a for p in data['dosen'] for a in p['publikasi_garuda']]
+          assert len(dokumen)==rekap['total_rekaman'], 'Publikasi hilang'
+          assert all((a.get('peringkat_sinta') is None or
+                      (type(a['peringkat_sinta']) is int and
+                       a['peringkat_sinta'] in range(1,7) and
+                       a.get('sinta_bukti_url'))) for a in dokumen), 'Bukti artikel invalid'
+          assert any(type(a.get('jurnal_sinta_peringkat_terkini')) is int for a in dokumen), 'Pencocokan tidak terjadi'
+          print('Validasi lulus: ',len(dokumen),'rekaman; ',
+                rekap['artikel_sinta_terverifikasi'],'artikel dengan DOI terverifikasi')
+          PY
+      - name: Simpan katalog dan rekap ke GitHub
+        run: |
+          git add hasil/publikasi_dosen.json hasil/publikasi_dosen.csv hasil/rekap_sinta.json hasil/rekap_sinta.csv hasil/diagnostik_pencocokan_sinta.json hasil/katalog_pencocokan_sinta.json hasil/label_publikasi.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Perkaya publikasi GARUDA dengan pencocokan jurnal dan DOI SINTA"
+            git push origin HEAD:main
+          fi
