@@ -3389,7 +3389,7 @@
           "url_doi": "https://doi.org/10.24002/ijis.v7i2.10213",
           "url_garuda": "https://garuda.kemdiktisaintek.go.id/documents/detail/4924785",
           "url_artikel": "https://ojs.uajy.ac.id/index.php/IJIS/article/view/10213/3932",
-          "peringkat_sinta": null,
+          "peringkat_sinta": 2,
           "status_indeks_scopus": null,
           "garuda_document_id": "4924785",
           "garuda_author_id": "1197451",
@@ -3397,8 +3397,8 @@
           "jurnal_sinta_peringkat_terkini": 2,
           "jurnal_sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7848",
           "jurnal_sinta_status_verifikasi": "profil_jurnal_resmi_terindeks",
-          "sinta_bukti_url": null,
-          "sinta_status_verifikasi": "belum_terverifikasi",
+          "sinta_bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6707296/?view=garuda",
+          "sinta_status_verifikasi": "doi_spesifik_pada_sinta",
           "jurnal_sinta_diperiksa": "2026-11-22"
         },
         {
@@ -5062,12 +5062,12 @@
       ],
       "rekap_sinta": {
         "S1": 0,
-        "S2": 0,
+        "S2": 1,
         "S3": 0,
         "S4": 0,
         "S5": 0,
         "S6": 0,
-        "belum_terverifikasi": 164
+        "belum_terverifikasi": 163
       }
     },
     {
@@ -9023,7 +9023,7 @@
       }
     }
   ],
-  "sinta_pencocokan_utc": "2026-11-21T18:09:21.732257+00:00",
+  "sinta_pencocokan_utc": "2026-11-21T18:10:12.721164+00:00",
   "sinta_metode": "Peringkat terkini jurnal dari katalog profil SINTA resmi; akreditasi artikel hanya dari bukti DOI spesifik atau SK historis terverifikasi",
   "catatan_sinta": "Peringkat jurnal terkini berbeda dari peringkat saat artikel terbit; tanda belum terverifikasi bukan berarti jurnal tidak terakreditasi."
 }

@@ -1,9 +1,9 @@
 {
   "versi": 1,
-  "dibuat_utc": "2026-11-21T18:09:21.999519+00:00",
+  "dibuat_utc": "2026-11-21T18:10:12.918358+00:00",
   "sumber": "GARUDA + katalog profil jurnal SINTA",
   "garuda_diperbarui_utc": "2026-11-21T11:56:43.062490+00:00",
-  "peringkat_jurnal_diperbarui_utc": "2026-11-21T18:09:21.923913+00:00",
+  "peringkat_jurnal_diperbarui_utc": "2026-11-21T18:10:12.815638+00:00",
   "pemeriksaan_sinta_utc": "2026-11-21T18:03:55.716870+00:00",
   "pemeriksaan_sinta_terbatas": true,
   "tabel_per_dosen": [
@@ -226,7 +226,7 @@
       "S6": 4,
       "belum_tercocokkan": 157
     },
-    "peringkat_artikel_doi_terverifikasi": 8
+    "peringkat_artikel_doi_terverifikasi": 9
   },
   "keterangan": "S1-S6 dalam tabel berarti peringkat jurnal yang teramati. Ini bukan bukti peringkat akreditasi tiap artikel pada tahun terbit. Jumlah tahunan unik menghapus karya bersama. Belum cocok bukan berarti tidak terindeks SINTA."
 }
