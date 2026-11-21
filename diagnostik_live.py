@@ -40,16 +40,16 @@ def main():
     # Test direct public Google Scholar, only 1 URL to avoid rate limits.
     uri="https://scholar.google.com/citations?"+urlencode({"user":SCHOLAR_IDS[0],"hl":"en","pagesize":100,"cstart":0})
     status,body=sample(uri)
-    status["jumlah_baris_artikel_halaman"]=len(re.findall(r'class=["\\x27][^"\\x27]*\\bgsc_a_tr\\b',body)) if status["status"]=="received" else None
+    status["jumlah_baris_artikel_halaman"]=len(re.findall(r'class=["\x27][^"\x27]*\bgsc_a_tr\b',body)) if status["status"]=="received" else None
     if status["status"]=="received" and ("gsc_a_tr" not in body and "gsc_prf_in" not in body):
         status["status"]="html_tidak_sesuai"
     result["scholar"]["akses_langsung_sampel"]=status
     # Test all public GARUDA profile pages, fast status and shown count, no pages crawl.
     for slug,author_id in zip(SLUGS,GARUDA_IDS):
         status,body=sample("https://garuda.kemdiktisaintek.go.id/author/view/"+author_id)
-        plain=re.sub(r"\\s+"," ",html.unescape(re.sub(r"<[^>]+>"," ",body)))
-        m=re.search(r"(?:Published\\s*:\\s*|Found\\s+)([\\d,.]+)\\s+Documents",plain,re.I)
-        status["jumlah_ditampilkan"]=int(re.sub(r"\\D","",m.group(1))) if m else None
+        plain=re.sub(r"\s+"," ",html.unescape(re.sub(r"<[^>]+>"," ",body)))
+        m=re.search(r"(?:Published\s*:\s*|Found\s+)([\d,.]+)\s+Documents",plain,re.I)
+        status["jumlah_ditampilkan"]=int(re.sub(r"\D","",m.group(1))) if m else None
         status["panjang_html"]=len(body)
         status["ada_published"]="Published" in plain
         status["ada_documents"]="Documents" in plain
@@ -61,7 +61,7 @@ def main():
     status,body=sample("https://sinta.kemdiktisaintek.go.id/authors/profile/6054939")
     result["sinta"]["profil_penulis_sampel"]=status
     status,body=sample("https://sinta.kemdiktisaintek.go.id/journals/profile/207")
-    rank=re.search(r"Sinta\\s*([1-6])",body,re.I)
+    rank=re.search(r"Sinta\s*([1-6])",body,re.I)
     status["peringkat_jurnal_tampilan"]=int(rank.group(1)) if rank else None
     result["sinta"]["jurnal_cess_sampel"]=status
     # Scopus: only request Elsevier when key is present, never echo key.
