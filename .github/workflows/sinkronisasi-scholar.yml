@@ -5,6 +5,7 @@ on:
     paths:
       - ".github/workflows/sinkronisasi-scholar.yml"
       - "sinkronisasi_scholar_lengkap.py"
+      - "test_scholar_lengkap.py"
   workflow_dispatch:
   schedule:
     - cron: "22 1 1 * *" # setiap tanggal 1, 08:22 WIB
@@ -25,6 +26,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Uji pagination dan integritas tanpa API key
+        run: python -m unittest -v test_scholar_lengkap.py
       - name: Ambil seluruh artikel Scholar per dosen (100 artikel per halaman)
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
