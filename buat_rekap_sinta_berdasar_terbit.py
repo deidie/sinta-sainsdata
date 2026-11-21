@@ -18,7 +18,7 @@ def write(p,o):
     target.write_text(json.dumps(o,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 def doi_key(x):
     s=str(x or "").strip().lower()
-    return re.sub(r"^https?://(?:dx\\.)?doi\\.org/","",s).rstrip(".,;")
+    return re.sub(r"^https?://(?:dx\.)?doi\.org/","",s).rstrip(".,;")
 def title_key(x):
     s=unicodedata.normalize("NFKD",str(x or "").casefold())
     return re.sub(r"[^a-z0-9]+"," ",s).strip()
