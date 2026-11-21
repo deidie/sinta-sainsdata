@@ -1,0 +1,602 @@
+{
+  "diperiksa_utc": "2026-11-21T18:19:39.664554+00:00",
+  "sumber": "API metadata publik Crossref dan OpenAlex",
+  "jumlah_sample": 13,
+  "crossref_berhasil": 12,
+  "openalex_berhasil": 13,
+  "scopus_terverifikasi_dari_sumber_ini": null,
+  "catatan": "Crossref/OpenAlex tidak menyediakan bukti Scopus EID; keberadaan DOI atau sitasi bukan konfirmasi indeksasi Scopus.",
+  "artikel": [
+    {
+      "doi": "10.25126/jtiik.2023107437",
+      "garuda": {
+        "dosen": [
+          "Muhammad Siddik Hasibuan"
+        ],
+        "judul": "Pendekatan Bayes-HDSS dalam Menentukan Status Pantauan Gizi Balita",
+        "jurnal": "Jurnal Teknologi Informasi dan Ilmu Komputer Vol 10 No 5: Oktober 2023",
+        "tahun": 2023
+      },
+      "crossref": {
+        "http": "200",
+        "doi": "10.25126/jtiik.2023107437",
+        "judul": "Pendekatan Bayes-HDSS dalam Menentukan Status Pantauan Gizi Balita",
+        "jurnal": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+        "issn": [
+          "2528-6579",
+          "2355-7699"
+        ],
+        "sitasi_crossref": 0,
+        "publisher": "Fakultas Ilmu Komputer Universitas Brawijaya",
+        "tahun": 2023
+      },
+      "openalex": {
+        "http": "200",
+        "doi": "https://doi.org/10.25126/jtiik.2023107437",
+        "judul": "Pendekatan Bayes-HDSS dalam Menentukan Status Pantauan Gizi Balita",
+        "tahun": 2023,
+        "sitasi_openalex": 3,
+        "openalex_id": "https://openalex.org/W4409852567",
+        "jurnal": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+        "issn": [
+          "2355-7699",
+          "2528-6579"
+        ],
+        "source_openalex_id": "https://openalex.org/S4210196574",
+        "indexed_in": [
+          "crossref",
+          "doaj"
+        ],
+        "ids": {
+          "openalex": "https://openalex.org/W4409852567",
+          "doi": "https://doi.org/10.25126/jtiik.2023107437"
+        }
+      },
+      "scopus_status": "belum_terverifikasi"
+    },
+    {
+      "doi": "10.31289/jite.v2i1.1496",
+      "garuda": {
+        "dosen": [
+          "Muhammad Siddik Hasibuan"
+        ],
+        "judul": "Pemeriksa Lembar Jawaban dengan Image Recognition",
+        "jurnal": "JOURNAL OF INFORMATICS AND TELECOMMUNICATION ENGINEERING Vol 2, No 1 (2018): EDISI JULI",
+        "tahun": 2018
+      },
+      "crossref": {
+        "http": "200",
+        "doi": "10.31289/jite.v2i1.1496",
+        "judul": "Pemeriksa Lembar Jawaban dengan Image Recognition",
+        "jurnal": "JOURNAL OF INFORMATICS AND TELECOMMUNICATION ENGINEERING",
+        "issn": [
+          "2549-6255",
+          "2549-6247"
+        ],
+        "sitasi_crossref": 0,
+        "publisher": "Universitas Medan Area",
+        "tahun": 2018
+      },
+      "openalex": {
+        "http": "200",
+        "doi": "https://doi.org/10.31289/jite.v2i1.1496",
+        "judul": "Pemeriksa Lembar Jawaban dengan Image Recognition",
+        "tahun": 2018,
+        "sitasi_openalex": 3,
+        "openalex_id": "https://openalex.org/W2914149982",
+        "jurnal": "JOURNAL OF INFORMATICS AND TELECOMMUNICATION ENGINEERING",
+        "issn": [
+          "2549-6247",
+          "2549-6255"
+        ],
+        "source_openalex_id": "https://openalex.org/S4210193171",
+        "indexed_in": [
+          "crossref"
+        ],
+        "ids": {
+          "openalex": "https://openalex.org/W2914149982",
+          "doi": "https://doi.org/10.31289/jite.v2i1.1496",
+          "mag": "2914149982"
+        }
+      },
+      "scopus_status": "belum_terverifikasi"
+    },
+    {
+      "doi": "10.24002/ijis.v7i2.10213",
+      "garuda": {
+        "dosen": [
+          "Muhammad Dedi Irawan"
+        ],
+        "judul": "Application Of Expert System In Determining Diseases In Potato Plants",
+        "jurnal": "Indonesian Journal of Information Systems Vol. 7 No. 2 (2025): February 2025",
+        "tahun": 2025
+      },
+      "crossref": {
+        "http": "200",
+        "doi": "10.24002/ijis.v7i2.10213",
+        "judul": "Application Of Expert System In Determining Diseases In Potato Plants",
+        "jurnal": "Indonesian Journal of Information Systems",
+        "issn": [
+          "2623-2308",
+          "2623-0119"
+        ],
+        "sitasi_crossref": 0,
+        "publisher": "Universitas Atma Jaya Yogyakarta",
+        "tahun": 2025
+      },
+      "openalex": {
+        "http": "200",
+        "doi": "https://doi.org/10.24002/ijis.v7i2.10213",
+        "judul": "Application Of Expert System In Determining Diseases In Potato Plants",
+        "tahun": 2025,
+        "sitasi_openalex": 3,
+        "openalex_id": "https://openalex.org/W4408105983",
+        "jurnal": "Indonesian Journal of Information Systems",
+        "issn": [
+          "2623-2308",
+          "2623-0119"
+        ],
+        "source_openalex_id": "https://openalex.org/S4210178991",
+        "indexed_in": [
+          "crossref"
+        ],
+        "ids": {
+          "openalex": "https://openalex.org/W4408105983",
+          "doi": "https://doi.org/10.24002/ijis.v7i2.10213"
+        }
+      },
+      "scopus_status": "belum_terverifikasi"
+    },
+    {
+      "doi": "10.20895/infotel.v15i1.848",
+      "garuda": {
+        "dosen": [
+          "Muhammad Dedi Irawan"
+        ],
+        "judul": "Sistem Ujian Tilawatil Qur`an",
+        "jurnal": "JURNAL INFOTEL Vol 15 No 1 (2023): February 2023",
+        "tahun": 2023
+      },
+      "crossref": {
+        "http": "200",
+        "doi": "10.20895/infotel.v15i1.848",
+        "judul": "Qur’an tilawatil examination system",
+        "jurnal": "JURNAL INFOTEL",
+        "issn": [
+          "2460-0997",
+          "2085-3688"
+        ],
+        "sitasi_crossref": 2,
+        "publisher": "LPPM Institut Teknologi Telkom Purwokerto",
+        "tahun": 2023
+      },
+      "openalex": {
+        "http": "200",
+        "doi": "https://doi.org/10.20895/infotel.v15i1.848",
+        "judul": "Qur’an tilawatil examination system",
+        "tahun": 2023,
+        "sitasi_openalex": 10,
+        "openalex_id": "https://openalex.org/W4362684314",
+        "jurnal": "JURNAL INFOTEL",
+        "issn": [
+          "2085-3688",
+          "2460-0997"
+        ],
+        "source_openalex_id": "https://openalex.org/S4210188896",
+        "indexed_in": [
+          "crossref"
+        ],
+        "ids": {
+          "openalex": "https://openalex.org/W4362684314",
+          "doi": "https://doi.org/10.20895/infotel.v15i1.848"
+        }
+      },
+      "scopus_status": "belum_terverifikasi"
+    },
+    {
+      "doi": "10.33558/piksel.v8i2.2291",
+      "garuda": {
+        "dosen": [
+          "Muhammad Dedi Irawan"
+        ],
+        "judul": "Expert System for Areca Plant Disease Detection Using Forward Chaining Method",
+        "jurnal": "PIKSEL : Penelitian Ilmu Komputer Sistem Embedded and Logic Vol 8 No 2 (2020): September 2020",
+        "tahun": 2020
+      },
+      "crossref": {
+        "http": "200",
+        "doi": "10.33558/piksel.v8i2.2291",
+        "judul": "Expert System for Areca Plant Disease Detection Using Forward Chaining Method",
+        "jurnal": "PIKSEL : Penelitian Ilmu Komputer Sistem Embedded and Logic",
+        "issn": [
+          "2620-3553",
+          "2303-3304"
+        ],
+        "sitasi_crossref": 0,
+        "publisher": "Universitas Islam 45",
+        "tahun": 2020
+      },
+      "openalex": {
+        "http": "200",
+        "doi": "https://doi.org/10.33558/piksel.v8i2.2291",
+        "judul": "Expert System for Areca Plant Disease Detection Using Forward Chaining Method",
+        "tahun": 2020,
+        "sitasi_openalex": 8,
+        "openalex_id": "https://openalex.org/W3093632628",
+        "jurnal": "PIKSEL Penelitian Ilmu Komputer Sistem Embedded and Logic",
+        "issn": [
+          "2303-3304",
+          "2620-3553"
+        ],
+        "source_openalex_id": "https://openalex.org/S4210193779",
+        "indexed_in": [
+          "crossref"
+        ],
+        "ids": {
+          "openalex": "https://openalex.org/W3093632628",
+          "doi": "https://doi.org/10.33558/piksel.v8i2.2291",
+          "mag": "3093632628"
+        }
+      },
+      "scopus_status": "belum_terverifikasi"
+    },
+    {
+      "doi": "10.21456/vol10iss2pp203-210",
+      "garuda": {
+        "dosen": [
+          "Rakhmat Kurniawan R"
+        ],
+        "judul": "Evaluasi Performa Support Vector Machine Classifier Terhadap Penyakit Mental",
+        "jurnal": "JSINBIS (Jurnal Sistem Informasi Bisnis) Vol 10, No 2 (2020): Volume 10 Nomor 2 Tahun 2020",
+        "tahun": 2020
+      },
+      "crossref": {
+        "http": "200",
+        "doi": "10.21456/vol10iss2pp203-210",
+        "judul": "Evaluasi Performa Support Vector Machine Classifier Terhadap Penyakit Mental",
+        "jurnal": "JURNAL SISTEM INFORMASI BISNIS",
+        "issn": [
+          "2502-2377",
+          "2088-3587"
+        ],
+        "sitasi_crossref": 1,
+        "publisher": "Institute of Research and Community Services Diponegoro University (LPPM UNDIP)",
+        "tahun": 2020
+      },
+      "openalex": {
+        "http": "200",
+        "doi": "https://doi.org/10.21456/vol10iss2pp203-210",
+        "judul": "Evaluasi Performa Support Vector Machine Classifier Terhadap Penyakit Mental",
+        "tahun": 2020,
+        "sitasi_openalex": 15,
+        "openalex_id": "https://openalex.org/W3128290311",
+        "jurnal": "JURNAL SISTEM INFORMASI BISNIS",
+        "issn": [
+          "2088-3587",
+          "2502-2377"
+        ],
+        "source_openalex_id": "https://openalex.org/S2736678769",
+        "indexed_in": [
+          "crossref"
+        ],
+        "ids": {
+          "openalex": "https://openalex.org/W3128290311",
+          "doi": "https://doi.org/10.21456/vol10iss2pp203-210",
+          "mag": "3128290311"
+        }
+      },
+      "scopus_status": "belum_terverifikasi"
+    },
+    {
+      "doi": "10.24114/cess.v11i1.72110",
+      "garuda": {
+        "dosen": [
+          "Rakhmat Kurniawan R"
+        ],
+        "judul": "Implementasi Internet of Thing (IoT) untuk Monitoring dan Kontrol Energi Listrik Rumah Tangga Menggunakan Fuzzy Tsukamoto",
+        "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol. 11 No. 1 (2026): Januari 2026",
+        "tahun": 2026
+      },
+      "crossref": {
+        "http": "200",
+        "doi": "10.24114/cess.v11i1.72110",
+        "judul": "Implementasi Internet of Thing (IoT) untuk Monitoring dan Kontrol Energi Listrik Rumah Tangga Menggunakan Fuzzy Tsukamoto",
+        "jurnal": "CESS (Journal of Computer Engineering, System and Science)",
+        "issn": [
+          "2502-714X",
+          "2502-7131"
+        ],
+        "sitasi_crossref": 0,
+        "publisher": "State University of Medan",
+        "tahun": 2026
+      },
+      "openalex": {
+        "http": "200",
+        "doi": "https://doi.org/10.24114/cess.v11i1.72110",
+        "judul": "Implementasi Internet of Thing (IoT) untuk Monitoring dan Kontrol Energi Listrik Rumah Tangga Menggunakan Fuzzy Tsukamoto",
+        "tahun": 2026,
+        "sitasi_openalex": 0,
+        "openalex_id": "https://openalex.org/W7127427813",
+        "jurnal": "CESS (Journal of Computer Engineering System and Science)",
+        "issn": [
+          "2502-7131",
+          "2502-714X"
+        ],
+        "source_openalex_id": "https://openalex.org/S4210182494",
+        "indexed_in": [
+          "crossref"
+        ],
+        "ids": {
+          "openalex": "https://openalex.org/W7127427813",
+          "doi": "https://doi.org/10.24114/cess.v11i1.72110"
+        }
+      },
+      "scopus_status": "belum_terverifikasi"
+    },
+    {
+      "doi": "10.24114/cess.v2i1.4966",
+      "garuda": {
+        "dosen": [
+          "Aidil Halim Lubis"
+        ],
+        "judul": "ENKRIPSI DATA DENGAN ALGORITMA KRIPTROGRAFI NOEKEON",
+        "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol 2, No 1 (2017): Januari 2017",
+        "tahun": 2017
+      },
+      "crossref": {
+        "http": "200",
+        "doi": "10.24114/cess.v2i1.4966",
+        "judul": "DATA ENCRYPTION WITH CRYPTOGRAPHY NOEKEON ALGORITHM",
+        "jurnal": "Computer Engineering, Science and System Journal",
+        "issn": [
+          "2502-7131",
+          "2502-714X"
+        ],
+        "sitasi_crossref": 0,
+        "publisher": "State University of Medan",
+        "tahun": 2017
+      },
+      "openalex": {
+        "http": "200",
+        "doi": "https://doi.org/10.24114/cess.v2i1.4966",
+        "judul": "DATA ENCRYPTION WITH CRYPTOGRAPHY NOEKEON ALGORITHM",
+        "tahun": 2017,
+        "sitasi_openalex": 2,
+        "openalex_id": "https://openalex.org/W2600215548",
+        "jurnal": "CESS (Journal of Computer Engineering System and Science)",
+        "issn": [
+          "2502-7131",
+          "2502-714X"
+        ],
+        "source_openalex_id": "https://openalex.org/S4210182494",
+        "indexed_in": [
+          "crossref"
+        ],
+        "ids": {
+          "openalex": "https://openalex.org/W2600215548",
+          "doi": "https://doi.org/10.24114/cess.v2i1.4966",
+          "mag": "2600215548"
+        }
+      },
+      "scopus_status": "belum_terverifikasi"
+    },
+    {
+      "doi": "10.31602/tji.v14i2.9782",
+      "garuda": {
+        "dosen": [
+          "Aidil Halim Lubis"
+        ],
+        "judul": "PERANCANGAN SISTEM INFORMASI PENDAFTARAN TANAH SISTEMATIS LENGKAP BERBASIS WEBSITE DI KANTOR PERTANAHAN KOTA MEDAN",
+        "jurnal": "Technologia : Jurnal Ilmiah Vol 14, No 2 (2023): Technologia (April)",
+        "tahun": 2023
+      },
+      "crossref": {
+        "http": "200",
+        "doi": "10.31602/tji.v14i2.9782",
+        "judul": "PERANCANGAN SISTEM INFORMASI PENDAFTARAN TANAH SISTEMATIS LENGKAP BERBASIS WEBSITE DI KANTOR PERTANAHAN KOTA MEDAN",
+        "jurnal": "Technologia : Jurnal Ilmiah",
+        "issn": [
+          "2656-8047",
+          "2086-6917"
+        ],
+        "sitasi_crossref": 2,
+        "publisher": "Universitas Islam Kalimantan MAB Banjarmasin",
+        "tahun": 2023
+      },
+      "openalex": {
+        "http": "200",
+        "doi": "https://doi.org/10.31602/tji.v14i2.9782",
+        "judul": "PERANCANGAN SISTEM INFORMASI PENDAFTARAN TANAH SISTEMATIS LENGKAP BERBASIS WEBSITE DI KANTOR PERTANAHAN KOTA MEDAN",
+        "tahun": 2023,
+        "sitasi_openalex": 4,
+        "openalex_id": "https://openalex.org/W4362721409",
+        "jurnal": "Technologia Jurnal Ilmiah",
+        "issn": [
+          "2086-6917",
+          "2656-8047"
+        ],
+        "source_openalex_id": "https://openalex.org/S4210183553",
+        "indexed_in": [
+          "crossref"
+        ],
+        "ids": {
+          "openalex": "https://openalex.org/W4362721409",
+          "doi": "https://doi.org/10.31602/tji.v14i2.9782"
+        }
+      },
+      "scopus_status": "belum_terverifikasi"
+    },
+    {
+      "doi": "10.54209/jatilima.v5i01.395",
+      "garuda": {
+        "dosen": [
+          "Ika Yusnita Sari"
+        ],
+        "judul": "Sistem Pendukung Keputusan Calon Penerimaan Bantuan Program Indonesia Pintar Menggunakan Metode TOPSIS",
+        "jurnal": "Jurnal Multimedia dan Teknologi Informasi (Jatilima) Vol. 5 No. 01 (2023): Jatilima : Jurnal Multimedia Dan Teknologi Informasi",
+        "tahun": 2023
+      },
+      "crossref": {
+        "http": "404"
+      },
+      "openalex": {
+        "http": "200",
+        "doi": "https://doi.org/10.54209/jatilima.v5i01.395",
+        "judul": "Sistem Pendukung Keputusan Calon Penerimaan Bantuan Program Indonesia Pintar Menggunakan Metode TOPSIS",
+        "tahun": 2023,
+        "sitasi_openalex": 3,
+        "openalex_id": "https://openalex.org/W7218382104",
+        "jurnal": "Jurnal Multimedia dan Teknologi Informasi (Jatilima)",
+        "issn": [
+          "2721-1800",
+          "2722-0907"
+        ],
+        "source_openalex_id": "https://openalex.org/S4220650998",
+        "indexed_in": [],
+        "ids": {
+          "openalex": "https://openalex.org/W7218382104",
+          "doi": "https://doi.org/10.54209/jatilima.v5i01.395"
+        }
+      },
+      "scopus_status": "belum_terverifikasi"
+    },
+    {
+      "doi": "10.46880/jmika.vol6no2.pp239-243",
+      "garuda": {
+        "dosen": [
+          "Ika Yusnita Sari"
+        ],
+        "judul": "SIMULASI MONTE CARLO DALAM MEMPREDIKSI PEMAKAIAN OBAT PENYAKIT GIGI DAN MULUT PADA RUMAH SAKIT",
+        "jurnal": "METHOMIKA: Jurnal Manajemen Informatika & Komputerisasi Akuntansi Vol. 6 No. 2 (2022): METHOMIKA: Jurnal Manajemen Informatika & Komputersisasi Akuntansi",
+        "tahun": 2022
+      },
+      "crossref": {
+        "http": "200",
+        "doi": "10.46880/jmika.vol6no2.pp239-243",
+        "judul": "SIMULASI MONTE CARLO DALAM MEMPREDIKSI PEMAKAIAN OBAT PENYAKIT GIGI DAN MULUT PADA RUMAH SAKIT",
+        "jurnal": "METHOMIKA Jurnal Manajemen Informatika dan Komputerisasi Akuntansi",
+        "issn": [
+          "2598-8565",
+          "2620-4339"
+        ],
+        "sitasi_crossref": 0,
+        "publisher": "METHOMIKA:Jurnala Manajemen Informatika dan Komputerisasi Akuntansi, Universitas Methodist Indonesia",
+        "tahun": 2022
+      },
+      "openalex": {
+        "http": "200",
+        "doi": "https://doi.org/10.46880/jmika.vol6no2.pp239-243",
+        "judul": "SIMULASI MONTE CARLO DALAM MEMPREDIKSI PEMAKAIAN OBAT PENYAKIT GIGI DAN MULUT PADA RUMAH SAKIT",
+        "tahun": 2022,
+        "sitasi_openalex": 1,
+        "openalex_id": "https://openalex.org/W4367294769",
+        "jurnal": "METHOMIKA Jurnal Manajemen Informatika dan Komputerisasi Akuntansi",
+        "issn": [
+          "2598-8565",
+          "2620-4339"
+        ],
+        "source_openalex_id": "https://openalex.org/S4210226398",
+        "indexed_in": [
+          "crossref"
+        ],
+        "ids": {
+          "openalex": "https://openalex.org/W4367294769",
+          "doi": "https://doi.org/10.46880/jmika.vol6no2.pp239-243"
+        }
+      },
+      "scopus_status": "belum_terverifikasi"
+    },
+    {
+      "doi": "10.53513/jursi.v4i6.9709",
+      "garuda": {
+        "dosen": [
+          "Puji Sari Ramadhan"
+        ],
+        "judul": "Sistem Pendukung Keputusan Menentukan Delegasi SMA Swasta Primbana Mengikuti OSN Kimia Menggunakan Metode MABAC",
+        "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 4 No. 6 (2025): EDISI NOVEMBER 2025",
+        "tahun": 2025
+      },
+      "crossref": {
+        "http": "200",
+        "doi": "10.53513/jursi.v4i6.9709",
+        "judul": "Sistem Pendukung Keputusan Menentukan Delegasi SMA Swasta Primbana Mengikuti OSN Kimia Menggunakan Metode MABAC",
+        "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD)",
+        "issn": [
+          "2828-2566",
+          "2828-1004"
+        ],
+        "sitasi_crossref": 0,
+        "publisher": "STMIK Triguna Dharma",
+        "tahun": 2025
+      },
+      "openalex": {
+        "http": "200",
+        "doi": "https://doi.org/10.53513/jursi.v4i6.9709",
+        "judul": "Sistem Pendukung Keputusan Menentukan Delegasi SMA Swasta Primbana Mengikuti OSN Kimia Menggunakan Metode MABAC",
+        "tahun": 2025,
+        "sitasi_openalex": 0,
+        "openalex_id": "https://openalex.org/W7130615363",
+        "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD)",
+        "issn": [
+          "2828-1004",
+          "2828-2566"
+        ],
+        "source_openalex_id": "https://openalex.org/S4387281398",
+        "indexed_in": [
+          "crossref"
+        ],
+        "ids": {
+          "openalex": "https://openalex.org/W7130615363",
+          "doi": "https://doi.org/10.53513/jursi.v4i6.9709"
+        }
+      },
+      "scopus_status": "belum_terverifikasi"
+    },
+    {
+      "doi": "10.53513/jursik.v5i5.12734",
+      "garuda": {
+        "dosen": [
+          "Puji Sari Ramadhan"
+        ],
+        "judul": "Sistem Otomatisasi Sepeda Motor Berbasis IoT Dengan Telegram",
+        "jurnal": "Jurnal Sistem Komputer Triguna Dharma (JURSIK TGD) Vol. 5 No. 5 (2026): JURSIK TGD EDISI SEPTEMBER",
+        "tahun": 2026
+      },
+      "crossref": {
+        "http": "200",
+        "doi": "10.53513/jursik.v5i5.12734",
+        "judul": "Sistem Otomatisasi Sepeda Motor Berbasis IoT Dengan Telegram",
+        "jurnal": "Jurnal Sistem Komputer Triguna Dharma (JURSIK TGD)",
+        "issn": [
+          "2828-4682",
+          "2828-4933"
+        ],
+        "sitasi_crossref": 0,
+        "publisher": "STMIK Triguna Dharma",
+        "tahun": 2026
+      },
+      "openalex": {
+        "http": "200",
+        "doi": "https://doi.org/10.53513/jursik.v5i5.12734",
+        "judul": "Sistem Otomatisasi Sepeda Motor Berbasis IoT Dengan Telegram",
+        "tahun": 2026,
+        "sitasi_openalex": 0,
+        "openalex_id": "https://openalex.org/W7223032111",
+        "jurnal": "Jurnal Sistem Komputer Triguna Dharma (JURSIK TGD)",
+        "issn": [
+          "2828-4933",
+          "2828-4682"
+        ],
+        "source_openalex_id": "https://openalex.org/S4387281451",
+        "indexed_in": [
+          "crossref"
+        ],
+        "ids": {
+          "openalex": "https://openalex.org/W7223032111",
+          "doi": "https://doi.org/10.53513/jursik.v5i5.12734"
+        }
+      },
+      "scopus_status": "belum_terverifikasi"
+    }
+  ]
+}
