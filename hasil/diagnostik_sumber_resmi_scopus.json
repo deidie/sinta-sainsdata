@@ -1,0 +1,901 @@
+{
+  "diperiksa_utc": "2026-11-21T18:55:34.307631+00:00",
+  "hasil": {
+    "serial_scopus_oct_2026": {
+      "download_ok": true,
+      "url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+      "bytes": 26707632,
+      "sheets": [
+        {
+          "sheet": "Scopus Sources Oct. 2026",
+          "top_rows": [
+            [
+              "Sourcerecord ID",
+              "Source Title",
+              "ISSN",
+              "EISSN",
+              "Active or Inactive",
+              "Coverage",
+              "Titles Discontinued by Scopus",
+              "Article Language in Source (Three-Letter ISO Language Codes)",
+              "Medline-sourced Title? (See additional details under separate tab.)",
+              "Open Access Status",
+              "Articles in Press Included?",
+              "Added to List October 2026",
+              "Source Type",
+              "Title History Indication",
+              "Related Title 1",
+              "Other Related Title 2",
+              "Other Related Title 3",
+              "Other Related Title 4",
+              "Publisher",
+              "Publisher Imprints Grouped to Main Publisher",
+              "All Science Journal Classification Codes (ASJC)",
+              "Top level:\n\nLife Sciences",
+              "Top level:\n\nSocial Sciences",
+              "Top level:\n\nPhysical Sciences",
+              "Top level:\n\nHealth Sciences"
+            ],
+            [
+              "21101170611",
+              "@GRH",
+              "20349130",
+              "22959149",
+              "Active",
+              "2026; 2023-2024",
+              "",
+              "ENG; FRE",
+              "",
+              "",
+              "",
+              "Journal",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "Association Francophone de Gestion des Relations Humaines",
+              "Association Francophone de Gestion des Relations Humaines",
+              "1407",
+              "",
+              "Social Sciences",
+              "",
+              "",
+              ""
+            ],
+            [
+              "21100902951",
+              "[Hifu] Skin research",
+              "00181390",
+              "",
+              "Inactive",
+              "1959-2001",
+              "",
+              "JPN",
+              "",
+              "",
+              "",
+              "Journal",
+              "Continued as",
+              "Skin Research",
+              "",
+              "",
+              "",
+              "Osaka University Medical School",
+              "Osaka University Medical School",
+              "2708; 2725",
+              "",
+              "",
+              "",
+              "Health Sciences",
+              ""
+            ],
+            [
+              "26063",
+              "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+              "04851439",
+              "18820824",
+              "Inactive",
+              "1972-2016",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "Journal",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "Nihon Rinsho Ketsueki Gakkai/Japan Society of Clinical Hematology",
+              "Nihon Rinsho Ketsueki Gakkai/Japan Society of Clinical Hematology",
+              "2700",
+              "",
+              "",
+              "",
+              "Health Sciences",
+              ""
+            ],
+            [
+              "40160",
+              "[Zasshi] [Journal]. Nihon Kyobu Geka Gakkai",
+              "03694739",
+              "",
+              "Inactive",
+              "1972-1997",
+              "",
+              "JPN",
+              "",
+              "",
+              "",
+              "Journal",
+              "Continued as",
+              "Japanese Journal of Thoracic and Cardiovascular Surgery",
+              "",
+              "",
+              "",
+              "Nihon Kyobu Geka Gakkai",
+              "Nihon Kyobu Geka Gakkai",
+              "2705",
+              "",
+              "",
+              "",
+              "Health Sciences",
+              ""
+            ],
+            [
+              "21100832755",
+              "1700-tal: Nordic Journal for Eighteenth-Century Studies",
+              "16524772",
+              "20019866",
+              "Active",
+              "2019-2025; 2016-2017",
+              "",
+              "DAN; FIN; GER; NOR",
+              "",
+              "Unpaywall Open Access",
+              "",
+              "Journal",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "Swedish Society for Eighteenth-Century Studies",
+              "Swedish Society for Eighteenth-Century Studies",
+              "1213; 3316; 1202",
+              "",
+              "Social Sciences",
+              "",
+              "",
+              ""
+            ],
+            [
+              "21101194408",
+              "20 & 21: Revue d'Histoire",
+              "2649664X",
+              "26496100",
+              "Active",
+              "2022-2024",
+              "",
+              "ENG; FRE",
+              "",
+              "",
+              "",
+              "Journal",
+              "Formerly known as",
+              "Vingtieme Siecle: Revue d'Histoire",
+              "",
+              "",
+              "",
+              "Presses de Sciences Po",
+              "Presses de Sciences Po",
+              "1202",
+              "",
+              "Social Sciences",
+              "",
+              "",
+              ""
+            ],
+            [
+              "18500162600",
+              "21st Century Music",
+              "15343219",
+              "",
+              "Inactive",
+              "2002-2011",
+              "",
+              "ENG",
+              "",
+              "",
+              "",
+              "Journal",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "21st-Century Music",
+              "21st-Century Music",
+              "1210",
+              "",
+              "Social Sciences",
+              "",
+              "",
+              ""
+            ],
+            [
+              "21100404576",
+              "2D Materials",
+              "",
+              "20531583",
+              "Active",
+              "2014-2026",
+              "",
+              "ENG",
+              "",
+              "",
+              "",
+              "Journal",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "IOP Publishing Ltd.",
+              "Institute of Physics Publishing",
+              "2210; 2211; 3104; 2500; 1600",
+              "",
+              "",
+              "Physical Sciences",
+              "",
+              ""
+            ],
+            [
+              "21100447128",
+              "3 Biotech",
+              "2190572X",
+              "21905738",
+              "Active",
+              "2011-2026",
+              "",
+              "ENG",
+              "",
+              "",
+              "",
+              "Journal",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "Springer Science and Business Media Deutschland GmbH",
+              "Springer Nature",
+              "2301; 1101; 1305",
+              "Life Sciences",
+              "",
+              "Physical Sciences",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "sheet": "Accepted Titles Oct. 2026",
+          "top_rows": [
+            [
+              "Status: October 2026",
+              "Accepted titles in the process of being added to Scopus",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Notice: Scopus is owned by Elsevier B.V. and Elsevier is solely responsible for the content selection policy of Scopus. In order to come to a decision to accept or reject a title for Scopus, Elsevier follows the independent advice from the Scopus Content Selection & Advisory Board (CSAB). However, Elsevier in consultation with the CSAB reserve the right to change decisions, adjust the selection criteria, or re-evaluate titles that are accepted for Scopus without prior notice. Decisions made by the CSAB do not guarantee inclusion into Scopus due to not being able to come to terms with the publisher on a licensing agreement. In no event shall Elsevier be liable for any indirect, incidental, special, consequential or punitive damages arising out of or in connection with any advice disclosed or any selection decision made.\n",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Source Title",
+              "ISSN",
+              "EISSN",
+              "Date of Acceptance",
+              "Publisher"
+            ],
+            [
+              "Journal of The Korean Data Analysis Society",
+              "12292354",
+              "27339173",
+              "46298",
+              "The Korean Data Analysis Society"
+            ],
+            [
+              "International Journal of Advanced Corporate Learning",
+              "",
+              "18675565",
+              "46299",
+              "International Federation of Engineering Education Societies (IFEES)"
+            ],
+            [
+              "Digital Twins and Applications",
+              "29955629",
+              "29952182",
+              "46301",
+              "John Wiley & Sons"
+            ],
+            [
+              "Basic Readings in Culture and Aesthetics",
+              "",
+              "20026463",
+              "46303",
+              "Stockholm University Press"
+            ],
+            [
+              "Biomaterials Science Series",
+              "",
+              "2397141X",
+              "46303",
+              "Royal Society of Chemistry"
+            ],
+            [
+              "Contact Language Library",
+              "25427059",
+              "",
+              "46303",
+              "John Benjamins Publishing Co."
+            ],
+            [
+              "Global Qur'an",
+              "27538036",
+              "27538044",
+              "46303",
+              "Open Book Publishers"
+            ]
+          ]
+        },
+        {
+          "sheet": "Discontinued Titles Oct. 2026",
+          "top_rows": [
+            [
+              "Status (recently discontinued titles in bold): October 2026 (more information on Scopus Re-evaluation)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "FINAL COVERAGE\nDisclaimer: Final coverage indicates the last complete volume/issue covered in Scopus.com. After this, no content will be added. No gap fill will be done unless it can be proven that the article was published in one of the issues before the indicated final coverage vol/issue and it was available online before the title was put on hold.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Sourcerecord ID",
+              "Source Title (newly added titles are highlighted in red)",
+              "ISSN",
+              "EISSN",
+              "Publisher",
+              "Indexation Change",
+              "Year",
+              "Volume",
+              "Issue",
+              "Page Range"
+            ],
+            [
+              "18665",
+              "ABB Review",
+              "10133119",
+              "",
+              "A B B Corporate Management Services AG",
+              "Discontinuation",
+              "2018",
+              "",
+              "4",
+              "76-77"
+            ],
+            [
+              "19700182619",
+              "Academic Journal of Cancer Research",
+              "19958943",
+              "",
+              "International Digital Organization for Scientific Information (IDOSI)",
+              "Discontinuation",
+              "2013",
+              "6",
+              "2",
+              "84-89"
+            ],
+            [
+              "21100897507",
+              "Academic Journal of Interdisciplinary Studies",
+              "22813993",
+              "22814612",
+              "Richtmann Publishing Ltd",
+              "Discontinuation",
+              "2024",
+              "13",
+              "1",
+              "402-410"
+            ],
+            [
+              "19300157018",
+              "Academy of Accounting and Financial Studies Journal",
+              "10963685",
+              "",
+              "Allied Business Academies",
+              "Discontinuation",
+              "2021",
+              "25",
+              "6",
+              "001-020"
+            ],
+            [
+              "19700175174",
+              "Academy of Entrepreneurship Journal",
+              "10879595",
+              "15282686",
+              "Allied Business Academies",
+              "Discontinuation",
+              "2021",
+              "27",
+              "5",
+              "001-021"
+            ],
+            [
+              "19700175175",
+              "Academy of Marketing Studies Journal",
+              "10956298",
+              "15282678",
+              "Allied Academies",
+              "Discontinuation",
+              "2016",
+              "20",
+              "3",
+              "73-88"
+            ],
+            [
+              "19700175176",
+              "Academy of Strategic Management Journal",
+              "15441458",
+              "19396104",
+              "Allied Business Academies",
+              "Discontinuation",
+              "2021",
+              "20",
+              "5",
+              "001-024"
+            ],
+            [
+              "21100943519",
+              "Accounting",
+              "23697393",
+              "23697407",
+              "Growing Science",
+              "Discontinuation",
+              "2021",
+              "7",
+              "6",
+              "1507-1520"
+            ]
+          ]
+        },
+        {
+          "sheet": "Serial Conf. Proc. with Profile",
+          "top_rows": [
+            [
+              "Sourcerecord ID",
+              "Source Title",
+              "ISSN",
+              "EISSN",
+              "Titles Discontinued by Scopus",
+              "Coverage",
+              "All Science Journal Classification Codes (ASJC)"
+            ],
+            [
+              "93910",
+              "1990 IEEE Nuclear Science Symposium Conference Record, NSS/MIC 1990",
+              "07347510",
+              "",
+              "",
+              "2024; 2019; 2007-2015; 1995-2005; 1993; 1989-1991; 1980-1987",
+              "3108; 3106; 2741"
+            ],
+            [
+              "21100225802",
+              "3DTV-Conference",
+              "21612021",
+              "2161203X",
+              "",
+              "2018; 2012-2016",
+              "2208; 1709; 1707; 1705; 1704"
+            ],
+            [
+              "21101331994",
+              "AAAI Spring Symposium - Technical Report",
+              "",
+              "",
+              "",
+              "2024-2025",
+              "1702"
+            ],
+            [
+              "50013",
+              "AACE International Transactions",
+              "15287106",
+              "",
+              "",
+              "2002-2013; 1996-1999; 1994; 1991-1992; 1989; 1987; 1976-1985",
+              "2200"
+            ],
+            [
+              "21100773213",
+              "Abel Symposia",
+              "21932808",
+              "21978549",
+              "",
+              "2024-2025; 2022; 2020; 2018; 2015-2016; 2013",
+              "2600"
+            ],
+            [
+              "21101208626",
+              "Academy of Management Annual Meeting Proceedings",
+              "00650668",
+              "21516561",
+              "",
+              "2005-2026",
+              "1410; 1405; 1404"
+            ],
+            [
+              "21100236214",
+              "ACM/IEEE International Conference on Human-Robot Interaction",
+              "",
+              "21672148",
+              "",
+              "2013-2025",
+              "2208; 1709; 1702"
+            ],
+            [
+              "22678",
+              "ACS Division of Environmental Chemistry, Preprints",
+              "00933066",
+              "",
+              "",
+              "1996-2004; 1973-1980",
+              "1500; 2100"
+            ],
+            [
+              "60277",
+              "ACS National Meeting Book of Abstracts",
+              "00657727",
+              "",
+              "",
+              "2004-2011; 1999-2001",
+              "1500; 1600"
+            ]
+          ]
+        },
+        {
+          "sheet": "All Conf. Proceedings Jun. 2026",
+          "top_rows": [
+            [
+              "Source Title",
+              "Proceedinds Title",
+              "ISBN",
+              "Year",
+              "Volume",
+              "EID",
+              "Publisher",
+              "ASJC"
+            ],
+            [
+              "100th Annual Conference and Exhibition of the Air and Waste Management Association 2007, ACE 2007",
+              "100th Annual Conference and Exhibition of the Air and Waste Management Association 2007, ACE 2007",
+              "9781604238464",
+              "2007",
+              "7",
+              "84935468465",
+              "Air and Waste Management Association",
+              "2310; 2311; 2312"
+            ],
+            [
+              "100th Annual Conference and Exhibition of the Air and Waste Management Association 2007, ACE 2007",
+              "100th Annual Conference and Exhibition of the Air and Waste Management Association 2007, ACE 2007",
+              "9781604238464",
+              "2007",
+              "3",
+              "84935469535",
+              "Air and Waste Management Association",
+              "2310; 2311; 2312"
+            ],
+            [
+              "100th Annual Conference and Exhibition of the Air and Waste Management Association 2007, ACE 2007",
+              "100th Annual Conference and Exhibition of the Air and Waste Management Association 2007, ACE 2007",
+              "9781604238464",
+              "2007",
+              "6",
+              "84935414629",
+              "Air and Waste Management Association",
+              "2310; 2311; 2312"
+            ],
+            [
+              "100th Annual Conference and Exhibition of the Air and Waste Management Association 2007, ACE 2007",
+              "100th Annual Conference and Exhibition of the Air and Waste Management Association 2007, ACE 2007",
+              "9781604238464",
+              "2007",
+              "4",
+              "84935452380",
+              "Air and Waste Management Association",
+              "2310; 2311; 2312"
+            ],
+            [
+              "100th Annual Conference and Exhibition of the Air and Waste Management Association 2007, ACE 2007",
+              "100th Annual Conference and Exhibition of the Air and Waste Management Association 2007, ACE 2007",
+              "9781604238464",
+              "2007",
+              "5",
+              "84935512219",
+              "Air and Waste Management Association",
+              "2310; 2311; 2312"
+            ],
+            [
+              "100th Annual Conference and Exhibition of the Air and Waste Management Association 2007, ACE 2007",
+              "100th Annual Conference and Exhibition of the Air and Waste Management Association 2007, ACE 2007",
+              "9781604238464",
+              "2007",
+              "2",
+              "84935510317",
+              "Air and Waste Management Association",
+              "2310; 2311; 2312"
+            ],
+            [
+              "100th Annual Conference and Exhibition of the Air and Waste Management Association 2007, ACE 2007",
+              "100th Annual Conference and Exhibition of the Air and Waste Management Association 2007, ACE 2007",
+              "9781604238464",
+              "2007",
+              "1",
+              "84935445679",
+              "Air and Waste Management Association",
+              "2310; 2311; 2312"
+            ],
+            [
+              "100th ARFTG Microwave Measurement Conference: Measurement Challenges For Emerging Rf-to-Thz Technologies, ARFTG 2023",
+              "100th ARFTG Microwave Measurement Conference: Measurement Challenges For Emerging Rf-to-Thz Technologies, ARFTG 2023",
+              "9781665474948",
+              "2023",
+              "",
+              "85163852804",
+              "Institute of Electrical and Electronics Engineers Inc.",
+              "1705; 1711; 2208; 2504; 3105; 3108"
+            ],
+            [
+              "101st ARFTG Microwave Measurement Conference: Challenges in Complex Measurement Environments, ARFTG 2023",
+              "101st ARFTG Microwave Measurement Conference: Challenges in Complex Measurement Environments, ARFTG 2023",
+              "9798350323450",
+              "2023",
+              "",
+              "85175999518",
+              "Institute of Electrical and Electronics Engineers Inc.",
+              "1705; 1711; 3105"
+            ]
+          ]
+        },
+        {
+          "sheet": "More Info. Medline",
+          "top_rows": [
+            [
+              "Display Rules and Regulations",
+              ""
+            ],
+            [
+              "The Scopus Source List contains over 40,000 serial titles, however, there are actually in total more than 50,000 unique serial titles in Scopus. ",
+              ""
+            ],
+            [
+              "The Reasons for leaving circa 10,000 serial titles out of the list and out of the Scopus Source Browse section (note that these titles ARE available through the Scopus Basic Search functionality) are listed below.",
+              ""
+            ],
+            [
+              "Not shown are:",
+              ""
+            ],
+            [
+              "(1) pre-1996 discontinued (non-active) titles (however, pre-1996 titles having child-parent relationships ARE included (independent of the number of articles))",
+              ""
+            ],
+            [
+              "(2) post-1995 titles having less than 10 articles awaiting creation of a Source Details Page in Scopus ",
+              ""
+            ],
+            [
+              "(3) post-1995 titles with extremely scattered and incomplete content",
+              ""
+            ],
+            [
+              "(4) Stand-alone books, Conferences and reports (i.e., books and reports that are not part of a Book Series)",
+              ""
+            ],
+            [
+              "Medline-Sourced Titles",
+              ""
+            ],
+            [
+              "Scopus has a 100% overlap with Medline titles. The majority of those titles are also received via the publisher, however, approximately 20% of the Medline titles are fed directly from Medline into Scopus. The Medline-unique items do not contain references ",
+              ""
+            ]
+          ]
+        },
+        {
+          "sheet": "ASJC Classification Codes",
+          "top_rows": [
+            [
+              "Regarding **00 and **01:",
+              ""
+            ],
+            [
+              "When the scope of a journal covers all or most of the sub-codes belonging to a main code the **00 code can be assigned. E.g. the American Journal of Medicine, a general medicine title which can cover all 27** subjects, has code 2700.",
+              ""
+            ],
+            [
+              "Normally, journals with code **00 should not get additional sub-codes within this main code range but exceptions can occur.",
+              ""
+            ],
+            [
+              "The code 1000 should be reserved for “all science” titles like Nature or Science, covering all or most main subject fields.",
+              ""
+            ],
+            [
+              "If a journal has a specific scope but this specific scope does not match with any of the existing sub-codes within a main subject field, the **01 code can be assigned. E.g. the Journal of Parapsychology has code 3201.",
+              ""
+            ],
+            [
+              "The **01 can be used in combination with other existing sub-codes.",
+              ""
+            ],
+            [
+              "Code",
+              "Description",
+              "code",
+              "Description",
+              "Supergroup"
+            ],
+            [
+              "",
+              "Multidisciplinary",
+              "1000",
+              "Multidisciplinary",
+              ""
+            ],
+            [
+              "1000",
+              "Multidisciplinary",
+              "11**",
+              "Agricultural and Biological Sciences ",
+              "Life Sciences"
+            ],
+            [
+              "",
+              "Agricultural and Biological Sciences",
+              "12**",
+              "Arts and Humanities ",
+              "Social Sciences"
+            ]
+          ]
+        }
+      ]
+    },
+    "book_scopus": {
+      "download_ok": true,
+      "url": "https://downloads.ctfassets.net/o78em1y1w4i4/2uPDv7HcQRnPoxj5xyGhBS/62cc5084eb5566e942271f09e37ccf80/Scopus_book_list_Q2.xlsx",
+      "bytes": 44289067,
+      "sheets": [
+        {
+          "sheet": "Scopus book list_Q2",
+          "top_rows": [
+            [
+              "TITLE",
+              "PRINT ISBN",
+              "ELECTRONIC ISBN",
+              "PUBLISHER",
+              "PUBLICATION YEAR",
+              "ASJC",
+              "SCOPUS ID",
+              "SCOPUS LOAD DATE"
+            ],
+            [
+              "24",
+              "9780814338674",
+              "9780814338681",
+              "Wayne State University Press",
+              "2014",
+              "1200; 3300",
+              "21100411723",
+              "42285"
+            ],
+            [
+              "1962",
+              "9783112476970",
+              "9783112476987",
+              "De Gruyter",
+              "2022",
+              "2200; 3100; 3300",
+              "21101374470",
+              "46024"
+            ],
+            [
+              "2004",
+              "9783110179897",
+              "9783110207767",
+              "De Gruyter",
+              "2008",
+              "1200; 3300",
+              "21101311022",
+              "45857"
+            ],
+            [
+              "!Viva!: Community Arts and Popular Education in the Americas",
+              "1438437676; 9781438437675",
+              "",
+              "State University of New York Press",
+              "2011",
+              "3300",
+              "21100314274",
+              "41787"
+            ],
+            [
+              "\"... The Real War Will Never Get in the Books\": Selections from Writers During the Civil War",
+              "0195098374; 9780195098372",
+              "9780199853908",
+              "Oxford University Press",
+              "2011",
+              "1200",
+              "21100403851",
+              "42242"
+            ],
+            [
+              "\"...And Then I Became Gay\": Young Men's Stories",
+              "0415916763; 9780415916769",
+              "9780203828144",
+              "Taylor and Francis",
+              "2013",
+              "3300",
+              "21100920317",
+              "43681"
+            ],
+            [
+              "\"A Bold and Hardy Race of Men\": The Lives and Literature of American Whalemen",
+              "9781625340207",
+              "9781613762738",
+              "University of Massachusetts",
+              "2013",
+              "1200; 3300",
+              "21100601019",
+              "42308"
+            ],
+            [
+              "\"A Mirror for Magistrates\" and the Politics of the English Reformation",
+              "9781558497061",
+              "",
+              "University of Massachusetts Press",
+              "2009",
+              "1200",
+              "21100307377",
+              "41766"
+            ],
+            [
+              "\"A Mutual Responsibility and a Moral Obligation\": The Final Report on Germany's Compensation Programs for Forced Labor and other Personal Injuries",
+              "9780230612648",
+              "9780230104259",
+              "Palgrave Macmillan",
+              "2009",
+              "1200; 3300",
+              "21100783807",
+              "42688"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
