@@ -46,11 +46,23 @@ def main():
     u=urlparse(ENDPOINT)
     if u.scheme!="https" or u.hostname!="script.google.com" or not u.path.endswith("/exec"):
         raise RuntimeError("URL Apps Script tidak sah")
-    req=Request(ENDPOINT+"?view=publikasi",headers={"User-Agent":"SainsData-Scholar/1.0","Accept":"application/json"})
-    with urlopen(req,timeout=35) as resp: raw=resp.read(3000001)
-    if len(raw)>3000000: raise RuntimeError("Respons terlalu besar")
-    data=json.loads(raw.decode("utf-8-sig"))
-    if data.get("error") or not isinstance(data.get("profiles"),list): raise RuntimeError("Respons tidak valid")
+    data=None
+    failures=[]
+    for view in ("publikasi","portal"):
+        try:
+            req=Request(ENDPOINT+"?view="+view,headers={"User-Agent":"SainsData-Scholar/1.0","Accept":"application/json"})
+            with urlopen(req,timeout=35) as resp: raw=resp.read(3000001)
+            if len(raw)>3000000: raise RuntimeError("Respons terlalu besar")
+            candidate=json.loads(raw.decode("utf-8-sig"))
+            if isinstance(candidate,dict) and not candidate.get("error") and isinstance(candidate.get("profiles"),list):
+                data=candidate
+                print("Endpoint Google berhasil: view="+view)
+                break
+            if isinstance(candidate,dict):
+                failures.append(view+": "+str(candidate.get("error") or ("fields="+",".join(candidate.keys())))[:240])
+            else: failures.append(view+": bukan objek JSON")
+        except Exception as exc: failures.append(view+": "+str(exc)[:180])
+    if data is None: raise RuntimeError("Endpoint Apps Script belum siap; "+"; ".join(failures))
     rows=[r for p in data["profiles"] if isinstance(p,dict) if (r:=parse(p))]
     if not any(p["artikel_scholar"] for p in rows): raise RuntimeError("Artikel Scholar kosong: snapshot sebelumnya dipertahankan")
     old={}
