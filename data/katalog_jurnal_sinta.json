@@ -1,0 +1,272 @@
+{
+  "versi": 1,
+  "keterangan": "Daftar hasil pencocokan nama jurnal GARUDA ke profil jurnal SINTA melalui sumber resmi terindeks. Rank adalah peringkat jurnal saat sumber terakhir diamati, bukan akreditasi historis setiap artikel. Situs SINTA dapat membatasi akses otomatis.",
+  "sumber_data": "SINTA Science and Technology Index, profil jurnal resmi",
+  "jurnal": [
+    {
+      "nama_garuda": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH",
+      "nama_sinta": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+      "peringkat_terkini_diamati": 4,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "CESS (Journal of Computer Engineering, System and Science)",
+      "nama_sinta": "CESS (Journal of Computer Engineering, System and Science)",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+      "peringkat_terkini_diamati": 4,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Jurnal IPTEK Bagi Masyarakat",
+      "nama_sinta": "Jurnal IPTEK Bagi Masyarakat",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/13148",
+      "peringkat_terkini_diamati": 3,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "INFOKUM",
+      "nama_sinta": "INFOKUM",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7139",
+      "peringkat_terkini_diamati": 5,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Journal of Computer Science and Informatics Engineering",
+      "nama_sinta": "Journal of Computer Science and Informatics Engineering",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15325",
+      "peringkat_terkini_diamati": 4,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Journal of Computer Networks, Architecture and High Performance Computing",
+      "nama_sinta": "Journal of Computer Networks, Architecture and High Performance Computing",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7735",
+      "peringkat_terkini_diamati": 4,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "(JurTI) Jurnal Teknologi Informasi",
+      "nama_sinta": "(JurTI) Jurnal Teknologi Informasi",
+      "alias_garuda": [
+        "JurTI (Jurnal Teknologi Informasi)"
+      ],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5604",
+      "peringkat_terkini_diamati": 5,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "JISTech (Journal of Islamic Science and Technology)",
+      "nama_sinta": "JISTech (Journal of Islamic Science and Technology)",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11879",
+      "peringkat_terkini_diamati": 4,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Jurnal Multimedia dan Teknologi Informasi (Jatilima)",
+      "nama_sinta": "Jurnal Multimedia dan Teknologi Informasi (Jatilima)",
+      "alias_garuda": [
+        "Jatilima : Jurnal Multimedia Dan Teknologi Informasi"
+      ],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10953",
+      "peringkat_terkini_diamati": 4,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "TIN: Terapan Informatika Nusantara",
+      "nama_sinta": "TIN: Terapan Informatika Nusantara",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10960",
+      "peringkat_terkini_diamati": 4,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Jurnal Teknologi Sistem Informasi dan Aplikasi",
+      "nama_sinta": "Jurnal Teknologi Sistem Informasi dan Aplikasi",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10336",
+      "peringkat_terkini_diamati": 3,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Journal of Information System Research (JOSH)",
+      "nama_sinta": "Journal of Information System Research (JOSH)",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8355",
+      "peringkat_terkini_diamati": 4,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "IJISTECH (International Journal of Information System and Technology)",
+      "nama_sinta": "IJISTECH (International Journal of Information System and Technology)",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/5619",
+      "peringkat_terkini_diamati": 5,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Sistem Pendukung Keputusan dengan Aplikasi",
+      "nama_sinta": "Sistem Pendukung Keputusan dengan Aplikasi",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/12420",
+      "peringkat_terkini_diamati": 4,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Journal La Multiapp",
+      "nama_sinta": "Journal La Multiapp",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10973",
+      "peringkat_terkini_diamati": 4,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Bulletin of Computer Science Research",
+      "nama_sinta": "Bulletin of Computer Science Research",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9602",
+      "peringkat_terkini_diamati": 4,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Journal of Information Systems and Technology Research",
+      "nama_sinta": "Journal of Information Systems and Technology Research",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15336",
+      "peringkat_terkini_diamati": 4,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Jurnal Sistem Komputer dan Informatika (JSON)",
+      "nama_sinta": "Jurnal Sistem Komputer dan Informatika (JSON)",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8054",
+      "peringkat_terkini_diamati": 3,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "KLIK: Kajian Ilmiah Informatika dan Komputer",
+      "nama_sinta": "KLIK: Kajian Ilmiah Informatika dan Komputer",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10375",
+      "peringkat_terkini_diamati": 4,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Sistemasi: Jurnal Sistem Informasi",
+      "nama_sinta": "Sistemasi: Jurnal Sistem Informasi",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/3323",
+      "peringkat_terkini_diamati": 3,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Jurnal Informatika Teknologi dan Sains (Jinteks)",
+      "nama_sinta": "Jurnal Informatika Teknologi dan Sains (Jinteks)",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8942",
+      "peringkat_terkini_diamati": 4,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Jurnal Mandiri IT",
+      "nama_sinta": "Jurnal Mandiri IT",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8971",
+      "peringkat_terkini_diamati": 4,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Journal of Computer System and Informatics (JoSYC)",
+      "nama_sinta": "Journal of Computer System and Informatics (JoSYC)",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8861",
+      "peringkat_terkini_diamati": 5,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD",
+      "nama_sinta": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/9035",
+      "peringkat_terkini_diamati": 5,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "MALCOM: Indonesian Journal of Machine Learning and Computer Science",
+      "nama_sinta": "MALCOM: Indonesian Journal of Machine Learning and Computer Science",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/11292",
+      "peringkat_terkini_diamati": 3,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "JOURNAL OF INFORMATICS AND TELECOMMUNICATION ENGINEERING",
+      "nama_sinta": "JOURNAL OF INFORMATICS AND TELECOMMUNICATION ENGINEERING",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4143",
+      "peringkat_terkini_diamati": 3,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Journal of Applied Informatics and Computing",
+      "nama_sinta": "Journal of Applied Informatics and Computing",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4696",
+      "peringkat_terkini_diamati": 3,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "The Indonesian Journal of Computer Science",
+      "nama_sinta": "The Indonesian Journal of Computer Science",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/4997",
+      "peringkat_terkini_diamati": 5,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Jurnal Ilmu Komputer dan Sistem Informasi",
+      "nama_sinta": "Jurnal Ilmu Komputer dan Sistem Informasi",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15276",
+      "peringkat_terkini_diamati": 5,
+      "sumber": "Profil jurnal SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22"
+    }
+  ]
+}
