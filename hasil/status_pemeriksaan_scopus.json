@@ -1,0 +1,40 @@
+{
+  "versi": 1,
+  "diperiksa_utc": "2026-11-21T18:15:43.599302+00:00",
+  "sumber": "Elsevier Scopus Search API, pencocokan DOI dan EID",
+  "api_key_tersedia": false,
+  "total_rekaman_garuda_per_dosen": 430,
+  "jumlah_doi_unik_untuk_diperiksa": 391,
+  "dosen": {
+    "siddik": {
+      "rekaman_garuda": 80,
+      "punya_doi": 76
+    },
+    "dedi": {
+      "rekaman_garuda": 164,
+      "punya_doi": 156
+    },
+    "rakhmat": {
+      "rekaman_garuda": 131,
+      "punya_doi": 117
+    },
+    "aidil": {
+      "rekaman_garuda": 37,
+      "punya_doi": 36
+    },
+    "ika": {
+      "rekaman_garuda": 16,
+      "punya_doi": 12
+    },
+    "puji": {
+      "rekaman_garuda": 2,
+      "punya_doi": 2
+    }
+  },
+  "status": "belum_dikonfigurasi",
+  "peringatan": "Tanpa verifikasi Scopus, rekaman tidak boleh diberi label 'tidak terindeks'. Pencocokan hanya untuk artikel yang sudah terdapat di GARUDA.",
+  "permintaan_api": 0,
+  "api_diblokir": null,
+  "rekaman_scopus_terverifikasi": null,
+  "tindakan": "Konfigurasikan GitHub Secret SCOPUS_API_KEY dengan kunci yang memiliki akses Elsevier Scopus API."
+}
