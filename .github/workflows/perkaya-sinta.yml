@@ -7,6 +7,7 @@ on:
       - "buat_rekap_peringkat_jurnal_sinta.py"
       - "buat_rekap_wordpress.py"
       - "buat_rekap_sinta_berdasar_terbit.py"
+      - "buat_sinta_laman_wordpress.py"
       - "data/peringkat_sinta_historis.json"
       - "buat_label_publikasi.py"
       - "data/katalog_jurnal_sinta.json"
@@ -40,6 +41,8 @@ jobs:
         run: python buat_rekap_wordpress.py
       - name: Hitung peringkat SINTA berdasarkan tahun terbit artikel
         run: python buat_rekap_sinta_berdasar_terbit.py
+      - name: Perbarui data SINTA untuk laman WordPress
+        run: python buat_sinta_laman_wordpress.py
       - name: Validasi hasil
         run: |
           python - <<'PY'
@@ -59,7 +62,7 @@ jobs:
           PY
       - name: Simpan katalog dan rekap ke GitHub
         run: |
-          git add hasil/publikasi_dosen.json hasil/publikasi_dosen.csv hasil/rekap_sinta.json hasil/rekap_sinta.csv hasil/diagnostik_pencocokan_sinta.json hasil/katalog_pencocokan_sinta.json hasil/label_publikasi.json hasil/rekap_jurnal_sinta_terkini.json hasil/rekap_jurnal_sinta_terkini.csv hasil/rekap_publikasi_wordpress.json hasil/rekap_sinta_berdasar_terbit.json
+          git add hasil/publikasi_dosen.json hasil/publikasi_dosen.csv hasil/rekap_sinta.json hasil/rekap_sinta.csv hasil/diagnostik_pencocokan_sinta.json hasil/katalog_pencocokan_sinta.json hasil/label_publikasi.json hasil/rekap_jurnal_sinta_terkini.json hasil/rekap_jurnal_sinta_terkini.csv hasil/rekap_publikasi_wordpress.json hasil/rekap_sinta_berdasar_terbit.json hasil/sinta_laman_wordpress.json
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
