@@ -1,0 +1,72 @@
+{
+  "versi": 1,
+  "diperbarui_utc": "2026-11-21T19:14:18.503800+00:00",
+  "judul_data": "Kecocokan SUMBER Scopus (bukan bukti dokumen individual)",
+  "jumlah_kecocokan_sumber": 2,
+  "daftar_kecocokan_sumber": [
+    {
+      "judul": "Genetic algorithm-optimized BERTopic with SHAP explainability for institutional research trend analysis",
+      "tahun": 2026,
+      "doi": "10.11591/ijai.v15.i4.pp3818-3826",
+      "isbn": [],
+      "dosen": [
+        "dedi"
+      ],
+      "status": "sumber_jurnal_scopus_cocok_belum_bukti_dokumen",
+      "scopus_eid": null,
+      "jenis": "jurnal",
+      "sumber_scopus": "IAES International Journal of Artificial Intelligence",
+      "source_id": "21100901206",
+      "bukti_url": "https://www.scopus.com/sourceid/21100901206",
+      "cakupan_tahun": "tahun_masuk_daftar_cakupan"
+    },
+    {
+      "judul": "Evaluating browser-based immersive technology for cultural heritage",
+      "tahun": 2026,
+      "doi": "10.11591/ijict.v15i4.pp1664-1672",
+      "isbn": [],
+      "dosen": [
+        "dedi"
+      ],
+      "status": "sumber_jurnal_scopus_cocok_belum_bukti_dokumen",
+      "scopus_eid": null,
+      "jenis": "jurnal",
+      "sumber_scopus": "International Journal of Informatics and Communication Technology",
+      "source_id": "21101199360",
+      "bukti_url": "https://www.scopus.com/sourceid/21101199360",
+      "cakupan_tahun": "tahun_masuk_daftar_cakupan"
+    }
+  ],
+  "kandidat_buku_lain": [
+    {
+      "judul": "AI for Inclusion: Sign Language Recognition to Support Hajj Pilgrims",
+      "tahun": 2026,
+      "doi": "10.1201/9781003662433-18",
+      "isbn": [
+        "9781003662433"
+      ],
+      "dosen": [
+        "siddik",
+        "aidil"
+      ],
+      "jenis": "bab_buku",
+      "bukti_crossref": "https://doi.org/10.1201/9781003662433-18",
+      "status": "kandidat_crossref_belum_scopus"
+    },
+    {
+      "judul": "Smart Machine Learning Approaches for Detection of Malicious Unified Resource Locator: Towards Sustainable Cybersecurity Systems",
+      "tahun": 2026,
+      "doi": "10.1201/9781042013098-10",
+      "isbn": [
+        "9781042013098"
+      ],
+      "dosen": [
+        "rakhmat"
+      ],
+      "jenis": "bab_buku",
+      "bukti_crossref": "https://doi.org/10.1201/9781042013098-10",
+      "status": "kandidat_crossref_belum_scopus"
+    }
+  ],
+  "peringatan": "ISSN/ISBN cocok pada daftar sumber/buku Scopus resmi. Jangan tampilkan ini sebagai jumlah artikel Scopus terindeks atau Q1-Q4."
+}

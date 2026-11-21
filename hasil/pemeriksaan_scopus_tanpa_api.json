@@ -1,5 +1,5 @@
 {
-  "diperiksa_utc": "2026-11-21T19:02:44.110273+00:00",
+  "diperiksa_utc": "2026-11-21T19:13:35.524926+00:00",
   "sumber_daftar": "Daftar sumber dan buku resmi Elsevier",
   "tautan_sumber": {
     "sources": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
@@ -17,17 +17,15 @@
   "jumlah_kandidat_dengan_isbn": 2,
   "rekap_status": {
     "sumber_jurnal_scopus_cocok_belum_bukti_dokumen": 2,
-    "belum_terverifikasi_bukan_berarti_tidak_terindeks": 438,
-    "sumber_buku_scopus_cocok_belum_bukti_dokumen": 1
+    "belum_terverifikasi_bukan_berarti_tidak_terindeks": 439
   },
   "rekap_per_dosen": {
     "dedi": {
       "sumber_jurnal_scopus_cocok_belum_bukti_dokumen": 2,
-      "belum_terverifikasi_bukan_berarti_tidak_terindeks": 162,
-      "sumber_buku_scopus_cocok_belum_bukti_dokumen": 1
+      "belum_terverifikasi_bukan_berarti_tidak_terindeks": 162
     },
     "rakhmat": {
-      "belum_terverifikasi_bukan_berarti_tidak_terindeks": 125
+      "belum_terverifikasi_bukan_berarti_tidak_terindeks": 126
     },
     "aidil": {
       "belum_terverifikasi_bukan_berarti_tidak_terindeks": 45
@@ -8458,42 +8456,25 @@
       "status_pemeriksaan_scopus": "belum_terverifikasi_bukan_berarti_tidak_terindeks"
     },
     {
-      "id_kandidat": "doi:10.4018/979-8-3373-9245-5.ch010",
-      "judul": "Future Trends in Intelligent Construction Monitoring Technologies",
-      "jurnal_atau_buku": "Intelligent Construction Monitoring Systems",
+      "id_kandidat": "doi:10.1201/9781042013098-10",
+      "judul": "Smart Machine Learning Approaches for Detection of Malicious Unified Resource Locator: Towards Sustainable Cybersecurity Systems",
+      "jurnal_atau_buku": "Smart, Secure, and Sustainable Digital Futures",
       "tahun": 2026,
-      "doi": "10.4018/979-8-3373-9245-5.ch010",
+      "doi": "10.1201/9781042013098-10",
       "issn": [],
       "isbn": [
-        "9798337392455",
-        "9798337392479"
+        "9781042013098"
       ],
       "scopus_eid": null,
       "dosen": [
-        "dedi"
+        "rakhmat"
       ],
       "asal_kandidat": [
         "buku_bab_buku_crossref_mandiri"
       ],
       "hasil_jurnal_seri": null,
-      "hasil_buku": {
-        "status": "buku_tercantum_di_daftar_scopus",
-        "metode": "isbn",
-        "data_buku": {
-          "judul_buku": "Intelligent Construction Monitoring Systems: Real-Time Safety, Environmental Prediction, and Risk Management",
-          "isbn": [
-            "9798337392455",
-            "9798337392462",
-            "9798337392479"
-          ],
-          "id_buku_scopus": "21101419361",
-          "tahun_buku": 2026,
-          "penerbit": "IGI Global Scientific Publishing",
-          "sumber_bukti": "https://www.elsevier.com/products/scopus/content"
-        },
-        "catatan": "Daftar buku membuktikan judul buku dalam cakupan sumber. Bab buku individual belum otomatis terverifikasi tanpa EID."
-      },
-      "status_pemeriksaan_scopus": "sumber_buku_scopus_cocok_belum_bukti_dokumen"
+      "hasil_buku": null,
+      "status_pemeriksaan_scopus": "belum_terverifikasi_bukan_berarti_tidak_terindeks"
     },
     {
       "id_kandidat": "judul:implementation of village information digitalization through the development of the pasi village website portal:2026",

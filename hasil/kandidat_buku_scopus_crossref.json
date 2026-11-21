@@ -1,5 +1,5 @@
 {
-  "diperbarui_utc": "2026-11-21T19:02:43.563536+00:00",
+  "diperbarui_utc": "2026-11-21T19:13:35.046255+00:00",
   "sumber": "Crossref query.author and filter book/book-chapter (bukan bukti indeksasi Scopus)",
   "diagnostik": [
     {
@@ -19,9 +19,9 @@
     {
       "slug": "dedi",
       "type": "book-chapter",
-      "http": 200,
-      "returned": 100,
-      "matched_author_exact": 1
+      "http": 429,
+      "returned": 0,
+      "matched_author_exact": 0
     },
     {
       "slug": "dedi",
@@ -33,9 +33,9 @@
     {
       "slug": "rakhmat",
       "type": "book-chapter",
-      "http": 429,
-      "returned": 0,
-      "matched_author_exact": 0
+      "http": 200,
+      "returned": 100,
+      "matched_author_exact": 1
     },
     {
       "slug": "rakhmat",
@@ -54,22 +54,22 @@
     {
       "slug": "aidil",
       "type": "book",
-      "http": 429,
-      "returned": 0,
+      "http": 200,
+      "returned": 66,
       "matched_author_exact": 0
     },
     {
       "slug": "ika",
       "type": "book-chapter",
-      "http": 200,
-      "returned": 100,
+      "http": 429,
+      "returned": 0,
       "matched_author_exact": 0
     },
     {
       "slug": "ika",
       "type": "book",
-      "http": 429,
-      "returned": 0,
+      "http": 200,
+      "returned": 76,
       "matched_author_exact": 0
     },
     {
@@ -105,19 +105,18 @@
       "bukti_crossref": "https://doi.org/10.1201/9781003662433-18"
     },
     {
-      "judul": "Future Trends in Intelligent Construction Monitoring Technologies",
-      "doi": "10.4018/979-8-3373-9245-5.ch010",
+      "judul": "Smart Machine Learning Approaches for Detection of Malicious Unified Resource Locator: Towards Sustainable Cybersecurity Systems",
+      "doi": "10.1201/9781042013098-10",
       "tahun": 2026,
-      "jurnal": "Intelligent Construction Monitoring Systems",
+      "jurnal": "Smart, Secure, and Sustainable Digital Futures",
       "isbn": [
-        "9798337392455",
-        "9798337392479"
+        "9781042013098"
       ],
       "dosen": [
-        "dedi"
+        "rakhmat"
       ],
       "jenis_crossref": "book-chapter",
-      "bukti_crossref": "https://doi.org/10.4018/979-8-3373-9245-5.ch010"
+      "bukti_crossref": "https://doi.org/10.1201/9781042013098-10"
     }
   ]
 }

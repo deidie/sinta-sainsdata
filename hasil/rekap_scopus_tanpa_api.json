@@ -1,5 +1,5 @@
 {
-  "diperiksa_utc": "2026-11-21T19:02:44.110273+00:00",
+  "diperiksa_utc": "2026-11-21T19:13:35.524926+00:00",
   "sumber_daftar": "Daftar sumber dan buku resmi Elsevier",
   "tautan_sumber": {
     "sources": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
@@ -17,17 +17,15 @@
   "jumlah_kandidat_dengan_isbn": 2,
   "rekap_status": {
     "sumber_jurnal_scopus_cocok_belum_bukti_dokumen": 2,
-    "belum_terverifikasi_bukan_berarti_tidak_terindeks": 438,
-    "sumber_buku_scopus_cocok_belum_bukti_dokumen": 1
+    "belum_terverifikasi_bukan_berarti_tidak_terindeks": 439
   },
   "rekap_per_dosen": {
     "dedi": {
       "sumber_jurnal_scopus_cocok_belum_bukti_dokumen": 2,
-      "belum_terverifikasi_bukan_berarti_tidak_terindeks": 162,
-      "sumber_buku_scopus_cocok_belum_bukti_dokumen": 1
+      "belum_terverifikasi_bukan_berarti_tidak_terindeks": 162
     },
     "rakhmat": {
-      "belum_terverifikasi_bukan_berarti_tidak_terindeks": 125
+      "belum_terverifikasi_bukan_berarti_tidak_terindeks": 126
     },
     "aidil": {
       "belum_terverifikasi_bukan_berarti_tidak_terindeks": 45
