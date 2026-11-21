@@ -1,5 +1,4 @@
-
-name: Uji akses profil SINTA publik
+name: Ambil publikasi semua dosen (GARUDA dan SINTA)
 
 on:
   workflow_dispatch:
@@ -8,11 +7,11 @@ permissions:
   contents: read
 
 jobs:
-  uji-sinta:
+  ambil-publikasi:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 20
     steps:
-      - name: Ambil berkas repositori
+      - name: Ambil file repository
         uses: actions/checkout@v4
 
       - name: Siapkan Python
@@ -20,11 +19,13 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Periksa satu profil publik SINTA
+      - name: Ambil semua halaman publikasi enam dosen
         run: python cek_sinta.py
 
-      - name: Simpan hasil diagnostik
+      - name: Simpan semua data dan laporan
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: hasil-uji-sinta
-          path: hasil/diagnostik_sinta.json
+          name: hasil-publikasi-enam-dosen
+          path: hasil/
+          if-no-files-found: warn
