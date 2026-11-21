@@ -71,7 +71,7 @@ def candidates():
   if not x["doi"]:x["doi"]=doi(doi_value)
   if not x["scopus_eid"]:x["scopus_eid"]=eid
   for field,vals in (("issn",many(issns or [],issn)),("isbn",many(isbns or [],isbn)),
-                      ("dosen",author_slugs or []),("asal_kandidat",[source_type])):
+                      ("dosen",author_slugs or [])):
    x[field]=sorted(set(x[field]+vals))
  def seed(source_type,record):
   title=record.get("judul") or record.get("judul_garuda") or record.get("title")
