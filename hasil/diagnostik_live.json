@@ -1,5 +1,5 @@
 {
-  "diperiksa_utc": "2026-11-21T17:43:27.582795+00:00",
+  "diperiksa_utc": "2026-11-21T17:44:43.118797+00:00",
   "metode": "GET publik dengan batas waktu; tidak melewati proteksi",
   "scholar": {
     "snapshot": [
@@ -46,36 +46,60 @@
       "http": 200,
       "status": "received",
       "jumlah_ditampilkan": null,
+      "panjang_html": 83967,
+      "ada_published": true,
+      "ada_documents": true,
+      "cuplikan_teks": "\n \n \n     \n         \n         \n         \n         \n         \n\n         Garuda - Garba Rujukan Digital \n\n         \n         \n          \n\n         \n         \n    ",
       "nama_terdeteksi": "siddik"
     },
     "dedi": {
       "http": 200,
       "status": "received",
       "jumlah_ditampilkan": null,
+      "panjang_html": 106708,
+      "ada_published": true,
+      "ada_documents": true,
+      "cuplikan_teks": "\n \n \n     \n         \n         \n         \n         \n         \n\n         Garuda - Garba Rujukan Digital \n\n         \n         \n          \n\n         \n         \n    ",
       "nama_terdeteksi": "dedi"
     },
     "rakhmat": {
       "http": 200,
       "status": "received",
       "jumlah_ditampilkan": null,
+      "panjang_html": 94110,
+      "ada_published": true,
+      "ada_documents": true,
+      "cuplikan_teks": "\n \n \n     \n         \n         \n         \n         \n         \n\n         Garuda - Garba Rujukan Digital \n\n         \n         \n          \n\n         \n         \n    ",
       "nama_terdeteksi": "rakhmat"
     },
     "aidil": {
       "http": 200,
       "status": "received",
       "jumlah_ditampilkan": null,
+      "panjang_html": 77011,
+      "ada_published": true,
+      "ada_documents": true,
+      "cuplikan_teks": "\n \n \n     \n         \n         \n         \n         \n         \n\n         Garuda - Garba Rujukan Digital \n\n         \n         \n          \n\n         \n         \n    ",
       "nama_terdeteksi": "aidil"
     },
     "ika": {
       "http": 200,
       "status": "received",
       "jumlah_ditampilkan": null,
+      "panjang_html": 66611,
+      "ada_published": true,
+      "ada_documents": true,
+      "cuplikan_teks": "\n \n \n     \n         \n         \n         \n         \n         \n\n         Garuda - Garba Rujukan Digital \n\n         \n         \n          \n\n         \n         \n    ",
       "nama_terdeteksi": "ika"
     },
     "puji": {
       "http": 200,
       "status": "received",
       "jumlah_ditampilkan": null,
+      "panjang_html": 23058,
+      "ada_published": true,
+      "ada_documents": true,
+      "cuplikan_teks": "\n \n \n     \n         \n         \n         \n         \n         \n\n         Garuda - Garba Rujukan Digital \n\n         \n         \n          \n\n         \n         \n    ",
       "nama_terdeteksi": "puji"
     },
     "snapshot_total_terambil": 430
