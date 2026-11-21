@@ -1,0 +1,374 @@
+{
+  "versi": 1,
+  "diperiksa_tanggal": "2026-11-22",
+  "metode": "Peringkat saat terbit berdasarkan DOI pada SINTA dan periode akreditasi penerbit yang telah diperiksa. Peringkat jurnal terkini tidak disalin ke kolom historis.",
+  "sumber": "Profil SINTA, data/ bukti DOI, pengumuman periode akreditasi",
+  "rekap_prodi": {
+    "garuda_unik": 417,
+    "jurnal_dipadan_peringkat_terkini": 260,
+    "publikasi_sinta_saat_terbit_terverifikasi": 11,
+    "belum_divalidasi_periode": 406,
+    "peringkat": {
+      "S1": 0,
+      "S2": 3,
+      "S3": 1,
+      "S4": 6,
+      "S5": 1,
+      "S6": 0
+    }
+  },
+  "tabel_per_tahun": [
+    {
+      "tahun": 2026,
+      "publikasi": 43,
+      "terverifikasi_terbit": 9,
+      "S1": 0,
+      "S2": 1,
+      "S3": 1,
+      "S4": 6,
+      "S5": 1,
+      "S6": 0
+    },
+    {
+      "tahun": 2025,
+      "publikasi": 89,
+      "terverifikasi_terbit": 1,
+      "S1": 0,
+      "S2": 1,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    },
+    {
+      "tahun": 2024,
+      "publikasi": 127,
+      "terverifikasi_terbit": 0,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    },
+    {
+      "tahun": 2023,
+      "publikasi": 68,
+      "terverifikasi_terbit": 1,
+      "S1": 0,
+      "S2": 1,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    },
+    {
+      "tahun": 2022,
+      "publikasi": 37,
+      "terverifikasi_terbit": 0,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    },
+    {
+      "tahun": 2021,
+      "publikasi": 13,
+      "terverifikasi_terbit": 0,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    },
+    {
+      "tahun": 2020,
+      "publikasi": 14,
+      "terverifikasi_terbit": 0,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    },
+    {
+      "tahun": 2019,
+      "publikasi": 7,
+      "terverifikasi_terbit": 0,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    },
+    {
+      "tahun": 2018,
+      "publikasi": 8,
+      "terverifikasi_terbit": 0,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    },
+    {
+      "tahun": 2017,
+      "publikasi": 8,
+      "terverifikasi_terbit": 0,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    },
+    {
+      "tahun": 2016,
+      "publikasi": 2,
+      "terverifikasi_terbit": 0,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    },
+    {
+      "tahun": 2013,
+      "publikasi": 1,
+      "terverifikasi_terbit": 0,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    }
+  ],
+  "tabel_per_dosen": [
+    {
+      "slug": "siddik",
+      "nama": "Muhammad Siddik Hasibuan",
+      "total_publikasi_garuda": 80,
+      "terverifikasi_terbit": 0,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    },
+    {
+      "slug": "dedi",
+      "nama": "Muhammad Dedi Irawan",
+      "total_publikasi_garuda": 164,
+      "terverifikasi_terbit": 3,
+      "S1": 0,
+      "S2": 3,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    },
+    {
+      "slug": "rakhmat",
+      "nama": "Rakhmat Kurniawan R",
+      "total_publikasi_garuda": 131,
+      "terverifikasi_terbit": 8,
+      "S1": 0,
+      "S2": 0,
+      "S3": 1,
+      "S4": 6,
+      "S5": 1,
+      "S6": 0
+    },
+    {
+      "slug": "aidil",
+      "nama": "Aidil Halim Lubis",
+      "total_publikasi_garuda": 37,
+      "terverifikasi_terbit": 0,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    },
+    {
+      "slug": "ika",
+      "nama": "Ika Yusnita Sari",
+      "total_publikasi_garuda": 16,
+      "terverifikasi_terbit": 0,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    },
+    {
+      "slug": "puji",
+      "nama": "Puji Sari Ramadhan",
+      "total_publikasi_garuda": 2,
+      "terverifikasi_terbit": 0,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0
+    }
+  ],
+  "artikel_peringkat_terverifikasi": [
+    {
+      "key": "doi:10.24002/ijis.v7i2.10213",
+      "judul": "Application Of Expert System In Determining Diseases In Potato Plants",
+      "tahun": 2025,
+      "doi": "10.24002/ijis.v7i2.10213",
+      "dosen": [
+        "dedi"
+      ],
+      "peringkat_sinta_saat_terbit": 2,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6707296/?view=garuda",
+      "sumber_peringkat": "periode_terbit_diperiksa",
+      "jurnal_sinta_peringkat_terkini": 2
+    },
+    {
+      "key": "doi:10.20895/infotel.v15i1.848",
+      "judul": "Sistem Ujian Tilawatil Qur`an",
+      "tahun": 2023,
+      "doi": "10.20895/infotel.v15i1.848",
+      "dosen": [
+        "dedi"
+      ],
+      "peringkat_sinta_saat_terbit": 2,
+      "bukti_url": "https://purwokerto.telkomuniversity.ac.id/jurnal-infotel-lppm-ittp-terakreditasi-sinta-2/",
+      "sumber_peringkat": "periode_terbit_diperiksa",
+      "jurnal_sinta_peringkat_terkini": 1
+    },
+    {
+      "key": "doi:10.12928/spekta.v7i1.15674",
+      "judul": "Development of MDLC-Based WebAR and WebVR Platforms as Digital Educational Media for Batik Motifs",
+      "tahun": 2026,
+      "doi": "10.12928/spekta.v7i1.15674",
+      "dosen": [
+        "dedi"
+      ],
+      "peringkat_sinta_saat_terbit": 2,
+      "bukti_url": "https://journal2.uad.ac.id/index.php/spekta/announcement/view/237",
+      "sumber_peringkat": "periode_terbit_diperiksa",
+      "jurnal_sinta_peringkat_terkini": 2
+    },
+    {
+      "key": "doi:10.54314/jssr.v9i1.5856",
+      "judul": "REDUKSI DIMENSI PADA KLASIFIKASI DATA KANKER PROSTAT MENGGUNAKAN PRINCIPAL COMPONENT ANALYSIS DAN RANDOM FOREST",
+      "tahun": 2026,
+      "doi": "10.54314/jssr.v9i1.5856",
+      "dosen": [
+        "rakhmat"
+      ],
+      "peringkat_sinta_saat_terbit": 4,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "sumber_peringkat": "doi_di_sinta",
+      "jurnal_sinta_peringkat_terkini": 4
+    },
+    {
+      "key": "doi:10.30865/json.v7i3.9661",
+      "judul": "Prototipe Sistem Cerdas dalam Pengairan Rumah Tangga Berbasis IOT Menggunakan Metode Logika Fuzzy Sugeno",
+      "tahun": 2026,
+      "doi": "10.30865/json.v7i3.9661",
+      "dosen": [
+        "rakhmat"
+      ],
+      "peringkat_sinta_saat_terbit": 3,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "sumber_peringkat": "doi_di_sinta",
+      "jurnal_sinta_peringkat_terkini": 3
+    },
+    {
+      "key": "doi:10.31294/simpatik.v6i1.12598",
+      "judul": "Sistem Pendukung Keputusan Penerimaan Dana Bantuan Sosial Menggunakan Algoritma Decision Tree (C5.0) Di Kantor Desa Blankahan",
+      "tahun": 2026,
+      "doi": "10.31294/simpatik.v6i1.12598",
+      "dosen": [
+        "rakhmat"
+      ],
+      "peringkat_sinta_saat_terbit": 5,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "sumber_peringkat": "doi_di_sinta",
+      "jurnal_sinta_peringkat_terkini": null
+    },
+    {
+      "key": "doi:10.62712/juktisi.v5i1.1037",
+      "judul": "Penerapan Algoritma K-Means Dalam Pengelompokan UMKM Berdasarkan Potensi Pertumbuhan Berbasis Web",
+      "tahun": 2026,
+      "doi": "10.62712/juktisi.v5i1.1037",
+      "dosen": [
+        "rakhmat"
+      ],
+      "peringkat_sinta_saat_terbit": 4,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "sumber_peringkat": "doi_di_sinta",
+      "jurnal_sinta_peringkat_terkini": null
+    },
+    {
+      "key": "doi:10.47065/tin.v6i9.9350",
+      "judul": "Penerapan Naive Bayes dalam Mengidentifikasi Penyebab Remaja Desa Terlibat dalam Judi Online",
+      "tahun": 2026,
+      "doi": "10.47065/tin.v6i9.9350",
+      "dosen": [
+        "rakhmat"
+      ],
+      "peringkat_sinta_saat_terbit": 4,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "sumber_peringkat": "doi_di_sinta",
+      "jurnal_sinta_peringkat_terkini": 4
+    },
+    {
+      "key": "doi:10.47065/tin.v6i11.9674",
+      "judul": "Implementasi Metode Canny dalam Sistem Penempatan Foto Kartu Identitas Siswa Otomatis",
+      "tahun": 2026,
+      "doi": "10.47065/tin.v6i11.9674",
+      "dosen": [
+        "rakhmat"
+      ],
+      "peringkat_sinta_saat_terbit": 4,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "sumber_peringkat": "doi_di_sinta",
+      "jurnal_sinta_peringkat_terkini": 4
+    },
+    {
+      "key": "doi:10.24114/cess.v11i1.72110",
+      "judul": "Implementasi Internet of Thing (IoT) untuk Monitoring dan Kontrol Energi Listrik Rumah Tangga Menggunakan Fuzzy Tsukamoto",
+      "tahun": 2026,
+      "doi": "10.24114/cess.v11i1.72110",
+      "dosen": [
+        "rakhmat"
+      ],
+      "peringkat_sinta_saat_terbit": 4,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "sumber_peringkat": "doi_di_sinta",
+      "jurnal_sinta_peringkat_terkini": 4
+    },
+    {
+      "key": "doi:10.24114/cess.v11i1.72255",
+      "judul": "Implementasi Konsumsi Energi Listrik Perabotan Rumah Tangga Berbasis IoT Menggunakan ESP-32, Sensor PZEM 004T dan Fuzzy Mamdani",
+      "tahun": 2026,
+      "doi": "10.24114/cess.v11i1.72255",
+      "dosen": [
+        "rakhmat"
+      ],
+      "peringkat_sinta_saat_terbit": 4,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
+      "sumber_peringkat": "doi_di_sinta",
+      "jurnal_sinta_peringkat_terkini": 4
+    }
+  ],
+  "catatan": "Nilai 0 pada klasifikasi historis berarti belum ada bukti untuk jenis tersebut dalam subset terverifikasi, bukan tidak ada karya; jurnal yang cocok pada katalog belum dihitung tanpa validasi periode."
+}
