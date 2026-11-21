@@ -62,7 +62,33 @@ def main():
                 failures.append(view+": "+str(candidate.get("error") or ("fields="+",".join(candidate.keys())))[:240])
             else: failures.append(view+": bukan objek JSON")
         except Exception as exc: failures.append(view+": "+str(exc)[:180])
-    if data is None: raise RuntimeError("Endpoint Apps Script belum siap; "+"; ".join(failures))
+    if data is None:
+        single=[]
+        for slug in SLUGS:
+            try:
+                req=Request(ENDPOINT+"?slug="+slug,headers={"User-Agent":"SainsData-Scholar/1.0","Accept":"application/json"})
+                with urlopen(req,timeout=25) as resp: raw=resp.read(3000001)
+                if len(raw)>3000000: raise RuntimeError("Respons terlalu besar")
+                author=json.loads(raw.decode("utf-8-sig"))
+                if not isinstance(author,dict) or author.get("error"):
+                    failures.append(slug+": "+str(author.get("error") if isinstance(author,dict) else "JSON salah")[:100])
+                    continue
+                if isinstance(author.get("scholar"),dict):
+                    author.setdefault("slug",slug)
+                    single.append(author)
+                    continue
+                scholar_metrics=author.get("metrics") or {}
+                scholarly_articles=author.get("articles") or []
+                if not scholar_metrics and not scholarly_articles:
+                    failures.append(slug+": tidak ada metrics/articles")
+                    continue
+                single.append({"slug":slug,"name":author.get("name") or slug,"links":{"scholar":author.get("scholarUrl") or author.get("scholar_url") or ""},"scholar":{"metrics":scholar_metrics,"updated":author.get("updated") or "","status":author.get("status") or "","graph":author.get("graph") or [],"articles":scholarly_articles}})
+            except Exception as exc:
+                failures.append(slug+": "+str(exc)[:100])
+        if single:
+            data={"profiles":single}
+            print("Endpoint Google berhasil: slug per dosen,",len(single),"profil")
+        else: raise RuntimeError("Endpoint Apps Script belum siap; "+"; ".join(failures))
     rows=[r for p in data["profiles"] if isinstance(p,dict) if (r:=parse(p))]
     if not any(p["artikel_scholar"] for p in rows): raise RuntimeError("Artikel Scholar kosong: snapshot sebelumnya dipertahankan")
     old={}
