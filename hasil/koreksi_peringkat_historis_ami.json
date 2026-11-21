@@ -2,7 +2,7 @@
   "versi": 1,
   "diperiksa_tanggal": "2026-11-22",
   "jenis": "koreksi_akreditasi_berdasarkan_volume_dan_tahun",
-  "keterangan": "SINTA 1 INFOTEL baru berlaku mulai Volume 17 Nomor 1 (2025); artikel Volume 15 Nomor 1 (2023) berada pada masa SINTA 2. Peringkat jurnal terkini tetap SINTA 1; untuk audit artikel 2023 gunakan SINTA 2.",
+  "keterangan": "SINTA 1 INFOTEL baru berlaku mulai Volume 17 Nomor 1 (2025); artikel Volume 15 Nomor 1 (2023) berada pada masa SINTA 2. Peringkat jurnal terkini tetap SINTA 1; untuk audit artikel 2023 gunakan SINTA 2. SPEKTA Volume 7 No. 1 (2026) juga sudah dipastikan masuk periode akreditasi SINTA 2.",
   "sumber_sinta1": "https://purwokerto.telkomuniversity.ac.id/jurnal-infotel-telkom-university-purwokerto-raih-akreditasi-tertinggi-nasional-sinta-1/",
   "sumber_sinta2": "https://purwokerto.telkomuniversity.ac.id/jurnal-infotel-lppm-ittp-terakreditasi-sinta-2/",
   "artikel": [
@@ -41,9 +41,9 @@
       "tahun": 2026,
       "jurnal": "SPEKTA",
       "peringkat_jurnal_terkini": 2,
-      "peringkat_saat_terbit": null,
-      "catatan": "Peringkat S2 jurnal terpantau; perlu cek SK untuk periode volume 2026",
-      "bukti_url": "https://sinta.kemdiktisaintek.go.id/journals?page=&q=Jurnal+Pengabdian+kepada+Masyarakat"
+      "peringkat_saat_terbit": 2,
+      "catatan": "SINTA 2 berlaku Volume 4 Nomor 2 Tahun 2023 sampai Volume 9 Nomor 1 Tahun 2028 menurut keputusan 10/C/C3/DT.05.00/2025",
+      "bukti_url": "https://journal2.uad.ac.id/index.php/spekta/announcement/view/237"
     }
   ]
 }
