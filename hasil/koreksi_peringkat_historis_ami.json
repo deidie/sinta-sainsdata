@@ -1,0 +1,49 @@
+{
+  "versi": 1,
+  "diperiksa_tanggal": "2026-11-22",
+  "jenis": "koreksi_akreditasi_berdasarkan_volume_dan_tahun",
+  "keterangan": "SINTA 1 INFOTEL baru berlaku mulai Volume 17 Nomor 1 (2025); artikel Volume 15 Nomor 1 (2023) berada pada masa SINTA 2. Peringkat jurnal terkini tetap SINTA 1; untuk audit artikel 2023 gunakan SINTA 2.",
+  "sumber_sinta1": "https://purwokerto.telkomuniversity.ac.id/jurnal-infotel-telkom-university-purwokerto-raih-akreditasi-tertinggi-nasional-sinta-1/",
+  "sumber_sinta2": "https://purwokerto.telkomuniversity.ac.id/jurnal-infotel-lppm-ittp-terakreditasi-sinta-2/",
+  "artikel": [
+    {
+      "slug": "dedi",
+      "nama": "Muhammad Dedi Irawan",
+      "judul": "Qur’an tilawatil examination system",
+      "judul_garuda": "Sistem Ujian Tilawatil Qur`an",
+      "doi": "10.20895/infotel.v15i1.848",
+      "tahun": 2023,
+      "jurnal": "JURNAL INFOTEL",
+      "volume": 15,
+      "nomor": 1,
+      "peringkat_jurnal_terkini": 1,
+      "peringkat_saat_terbit": 2,
+      "jenis_bukti": "pengumuman penerbit tentang tanggal berlaku akreditasi",
+      "sumber_historis": "https://purwokerto.telkomuniversity.ac.id/jurnal-infotel-lppm-ittp-terakreditasi-sinta-2/",
+      "sumber_masa_s1": "https://purwokerto.telkomuniversity.ac.id/jurnal-infotel-telkom-university-purwokerto-raih-akreditasi-tertinggi-nasional-sinta-1/"
+    },
+    {
+      "slug": "dedi",
+      "nama": "Muhammad Dedi Irawan",
+      "judul": "Application Of Expert System In Determining Diseases In Potato Plants",
+      "doi": "10.24002/ijis.v7i2.10213",
+      "tahun": 2025,
+      "jurnal": "Indonesian Journal of Information Systems",
+      "peringkat_saat_terbit": 2,
+      "peringkat_jurnal_terkini": 2,
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6707296/?view=garuda"
+    },
+    {
+      "slug": "dedi",
+      "nama": "Muhammad Dedi Irawan",
+      "judul": "Development of MDLC-Based WebAR and WebVR Platforms as Digital Educational Media for Batik Motifs",
+      "doi": "10.12928/spekta.v7i1.15674",
+      "tahun": 2026,
+      "jurnal": "SPEKTA",
+      "peringkat_jurnal_terkini": 2,
+      "peringkat_saat_terbit": null,
+      "catatan": "Peringkat S2 jurnal terpantau; perlu cek SK untuk periode volume 2026",
+      "bukti_url": "https://sinta.kemdiktisaintek.go.id/journals?page=&q=Jurnal+Pengabdian+kepada+Masyarakat"
+    }
+  ]
+}
