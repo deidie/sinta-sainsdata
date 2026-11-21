@@ -1,0 +1,55 @@
+name: Cari Scopus dari ISSN ISBN dan DOI (Tanpa API Key)
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "cari_scopus_tanpa_api.py"
+      - "data/kandidat_publikasi_scopus.json"
+      - ".github/workflows/cari-scopus-tanpa-api.yml"
+  schedule:
+    - cron: "13 2 4 * *" # tanggal 4 pukul 09.13 WIB
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit-daftar-scopus
+  cancel-in-progress: false
+
+jobs:
+  cocokan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Cocokkan ISSN, ISBN dan DOI dengan daftar resmi Elsevier
+        run: python cari_scopus_tanpa_api.py
+      - name: Periksa kualitas hasil tanpa klaim artikel palsu
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path("hasil/rekap_scopus_tanpa_api.json").read_text())
+          d=json.loads(Path("hasil/pemeriksaan_scopus_tanpa_api.json").read_text())
+          assert s["jumlah_sumber_serial_diperiksa"]>10000
+          assert s["jumlah_judul_buku_diperiksa"]>100000
+          assert sum(s["rekap_status"].values())==s["kandidat"]==len(d["publikasi"])
+          for p in d["publikasi"]:
+              if p["status_pemeriksaan_scopus"]=="dokumen_scopus_ber_eid":
+                  assert p["scopus_eid"].startswith("2-s2.0-")
+              assert p["status_pemeriksaan_scopus"]!="tidak_terindeks"
+          print("Scopus ISSN/ISBN source-only audit valid",s["kandidat"])
+          PY
+      - name: Simpan rekap dan bukti Scopus
+        run: |
+          git add hasil/rekap_scopus_tanpa_api.json hasil/pemeriksaan_scopus_tanpa_api.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Cari Scopus berdasarkan ISSN ISBN dari sumber resmi Elsevier"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
