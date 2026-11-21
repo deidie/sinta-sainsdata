@@ -1,12 +1,12 @@
 {
-  "diperiksa_utc": "2026-11-21T19:00:02.533047+00:00",
+  "diperiksa_utc": "2026-11-21T19:02:44.110273+00:00",
   "sumber_daftar": "Daftar sumber dan buku resmi Elsevier",
   "tautan_sumber": {
     "sources": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
     "books": "https://downloads.ctfassets.net/o78em1y1w4i4/2uPDv7HcQRnPoxj5xyGhBS/62cc5084eb5566e942271f09e37ccf80/Scopus_book_list_Q2.xlsx"
   },
   "mode_penemuan_tautan": "ditemukan_dari_halaman_resmi",
-  "kandidat": 439,
+  "kandidat": 441,
   "scopus_eid_tersedia": 0,
   "catatan": "Tidak memerlukan GARUDA. Daftar sumber terindeks dan daftar buku tidak menyatakan semua artikel/bab buku otomatis ada sebagai dokumen Scopus.",
   "sumber_serial_sheet": "Scopus Sources Oct. 2026",
@@ -14,24 +14,26 @@
   "sumber_buku_sheet": "Scopus book list_Q2",
   "jumlah_judul_buku_diperiksa": 493129,
   "jumlah_kandidat_dengan_issn": 338,
-  "jumlah_kandidat_dengan_isbn": 0,
+  "jumlah_kandidat_dengan_isbn": 2,
   "rekap_status": {
     "sumber_jurnal_scopus_cocok_belum_bukti_dokumen": 2,
-    "belum_terverifikasi_bukan_berarti_tidak_terindeks": 437
+    "belum_terverifikasi_bukan_berarti_tidak_terindeks": 438,
+    "sumber_buku_scopus_cocok_belum_bukti_dokumen": 1
   },
   "rekap_per_dosen": {
     "dedi": {
       "sumber_jurnal_scopus_cocok_belum_bukti_dokumen": 2,
-      "belum_terverifikasi_bukan_berarti_tidak_terindeks": 162
+      "belum_terverifikasi_bukan_berarti_tidak_terindeks": 162,
+      "sumber_buku_scopus_cocok_belum_bukti_dokumen": 1
     },
     "rakhmat": {
       "belum_terverifikasi_bukan_berarti_tidak_terindeks": 125
     },
     "aidil": {
-      "belum_terverifikasi_bukan_berarti_tidak_terindeks": 44
+      "belum_terverifikasi_bukan_berarti_tidak_terindeks": 45
     },
     "siddik": {
-      "belum_terverifikasi_bukan_berarti_tidak_terindeks": 84
+      "belum_terverifikasi_bukan_berarti_tidak_terindeks": 85
     },
     "ika": {
       "belum_terverifikasi_bukan_berarti_tidak_terindeks": 20

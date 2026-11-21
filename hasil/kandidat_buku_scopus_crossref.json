@@ -1,0 +1,123 @@
+{
+  "diperbarui_utc": "2026-11-21T19:02:43.563536+00:00",
+  "sumber": "Crossref query.author and filter book/book-chapter (bukan bukti indeksasi Scopus)",
+  "diagnostik": [
+    {
+      "slug": "siddik",
+      "type": "book-chapter",
+      "http": 200,
+      "returned": 100,
+      "matched_author_exact": 1
+    },
+    {
+      "slug": "siddik",
+      "type": "book",
+      "http": 200,
+      "returned": 100,
+      "matched_author_exact": 0
+    },
+    {
+      "slug": "dedi",
+      "type": "book-chapter",
+      "http": 200,
+      "returned": 100,
+      "matched_author_exact": 1
+    },
+    {
+      "slug": "dedi",
+      "type": "book",
+      "http": 200,
+      "returned": 100,
+      "matched_author_exact": 0
+    },
+    {
+      "slug": "rakhmat",
+      "type": "book-chapter",
+      "http": 429,
+      "returned": 0,
+      "matched_author_exact": 0
+    },
+    {
+      "slug": "rakhmat",
+      "type": "book",
+      "http": 200,
+      "returned": 27,
+      "matched_author_exact": 0
+    },
+    {
+      "slug": "aidil",
+      "type": "book-chapter",
+      "http": 200,
+      "returned": 100,
+      "matched_author_exact": 1
+    },
+    {
+      "slug": "aidil",
+      "type": "book",
+      "http": 429,
+      "returned": 0,
+      "matched_author_exact": 0
+    },
+    {
+      "slug": "ika",
+      "type": "book-chapter",
+      "http": 200,
+      "returned": 100,
+      "matched_author_exact": 0
+    },
+    {
+      "slug": "ika",
+      "type": "book",
+      "http": 429,
+      "returned": 0,
+      "matched_author_exact": 0
+    },
+    {
+      "slug": "puji",
+      "type": "book-chapter",
+      "http": 429,
+      "returned": 0,
+      "matched_author_exact": 0
+    },
+    {
+      "slug": "puji",
+      "type": "book",
+      "http": 200,
+      "returned": 76,
+      "matched_author_exact": 0
+    }
+  ],
+  "jumlah_kandidat": 2,
+  "publikasi": [
+    {
+      "judul": "AI for Inclusion: Sign Language Recognition to Support Hajj Pilgrims",
+      "doi": "10.1201/9781003662433-18",
+      "tahun": 2026,
+      "jurnal": "From Smart Cities to the Metaverse",
+      "isbn": [
+        "9781003662433"
+      ],
+      "dosen": [
+        "siddik",
+        "aidil"
+      ],
+      "jenis_crossref": "book-chapter",
+      "bukti_crossref": "https://doi.org/10.1201/9781003662433-18"
+    },
+    {
+      "judul": "Future Trends in Intelligent Construction Monitoring Technologies",
+      "doi": "10.4018/979-8-3373-9245-5.ch010",
+      "tahun": 2026,
+      "jurnal": "Intelligent Construction Monitoring Systems",
+      "isbn": [
+        "9798337392455",
+        "9798337392479"
+      ],
+      "dosen": [
+        "dedi"
+      ],
+      "jenis_crossref": "book-chapter",
+      "bukti_crossref": "https://doi.org/10.4018/979-8-3373-9245-5.ch010"
+    }
+  ]
+}
