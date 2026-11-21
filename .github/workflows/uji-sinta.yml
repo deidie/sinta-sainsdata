@@ -33,6 +33,9 @@ jobs:
           SCOPUS_MAX_REQUESTS: '100'
         run: python cek_sinta.py
 
+      - name: Buat indeks label SINTA dan Scopus ringan untuk WordPress
+        run: python buat_label_publikasi.py
+
       - name: Periksa data sebelum diterbitkan
         run: |
           python - <<'PY'
