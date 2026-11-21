@@ -95,7 +95,7 @@ def build(data):
         by_person[slug] = records
     return {
         "versi": 1,
-        "diperbarui_utc": data.get("diperbarui_utc"),
+        "diperbarui_utc": data.get("sinta_pencocokan_utc") or data.get("diperbarui_utc"),
         "sumber": "Bukti indeksasi pada publikasi_dosen.json",
         "dosen": by_person,
         "jumlah_label_terverifikasi": count,
