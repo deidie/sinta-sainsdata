@@ -1,0 +1,62 @@
+name: Ambil Naskah dari 6 Scopus Author ID
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "ambil_naskah_scopus_author_id.py"
+      - "data/daftar_scopus_author_id.json"
+      - ".github/workflows/ambil-naskah-scopus-author-id.yml"
+  schedule:
+    - cron: "43 1 4 * *" # Tanggal 4, 08.43 WIB
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publikasi-sainsdata
+  cancel-in-progress: false
+
+jobs:
+  ambil-naskah:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Cari daftar naskah Scopus berdasarkan enam Author ID
+        env:
+          SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
+          SCOPUS_INST_TOKEN: ${{ secrets.SCOPUS_INST_TOKEN }}
+        run: python ambil_naskah_scopus_author_id.py
+      - name: Validasi tidak ada klaim palsu
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          status=json.loads(Path("hasil/status_scopus_author_id.json").read_text())
+          assert status["jumlah_author_id"]==6
+          path=Path("hasil/naskah_scopus_author_id.json")
+          if path.exists():
+              data=json.loads(path.read_text())
+              assert len(data["profil"])==6
+              eids=[x["scopus_eid"] for x in data["naskah_unik"]]
+              assert len(eids)==len(set(eids))
+              assert all(x["scopus_bukti_url"].startswith("https://www.scopus.com/record/display.uri?eid=2-s2.0-") for x in data["naskah_unik"])
+          print("Validasi lulus")
+          PY
+      - name: Simpan status dan data dokumen yang terverifikasi
+        run: |
+          git add hasil/status_scopus_author_id.json
+          if [ -f hasil/naskah_scopus_author_id.json ]; then
+            git add hasil/naskah_scopus_author_id.json
+          fi
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Sinkronisasi enam Scopus Author ID dan naskah ber-EID"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
