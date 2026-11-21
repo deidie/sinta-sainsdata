@@ -3,8 +3,13 @@ name: Ambil publikasi semua dosen (GARUDA dan SINTA)
 on:
   workflow_dispatch:
 
+# Mengizinkan GitHub Actions menyimpan JSON hasil pengambilan ke repository.
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: publikasi-sainsdata
+  cancel-in-progress: false
 
 jobs:
   ambil-publikasi:
@@ -19,10 +24,46 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Ambil semua halaman publikasi enam dosen
+      - name: Ambil seluruh publikasi enam dosen
         run: python cek_sinta.py
 
-      - name: Simpan semua data dan laporan
+      - name: Periksa data sebelum diterbitkan
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('hasil/publikasi_dosen.json')
+          if not path.is_file():
+              raise SystemExit('GAGAL: file publikasi_dosen.json tidak dibuat.')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          dosen = data.get('dosen', [])
+          slugs = {str(d.get('slug', '')) for d in dosen}
+          expected = {'siddik', 'dedi', 'rakhmat', 'aidil', 'ika', 'puji'}
+          if slugs != expected or len(dosen) != 6:
+              raise SystemExit('GAGAL: data tidak memuat tepat enam dosen yang diharapkan.')
+          missing = [d.get('nama', d.get('slug')) for d in dosen
+                     if not isinstance(d.get('publikasi_garuda'), list)
+                     or len(d['publikasi_garuda']) == 0]
+          if missing:
+              raise SystemExit('GAGAL: publikasi tidak tersedia untuk: ' + ', '.join(missing))
+          total = sum(len(d['publikasi_garuda']) for d in dosen)
+          print(f'Validasi berhasil: {len(dosen)} dosen, {total} rekaman publikasi.')
+          PY
+
+      - name: Terbitkan JSON dan CSV ke branch main untuk GitHub Pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add hasil/publikasi_dosen.json hasil/publikasi_dosen.csv hasil/diagnostik_sinta.json
+          if git diff --cached --quiet; then
+            echo "Data tidak berubah; tidak perlu commit."
+          else
+            git commit -m "Perbarui data publikasi dosen"
+            git push origin HEAD:main
+          fi
+
+      - name: Simpan hasil untuk pemeriksaan
         if: always()
         uses: actions/upload-artifact@v4
         with:
