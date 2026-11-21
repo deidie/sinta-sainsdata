@@ -235,13 +235,34 @@ def parse_publications(html, base_url, source_id, source_page):
         year_match = YEAR_RE.search(text)
         if year_match:
             year = int(year_match.group(0))
+        
         jurnal = None
         if 'Publisher' in text:
-            before = text.split('Publisher',1)[0]
+            before = text.split('Publisher', 1)[0]
             if title in before:
-                guess = normalize(before.split(title,1)[-1]).strip(' -:|')
-                if 5 <= len(guess) <= 250:
+                guess = normalize(before.split(title, 1)[-1])
+
+                # Hilangkan nama penulis dari awal teks jurnal.
+                for author in authors:
+                    guess = guess.lstrip(' ;,|:-')
+                    guess = re.sub(
+                        r'^' + re.escape(author) + r'\s*',
+                        '',
+                        guess,
+                        count=1,
+                        flags=re.I
+                    )
+
+                guess = guess.strip(' ;,|:-')
+
+                # Abaikan metadata yang tidak lengkap.
+                if (
+                    5 <= len(guess) <= 250
+                    and 'Show Abstract' not in guess
+                    and 'Download Original' not in guess
+                ):
                     jurnal = guess
+
         results.append({
             'judul':title,
             'penulis':'; '.join(authors) if authors else None,
