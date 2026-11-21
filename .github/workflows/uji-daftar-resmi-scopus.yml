@@ -1,0 +1,30 @@
+name: Uji Daftar Resmi Sumber Scopus (Tanpa API)
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "uji_daftar_resmi_scopus.py"
+      - ".github/workflows/uji-daftar-resmi-scopus.yml"
+permissions:
+  contents: write
+jobs:
+  cek-daftar-resmi:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Periksa unduhan Excel resmi Elsevier serial dan buku
+        run: python uji_daftar_resmi_scopus.py
+      - name: Simpan status akses daftar resmi
+        run: |
+          git add hasil/diagnostik_sumber_resmi_scopus.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Uji sumber daftar Scopus resmi Elsevier dan judul buku"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
