@@ -100,6 +100,9 @@ def candidates():
         "doi":obj.get("doi"),"issn":list(set((c.get("issn") or [])+(o.get("issn") or []))),
         "dosen":obj.get("dosen") or []}
   seed("metadata_doi_crossref_openalex",item)
+ # Independent book/chapter discovery from Crossref author searches; no GARUDA.
+ book_candidates=read(ROOT/"hasil"/"kandidat_buku_scopus_crossref.json",{})
+ for a in book_candidates.get("publikasi",[]):seed("buku_bab_buku_crossref_mandiri",a)
  scholar=read(ROOT/"hasil"/"publikasi_scholar.json",{})
  for p in scholar.get("dosen",[]):
   for a in p.get("artikel_scholar",[]):
