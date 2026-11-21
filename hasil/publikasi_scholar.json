@@ -1,10 +1,10 @@
 {
   "versi": 2,
   "diperbarui_utc": "2026-11-21T17:15:09.426334+00:00",
-  "sumber": "Google Scholar via SerpApi, Sheets, Apps Script",
+  "sumber": "Google Scholar melalui Apps Script (snapshot terbatas, 8 artikel per dosen)",
   "cakupan_dosen": 6,
-  "cakupan_lengkap": true,
-  "catatan": "Artikel terdata dari integrasi Scholar, bukan total publikasi profil; sitasi tahunan bukan publikasi tahunan.",
+  "cakupan_lengkap": false,
+  "catatan": "SNAPSHOT TERBATAS: data hasil endpoint Apps Script lama hanya memuat 8 artikel per dosen. Ini bukan jumlah seluruh publikasi Scholar. Menunggu sinkronisasi berhalaman penuh.",
   "dosen": [
     {
       "slug": "siddik",
@@ -96,7 +96,9 @@
       },
       "scholar_diperbarui": "Sat Nov 21 2026 05:13:00 GMT+0700 (Western Indonesia Time)",
       "scholar_status": "Berhasil",
-      "scopus": null
+      "scopus": null,
+      "scholar_lengkap": false,
+      "jumlah_artikel_tersimpan": 8
     },
     {
       "slug": "dedi",
@@ -187,7 +189,9 @@
       },
       "scholar_diperbarui": "Sat Nov 21 2026 05:13:00 GMT+0700 (Western Indonesia Time)",
       "scholar_status": "Berhasil",
-      "scopus": null
+      "scopus": null,
+      "scholar_lengkap": false,
+      "jumlah_artikel_tersimpan": 8
     },
     {
       "slug": "rakhmat",
@@ -277,7 +281,9 @@
       },
       "scholar_diperbarui": "Sat Nov 21 2026 05:13:00 GMT+0700 (Western Indonesia Time)",
       "scholar_status": "Berhasil",
-      "scopus": null
+      "scopus": null,
+      "scholar_lengkap": false,
+      "jumlah_artikel_tersimpan": 8
     },
     {
       "slug": "aidil",
@@ -367,7 +373,9 @@
       },
       "scholar_diperbarui": "Sat Nov 21 2026 05:13:00 GMT+0700 (Western Indonesia Time)",
       "scholar_status": "Berhasil",
-      "scopus": null
+      "scopus": null,
+      "scholar_lengkap": false,
+      "jumlah_artikel_tersimpan": 8
     },
     {
       "slug": "ika",
@@ -456,7 +464,9 @@
       },
       "scholar_diperbarui": "Sat Nov 21 2026 05:13:00 GMT+0700 (Western Indonesia Time)",
       "scholar_status": "Berhasil",
-      "scopus": null
+      "scopus": null,
+      "scholar_lengkap": false,
+      "jumlah_artikel_tersimpan": 8
     },
     {
       "slug": "puji",
@@ -547,7 +557,9 @@
       },
       "scholar_diperbarui": "Sat Nov 21 2026 05:13:00 GMT+0700 (Western Indonesia Time)",
       "scholar_status": "Berhasil",
-      "scopus": null
+      "scopus": null,
+      "scholar_lengkap": false,
+      "jumlah_artikel_tersimpan": 8
     }
   ]
 }
