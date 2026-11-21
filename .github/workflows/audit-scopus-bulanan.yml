@@ -1,0 +1,87 @@
+name: Verifikasi Scopus Bulanan (DOI GARUDA)
+
+on:
+  push:
+    paths:
+      - "audit_scopus_bulanan.py"
+      - ".github/workflows/audit-scopus-bulanan.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "31 1 3 * *" # tanggal 3, 08:31 WIB (UTC+7)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publikasi-sainsdata
+  cancel-in-progress: false
+
+jobs:
+  scopus:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Periksa akses Scopus dan cocokkan DOI apabila diizinkan
+        env:
+          SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
+          SCOPUS_INST_TOKEN: ${{ secrets.SCOPUS_INST_TOKEN }}
+          SCOPUS_MAX_REQUESTS: "80"
+        run: python audit_scopus_bulanan.py
+      - name: Perbarui label halaman bila verifikasi tersedia
+        env:
+          SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
+        run: |
+          if [ -n "$SCOPUS_API_KEY" ]; then
+            python buat_label_publikasi.py
+          fi
+      - name: Validasi catatan Scopus
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          f=Path("hasil/status_pemeriksaan_scopus.json")
+          status=json.loads(f.read_text(encoding="utf-8"))
+          assert status["total_rekaman_garuda_per_dosen"] > 0
+          assert status["jumlah_doi_unik_untuk_diperiksa"] > 0
+          if not status["api_key_tersedia"]:
+              assert status["rekaman_scopus_terverifikasi"] is None
+              assert status["status"] == "belum_dikonfigurasi"
+          else:
+              recap=json.loads(Path("hasil/rekap_scopus.json").read_text(encoding="utf-8"))
+              assert recap["total_rekaman"] == status["total_rekaman_garuda_per_dosen"]
+              d=json.loads(Path("hasil/publikasi_dosen.json").read_text(encoding="utf-8"))
+              rows=[a for p in d["dosen"] for a in p["publikasi_garuda"]]
+              verified=[a for a in rows if a.get("status_indeks_scopus")=="terindeks"]
+              assert len(verified)==recap["artikel_scopus_terverifikasi"]
+              assert all(a.get("scopus_eid") and a.get("scopus_bukti_url") for a in verified)
+          print("Scopus diagnostic valid:", status["status"])
+          PY
+      - name: Commit hasil diagnosa dan bukti, jika tersedia
+        run: |
+          git add hasil/status_pemeriksaan_scopus.json
+          if [ -f hasil/rekap_scopus.json ]; then
+            git add hasil/publikasi_dosen.json hasil/publikasi_dosen.csv hasil/rekap_scopus.json hasil/rekap_scopus.csv hasil/diagnostik_scopus.json hasil/cache_artikel_scopus.json hasil/label_publikasi.json
+          fi
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Audit Scopus bulanan berdasarkan DOI GARUDA"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo "Hasil tidak berubah"
+          fi
+      - name: Simpan artefak audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-scopus-bulanan
+          path: |
+            hasil/status_pemeriksaan_scopus.json
+            hasil/rekap_scopus.json
+            hasil/diagnostik_scopus.json
+          if-no-files-found: warn
