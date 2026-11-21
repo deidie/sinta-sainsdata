@@ -1,9 +1,9 @@
 {
   "versi": 1,
-  "dibuat_utc": "2026-11-21T18:03:55.768906+00:00",
+  "dibuat_utc": "2026-11-21T18:09:21.999519+00:00",
   "sumber": "GARUDA + katalog profil jurnal SINTA",
   "garuda_diperbarui_utc": "2026-11-21T11:56:43.062490+00:00",
-  "peringkat_jurnal_diperbarui_utc": "2026-11-21T17:58:49.010503+00:00",
+  "peringkat_jurnal_diperbarui_utc": "2026-11-21T18:09:21.923913+00:00",
   "pemeriksaan_sinta_utc": "2026-11-21T18:03:55.716870+00:00",
   "pemeriksaan_sinta_terbatas": true,
   "tabel_per_dosen": [
@@ -12,36 +12,36 @@
       "nama": "Muhammad Siddik Hasibuan",
       "garuda": 80,
       "S1": 0,
-      "S2": 0,
+      "S2": 3,
       "S3": 11,
       "S4": 26,
       "S5": 4,
       "S6": 4,
-      "belum_tercocokkan": 35
+      "belum_tercocokkan": 32
     },
     {
       "slug": "dedi",
       "nama": "Muhammad Dedi Irawan",
       "garuda": 164,
-      "S1": 0,
-      "S2": 0,
+      "S1": 1,
+      "S2": 2,
       "S3": 16,
       "S4": 51,
       "S5": 18,
       "S6": 0,
-      "belum_tercocokkan": 79
+      "belum_tercocokkan": 76
     },
     {
       "slug": "rakhmat",
       "nama": "Rakhmat Kurniawan R",
       "garuda": 131,
       "S1": 0,
-      "S2": 0,
+      "S2": 1,
       "S3": 20,
       "S4": 52,
       "S5": 26,
       "S6": 0,
-      "belum_tercocokkan": 33
+      "belum_tercocokkan": 32
     },
     {
       "slug": "aidil",
@@ -85,23 +85,23 @@
       "tahun": 2026,
       "publikasi": 43,
       "S1": 0,
-      "S2": 0,
+      "S2": 1,
       "S3": 5,
       "S4": 14,
       "S5": 1,
       "S6": 0,
-      "belum_tercocokkan": 23
+      "belum_tercocokkan": 22
     },
     {
       "tahun": 2025,
       "publikasi": 89,
       "S1": 0,
-      "S2": 0,
+      "S2": 2,
       "S3": 11,
       "S4": 36,
       "S5": 2,
       "S6": 0,
-      "belum_tercocokkan": 40
+      "belum_tercocokkan": 38
     },
     {
       "tahun": 2024,
@@ -117,13 +117,13 @@
     {
       "tahun": 2023,
       "publikasi": 68,
-      "S1": 0,
-      "S2": 0,
+      "S1": 1,
+      "S2": 2,
       "S3": 7,
       "S4": 25,
       "S5": 6,
       "S6": 0,
-      "belum_tercocokkan": 30
+      "belum_tercocokkan": 27
     },
     {
       "tahun": 2022,
@@ -151,12 +151,12 @@
       "tahun": 2020,
       "publikasi": 14,
       "S1": 0,
-      "S2": 0,
+      "S2": 1,
       "S3": 3,
       "S4": 4,
       "S5": 4,
       "S6": 0,
-      "belum_tercocokkan": 3
+      "belum_tercocokkan": 2
     },
     {
       "tahun": 2019,
@@ -218,13 +218,13 @@
     "garuda_unik": 417,
     "garuda_rekaman_per_dosen": 430,
     "peringkat_jurnal": {
-      "S1": 0,
-      "S2": 0,
+      "S1": 1,
+      "S2": 6,
       "S3": 49,
       "S4": 152,
       "S5": 48,
       "S6": 4,
-      "belum_tercocokkan": 164
+      "belum_tercocokkan": 157
     },
     "peringkat_artikel_doi_terverifikasi": 8
   },
