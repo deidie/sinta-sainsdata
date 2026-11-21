@@ -1,0 +1,479 @@
+{
+  "diperbarui_utc": "2026-11-21T11:33:49.858638+00:00",
+  "dosen": [
+    {
+      "slug": "siddik",
+      "nama": "Muhammad Siddik Hasibuan",
+      "sinta_id": "5983919",
+      "jumlah_artikel": 80,
+      "status": "lengkap",
+      "profil_garuda": [
+        {
+          "garuda_author_id": "2406700",
+          "url": "https://garuda.kemdiktisaintek.go.id/author/view/2406700",
+          "pages": [
+            {
+              "page": 1,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 2,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 3,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 4,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 5,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 6,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 7,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 8,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 9,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 10,
+              "http_status": 200,
+              "count": 0,
+              "new": 0
+            }
+          ],
+          "error": "",
+          "completed": true
+        }
+      ],
+      "sinta": {
+        "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5983919",
+        "http_status": 403,
+        "error": "HTTP 403, dihentikan tanpa mencoba menghindari pembatasan",
+        "nama_tercocokkan": false
+      }
+    },
+    {
+      "slug": "dedi",
+      "nama": "Muhammad Dedi Irawan",
+      "sinta_id": "6054939",
+      "jumlah_artikel": 164,
+      "status": "lengkap",
+      "profil_garuda": [
+        {
+          "garuda_author_id": "1197451",
+          "url": "https://garuda.kemdiktisaintek.go.id/author/view/1197451",
+          "pages": [
+            {
+              "page": 1,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 2,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 3,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 4,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 5,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 6,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 7,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 8,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 9,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 10,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 11,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 12,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 13,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 14,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 15,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 16,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 17,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 18,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 19,
+              "http_status": 200,
+              "count": 0,
+              "new": 0
+            }
+          ],
+          "error": "",
+          "completed": true
+        }
+      ],
+      "sinta": {
+        "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939",
+        "http_status": 403,
+        "error": "HTTP 403, dihentikan tanpa mencoba menghindari pembatasan",
+        "nama_tercocokkan": false
+      }
+    },
+    {
+      "slug": "rakhmat",
+      "nama": "Rakhmat Kurniawan R",
+      "sinta_id": "6160028",
+      "jumlah_artikel": 131,
+      "status": "lengkap",
+      "profil_garuda": [
+        {
+          "garuda_author_id": "1733344",
+          "url": "https://garuda.kemdiktisaintek.go.id/author/view/1733344",
+          "pages": [
+            {
+              "page": 1,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 2,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 3,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 4,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 5,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 6,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 7,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 8,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 9,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 10,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 11,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 12,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 13,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 14,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 15,
+              "http_status": 200,
+              "count": 9,
+              "new": 9
+            },
+            {
+              "page": 16,
+              "http_status": 200,
+              "count": 0,
+              "new": 0
+            }
+          ],
+          "error": "",
+          "completed": true
+        }
+      ],
+      "sinta": {
+        "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028",
+        "http_status": 403,
+        "error": "HTTP 403, dihentikan tanpa mencoba menghindari pembatasan",
+        "nama_tercocokkan": false
+      }
+    },
+    {
+      "slug": "aidil",
+      "nama": "Aidil Halim Lubis",
+      "sinta_id": "6795618",
+      "jumlah_artikel": 37,
+      "status": "lengkap",
+      "profil_garuda": [
+        {
+          "garuda_author_id": "621444",
+          "url": "https://garuda.kemdiktisaintek.go.id/author/view/621444",
+          "pages": [
+            {
+              "page": 1,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 2,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 3,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 4,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 5,
+              "http_status": 200,
+              "count": 6,
+              "new": 6
+            },
+            {
+              "page": 6,
+              "http_status": 200,
+              "count": 0,
+              "new": 0
+            }
+          ],
+          "error": "",
+          "completed": true
+        }
+      ],
+      "sinta": {
+        "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6795618",
+        "http_status": 403,
+        "error": "HTTP 403, dihentikan tanpa mencoba menghindari pembatasan",
+        "nama_tercocokkan": false
+      }
+    },
+    {
+      "slug": "ika",
+      "nama": "Ika Yusnita Sari",
+      "sinta_id": "6745259",
+      "jumlah_artikel": 16,
+      "status": "perlu_verifikasi_identitas_garuda",
+      "profil_garuda": [
+        {
+          "garuda_author_id": "7443043",
+          "url": "https://garuda.kemdiktisaintek.go.id/author/view/7443043",
+          "pages": [
+            {
+              "page": 1,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 2,
+              "http_status": 200,
+              "count": 6,
+              "new": 6
+            },
+            {
+              "page": 3,
+              "http_status": 200,
+              "count": 0,
+              "new": 0
+            }
+          ],
+          "error": "",
+          "completed": true
+        }
+      ],
+      "sinta": {
+        "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6745259",
+        "http_status": 403,
+        "error": "HTTP 403, dihentikan tanpa mencoba menghindari pembatasan",
+        "nama_tercocokkan": false
+      }
+    },
+    {
+      "slug": "puji",
+      "nama": "Puji Sari Ramadhan",
+      "sinta_id": "6089755",
+      "jumlah_artikel": 2,
+      "status": "lengkap",
+      "profil_garuda": [
+        {
+          "garuda_author_id": "10712505",
+          "url": "https://garuda.kemdiktisaintek.go.id/author/view/10712505",
+          "pages": [
+            {
+              "page": 1,
+              "http_status": 200,
+              "count": 2,
+              "new": 2
+            },
+            {
+              "page": 2,
+              "http_status": 200,
+              "count": 0,
+              "new": 0
+            }
+          ],
+          "error": "",
+          "completed": true
+        }
+      ],
+      "sinta": {
+        "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089755",
+        "http_status": 403,
+        "error": "HTTP 403, dihentikan tanpa mencoba menghindari pembatasan",
+        "nama_tercocokkan": false
+      }
+    }
+  ]
+}
