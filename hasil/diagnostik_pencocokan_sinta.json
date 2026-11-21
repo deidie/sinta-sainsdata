@@ -1,0 +1,647 @@
+{
+  "waktu": "2026-11-21T17:54:16.237159+00:00",
+  "nama_jurnal_dalam_katalog": 29,
+  "jurnal_unik_tercocokkan": 29,
+  "rekaman_dengan_rank_jurnal_teramati": 198,
+  "rekaman_dengan_rank_artikel_terverifikasi": 8,
+  "rekaman_tanpa_rank_jurnal": 232,
+  "alasan": {
+    "profil_sinta_resmi_terindeks": 198,
+    "nama_belum_ditemukan": 232
+  },
+  "jurnal_belum_tercocokkan": [
+    {
+      "nama": "Jurnal Teknovasi : Jurnal Teknik dan Inovasi",
+      "rekaman": 4
+    },
+    {
+      "nama": "International Conference on Sciences Development and Technology The 1st ICoSDTech 2021",
+      "rekaman": 4
+    },
+    {
+      "nama": "VISA: Journal of Vision and Ideas",
+      "rekaman": 4
+    },
+    {
+      "nama": "Bigint Computing Journal",
+      "rekaman": 4
+    },
+    {
+      "nama": "Indonesian Journal of Data Science, IoT, Machine Learning and Informatics",
+      "rekaman": 4
+    },
+    {
+      "nama": "Marsipature Hutanabe: Jurnal Pengabdian Kepada Masyarakat",
+      "rekaman": 4
+    },
+    {
+      "nama": "Indonesian Journal of Artificial Intelligence and Data Mining",
+      "rekaman": 3
+    },
+    {
+      "nama": "METIK JURNAL (AKREDITASI SINTA 3)",
+      "rekaman": 3
+    },
+    {
+      "nama": "Cosmic Jurnal Teknik",
+      "rekaman": 3
+    },
+    {
+      "nama": "PIKSEL : Penelitian Ilmu Komputer Sistem Embedded and Logic",
+      "rekaman": 3
+    },
+    {
+      "nama": "Blend Sains Jurnal Teknik",
+      "rekaman": 3
+    },
+    {
+      "nama": "Resolusi : Rekayasa Teknik Informatika dan Informasi",
+      "rekaman": 3
+    },
+    {
+      "nama": "Simtek : jurnal sistem informasi dan teknik komputer",
+      "rekaman": 3
+    },
+    {
+      "nama": "JURNAL TEKNOLOGI DAN OPEN SOURCE",
+      "rekaman": 3
+    },
+    {
+      "nama": "sudo Jurnal Teknik Informatika",
+      "rekaman": 3
+    },
+    {
+      "nama": "Jurasik (Jurnal Riset Sistem Informasi dan Teknik Informatika)",
+      "rekaman": 3
+    },
+    {
+      "nama": "Sinkron : jurnal dan penelitian teknik informatika",
+      "rekaman": 3
+    },
+    {
+      "nama": "Techno.Com",
+      "rekaman": 2
+    },
+    {
+      "nama": "ALGORITMA : JURNAL ILMU KOMPUTER DAN INFORMATIKA",
+      "rekaman": 2
+    },
+    {
+      "nama": "JURNAL PENGABDIAN KEPADA MASYARAKAT",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Info Sains : Informatika dan Sains",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Mantik",
+      "rekaman": 2
+    },
+    {
+      "nama": "JURNAL TEKNOLOGI INFORMASI DAN KOMUNIKASI",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Pengabdian Masyarakat",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Ilmiah Komputasi",
+      "rekaman": 2
+    },
+    {
+      "nama": "Journal Of Human And Education (JAHE)",
+      "rekaman": 2
+    },
+    {
+      "nama": "JURNAL FASILKOM",
+      "rekaman": 2
+    },
+    {
+      "nama": "STORAGE: Jurnal Ilmiah Teknik dan Ilmu Komputer",
+      "rekaman": 2
+    },
+    {
+      "nama": "InfoTekJar : Jurnal Nasional Informatika dan Teknologi Jaringan",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Abdi Mas Adzkia",
+      "rekaman": 2
+    },
+    {
+      "nama": "Hello World Jurnal Ilmu Komputer",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Penelitian Medan Agama MEDAN AGAMA",
+      "rekaman": 2
+    },
+    {
+      "nama": "Bulletin of Information Technology (BIT)",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD)",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Pendidikan Informatika (EDUMATIC)",
+      "rekaman": 2
+    },
+    {
+      "nama": "Journal Of Informatics And Busisnes",
+      "rekaman": 2
+    },
+    {
+      "nama": "JURSIMA",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Responsif : Riset Sains dan Informatika",
+      "rekaman": 2
+    },
+    {
+      "nama": "IJIS - Indonesian Journal On Information System",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jutisi : Jurnal Ilmiah Teknik Informatika dan Sistem Informasi",
+      "rekaman": 2
+    },
+    {
+      "nama": "JIKO (Jurnal Informatika dan Komputer)",
+      "rekaman": 2
+    },
+    {
+      "nama": "Journal of Information Technology",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Saintekom : Sains, Teknologi, Komputer dan Manajemen",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Algoritma",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Ilmiah Sains dan Teknologi",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Garuda Pengabdian Kepada Masyarakat",
+      "rekaman": 2
+    },
+    {
+      "nama": "EXPERT: Jurnal Manajemen Sistem Informasi dan Teknologi",
+      "rekaman": 2
+    },
+    {
+      "nama": "Technologia : Jurnal Ilmiah",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Teknik Informatika UNIKA Santo Thomas",
+      "rekaman": 2
+    },
+    {
+      "nama": "Journal of Intelligent Decision Support System (IDSS)",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Komputer Teknologi Informasi Sistem Komputer (JUKTISI)",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Informatika",
+      "rekaman": 1
+    },
+    {
+      "nama": "IT Journal Research and Development",
+      "rekaman": 1
+    },
+    {
+      "nama": "U-NET Jurnal Teknik Informatika",
+      "rekaman": 1
+    },
+    {
+      "nama": "JRST (Jurnal Riset Sains dan Teknologi)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Innovative: Journal Of Social Science Research",
+      "rekaman": 1
+    },
+    {
+      "nama": "Prisma Sains : Jurnal Pengkajian Ilmu dan Pembelajaran Matematika dan IPA IKIP Mataram",
+      "rekaman": 1
+    },
+    {
+      "nama": "Journal on Education",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Sistem Informasi",
+      "rekaman": 1
+    },
+    {
+      "nama": "International Journal of Artificial Intelligence & Robotics (IJAIR)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Computer Science and Information Technology",
+      "rekaman": 1
+    },
+    {
+      "nama": "INFOMATEK",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Pendidikan dan Teknologi Indonesia",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Teknik Elektro dan Komputer TRIAC",
+      "rekaman": 1
+    },
+    {
+      "nama": "JURNAL ILMU KOMPUTER",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Teknik Informatika (Jutif)",
+      "rekaman": 1
+    },
+    {
+      "nama": "INFOTECH : Jurnal Informatika & Teknologi",
+      "rekaman": 1
+    },
+    {
+      "nama": "JASIEK (Jurnal Aplikasi Sains, Informasi, Elektronika dan Komputer)",
+      "rekaman": 1
+    },
+    {
+      "nama": "SWARNA: Jurnal Pengabdian Kepada Masyarakat",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Riset Informatika",
+      "rekaman": 1
+    },
+    {
+      "nama": "Information Technology Education Journal",
+      "rekaman": 1
+    },
+    {
+      "nama": "Journal of Information System and Informatics",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jusikom : Jurnal Sistem Komputer Musirawas",
+      "rekaman": 1
+    },
+    {
+      "nama": "TEKNIKA",
+      "rekaman": 1
+    },
+    {
+      "nama": "Kegiatan Positif : Jurnal Hasil Karya Pengabdian Masyarakat",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Media Infotama",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Informatika Universitas Pamulang",
+      "rekaman": 1
+    },
+    {
+      "nama": "Komputa : Jurnal Ilmiah Komputer dan Informatika",
+      "rekaman": 1
+    },
+    {
+      "nama": "IJAIT (International Journal of Applied Information Technology)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Teknik Informatika C.I.T Medicom",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Ilmu Komputer",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Pendidikan Tambusai",
+      "rekaman": 1
+    },
+    {
+      "nama": "Query: Journal of Information Systems VOLUME: 06, NUMBER: 02, OCTOBER 2022",
+      "rekaman": 1
+    },
+    {
+      "nama": "Kumawula: Jurnal Pengabdian Kepada Masyarakat",
+      "rekaman": 1
+    },
+    {
+      "nama": "SATESI: Jurnal Sains Teknologi dan Sistem Informasi",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Sistem Informasi Bisnis (JUNSIBI)",
+      "rekaman": 1
+    },
+    {
+      "nama": "International Conference on Sciences Development and Technology The 2nd ICoSDTech 2022",
+      "rekaman": 1
+    },
+    {
+      "nama": "JUSIM (Jurnal Sistem Informasi Musirawas)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Mnemonic",
+      "rekaman": 1
+    },
+    {
+      "nama": "Indonesian Journal of Information Systems",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Teknik Informatika dan Sistem Informasi",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal SISKOM-KB (Sistem Komputer dan Kecerdasan Buatan)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Inspiration: Jurnal Teknologi Informasi dan Komunikasi",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Accounting Information System (AIMS)",
+      "rekaman": 1
+    },
+    {
+      "nama": "JURNAL Al-AZHAR INDONESIA SERI SAINS DAN TEKNOLOGI",
+      "rekaman": 1
+    },
+    {
+      "nama": "Technomedia Journal",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Ilmiah Sistem Informasi (JISI)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Insect (Informatics and Security): Jurnal Teknik Informatika",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Sains dan Teknologi (JSIT)",
+      "rekaman": 1
+    },
+    {
+      "nama": "ZERO: Jurnal Sains, Matematika dan Terapan",
+      "rekaman": 1
+    },
+    {
+      "nama": "Balance : Jurnal Akuntansi dan Manajemen",
+      "rekaman": 1
+    },
+    {
+      "nama": "INOVTEK Polbeng - Seri Informatika",
+      "rekaman": 1
+    },
+    {
+      "nama": "Journal of Computers and Digital Business",
+      "rekaman": 1
+    },
+    {
+      "nama": "JTIK (Jurnal Teknik Informatika Kaputama)",
+      "rekaman": 1
+    },
+    {
+      "nama": "JURNAL INFOTEL",
+      "rekaman": 1
+    },
+    {
+      "nama": "JITSI : Jurnal Ilmiah Teknologi Sistem Informasi",
+      "rekaman": 1
+    },
+    {
+      "nama": "Journal of Information System Management (JOISM)",
+      "rekaman": 1
+    },
+    {
+      "nama": "SPEKTA (Jurnal Pengabdian Kepada Masyarakat : Teknologi dan Aplikasi)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Journal of Students‘ Research in Computer Science",
+      "rekaman": 1
+    },
+    {
+      "nama": "IDEALIS : InDonEsiA journaL Information System",
+      "rekaman": 1
+    },
+    {
+      "nama": "JURNAL ILMIAH INFORMATIKA",
+      "rekaman": 1
+    },
+    {
+      "nama": "JOISIE (Journal Of Information Systems And Informatics Engineering)",
+      "rekaman": 1
+    },
+    {
+      "nama": "EXPLORER",
+      "rekaman": 1
+    },
+    {
+      "nama": "Applied Information System and Management (AISM)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Sistem Informasi dan Sains Teknologi",
+      "rekaman": 1
+    },
+    {
+      "nama": "IAES International Journal of Artificial Intelligence (IJ-AI)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Ilmiah Matrik",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal E-Komtek (Elektronika-Komputer-Teknik)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Green Intelligent Systems and Applications",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Ilmu Komputer dan Sistem Komputer Terapan (JIKSTRA)",
+      "rekaman": 1
+    },
+    {
+      "nama": "JISA(Jurnal Informatika dan Sains)",
+      "rekaman": 1
+    },
+    {
+      "nama": "International Journal of Informatics and Communication Technology (IJ-ICT)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Algoritma: Jurnal Ilmu Komputer dan Informatika",
+      "rekaman": 1
+    },
+    {
+      "nama": "JSINBIS (Jurnal Sistem Informasi Bisnis)",
+      "rekaman": 1
+    },
+    {
+      "nama": "G-Tech: Jurnal Teknologi Terapan",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal JTIK (Jurnal Teknologi Informasi dan Komunikasi)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Dedikasi Pendidikan",
+      "rekaman": 1
+    },
+    {
+      "nama": "Smart Comp :Jurnalnya Orang Pintar Komputer",
+      "rekaman": 1
+    },
+    {
+      "nama": "JURNAL MEDIA INFORMATIKA BUDIDARMA",
+      "rekaman": 1
+    },
+    {
+      "nama": "Progresif: Jurnal Ilmiah Komputer",
+      "rekaman": 1
+    },
+    {
+      "nama": "Bahasa Indonesia",
+      "rekaman": 1
+    },
+    {
+      "nama": "SMARTICS Journal",
+      "rekaman": 1
+    },
+    {
+      "nama": "SENTRI: Jurnal Riset Ilmiah",
+      "rekaman": 1
+    },
+    {
+      "nama": "EDU SOCIETY: JURNAL PENDIDIKAN, ILMU SOSIAL DAN PENGABDIAN KEPADA MASYARAKAT",
+      "rekaman": 1
+    },
+    {
+      "nama": "Journal of Computer Science, Information Technology and Telecommunication Engineering",
+      "rekaman": 1
+    },
+    {
+      "nama": "ZONAsi: Jurnal Sistem Informasi",
+      "rekaman": 1
+    },
+    {
+      "nama": "TEKNOLOGI: Jurnal Ilmiah Sistem Informasi",
+      "rekaman": 1
+    },
+    {
+      "nama": "Da'watuna: Journal of Communication and Islamic Broadcasting",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Teknologi Terpadu",
+      "rekaman": 1
+    },
+    {
+      "nama": "Simpatik: Jurnal Sistem Informasi dan Informatika",
+      "rekaman": 1
+    },
+    {
+      "nama": "Future Academia : The Journal of Multidisciplinary Research on Scientific and Advanced",
+      "rekaman": 1
+    },
+    {
+      "nama": "JURNAL TEKNOLOGI DAN ILMU KOMPUTER PRIMA (JUTIKOMP)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Brahmana : Jurnal Penerapan Kecerdasan Buatan",
+      "rekaman": 1
+    },
+    {
+      "nama": "JURTEKSI (Jurnal Teknologi dan Sistem Informasi)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Elkom : Jurnal Elektronika dan Komputer",
+      "rekaman": 1
+    },
+    {
+      "nama": "Journal of Intelligent Computing & Health Informatics",
+      "rekaman": 1
+    },
+    {
+      "nama": "Internet of Things and Artificial Intelligence Journal",
+      "rekaman": 1
+    },
+    {
+      "nama": "DEVICE : JOURNAL OF INFORMATION SYSTEM, COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal IT UHB",
+      "rekaman": 1
+    },
+    {
+      "nama": "TEKNOSAINS : Jurnal Sains, Teknologi dan Informatika",
+      "rekaman": 1
+    },
+    {
+      "nama": "Algebra : Jurnal Pendidikan, Sosial dan Sains",
+      "rekaman": 1
+    },
+    {
+      "nama": "METHOMIKA: Jurnal Manajemen Informatika & Komputerisasi Akuntansi",
+      "rekaman": 1
+    },
+    {
+      "nama": "JURNAL MANAJEMEN MAKER STIE SULTAN AGUNG",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Komputer Indonesia (Ju-Komi)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Pengabdian Kepada Masyarakat Indonesia SEAN (ABDIMAS SEAN)",
+      "rekaman": 1
+    },
+    {
+      "nama": "RIGGS: Journal of Artificial Intelligence and Digital Business",
+      "rekaman": 1
+    },
+    {
+      "nama": "Jurnal Sistem Komputer Triguna Dharma (JURSIK TGD)",
+      "rekaman": 1
+    }
+  ],
+  "catatan": "Jurnal peringkat terkini tidak identik dengan status akreditasi pada tahun artikel."
+}
