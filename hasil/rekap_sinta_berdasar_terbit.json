@@ -1,8 +1,7 @@
 {
   "versi": 1,
-  "diperiksa_tanggal": "2026-11-22",
-  "metode": "Peringkat saat terbit berdasarkan DOI pada SINTA dan periode akreditasi penerbit yang telah diperiksa. Peringkat jurnal terkini tidak disalin ke kolom historis.",
-  "sumber": "Profil SINTA, data/ bukti DOI, pengumuman periode akreditasi",
+  "diperiksa_tanggal": "2026-11-21",
+  "metode": "Peringkat saat terbit berdasarkan DOI SINTA atau bukti periode jurnal; tidak mengasumsikan peringkat jurnal terkini berlaku historis.",
   "rekap_prodi": {
     "garuda_unik": 417,
     "jurnal_dipadan_peringkat_terkini": 260,
@@ -227,7 +226,6 @@
   ],
   "artikel_peringkat_terverifikasi": [
     {
-      "key": "doi:10.24002/ijis.v7i2.10213",
       "judul": "Application Of Expert System In Determining Diseases In Potato Plants",
       "tahun": 2025,
       "doi": "10.24002/ijis.v7i2.10213",
@@ -236,11 +234,10 @@
       ],
       "peringkat_sinta_saat_terbit": 2,
       "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6707296/?view=garuda",
-      "sumber_peringkat": "periode_terbit_diperiksa",
+      "sumber_peringkat": "periode_akreditasi",
       "jurnal_sinta_peringkat_terkini": 2
     },
     {
-      "key": "doi:10.20895/infotel.v15i1.848",
       "judul": "Sistem Ujian Tilawatil Qur`an",
       "tahun": 2023,
       "doi": "10.20895/infotel.v15i1.848",
@@ -249,11 +246,10 @@
       ],
       "peringkat_sinta_saat_terbit": 2,
       "bukti_url": "https://purwokerto.telkomuniversity.ac.id/jurnal-infotel-lppm-ittp-terakreditasi-sinta-2/",
-      "sumber_peringkat": "periode_terbit_diperiksa",
+      "sumber_peringkat": "periode_akreditasi",
       "jurnal_sinta_peringkat_terkini": 1
     },
     {
-      "key": "doi:10.12928/spekta.v7i1.15674",
       "judul": "Development of MDLC-Based WebAR and WebVR Platforms as Digital Educational Media for Batik Motifs",
       "tahun": 2026,
       "doi": "10.12928/spekta.v7i1.15674",
@@ -262,11 +258,10 @@
       ],
       "peringkat_sinta_saat_terbit": 2,
       "bukti_url": "https://journal2.uad.ac.id/index.php/spekta/announcement/view/237",
-      "sumber_peringkat": "periode_terbit_diperiksa",
+      "sumber_peringkat": "periode_akreditasi",
       "jurnal_sinta_peringkat_terkini": 2
     },
     {
-      "key": "doi:10.54314/jssr.v9i1.5856",
       "judul": "REDUKSI DIMENSI PADA KLASIFIKASI DATA KANKER PROSTAT MENGGUNAKAN PRINCIPAL COMPONENT ANALYSIS DAN RANDOM FOREST",
       "tahun": 2026,
       "doi": "10.54314/jssr.v9i1.5856",
@@ -275,11 +270,10 @@
       ],
       "peringkat_sinta_saat_terbit": 4,
       "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
-      "sumber_peringkat": "doi_di_sinta",
+      "sumber_peringkat": "doi_sinta",
       "jurnal_sinta_peringkat_terkini": 4
     },
     {
-      "key": "doi:10.30865/json.v7i3.9661",
       "judul": "Prototipe Sistem Cerdas dalam Pengairan Rumah Tangga Berbasis IOT Menggunakan Metode Logika Fuzzy Sugeno",
       "tahun": 2026,
       "doi": "10.30865/json.v7i3.9661",
@@ -288,11 +282,10 @@
       ],
       "peringkat_sinta_saat_terbit": 3,
       "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
-      "sumber_peringkat": "doi_di_sinta",
+      "sumber_peringkat": "doi_sinta",
       "jurnal_sinta_peringkat_terkini": 3
     },
     {
-      "key": "doi:10.31294/simpatik.v6i1.12598",
       "judul": "Sistem Pendukung Keputusan Penerimaan Dana Bantuan Sosial Menggunakan Algoritma Decision Tree (C5.0) Di Kantor Desa Blankahan",
       "tahun": 2026,
       "doi": "10.31294/simpatik.v6i1.12598",
@@ -301,11 +294,10 @@
       ],
       "peringkat_sinta_saat_terbit": 5,
       "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
-      "sumber_peringkat": "doi_di_sinta",
+      "sumber_peringkat": "doi_sinta",
       "jurnal_sinta_peringkat_terkini": null
     },
     {
-      "key": "doi:10.62712/juktisi.v5i1.1037",
       "judul": "Penerapan Algoritma K-Means Dalam Pengelompokan UMKM Berdasarkan Potensi Pertumbuhan Berbasis Web",
       "tahun": 2026,
       "doi": "10.62712/juktisi.v5i1.1037",
@@ -314,11 +306,10 @@
       ],
       "peringkat_sinta_saat_terbit": 4,
       "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
-      "sumber_peringkat": "doi_di_sinta",
+      "sumber_peringkat": "doi_sinta",
       "jurnal_sinta_peringkat_terkini": null
     },
     {
-      "key": "doi:10.47065/tin.v6i9.9350",
       "judul": "Penerapan Naive Bayes dalam Mengidentifikasi Penyebab Remaja Desa Terlibat dalam Judi Online",
       "tahun": 2026,
       "doi": "10.47065/tin.v6i9.9350",
@@ -327,11 +318,10 @@
       ],
       "peringkat_sinta_saat_terbit": 4,
       "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
-      "sumber_peringkat": "doi_di_sinta",
+      "sumber_peringkat": "doi_sinta",
       "jurnal_sinta_peringkat_terkini": 4
     },
     {
-      "key": "doi:10.47065/tin.v6i11.9674",
       "judul": "Implementasi Metode Canny dalam Sistem Penempatan Foto Kartu Identitas Siswa Otomatis",
       "tahun": 2026,
       "doi": "10.47065/tin.v6i11.9674",
@@ -340,11 +330,10 @@
       ],
       "peringkat_sinta_saat_terbit": 4,
       "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
-      "sumber_peringkat": "doi_di_sinta",
+      "sumber_peringkat": "doi_sinta",
       "jurnal_sinta_peringkat_terkini": 4
     },
     {
-      "key": "doi:10.24114/cess.v11i1.72110",
       "judul": "Implementasi Internet of Thing (IoT) untuk Monitoring dan Kontrol Energi Listrik Rumah Tangga Menggunakan Fuzzy Tsukamoto",
       "tahun": 2026,
       "doi": "10.24114/cess.v11i1.72110",
@@ -353,11 +342,10 @@
       ],
       "peringkat_sinta_saat_terbit": 4,
       "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
-      "sumber_peringkat": "doi_di_sinta",
+      "sumber_peringkat": "doi_sinta",
       "jurnal_sinta_peringkat_terkini": 4
     },
     {
-      "key": "doi:10.24114/cess.v11i1.72255",
       "judul": "Implementasi Konsumsi Energi Listrik Perabotan Rumah Tangga Berbasis IoT Menggunakan ESP-32, Sensor PZEM 004T dan Fuzzy Mamdani",
       "tahun": 2026,
       "doi": "10.24114/cess.v11i1.72255",
@@ -366,9 +354,9 @@
       ],
       "peringkat_sinta_saat_terbit": 4,
       "bukti_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=garuda",
-      "sumber_peringkat": "doi_di_sinta",
+      "sumber_peringkat": "doi_sinta",
       "jurnal_sinta_peringkat_terkini": 4
     }
   ],
-  "catatan": "Nilai 0 pada klasifikasi historis berarti belum ada bukti untuk jenis tersebut dalam subset terverifikasi, bukan tidak ada karya; jurnal yang cocok pada katalog belum dihitung tanpa validasi periode."
+  "catatan": "0 pada peringkat terverifikasi berarti belum ada bukti pada subset, bukan menyatakan tidak ada publikasi terindeks."
 }
