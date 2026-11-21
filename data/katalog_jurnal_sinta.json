@@ -261,12 +261,17 @@
     },
     {
       "nama_garuda": "Jurnal Ilmu Komputer dan Sistem Informasi",
-      "nama_sinta": "Jurnal Ilmu Komputer dan Sistem Informasi",
+      "nama_sinta": "Jurnal Ilmu Komputer dan Sistem Informasi (JIRSI)",
       "alias_garuda": [],
-      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/15276",
-      "peringkat_terkini_diamati": 5,
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/16614",
+      "peringkat_terkini_diamati": 4,
       "sumber": "Profil jurnal SINTA terindeks publik",
-      "ditinjau_tanggal": "2026-11-22"
+      "ditinjau_tanggal": "2026-11-22",
+      "doi_prefix_harus_cocok": [
+        "10.70340/jirsi."
+      ],
+      "penerbit_domain": "jurnal.unity-academy.sch.id",
+      "catatan": "Judul ambigu: hanya cocokkan jika DOI berawalan 10.70340/jirsi. Jangan salah padankan dengan jurnal Universitas Tarumanagara (SINTA 5) maupun JIKSI yang berbeda."
     }
   ]
 }
