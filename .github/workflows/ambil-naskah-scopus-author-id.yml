@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - "ambil_naskah_scopus_author_id.py"
+      - "test_scopus_tanpa_garuda.py"
       - "data/daftar_scopus_author_id.json"
       - ".github/workflows/ambil-naskah-scopus-author-id.yml"
   schedule:
@@ -26,6 +27,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Uji dokumen buku, bab buku, dan deduplikasi EID tanpa GARUDA
+        run: python -m unittest -v test_scopus_tanpa_garuda.py
       - name: Cari daftar naskah Scopus berdasarkan enam Author ID
         env:
           SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
