@@ -1,0 +1,71 @@
+name: Audit Jurnal SINTA Bulanan dan Data WordPress
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "cek_katalog_sinta_bulanan.py"
+      - "buat_rekap_wordpress.py"
+      - ".github/workflows/audit-sinta-bulanan.yml"
+  schedule:
+    - cron: "23 1 2 * *" # Tanggal 2 setiap bulan 08.23 WIB (UTC+7)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publikasi-sainsdata
+  cancel-in-progress: false
+
+jobs:
+  audit-jurnal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - name: Checkout data GARUDA dan katalog SINTA
+        uses: actions/checkout@v4
+      - name: Siapkan Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Periksa kembali profil jurnal SINTA resmi
+        run: python cek_katalog_sinta_bulanan.py
+      - name: Siapkan dua tabel rekap untuk WordPress
+        run: python buat_rekap_wordpress.py
+      - name: Validasi audit dan rekap (tanpa angka fiktif)
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          result=Path('hasil')
+          audit=json.loads((result/'status_pemeriksaan_sinta.json').read_text(encoding='utf-8'))
+          recap=json.loads((result/'rekap_publikasi_wordpress.json').read_text(encoding='utf-8'))
+          assert len(audit['jurnal']) == audit['jumlah_katalog']
+          assert audit['jumlah_permintaan'] <= audit['jumlah_katalog']
+          assert len(recap['tabel_per_dosen']) == 6
+          unique=recap['rekap_prodi']['garuda_unik']
+          assert sum(y['publikasi'] for y in recap['tabel_per_tahun']) == unique
+          for p in recap['tabel_per_dosen']:
+            assert sum(p['S'+str(i)] for i in range(1,7))+p['belum_tercocokkan'] == p['garuda']
+          print('VALID: ',audit['jumlah_katalog'],'jurnal; ',unique,
+                'publikasi unik; batas akses SINTA:',audit['akses_dibatasi'])
+          PY
+      - name: Commit hanya laporan pemeriksaan dan feed WordPress
+        run: |
+          git add hasil/status_pemeriksaan_sinta.json hasil/rekap_publikasi_wordpress.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Audit bulanan katalog SINTA dan perbarui tabel WordPress"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo "Tidak ada data yang perlu di-commit."
+          fi
+      - name: Simpan laporan audit sebagai artefak
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-jurnal-sinta-bulanan
+          path: |
+            hasil/status_pemeriksaan_sinta.json
+            hasil/rekap_publikasi_wordpress.json
