@@ -1,0 +1,553 @@
+{
+  "versi": 2,
+  "diperbarui_utc": "2026-11-21T17:15:09.426334+00:00",
+  "sumber": "Google Scholar via SerpApi, Sheets, Apps Script",
+  "cakupan_dosen": 6,
+  "cakupan_lengkap": true,
+  "catatan": "Artikel terdata dari integrasi Scholar, bukan total publikasi profil; sitasi tahunan bukan publikasi tahunan.",
+  "dosen": [
+    {
+      "slug": "siddik",
+      "nama": "Muhammad Siddik Hasibuan",
+      "scholar_url": "https://scholar.google.com/citations?user=btqJcxwAAAAJ&hl=id",
+      "scopus_url": "",
+      "metrik_scholar": {
+        "sitasi": 529,
+        "h_index": 12,
+        "i10_index": 15
+      },
+      "artikel_scholar": [
+        {
+          "judul": "Implementation of Village Information Digitalization through the Development of the Pasi Village Website Portal",
+          "tahun": 2026,
+          "jurnal": "Jurnal IPTEK Bagi Masyarakat 6 (2), 656-663, 2026",
+          "penulis": "NAA Harahap, MS Hasibuan, K Erlangga",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=btqJcxwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=btqJcxwAAAAJ:tOudhMTPpwUC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Obesity Level Classification Using the Gaussian Naive Bayes and 10-Fold Cross-Validation",
+          "tahun": 2026,
+          "jurnal": "Journal of Computer Science and Informatics Engineering 5 (4), 540-550, 2026",
+          "penulis": "RP Nanda, MS Hasibuan, MI Rifki",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=btqJcxwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=btqJcxwAAAAJ:K3LRdlH-MEoC",
+          "sitasi": 0
+        },
+        {
+          "judul": "OCR-LSTM-Based Detection of Pork-Derived Non-Halal Ingredients from Food Labels",
+          "tahun": 2026,
+          "jurnal": "Bigint Computing Journal 4 (2), 74-78, 2026",
+          "penulis": "MS Hasibuan, S Suhardi, BA Alfahri",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=btqJcxwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=btqJcxwAAAAJ:u9iWguZQMMsC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Penyuluhan Sertifikasi Halal untuk UMKM Berbasis Pariwisata di Era Digital: Inisiatif Keterlibatan Komunitas Internasional di Bukit Lawang, Indonesia: Halal Certification …",
+          "tahun": 2026,
+          "jurnal": "SWARNA: Jurnal Pengabdian Kepada Masyarakat 5 (7), 1875-1884, 2026",
+          "penulis": "I Zufria, Z Zakaria, M Ridwan, A Zein, T Handayani, RN Sari, ...",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=btqJcxwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=btqJcxwAAAAJ:p2g8aNsByqUC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Penerapan Metode Analitycal Hierarchy Process (AHP) dan Simple Additive Weighting (SAW) pada Sistem Pendukung Keputusan untuk Pemilihan Indekos",
+          "tahun": 2026,
+          "jurnal": "JASIEK (Jurnal Aplikasi Sains, Informasi, Elektronika dan Komputer) 8 (1 …, 2026",
+          "penulis": "R Pakpahan, MS Hasibuan, RA Pakpahan, RA Putri",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=btqJcxwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=btqJcxwAAAAJ:dshw04ExmUIC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Implementasi Modul Material Management (MM) pada SAP ERP untuk Optimalisasi Manajemen Persediaan",
+          "tahun": 2026,
+          "jurnal": "Cosmic Jurnal Teknik 3 (1), 8-14, 2026",
+          "penulis": "A Alfarizi, MS Hasibuan",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=btqJcxwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=btqJcxwAAAAJ:P5F9QuxV20EC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Implementasi Sistem ERP Berbasis SAP dalam Meningkatkan Efektivitas Manajemen Material dan Integrasi Data Persediaan",
+          "tahun": 2026,
+          "jurnal": "Cosmic Jurnal Teknik 3 (1), 15-25, 2026",
+          "penulis": "TMFD Aqilah, MAA Manullang, MS Hasibuan",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=btqJcxwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=btqJcxwAAAAJ:nb7KW1ujOQ8C",
+          "sitasi": 1
+        },
+        {
+          "judul": "KLASIFIKASI JENIS TANAMAN ANGGREK BERDASARKAN DAUN MENGGUNAKAN METODE PRINCIPAL COMPONENT ANALYSIS DAN K-NEAREST NEIGHBOR",
+          "tahun": 2026,
+          "jurnal": "STORAGE: Jurnal Ilmiah Teknik dan Ilmu Komputer 5 (1), 1-8, 2026",
+          "penulis": "NA Fauzan, MS Hasibuan",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=btqJcxwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=btqJcxwAAAAJ:NhqRSupF_l8C",
+          "sitasi": 0
+        }
+      ],
+      "sitasi_tahunan": {
+        "2017": 2,
+        "2018": 8,
+        "2019": 5,
+        "2020": 15,
+        "2021": 22,
+        "2022": 27,
+        "2023": 55,
+        "2024": 87,
+        "2025": 152,
+        "2026": 142
+      },
+      "scholar_diperbarui": "Sat Nov 21 2026 05:13:00 GMT+0700 (Western Indonesia Time)",
+      "scholar_status": "Berhasil",
+      "scopus": null
+    },
+    {
+      "slug": "dedi",
+      "nama": "Muhammad Dedi Irawan",
+      "scholar_url": "https://scholar.google.com/citations?user=16zyvPAAAAAJ&hl=id",
+      "scopus_url": "",
+      "metrik_scholar": {
+        "sitasi": 1629,
+        "h_index": 18,
+        "i10_index": 34
+      },
+      "artikel_scholar": [
+        {
+          "judul": "Sistem Informasi Manajemen Aset Menggunakan Metode Garis Lurus dan Multi Attribute Utility Theory",
+          "tahun": 2026,
+          "jurnal": "Technologia: Jurnal Ilmiah 17 (4), 1052-1061, 2026",
+          "penulis": "ZZR Hasibuan, MD Irawan",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=16zyvPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=16zyvPAAAAAJ:ClCfbGk0d_YC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Digital Fleet Scheduling untuk Pengelolaan Armada pada Perusahaan Transportasi",
+          "tahun": 2026,
+          "jurnal": "Jurnal Ilmu Komputer dan Sistem Komputer Terapan (JIKSTRA) 8 (2), 234-250, 2026",
+          "penulis": "TD Dermawan, MD Irawan, R Syuhada",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=16zyvPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=16zyvPAAAAAJ:FPJr55Dyh1AC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Decision Support System for Determining School Branch Locations Using the Weighted Product (WP) Method and Multi-Attribute Utility Theory (MAUT)",
+          "tahun": 2026,
+          "jurnal": "SISINFO: Jurnal Sistem Informasi dan Informatika 8 (2), 128-138, 2026",
+          "penulis": "NA Suyadi, MD Irawan, FH Sibarani",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=16zyvPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=16zyvPAAAAAJ:0N-VGjzr574C",
+          "sitasi": 0
+        },
+        {
+          "judul": "IMPLEMENTASI CROSS SELLING PADA SISTEM E-COMMERCE BERBASIS WEB",
+          "tahun": 2026,
+          "jurnal": "Jurnal Sistem Informasi dan Sains Teknologi 8 (2), 2026",
+          "penulis": "T Taufiqurrahman, MD Irawan, H Santoso",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=16zyvPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=16zyvPAAAAAJ:Ug5p-4gJ2f0C",
+          "sitasi": 0
+        },
+        {
+          "judul": "Decision Support System for Medical Equipment Supplier Selection Recommendations Using MABAC and SAW Methods",
+          "tahun": 2026,
+          "jurnal": "Journal of Computer Science and Informatics Engineering 5 (3), 506-519, 2026",
+          "penulis": "AZ Nasution, MD Irawan",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=16zyvPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=16zyvPAAAAAJ:edDO8Oi4QzsC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Decision Support System for Smartphone Recommendations Based on Consumer Purchasing Power Using the AHP-PROMETHEE Method",
+          "tahun": 2026,
+          "jurnal": "EXPLORER 6 (2), 110-121, 2026",
+          "penulis": "AS Yuanda, MD Irawan",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=16zyvPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=16zyvPAAAAAJ:XoXfffV-tXoC",
+          "sitasi": 0
+        },
+        {
+          "judul": "SISTEM INFORMASI PENJUALAN DAN PERSEDIAAN PUPUK BERBASIS WEB MENGGUNAKAN METODE ECONOMIC ORDER QUANTITY",
+          "tahun": 2026,
+          "jurnal": "Journal of Information System Management (JOISM) 8 (1), 173-180, 2026",
+          "penulis": "MK Amri, MD Irawan",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=16zyvPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=16zyvPAAAAAJ:PoWvk5oyLR8C",
+          "sitasi": 1
+        },
+        {
+          "judul": "Development of MDLC-Based WebAR and WebVR Platforms as Digital Educational Media for Batik Motifs",
+          "tahun": 2026,
+          "jurnal": "SPEKTA (Jurnal Pengabdian Kepada Masyarakat: Teknologi dan Aplikasi) 7 (1 …, 2026",
+          "penulis": "MD Irawan, YR Nasution, YH Siregar, M Eka",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=16zyvPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=16zyvPAAAAAJ:i2xiXl-TujoC",
+          "sitasi": 0
+        }
+      ],
+      "sitasi_tahunan": {
+        "2018": 18,
+        "2019": 15,
+        "2020": 51,
+        "2021": 104,
+        "2022": 228,
+        "2023": 274,
+        "2024": 272,
+        "2025": 355,
+        "2026": 244
+      },
+      "scholar_diperbarui": "Sat Nov 21 2026 05:13:00 GMT+0700 (Western Indonesia Time)",
+      "scholar_status": "Berhasil",
+      "scopus": null
+    },
+    {
+      "slug": "rakhmat",
+      "nama": "Rakhmat Kurniawan R",
+      "scholar_url": "https://scholar.google.com/citations?user=-KDoZuAAAAAJ&hl=id",
+      "scopus_url": "",
+      "metrik_scholar": {
+        "sitasi": 442,
+        "h_index": 10,
+        "i10_index": 11
+      },
+      "artikel_scholar": [
+        {
+          "judul": "Penerapan Metode Decision Tree dalam Klasifikasi Penerimaan Siswa Baru Sebagai Sistem Pendukung Keputusan",
+          "tahun": 2026,
+          "jurnal": "Jurnal Komputer Teknologi Informasi Sistem Komputer (JUKTISI) 5 (2), 2030-2042, 2026",
+          "penulis": "RRH Manik, R Kurniawan",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=-KDoZuAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-KDoZuAAAAAJ:BwyfMAYsbu0C",
+          "sitasi": 0
+        },
+        {
+          "judul": "Analisis Perilaku dan Preferensi Nasabah dalam Penggunaan Mobile Banking Syariah Berdasarkan Ulasan Pengguna",
+          "tahun": 2026,
+          "jurnal": "Mumtaz: Jurnal Ekonomi dan Bisnis Islam 5 (2), 171-189, 2026",
+          "penulis": "R Kurniawan, MIP Nasution, A Soemitra",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=-KDoZuAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-KDoZuAAAAAJ:Z5m8FVwuT1cC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Decision Tree Classification of Rule-Based MSME Sector Labels for Widowed and Divorced Women Using Socioeconomic Factors",
+          "tahun": 2026,
+          "jurnal": "Jurnal IPTEK Bagi Masyarakat 6 (1), 304-312, 2026",
+          "penulis": "RAP Ginting, R Kurniawan",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=-KDoZuAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-KDoZuAAAAAJ:uc_IGeMz5qoC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Web-Based Clothing Sales Prediction Information System Using Linear Regression at Grosir 21.12 Store",
+          "tahun": 2026,
+          "jurnal": "Jurnal IPTEK Bagi Masyarakat 6 (1), 277-282, 2026",
+          "penulis": "S Sundari, R Kurniawan",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=-KDoZuAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-KDoZuAAAAAJ:0KyAp5RtaNEC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Design and Evaluation of a Web-Based Employee Performance Appraisal System Using Weighted Key Performance Indicators",
+          "tahun": 2026,
+          "jurnal": "Jurnal IPTEK Bagi Masyarakat 6 (1), 264-269, 2026",
+          "penulis": "AZ Harahap, R Kurniawan",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=-KDoZuAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-KDoZuAAAAAJ:nrtMV_XWKgEC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Penerapan Algoritma K-Means Dalam Pengelompokan UMKM Berdasarkan Potensi Pertumbuhan Berbasis Web",
+          "tahun": 2026,
+          "jurnal": "Jurnal Komputer Teknologi Informasi Sistem Komputer (JUKTISI) 5 (1), 694-703, 2026",
+          "penulis": "TA Mashuri, R Kurniawan, R Syuhada",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=-KDoZuAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-KDoZuAAAAAJ:XiVPGOgt02cC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Prototipe Sistem Cerdas dalam Pengairan Rumah Tangga Berbasis IOT Menggunakan Metode Logika Fuzzy Sugeno",
+          "tahun": 2026,
+          "jurnal": "Jurnal Sistem Komputer dan Informatika (JSON) Hal 1158, 1170, 2026",
+          "penulis": "MR Madani, R Kurniawan",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=-KDoZuAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-KDoZuAAAAAJ:p__nRnzSRKYC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Smart Machine Learning Approaches for Detection of Malicious Unified Resource Locator: Towards Sustainable Cybersecurity Systems",
+          "tahun": 2026,
+          "jurnal": "Smart, Secure, and Sustainable Digital Futures, 117-134, 2026",
+          "penulis": "NS Otsman, N Katuk, R Kurniawan, M Furqan, MA Fauzi",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=-KDoZuAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-KDoZuAAAAAJ:BUYA1_V_uYcC",
+          "sitasi": 0
+        }
+      ],
+      "sitasi_tahunan": {
+        "2019": 3,
+        "2020": 5,
+        "2021": 15,
+        "2022": 21,
+        "2023": 24,
+        "2024": 74,
+        "2025": 160,
+        "2026": 130
+      },
+      "scholar_diperbarui": "Sat Nov 21 2026 05:13:00 GMT+0700 (Western Indonesia Time)",
+      "scholar_status": "Berhasil",
+      "scopus": null
+    },
+    {
+      "slug": "aidil",
+      "nama": "Aidil Halim Lubis",
+      "scholar_url": "https://scholar.google.com/citations?user=ZMlFoEgAAAAJ&hl=id",
+      "scopus_url": "",
+      "metrik_scholar": {
+        "sitasi": 326,
+        "h_index": 8,
+        "i10_index": 7
+      },
+      "artikel_scholar": [
+        {
+          "judul": "Perbandingan Algoritma SVM dan Logistic Regression dalam Klasifikasi Sentimen Masyarakat terhadap Program MBG",
+          "tahun": 2026,
+          "jurnal": "sudo Jurnal Teknik Informatika 5 (3), 323-334, 2026",
+          "penulis": "UM Fadil, AH Lubis",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=ZMlFoEgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZMlFoEgAAAAJ:vV6vV6tmYwMC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Implementasi Penambangan Data Penjualan Keramik Menggunakan Metode Apriori",
+          "tahun": 2026,
+          "jurnal": "Journal of Computers and Digital Business 5 (3), 368-374, 2026",
+          "penulis": "H Aprilyani, M Furqan, AH Lubis",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=ZMlFoEgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZMlFoEgAAAAJ:lSLTfruPkqcC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Klasifikasi Risiko Stunting pada Balita Berdasarkan Data Kesehatan Menggunakan Algoritma Naïve Bayes",
+          "tahun": 2026,
+          "jurnal": "Jurnal Komputer Teknologi Informasi Sistem Komputer (JUKTISI) 5 (2), 2269-2278, 2026",
+          "penulis": "P Nabawy, AH Lubis, YR Nasution",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=ZMlFoEgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZMlFoEgAAAAJ:RYcK_YlVTxYC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Analisis Sentimen Debat Capres dan Cawapres Indonesia 2024 Menggunakan Metode Bert",
+          "tahun": 2026,
+          "jurnal": "Jurnal Ilmu Komputer dan Sistem Informasi 5 (3), 793-804, 2026",
+          "penulis": "Z Musyaffa, M Furqan, AH Lubis",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=ZMlFoEgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZMlFoEgAAAAJ:J_g5lzvAfSwC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Decision Tree Classification of Fear of Missing Out Levels in Generation Z Technology Product Purchases",
+          "tahun": 2026,
+          "jurnal": "Journal of Digital Technology and Computer Science, 77-91, 2026",
+          "penulis": "KEW Siregar, AH Lubis",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=ZMlFoEgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZMlFoEgAAAAJ:NaGl4SEjCO4C",
+          "sitasi": 0
+        },
+        {
+          "judul": "Klasifikasi Tingkat Kepuasan Pengguna Produk Body Care Menggunakan Algoritma Decision Tree",
+          "tahun": 2026,
+          "jurnal": "Bulletin of Computer Science Research 6 (4), 1603-1613, 2026",
+          "penulis": "NJ Hasibuan, AH Lubis",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=ZMlFoEgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZMlFoEgAAAAJ:GnPB-g6toBAC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Klasifikasi Persepsi Publik Terhadap Perang Dagang Amerika Serikat Menggunakan Algoritma Naïve Bayes Classifier",
+          "tahun": 2026,
+          "jurnal": "Bulletin of Computer Science Research 6 (4), 1561-1571, 2026",
+          "penulis": "BN Manisa, AH Lubis",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=ZMlFoEgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZMlFoEgAAAAJ:YFjsv_pBGBYC",
+          "sitasi": 0
+        },
+        {
+          "judul": "COMPARATIVE ANALYSIS OF TWOFISH AND BLOWFISH ALGORITHMS IN SECURING CSV (COMMA SEPARATED VALUES) DATA",
+          "tahun": 2026,
+          "jurnal": "Algebra: Jurnal Pendidikan, Sosial dan Sains 6 (2), 771-777, 2026",
+          "penulis": "RAA Pasaribu, AH Hasugian, AH Lubis",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=ZMlFoEgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZMlFoEgAAAAJ:O3NaXMp0MMsC",
+          "sitasi": 0
+        }
+      ],
+      "sitasi_tahunan": {
+        "2019": 3,
+        "2020": 5,
+        "2021": 10,
+        "2022": 11,
+        "2023": 35,
+        "2024": 61,
+        "2025": 107,
+        "2026": 80
+      },
+      "scholar_diperbarui": "Sat Nov 21 2026 05:13:00 GMT+0700 (Western Indonesia Time)",
+      "scholar_status": "Berhasil",
+      "scopus": null
+    },
+    {
+      "slug": "ika",
+      "nama": "Ika Yusnita Sari",
+      "scholar_url": "https://scholar.google.com/citations?user=8znduJIAAAAJ&hl=id",
+      "scopus_url": "",
+      "metrik_scholar": {
+        "sitasi": 200,
+        "h_index": 4,
+        "i10_index": 4
+      },
+      "artikel_scholar": [
+        {
+          "judul": "Design and Development of a Car Rental Reservation Information System at CV. Alvin Jaya Mandiri",
+          "tahun": 2026,
+          "jurnal": "Jurnal Armada Informatika 10 (1), 334-342, 2026",
+          "penulis": "IY Sari, IA Sinaga, E Rahmi, K Khairunnisa",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=8znduJIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8znduJIAAAAJ:isC4tDSrTZIC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Perancangan Proses Bisnis UMKM Toko Roti Amira Menggunakan Business Process Model and Notation",
+          "tahun": 2026,
+          "jurnal": "Jurnal Sains Dan Teknologi| E-ISSN: 3063-9980 2 (3), 176-181, 2026",
+          "penulis": "MK Nasution, U Aulia, MD Lubis, D Shadani, RPH Harahap, IY Sari",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=8znduJIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8znduJIAAAAJ:RHpTSmoSYBkC",
+          "sitasi": 3
+        },
+        {
+          "judul": "Penerapan Metode SAW dengan Pembobotan ROC Dalam Sistem Pendukung Keputusan Penerimaan Beasiswa KIP Kuliah",
+          "tahun": 2025,
+          "jurnal": "Jurnal Sistem Komputer dan Informatika (JSON) 6 (3), 100-107, 2025",
+          "penulis": "E Rahmi, K Ika Yusnita Sari",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=8znduJIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8znduJIAAAAJ:k_IJM867U9cC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Aplikasi E-Commerce Dalam Meningkatkan Promosi Kopi Tonga Berbasis Web",
+          "tahun": 2025,
+          "jurnal": "JITA (Journal of Information Technology and Accounting) 8 (2), 77-83, 2025",
+          "penulis": "BH Ritonga, IY Sari",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=8znduJIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8znduJIAAAAJ:TFP_iSt0sucC",
+          "sitasi": 0
+        },
+        {
+          "judul": "ANALISIS DAN PEMODELAN PROSES BISNIS UMKM KAFFAH PARFUME MENGGUNAKAN BPMN UNTUK MENINGKATKAN EFISIENSI OPERASIONAL",
+          "tahun": 2025,
+          "jurnal": "JESASI (JURNAL EDUKASI, SAINS, DAN INOVASI) 2 (2), 66-75, 2025",
+          "penulis": "S Rahmawati, AA Nasution, MF Sari, HH Prastya, IR Panjaitan, ...",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=8znduJIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8znduJIAAAAJ:_Qo2XoVZTnwC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Pemuda Cerdas Digital: Pelatihan Desain Grafis dengan Canva di SMA Imelda Medan",
+          "tahun": 2024,
+          "jurnal": "Marsipature Hutanabe: Jurnal Pengabdian Kepada Masyarakat 1 (02), 92-95, 2024",
+          "penulis": "IY Sari, E Rahmi, K Khairunnisa, MJ Lumbanbantu, AN Marpaung",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=8znduJIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8znduJIAAAAJ:qxL8FJ1GzNcC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Determining Product Category Sales Patterns to Maintain Inventory Stability Using the fp-Growth Algorithm",
+          "tahun": 2024,
+          "jurnal": "Jurnal Multimedia dan Teknologi Informasi (Jatilima) 6 (02), 218-225, 2024",
+          "penulis": "N Nelisa, K Khairunnisa, IY Sari, E Rahmi, F Maulana",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=8znduJIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8znduJIAAAAJ:_kc_bZDykSQC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Pelatihan Sistem Informasi Perhotelan Berbasis Web Di Hotel Deli Indah",
+          "tahun": 2024,
+          "jurnal": "Marsipature Hutanabe: Jurnal Pengabdian Kepada Masyarakat 1 (01), 18-23, 2024",
+          "penulis": "MI Panjaitan, DM Rajagukguk, E Rahmi, MR Manalu, IY Sari, ...",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=8znduJIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8znduJIAAAAJ:YOwf2qJgpHMC",
+          "sitasi": 2
+        }
+      ],
+      "sitasi_tahunan": {
+        "2020": 2,
+        "2021": 12,
+        "2022": 40,
+        "2023": 33,
+        "2024": 41,
+        "2025": 44,
+        "2026": 19
+      },
+      "scholar_diperbarui": "Sat Nov 21 2026 05:13:00 GMT+0700 (Western Indonesia Time)",
+      "scholar_status": "Berhasil",
+      "scopus": null
+    },
+    {
+      "slug": "puji",
+      "nama": "Puji Sari Ramadhan",
+      "scholar_url": "https://scholar.google.com/citations?user=QcicRmEAAAAJ&hl=id",
+      "scopus_url": "",
+      "metrik_scholar": {
+        "sitasi": 894,
+        "h_index": 14,
+        "i10_index": 19
+      },
+      "artikel_scholar": [
+        {
+          "judul": "Sistem Otomatisasi Sepeda Motor Berbasis IoT Dengan Telegram",
+          "tahun": 2026,
+          "jurnal": "Jurnal Sistem Komputer Triguna Dharma (JURSIK TGD) 5 (5), 434-442, 2026",
+          "penulis": "IM Lubis, PS Ramadhan, Z Panjaitan",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=QcicRmEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QcicRmEAAAAJ:VL0QpB8kHFEC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Sistem Pendukung Keputusan Pemberian Reward Pemasok Terbaik Menggunakan Metode Moosra",
+          "tahun": 2026,
+          "jurnal": "Jurnal SAINTIKOM (Jurnal Sains Manajemen Informatika dan Komputer) 25 (2 …, 2026",
+          "penulis": "A Harahap, PS Ramadhan, I Mariami",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=QcicRmEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QcicRmEAAAAJ:SdhP9T11ey4C",
+          "sitasi": 0
+        },
+        {
+          "judul": "Sistem Monitoring Suhu Dan Kelembapan Ruang Penyimpanan Obat Dan Vaksin",
+          "tahun": 2026,
+          "jurnal": "Jurnal Sistem Komputer Triguna Dharma (JURSIK TGD) 5 (4), 317-325, 2026",
+          "penulis": "L Sihite, PS Ramadhan, S Kusnasari",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=QcicRmEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QcicRmEAAAAJ:LjlpjdlvIbIC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Impelementasi Sistem Pendukung Keputusan Dalam Perekrutan Karyawan Migran Menggunakan Metode Promethee",
+          "tahun": 2026,
+          "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD 9 (2), 172-188, 2026",
+          "penulis": "F Afwan, A Syahputri, PS Ramadhan",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=QcicRmEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QcicRmEAAAAJ:5awf1xo2G04C",
+          "sitasi": 0
+        },
+        {
+          "judul": "Implementasi Algoritma K-Means Dalam Pengclusteran Penerima Dana Bantuan Langsung Tunai (BLT) Di Desa Mulyoharjo",
+          "tahun": 2026,
+          "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) 5 (3), 845-854, 2026",
+          "penulis": "A Raynaldi, PS Ramadhan, A Alhafiz",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=QcicRmEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QcicRmEAAAAJ:PELIpwtuRlgC",
+          "sitasi": 0
+        },
+        {
+          "judul": "Sistem Gorden Otomatis Berbasis Mikrokontroler Dengan Penjadwalan Real-time Clock (RTC) dan Kendali Sensor Cahaya",
+          "tahun": 2026,
+          "jurnal": "Jurnal Sistem Komputer Triguna Dharma (JURSIK TGD) 5 (3), 248-258, 2026",
+          "penulis": "M Billah, PS Ramadhan, NB Nugroho",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=QcicRmEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QcicRmEAAAAJ:WqliGbK-hY8C",
+          "sitasi": 0
+        },
+        {
+          "judul": "Sistem E-Healthcare Untuk Mendeteksi Penyakit Inflamasi Kulit Pada Anak",
+          "tahun": 2026,
+          "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) 5 (2), 511-518, 2026",
+          "penulis": "PS Ramadhan, JT Samudra",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=QcicRmEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QcicRmEAAAAJ:_B80troHkn4C",
+          "sitasi": 0
+        },
+        {
+          "judul": "Sistem Pendukung Keputusan Pemilihan Crawler Crane Untuk Pembangunan Infrastruktur Proyek Konstruksi Menggunakan Metode MAUT",
+          "tahun": 2026,
+          "jurnal": "Jurnal SAINTIKOM (Jurnal Sains Manajemen Informatika dan Komputer) 25 (1), 19-31, 2026",
+          "penulis": "T Khairunisa, PS Ramadhan, J Hutagalung",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=QcicRmEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QcicRmEAAAAJ:dTyEYWd-f8wC",
+          "sitasi": 0
+        }
+      ],
+      "sitasi_tahunan": {
+        "2018": 31,
+        "2019": 49,
+        "2020": 41,
+        "2021": 95,
+        "2022": 130,
+        "2023": 160,
+        "2024": 155,
+        "2025": 120,
+        "2026": 90
+      },
+      "scholar_diperbarui": "Sat Nov 21 2026 05:13:00 GMT+0700 (Western Indonesia Time)",
+      "scholar_status": "Berhasil",
+      "scopus": null
+    }
+  ]
+}
