@@ -1,0 +1,46 @@
+{
+  "diperiksa_utc": "2026-11-21T18:44:07.820928+00:00",
+  "api_key_tersedia": false,
+  "jumlah_author_id": 6,
+  "jumlah_permintaan": 0,
+  "status_per_id": [
+    {
+      "scopus_author_id": "58996427700",
+      "status": "belum_ada_akses_api",
+      "rekaman_tersimpan": 0,
+      "terlapor": null
+    },
+    {
+      "scopus_author_id": "57214153048",
+      "status": "belum_ada_akses_api",
+      "rekaman_tersimpan": 0,
+      "terlapor": null
+    },
+    {
+      "scopus_author_id": "60570206100",
+      "status": "belum_ada_akses_api",
+      "rekaman_tersimpan": 0,
+      "terlapor": null
+    },
+    {
+      "scopus_author_id": "57222343067",
+      "status": "belum_ada_akses_api",
+      "rekaman_tersimpan": 0,
+      "terlapor": null
+    },
+    {
+      "scopus_author_id": "60904491000",
+      "status": "belum_ada_akses_api",
+      "rekaman_tersimpan": 0,
+      "terlapor": null
+    },
+    {
+      "scopus_author_id": "58190434200",
+      "status": "belum_ada_akses_api",
+      "rekaman_tersimpan": 0,
+      "terlapor": null
+    }
+  ],
+  "naskah_scopus_tersimpan_total_unik": null,
+  "catatan": "Tanpa API key atau akses Elsevier, naskah Scopus tidak dapat dibaca dari enam tautan. Tidak ada naskah fiktif dan tidak ada perubahan daftar GARUDA."
+}
