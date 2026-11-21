@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "cocokkan_garuda_sinta_katalog.py"
+      - "buat_rekap_peringkat_jurnal_sinta.py"
       - "data/katalog_jurnal_sinta.json"
       - "data/bukti_artikel_sinta.json"
       - ".github/workflows/perkaya-sinta.yml"
@@ -27,6 +28,8 @@ jobs:
           python-version: "3.12"
       - name: Cocokkan nama jurnal SINTA dan bukti DOI ke GARUDA
         run: python cocokkan_garuda_sinta_katalog.py
+      - name: Bangun rekap per dosen dan per tahun dari peringkat jurnal teramati
+        run: python buat_rekap_peringkat_jurnal_sinta.py
       - name: Perbarui label artikel untuk laman publikasi
         run: python buat_label_publikasi.py
       - name: Validasi hasil
@@ -48,7 +51,7 @@ jobs:
           PY
       - name: Simpan katalog dan rekap ke GitHub
         run: |
-          git add hasil/publikasi_dosen.json hasil/publikasi_dosen.csv hasil/rekap_sinta.json hasil/rekap_sinta.csv hasil/diagnostik_pencocokan_sinta.json hasil/katalog_pencocokan_sinta.json hasil/label_publikasi.json
+          git add hasil/publikasi_dosen.json hasil/publikasi_dosen.csv hasil/rekap_sinta.json hasil/rekap_sinta.csv hasil/diagnostik_pencocokan_sinta.json hasil/katalog_pencocokan_sinta.json hasil/label_publikasi.json hasil/rekap_jurnal_sinta_terkini.json hasil/rekap_jurnal_sinta_terkini.csv
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
