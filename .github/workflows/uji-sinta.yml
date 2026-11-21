@@ -1,7 +1,10 @@
 name: Ambil publikasi semua dosen (GARUDA dan SINTA)
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # Tetap bisa dijalankan manual
+  schedule:
+    - cron: "17 5 1 * *"
+      timezone: "Asia/Jakarta"
 
 # Mengizinkan GitHub Actions menyimpan JSON hasil pengambilan ke repository.
 permissions:
