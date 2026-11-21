@@ -1,0 +1,52 @@
+{
+  "diperiksa_utc": "2026-11-21T18:21:56.565079+00:00",
+  "diperiksa_total_doi_unik": 391,
+  "sumber": "Crossref REST API + OpenAlex Works API",
+  "hasil": {
+    "crossref": {
+      "berhasil": 292,
+      "tidak_ada": 99,
+      "gagal_akses": 0
+    },
+    "openalex": {
+      "berhasil": 342,
+      "tidak_ada": 49,
+      "gagal_akses": 0
+    }
+  },
+  "per_dosen": {
+    "siddik": {
+      "doi_unik": 76,
+      "crossref_ditemukan": 47,
+      "openalex_ditemukan": 60
+    },
+    "dedi": {
+      "doi_unik": 156,
+      "crossref_ditemukan": 131,
+      "openalex_ditemukan": 138
+    },
+    "rakhmat": {
+      "doi_unik": 117,
+      "crossref_ditemukan": 87,
+      "openalex_ditemukan": 104
+    },
+    "aidil": {
+      "doi_unik": 36,
+      "crossref_ditemukan": 25,
+      "openalex_ditemukan": 34
+    },
+    "ika": {
+      "doi_unik": 12,
+      "crossref_ditemukan": 4,
+      "openalex_ditemukan": 9
+    },
+    "puji": {
+      "doi_unik": 2,
+      "crossref_ditemukan": 2,
+      "openalex_ditemukan": 2
+    }
+  },
+  "jumlah_ketidakcocokan_judul": 11,
+  "scopus_terverifikasi": null,
+  "catatan": "Crossref/OpenAlex bukan Scopus. Sitasi tiap sumber harus berlabel. DOI yang tidak ada bukan bukti tidak terindeks Scopus."
+}
