@@ -5,6 +5,7 @@ on:
     paths:
       - "cocokkan_garuda_sinta_katalog.py"
       - "buat_rekap_peringkat_jurnal_sinta.py"
+      - "buat_label_publikasi.py"
       - "data/katalog_jurnal_sinta.json"
       - "data/bukti_artikel_sinta.json"
       - ".github/workflows/perkaya-sinta.yml"
