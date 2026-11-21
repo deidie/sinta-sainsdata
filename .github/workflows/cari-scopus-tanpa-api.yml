@@ -5,6 +5,7 @@ on:
     paths:
       - "cari_scopus_tanpa_api.py"
       - "cari_buku_crossref_tanpa_garuda.py"
+      - "buat_scopus_ringkas_wordpress.py"
       - "data/kandidat_publikasi_scopus.json"
       - ".github/workflows/cari-scopus-tanpa-api.yml"
   schedule:
@@ -30,6 +31,8 @@ jobs:
         run: python cari_buku_crossref_tanpa_garuda.py
       - name: Cocokkan ISSN, ISBN dan DOI dengan daftar resmi Elsevier
         run: python cari_scopus_tanpa_api.py
+      - name: Buat JSON Scopus kecil untuk WordPress
+        run: python buat_scopus_ringkas_wordpress.py
       - name: Periksa kualitas hasil tanpa klaim artikel palsu
         run: |
           python - <<'PY'
@@ -54,7 +57,7 @@ jobs:
           # Jaga file kerja hasil audit, tetapi jangan tulis ulang commit dari eksekusi lain.
           git fetch origin main
           git reset --mixed origin/main
-          git add hasil/rekap_scopus_tanpa_api.json hasil/pemeriksaan_scopus_tanpa_api.json hasil/kandidat_buku_scopus_crossref.json
+          git add hasil/rekap_scopus_tanpa_api.json hasil/pemeriksaan_scopus_tanpa_api.json hasil/kandidat_buku_scopus_crossref.json hasil/scopus_ringkas_wordpress.json
           if ! git diff --cached --quiet; then
             git commit -m "Cari Scopus berdasarkan ISSN ISBN dari sumber resmi Elsevier"
             git push origin HEAD:main
