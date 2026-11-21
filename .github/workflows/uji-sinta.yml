@@ -45,6 +45,12 @@ jobs:
       - name: Siapkan tabel WordPress dari data GARUDA terbaru
         run: python buat_rekap_wordpress.py
 
+      - name: Perbarui rekap SINTA berdasarkan tahun terbit
+        run: python buat_rekap_sinta_berdasar_terbit.py
+
+      - name: Buat dataset SINTA untuk WordPress
+        run: python buat_sinta_laman_wordpress.py
+
       - name: Periksa data sebelum diterbitkan
         run: |
           python - <<'PY'
