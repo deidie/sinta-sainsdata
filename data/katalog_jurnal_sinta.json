@@ -1,6 +1,6 @@
 {
   "versi": 1,
-  "keterangan": "Daftar hasil pencocokan nama jurnal GARUDA ke profil jurnal SINTA melalui sumber resmi terindeks. Rank adalah peringkat jurnal saat sumber terakhir diamati, bukan akreditasi historis setiap artikel. Situs SINTA dapat membatasi akses otomatis.",
+  "keterangan": "Daftar hasil pencocokan nama jurnal GARUDA ke profil jurnal SINTA melalui sumber resmi terindeks. Rank adalah peringkat jurnal saat sumber terakhir diamati, bukan akreditasi historis setiap artikel. Situs SINTA dapat membatasi akses otomatis. Catatan pembaruan 2026-11-22: katalog diperluas dengan enam jurnal SINTA 2 dan INFOTEL (SINTA 1 saat ini; artikel lama dapat SINTA 2).",
   "sumber_data": "SINTA Science and Technology Index, profil jurnal resmi",
   "jurnal": [
     {
@@ -479,6 +479,97 @@
       "peringkat_terkini_diamati": 4,
       "sumber": "Profil jurnal SINTA terindeks publik",
       "ditinjau_tanggal": "2026-11-22"
+    },
+    {
+      "nama_garuda": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+      "nama_sinta": "Jurnal Teknologi Informasi dan Ilmu Komputer",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/1093",
+      "peringkat_terkini_diamati": 2,
+      "doi_prefix_harus_cocok": [
+        "10.25126/jtiik."
+      ],
+      "sumber": "Profil jurnal resmi SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22",
+      "catatan": "Peringkat terkini; akreditasi pada tahun terbit artikel harus divalidasi secara terpisah."
+    },
+    {
+      "nama_garuda": "Indonesian Journal of Information Systems",
+      "nama_sinta": "Indonesian Journal of Information Systems",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7848",
+      "peringkat_terkini_diamati": 2,
+      "doi_prefix_harus_cocok": [
+        "10.24002/ijis."
+      ],
+      "sumber": "Profil jurnal resmi SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22",
+      "catatan": "Peringkat terkini; akreditasi pada tahun terbit artikel harus divalidasi secara terpisah."
+    },
+    {
+      "nama_garuda": "JSINBIS (Jurnal Sistem Informasi Bisnis)",
+      "nama_sinta": "JSINBIS (Jurnal Sistem Informasi Bisnis)",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/1074",
+      "peringkat_terkini_diamati": 2,
+      "doi_prefix_harus_cocok": [
+        "10.21456/"
+      ],
+      "sumber": "Profil jurnal resmi SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22",
+      "catatan": "Peringkat terkini; akreditasi pada tahun terbit artikel harus divalidasi secara terpisah."
+    },
+    {
+      "nama_garuda": "Journal of Information System and Informatics",
+      "nama_sinta": "Journal of Information Systems and Informatics",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/7045",
+      "peringkat_terkini_diamati": 2,
+      "doi_prefix_harus_cocok": [
+        "10.51519/journalisi."
+      ],
+      "sumber": "Profil jurnal resmi SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22",
+      "catatan": "Peringkat terkini; akreditasi pada tahun terbit artikel harus divalidasi secara terpisah."
+    },
+    {
+      "nama_garuda": "Jurnal Teknik Informatika (Jutif)",
+      "nama_sinta": "Jurnal Teknik Informatika (JUTIF)",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/8538",
+      "peringkat_terkini_diamati": 2,
+      "doi_prefix_harus_cocok": [
+        "10.52436/1.jutif."
+      ],
+      "sumber": "Profil jurnal resmi SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22",
+      "catatan": "Peringkat terkini; akreditasi pada tahun terbit artikel harus divalidasi secara terpisah."
+    },
+    {
+      "nama_garuda": "SPEKTA (Jurnal Pengabdian Kepada Masyarakat : Teknologi dan Aplikasi)",
+      "nama_sinta": "SPEKTA (Jurnal Pengabdian Kepada Masyarakat : Teknologi dan Aplikasi)",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/10609",
+      "peringkat_terkini_diamati": 2,
+      "doi_prefix_harus_cocok": [
+        "10.12928/spekta."
+      ],
+      "sumber": "Profil jurnal resmi SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22",
+      "catatan": "Peringkat terkini; akreditasi pada tahun terbit artikel harus divalidasi secara terpisah."
+    },
+    {
+      "nama_garuda": "JURNAL INFOTEL",
+      "nama_sinta": "JURNAL INFOTEL",
+      "alias_garuda": [],
+      "sinta_url": "https://sinta.kemdiktisaintek.go.id/journals/profile/1170",
+      "peringkat_terkini_diamati": 1,
+      "doi_prefix_harus_cocok": [
+        "10.20895/infotel."
+      ],
+      "sumber": "Profil jurnal resmi SINTA terindeks publik",
+      "ditinjau_tanggal": "2026-11-22",
+      "catatan": "Peringkat jurnal terkini S1; rekaman 2023/2024 dapat berakreditasi S2. Jangan menetapkan S1 secara historis."
     }
   ]
 }
