@@ -1,120 +1,96 @@
-        if not expires:
-            from_cache += 1
-            continue
-        if fetcher.block_sinta or fetcher.requests_used >= MAX_REQUESTS:
-            # Cache lama tetap dipertahankan untuk siklus berikutnya.
-            continue
-        name = items[0][2]
-        if not name or re.search(r'\b(?:conference|seminar|proceedings)\b', name, re.I):
-            continue
-        # Pencarian direktori menggunakan nama; ISSN cocok bila tersedia.
-        query = urlencode({'q': name})
-        html = fetcher.get(f'{SINTA_BASE}/journals?{query}')
-        if not html:
-            continue
-        candidates = parse_listing(html)
-        candidate = pick_candidate(name, candidates)
-        fresh += 1
-        if candidate is None:
-            if entry.get('status') == 'tercocokkan':
-                # Jangan menghapus pemetaan resmi lama jika situs berubah/tidak lengkap.
-                cache[key] = entry
-            else:
-                cache[key] = {'nama_garuda':name, 'checked_at':now_iso, 'status':'belum_cocok', 'sinta_url':None,
-                              'peringkat_terkini':None, 'doi_artikel':{}, 'issn':[]}
-            continue
-        profile_html = fetcher.get(candidate['sinta_url'])
-        doi_article = parse_profile_article_ranks(profile_html) if profile_html else {}
-        previous_verified = entry.get('doi_artikel', {}) if isinstance(entry.get('doi_artikel'), dict) else {}
-        # Jika profil sedang tidak dapat diakses, simpan rekaman DOI terverifikasi lama.
-        previous_verified.update(doi_article)
-        cache[key] = {'nama_garuda':name, 'nama_sinta':candidate['judul'],
-                      'checked_at':now_iso, 'status':'tercocokkan',
-                      'sinta_url':candidate['sinta_url'], 'peringkat_terkini':candidate['peringkat_terkini'],
-                      'issn':candidate['issn'], 'doi_artikel':previous_verified}
-        print(f'[SINTA] {name[:48]} => S{candidate["peringkat_terkini"]}; DOI spesifik={len(previous_verified)}')
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Satu program publikasi dosen Sains Data UINSU: GARUDA + SINTA + Scopus.
 
-    verified_count = 0
-    rank_current_count = 0
-    per_dosen = []
-    by_year_all = defaultdict(Counter)
-    for d in data['dosen']:
-        count = Counter()
-        year_count = defaultdict(Counter)
-        for a in d.get('publikasi_garuda', []):
-            title = title_from_garuda(a.get('jurnal'))
-            record = cache.get(key_name(title), {})
-            year = a.get('tahun')
-            year = int(year) if str(year).isdigit() and 1900 <= int(year) <= 2100 else None
-            doi = key_doi(a.get('doi'))
-            rank = None
-            source = None
-            evidence = None
-            # Jangan menafsirkan akreditasi jurnal TERKINI sebagai status di tahun terbit.
-            if doi in manual_articles:
-                rank = manual_articles[doi]['rank']
-                evidence = manual_articles[doi]['bukti']
-                source = 'bukti_artikel_terverifikasi'
-            elif doi and doi in record.get('doi_artikel', {}):
-                rank = int(record['doi_artikel'][doi])
-                evidence = record.get('sinta_url')
-                source = 'doi_pada_profil_jurnal_sinta'
-            else:
-                period = manual_period_rule(title, year, record.get('issn', []), manual_journals)
-                if period:
-                    rank = period['rank']
-                    evidence = period['bukti']
-                    source = 'periode_sk_terverifikasi'
-            a['peringkat_sinta'] = rank
-            a['sinta_status_verifikasi'] = source or 'belum_terverifikasi'
-            a['sinta_bukti_url'] = evidence
-            a['jurnal_sinta_url'] = record.get('sinta_url') or None
-            a['jurnal_sinta_peringkat_terkini'] = record.get('peringkat_terkini')
-            if record.get('peringkat_terkini') in range(1,7):
-                rank_current_count += 1
-            if rank in range(1,7):
-                verified_count += 1
-                count[f'S{rank}'] += 1
-                if year is not None:
-                    year_count[str(year)][f'S{rank}'] += 1
-                    by_year_all[str(year)][f'S{rank}'] += 1
-            else:
-                count['belum_terverifikasi'] += 1
-                if year is not None:
-                    year_count[str(year)]['belum_terverifikasi'] += 1
-                    by_year_all[str(year)]['belum_terverifikasi'] += 1
-        d['rekap_sinta'] = {**{f'S{i}':count[f'S{i}'] for i in range(1,7)},
-                            'belum_terverifikasi':count['belum_terverifikasi']}
-        per_dosen.append({'slug':d['slug'], 'nama':d['nama'], 'total':len(d.get('publikasi_garuda', [])),
-                          'peringkat':d['rekap_sinta'],
-                          'per_tahun':{y:dict(x) for y,x in sorted(year_count.items(), reverse=True)}})
+  python cek_sinta.py
 
-    data['sinta_pencocokan_utc'] = now_iso
-    data['sinta_metode'] = 'Pencocokan jurnal berdasarkan nama/ISSN; peringkat artikel hanya dari bukti DOI atau periode SK yang diverifikasi'
-    data['catatan_sinta'] = 'Peringkat SINTA terkini jurnal tidak otomatis berlaku untuk seluruh tahun artikel. Belum terverifikasi bukan berarti SINTA 0.'
-    recap = {'diperbarui_utc':now_iso,
-             'total_rekaman':sum(len(d.get('publikasi_garuda', [])) for d in data['dosen']),
-             'artikel_sinta_terverifikasi':verified_count,
-             'artikel_belum_terverifikasi':sum(d['rekap_sinta']['belum_terverifikasi'] for d in data['dosen']),
-             'dosen':per_dosen,
-             'rekap_tahunan':{y:dict(v) for y,v in sorted(by_year_all.items(),reverse=True)},
-             'catatan':'Jumlah merupakan rekaman per dosen; kolaborasi bisa terhitung lebih dari sekali.'}
-    diagnostics = {'waktu':now_iso, 'jurnal_unik':len(groups), 'lookup_baru':fresh,
-                   'lookup_dari_cache':from_cache, 'request_sinta':fetcher.requests_used,
-                   'sinta_diblokir':fetcher.block_sinta, 'peristiwa':fetcher.events[:50],
-                   'artikel_peringkat_terverifikasi':verified_count,
-                   'artikel_jurnal_terkini_diketahui':rank_current_count,
-                   'catatan':'Saat server memblokir akses, skrip tidak menghindari pembatasan dan mempertahankan cache.'}
-    save_json(SOURCE, data)
-    save_json(RECAP_PATH, recap)
-    save_csv_exports(data, recap)
-    save_json(CACHE_PATH, {'versi':1,'jurnal':cache})
-    save_json(DIAG_PATH, diagnostics)
-    print(f'Selesai: {len(groups)} jurnal; {verified_count} artikel status SINTA terverifikasi; '
-          f'{diagnostics["artikel_jurnal_terkini_diketahui"]} artikel memiliki info peringkat jurnal terkini; '
-          f'{fetcher.requests_used} permintaan; blokir={fetcher.block_sinta}.')
-    return 0
+- GARUDA: ambil metadata publik enam dosen.
+- SINTA: cocokkan jurnal dari profil jurnal resmi; peringkat historis hanya
+  diisi jika ada bukti DOI/spesifik periode SK. HTTP 403 tidak diterobos.
+- Scopus: verifikasi artikel DOI lewat API Elsevier dengan API Key opsional.
+  Tanpa kunci, status tidak diisi secara spekulatif.
+- Keluaran rekap di folder hasil/, siap diterbitkan oleh GitHub Pages.
+- Tidak menggunakan dependensi Python eksternal; tidak mengubah Apps Script.
+
+Peringatan: angka 0 pada rekap SINTA/Scopus berarti 0 *terverifikasi*
+dari sumber yang berhasil diakses, BUKAN bukti tidak ada artikel terindeks.
+"""
+from __future__ import annotations
+
+import csv
+import difflib
+import json
+import os
+import re
+import sys
+import time
+import unicodedata
+from collections import Counter, defaultdict
+from datetime import datetime, timedelta, timezone
+from html.parser import HTMLParser
+from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.parse import urljoin, urlparse, parse_qs, urlencode
+from urllib.request import Request, urlopen
 
 
-if __name__ == '__main__':
-    sys.exit(main())
+
+# ===== 1. GARUDA =====
+
+
+"""Indeks publikasi GARUDA enam dosen Sains Data UINSU.
+
+Sumber: halaman penulis GARUDA yang dapat diakses publik, ditambah ringkasan
+metrik pada halaman profil SINTA publik. Tidak memerlukan API key.
+
+Berhenti ketika situs membatasi permintaan (403/429); tidak mengakses konten
+khusus login, tidak memakai proxy, CAPTCHA bypass atau sesi pribadi.
+
+Simpan sebagai cek_sinta.py di repository GitHub yang sudah digunakan.
+"""
+OUTPUT_DIR = Path('hasil')
+MAX_PAGES_PER_PROFILE = 120
+DELAY_SECONDS = 1.6
+TIMEOUT_SECONDS = 22
+USER_AGENT = 'SainsData-UINSU-Publication-Catalog/1.0 (public-academic-metadata)'
+DOSEN = [{'slug': 'siddik', 'nama': 'Muhammad Siddik Hasibuan', 'sinta_id': '5983919', 'garuda_ids': ['2406700'], 'perlu_verifikasi_garuda': False}, {'slug': 'dedi', 'nama': 'Muhammad Dedi Irawan', 'sinta_id': '6054939', 'garuda_ids': ['1197451'], 'perlu_verifikasi_garuda': False}, {'slug': 'rakhmat', 'nama': 'Rakhmat Kurniawan R', 'sinta_id': '6160028', 'garuda_ids': ['1733344'], 'perlu_verifikasi_garuda': False}, {'slug': 'aidil', 'nama': 'Aidil Halim Lubis', 'sinta_id': '6795618', 'garuda_ids': ['621444'], 'perlu_verifikasi_garuda': False}, {'slug': 'ika', 'nama': 'Ika Yusnita Sari', 'sinta_id': '6745259', 'garuda_ids': ['7443043'], 'perlu_verifikasi_garuda': True}, {'slug': 'puji', 'nama': 'Puji Sari Ramadhan', 'sinta_id': '6089755', 'garuda_ids': ['10712505'], 'perlu_verifikasi_garuda': False}]
+DOCUMENT_RE = re.compile('/documents/detail/(\\d+)(?:[/?#]|$)')
+DOI_RE = re.compile('\\b10\\.\\d{4,9}/[^\\s<>"|]+', re.I)
+YEAR_RE = re.compile('\\b(?:19|20)\\d{2}\\b')
+
+def normalize(text):
+    text = unicodedata.normalize('NFKC', str(text or ''))
+    return ' '.join(text.split()).strip()
+
+def normalized_name(name):
+    value = unicodedata.normalize('NFKD', normalize(name).lower())
+    return re.sub('[^a-z0-9]+', ' ', value).strip()
+
+class Node:
+
+    def __init__(self, tag='root', attrs=(), parent=None):
+        self.tag = tag
+        self.attrs = dict(attrs or [])
+        self.parent = parent
+        self.items = []
+
+    def text(self):
+        return normalize(' '.join((x.text() if isinstance(x, Node) else x for x in self.items)))
+
+    def walk(self):
+        yield self
+        for item in self.items:
+            if isinstance(item, Node):
+                yield from item.walk()
+
+    def links(self):
+        return [(n.text(), n.attrs.get('href', ''), n) for n in self.walk() if n.tag == 'a']
+
+    def classes(self):
+        return str(self.attrs.get('class', '')).split()
+
+class HTMLTree(HTMLParser):
+    VOID = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param', 'source', 'track', 'wbr'}
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
