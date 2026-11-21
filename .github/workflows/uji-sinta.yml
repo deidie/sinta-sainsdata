@@ -1,0 +1,30 @@
+
+name: Uji akses profil SINTA publik
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  uji-sinta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Ambil berkas repositori
+        uses: actions/checkout@v4
+
+      - name: Siapkan Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Periksa satu profil publik SINTA
+        run: python cek_sinta.py
+
+      - name: Simpan hasil diagnostik
+        uses: actions/upload-artifact@v4
+        with:
+          name: hasil-uji-sinta
+          path: hasil/diagnostik_sinta.json
