@@ -1,0 +1,379 @@
+{
+  "versi": 1,
+  "diperiksa_utc": "2026-11-21T18:03:55.716870+00:00",
+  "sumber": "Profil jurnal SINTA publik (tanpa autentikasi)",
+  "jumlah_katalog": 52,
+  "jumlah_permintaan": 1,
+  "akses_dibatasi": true,
+  "rekap_status": {
+    "akses_dibatasi": 1,
+    "tidak_diperiksa_karena_pembatasan": 51
+  },
+  "jurnal": [
+    {
+      "nama": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/7353",
+      "peringkat_tercatat": 4,
+      "status": "akses_dibatasi",
+      "http_status": 403
+    },
+    {
+      "nama": "CESS (Journal of Computer Engineering, System and Science)",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/207",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Jurnal IPTEK Bagi Masyarakat",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/13148",
+      "peringkat_tercatat": 3,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "INFOKUM",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/7139",
+      "peringkat_tercatat": 5,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Journal of Computer Science and Informatics Engineering",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/15325",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Journal of Computer Networks, Architecture and High Performance Computing",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/7735",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "(JurTI) Jurnal Teknologi Informasi",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/5604",
+      "peringkat_tercatat": 5,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "JISTech (Journal of Islamic Science and Technology)",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/11879",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Jurnal Multimedia dan Teknologi Informasi (Jatilima)",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/10953",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "TIN: Terapan Informatika Nusantara",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/10960",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Jurnal Teknologi Sistem Informasi dan Aplikasi",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/10336",
+      "peringkat_tercatat": 3,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Journal of Information System Research (JOSH)",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/8355",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "IJISTECH (International Journal of Information System and Technology)",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/5619",
+      "peringkat_tercatat": 5,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Sistem Pendukung Keputusan dengan Aplikasi",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/12420",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Journal La Multiapp",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/10973",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Bulletin of Computer Science Research",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/9602",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Journal of Information Systems and Technology Research",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/15336",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Jurnal Sistem Komputer dan Informatika (JSON)",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/8054",
+      "peringkat_tercatat": 3,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "KLIK: Kajian Ilmiah Informatika dan Komputer",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/10375",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Sistemasi: Jurnal Sistem Informasi",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/3323",
+      "peringkat_tercatat": 3,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Jurnal Informatika Teknologi dan Sains (Jinteks)",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/8942",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Jurnal Mandiri IT",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/8971",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Journal of Computer System and Informatics (JoSYC)",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/8861",
+      "peringkat_tercatat": 5,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/9035",
+      "peringkat_tercatat": 5,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "MALCOM: Indonesian Journal of Machine Learning and Computer Science",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/11292",
+      "peringkat_tercatat": 3,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "JOURNAL OF INFORMATICS AND TELECOMMUNICATION ENGINEERING",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/4143",
+      "peringkat_tercatat": 3,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Journal of Applied Informatics and Computing",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/4696",
+      "peringkat_tercatat": 3,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "The Indonesian Journal of Computer Science",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/4997",
+      "peringkat_tercatat": 5,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Jurnal Ilmu Komputer dan Sistem Informasi",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/16614",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Jurnal Teknovasi : Jurnal Teknik dan Inovasi",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/3047",
+      "peringkat_tercatat": 6,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "VISA: Journal of Vision and Ideas",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/11024",
+      "peringkat_tercatat": 5,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Indonesian Journal of Data Science, IoT, Machine Learning and Informatics",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/11755",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Indonesian Journal of Artificial Intelligence and Data Mining",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/6365",
+      "peringkat_tercatat": 3,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "METIK JURNAL (AKREDITASI SINTA 3)",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/589",
+      "peringkat_tercatat": 3,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "PIKSEL : Penelitian Ilmu Komputer Sistem Embedded and Logic",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/5132",
+      "peringkat_tercatat": 3,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Blend Sains Jurnal Teknik",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/14231",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Resolusi : Rekayasa Teknik Informatika dan Informasi",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/10571",
+      "peringkat_tercatat": 5,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Simtek : jurnal sistem informasi dan teknik komputer",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/9123",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "JURNAL TEKNOLOGI DAN OPEN SOURCE",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/5936",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "sudo Jurnal Teknik Informatika",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/14660",
+      "peringkat_tercatat": 5,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Jurasik (Jurnal Riset Sistem Informasi dan Teknik Informatika)",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/9432",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Sinkron : jurnal dan penelitian teknik informatika",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/3320",
+      "peringkat_tercatat": 3,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Techno.Com",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/41",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "ALGORITMA : JURNAL ILMU KOMPUTER DAN INFORMATIKA",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/13980",
+      "peringkat_tercatat": 5,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Jurnal Mantik",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/6343",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Jurnal Ilmiah Komputasi",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/2162",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "STORAGE: Jurnal Ilmiah Teknik dan Ilmu Komputer",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/14870",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD)",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/12475",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Jurnal Pendidikan Informatika (EDUMATIC)",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/4682",
+      "peringkat_tercatat": 3,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "InfoTekJar : Jurnal Nasional Informatika dan Teknologi Jaringan",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/433",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "Bulletin of Information Technology (BIT)",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/8745",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    },
+    {
+      "nama": "JURNAL FASILKOM",
+      "profil_sinta": "https://sinta.kemdiktisaintek.go.id/journals/profile/10086",
+      "peringkat_tercatat": 4,
+      "status": "tidak_diperiksa_karena_pembatasan",
+      "http_status": null
+    }
+  ],
+  "catatan": "Peringkat kandidat bukan peringkat terverifikasi tanpa konfirmasi identitas dan bukti akreditasi. Kode tidak mengubah peringkat jurnal saat akses gagal atau tidak meyakinkan."
+}
