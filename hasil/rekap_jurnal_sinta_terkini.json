@@ -1,0 +1,620 @@
+{
+  "diperbarui_utc": "2026-11-21T17:56:21.595536+00:00",
+  "jenis_rekap": "Peringkat terkini jurnal SINTA pada sumber terindeks resmi, BUKAN akreditasi historis artikel",
+  "rekaman_per_dosen_dengan_duplikasi_kolaborasi": 430,
+  "artikel_unik_prodi": 417,
+  "rekap_unik_prodi": {
+    "S1": 0,
+    "S2": 0,
+    "S3": 47,
+    "S4": 142,
+    "S5": 48,
+    "S6": 4,
+    "belum_tercocokkan": 176
+  },
+  "rekap_tahunan_unik_prodi": {
+    "2026": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 5,
+      "S4": 12,
+      "S5": 1,
+      "S6": 0,
+      "belum_tercocokkan": 25
+    },
+    "2025": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 11,
+      "S4": 34,
+      "S5": 2,
+      "S6": 0,
+      "belum_tercocokkan": 42
+    },
+    "2024": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 18,
+      "S4": 52,
+      "S5": 12,
+      "S6": 0,
+      "belum_tercocokkan": 45
+    },
+    "2023": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 6,
+      "S4": 24,
+      "S5": 6,
+      "S6": 0,
+      "belum_tercocokkan": 32
+    },
+    "2022": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 1,
+      "S4": 10,
+      "S5": 8,
+      "S6": 0,
+      "belum_tercocokkan": 18
+    },
+    "2021": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 1,
+      "S4": 2,
+      "S5": 5,
+      "S6": 0,
+      "belum_tercocokkan": 5
+    },
+    "2020": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 3,
+      "S4": 4,
+      "S5": 4,
+      "S6": 0,
+      "belum_tercocokkan": 3
+    },
+    "2019": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 1,
+      "S5": 3,
+      "S6": 0,
+      "belum_tercocokkan": 3
+    },
+    "2018": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 1,
+      "S4": 1,
+      "S5": 4,
+      "S6": 1,
+      "belum_tercocokkan": 1
+    },
+    "2017": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 1,
+      "S4": 2,
+      "S5": 3,
+      "S6": 1,
+      "belum_tercocokkan": 1
+    },
+    "2016": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 2,
+      "belum_tercocokkan": 0
+    },
+    "2013": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0,
+      "belum_tercocokkan": 1
+    }
+  },
+  "rekap_per_dosen": [
+    {
+      "slug": "siddik",
+      "nama": "Muhammad Siddik Hasibuan",
+      "rekaman": 80,
+      "peringkat_jurnal": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 11,
+        "S4": 24,
+        "S5": 4,
+        "S6": 4,
+        "belum_tercocokkan": 37
+      },
+      "per_tahun": {
+        "2026": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 1,
+          "S4": 1,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 7
+        },
+        "2025": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 4,
+          "S4": 3,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 3
+        },
+        "2024": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 5,
+          "S4": 11,
+          "S5": 2,
+          "S6": 0,
+          "belum_tercocokkan": 10
+        },
+        "2023": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 4,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 9
+        },
+        "2022": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 1,
+          "S5": 1,
+          "S6": 0,
+          "belum_tercocokkan": 5
+        },
+        "2021": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 1,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 1
+        },
+        "2020": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 2,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 0
+        },
+        "2019": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 1,
+          "S6": 0,
+          "belum_tercocokkan": 2
+        },
+        "2018": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 1,
+          "S4": 1,
+          "S5": 0,
+          "S6": 1,
+          "belum_tercocokkan": 0
+        },
+        "2017": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 1,
+          "belum_tercocokkan": 0
+        },
+        "2016": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 2,
+          "belum_tercocokkan": 0
+        }
+      }
+    },
+    {
+      "slug": "dedi",
+      "nama": "Muhammad Dedi Irawan",
+      "rekaman": 164,
+      "peringkat_jurnal": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 15,
+        "S4": 46,
+        "S5": 18,
+        "S6": 0,
+        "belum_tercocokkan": 85
+      },
+      "per_tahun": {
+        "2026": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 4,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 12
+        },
+        "2025": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 2,
+          "S4": 5,
+          "S5": 1,
+          "S6": 0,
+          "belum_tercocokkan": 21
+        },
+        "2024": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 4,
+          "S4": 11,
+          "S5": 4,
+          "S6": 0,
+          "belum_tercocokkan": 19
+        },
+        "2023": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 4,
+          "S4": 13,
+          "S5": 3,
+          "S6": 0,
+          "belum_tercocokkan": 13
+        },
+        "2022": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 1,
+          "S4": 9,
+          "S5": 2,
+          "S6": 0,
+          "belum_tercocokkan": 9
+        },
+        "2021": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 1,
+          "S4": 1,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 5
+        },
+        "2020": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 3,
+          "S4": 2,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 2
+        },
+        "2019": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 2,
+          "S6": 0,
+          "belum_tercocokkan": 1
+        },
+        "2018": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 4,
+          "S6": 0,
+          "belum_tercocokkan": 1
+        },
+        "2017": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 1,
+          "S5": 2,
+          "S6": 0,
+          "belum_tercocokkan": 1
+        },
+        "2013": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 1
+        }
+      }
+    },
+    {
+      "slug": "rakhmat",
+      "nama": "Rakhmat Kurniawan R",
+      "rekaman": 131,
+      "peringkat_jurnal": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 19,
+        "S4": 51,
+        "S5": 26,
+        "S6": 0,
+        "belum_tercocokkan": 35
+      },
+      "per_tahun": {
+        "2026": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 4,
+          "S4": 6,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 3
+        },
+        "2025": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 4,
+          "S4": 22,
+          "S5": 1,
+          "S6": 0,
+          "belum_tercocokkan": 14
+        },
+        "2024": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 9,
+          "S4": 21,
+          "S5": 7,
+          "S6": 0,
+          "belum_tercocokkan": 11
+        },
+        "2023": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 2,
+          "S4": 1,
+          "S5": 3,
+          "S6": 0,
+          "belum_tercocokkan": 4
+        },
+        "2022": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 5,
+          "S6": 0,
+          "belum_tercocokkan": 2
+        },
+        "2021": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 5,
+          "S6": 0,
+          "belum_tercocokkan": 0
+        },
+        "2020": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 1,
+          "S5": 4,
+          "S6": 0,
+          "belum_tercocokkan": 1
+        },
+        "2017": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 1,
+          "S6": 0,
+          "belum_tercocokkan": 0
+        }
+      }
+    },
+    {
+      "slug": "aidil",
+      "nama": "Aidil Halim Lubis",
+      "rekaman": 37,
+      "peringkat_jurnal": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 2,
+        "S4": 19,
+        "S5": 3,
+        "S6": 0,
+        "belum_tercocokkan": 13
+      },
+      "per_tahun": {
+        "2026": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 1,
+          "S5": 1,
+          "S6": 0,
+          "belum_tercocokkan": 1
+        },
+        "2025": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 1,
+          "S4": 5,
+          "S5": 1,
+          "S6": 0,
+          "belum_tercocokkan": 3
+        },
+        "2024": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 8,
+          "S5": 1,
+          "S6": 0,
+          "belum_tercocokkan": 3
+        },
+        "2023": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 3,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 4
+        },
+        "2022": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 2
+        },
+        "2019": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 1,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 0
+        },
+        "2017": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 1,
+          "S4": 1,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 0
+        }
+      }
+    },
+    {
+      "slug": "ika",
+      "nama": "Ika Yusnita Sari",
+      "rekaman": 16,
+      "peringkat_jurnal": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 5,
+        "S5": 1,
+        "S6": 0,
+        "belum_tercocokkan": 9
+      },
+      "per_tahun": {
+        "2026": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 1
+        },
+        "2025": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 1,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 0
+        },
+        "2024": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 2,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 5
+        },
+        "2023": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 3,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 2
+        },
+        "2022": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 1,
+          "S6": 0,
+          "belum_tercocokkan": 1
+        }
+      }
+    },
+    {
+      "slug": "puji",
+      "nama": "Puji Sari Ramadhan",
+      "rekaman": 2,
+      "peringkat_jurnal": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 0,
+        "belum_tercocokkan": 2
+      },
+      "per_tahun": {
+        "2026": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 1
+        },
+        "2025": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "belum_tercocokkan": 1
+        }
+      }
+    }
+  ],
+  "catatan": "S1-S6 pada file ini adalah PERINGKAT JURNAL SAAT TERAMATI. Untuk peringkat ARTIKEL yang memiliki bukti DOI, gunakan hasil/rekap_sinta.json. Artikel bersama dihitung sekali pada rekap unik prodi."
+}
