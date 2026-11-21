@@ -36,6 +36,9 @@ jobs:
       - name: Perkaya dengan katalog SINTA resmi dan bukti DOI
         run: python cocokkan_garuda_sinta_katalog.py
 
+      - name: Buat rekap per dosen/tahun dari peringkat jurnal SINTA teramati
+        run: python buat_rekap_peringkat_jurnal_sinta.py
+
       - name: Buat indeks label SINTA dan Scopus ringan untuk WordPress
         run: python buat_label_publikasi.py
 
