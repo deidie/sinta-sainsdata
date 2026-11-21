@@ -1,94 +1,100 @@
 {
-  "versi": 2,
-  "dibuat_utc": "2026-11-22",
-  "sumber": "Ringkasan profil publik SINTA yang terindeks mesin pencari; cache, bukan sinkronisasi live",
-  "sumber_pemeriksaan": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=books",
-  "status_keakuratan": "Cuplikan SINTA diindeks sekitar tiga bulan sebelum pemeriksaan 22 November 2026. Statistik belum divalidasi ulang secara live.",
+  "versi": 3,
+  "diperbarui_tanggal": "2026-11-22",
+  "sumber": "Daftar publikasi Scopus yang disalin pengguna, dilengkapi DOI dan EID jika tersedia; bukan hasil API atau verifikasi kuartil.",
+  "jenis_jumlah": "Dokumen unik: berdasarkan judul + tahun / DOI / EID, dosen bersama dihitung satu kali pada tingkat prodi.",
+  "dokumen_teridentifikasi_unik": 13,
+  "catatan": "Angka per dosen merupakan minimum berdasarkan daftar yang diberikan, bukan total dokumen pada akun Scopus/SINTA. Kuartil tidak diisi tanpa bukti per artikel dan tahun.",
   "dosen": [
     {
       "slug": "siddik",
       "nama": "Muhammad Siddik Hasibuan",
       "sinta_id": "5983919",
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5983919/?view=scopus",
-      "status": "belum_tersinkron",
+      "jumlah_teridentifikasi": 5,
+      "status": "daftar_disampaikan_pengguna",
       "metrik_scopus": {
         "dokumen": null,
         "sitasi": null,
-        "dokumen_disitasi": null,
-        "h_index": null,
-        "i10_index": null
+        "h_index": null
       },
-      "jumlah_terlihat": 0,
       "daftar_lengkap": false,
-      "publikasi": []
+      "publikasi": [
+        "10.1201/9781003662433-18",
+        "Higher Education and Health Breakthroughs: Residual Network for Pneumonia Detection from Chest X-ray Images",
+        "NEURO NETWORK TECHNIQUES OF TELEMETRY MULTIVARIATE TIME SERIES PROCESSING AND THEIR APPLICATIONS IN INDUSTRY",
+        "Intelligent LPG Gas Leak Detection Tool with SMS Notification",
+        "Checking the Answer Sheet with Image Recognition"
+      ]
     },
     {
       "slug": "dedi",
       "nama": "Muhammad Dedi Irawan",
       "sinta_id": "6054939",
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=scopus",
-      "status": "cache_terakhir",
+      "jumlah_teridentifikasi": 5,
+      "status": "daftar_disampaikan_pengguna",
       "metrik_scopus": {
-        "dokumen": 3,
-        "sitasi": 9,
-        "dokumen_disitasi": 2,
-        "h_index": 1,
-        "i10_index": 0
+        "dokumen": null,
+        "sitasi": null,
+        "h_index": null
       },
-      "sumber_metrik": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=books",
-      "catatan_sumber": "Snapshot SINTA hasil pengindeksan, bukan data real-time",
-      "jumlah_terlihat": 0,
       "daftar_lengkap": false,
-      "publikasi": []
+      "publikasi": [
+        "10.11591/ijict.v15i4.pp1664-1672",
+        "10.11591/ijai.v15.i4.pp3818-3826",
+        "10.4018/979-8-3373-9245-5.ch010",
+        "Mapping of crime prone areas in Batubara districts using the k-means method",
+        "Latent Semantic Indexing for Indonesian text similarity"
+      ]
     },
     {
       "slug": "rakhmat",
       "nama": "Rakhmat Kurniawan R",
       "sinta_id": "6160028",
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6160028/?view=scopus",
-      "status": "belum_tersinkron",
+      "jumlah_teridentifikasi": 2,
+      "status": "daftar_disampaikan_pengguna",
       "metrik_scopus": {
         "dokumen": null,
         "sitasi": null,
-        "dokumen_disitasi": null,
-        "h_index": null,
-        "i10_index": null
+        "h_index": null
       },
-      "jumlah_terlihat": 0,
       "daftar_lengkap": false,
-      "publikasi": []
+      "publikasi": [
+        "2-s2.0-85153088849",
+        "10.1201/9781042013098-10"
+      ]
     },
     {
       "slug": "aidil",
       "nama": "Aidil Halim Lubis",
       "sinta_id": "6795618",
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6795618/?view=scopus",
-      "status": "belum_tersinkron",
+      "jumlah_teridentifikasi": 1,
+      "status": "daftar_disampaikan_pengguna",
       "metrik_scopus": {
         "dokumen": null,
         "sitasi": null,
-        "dokumen_disitasi": null,
-        "h_index": null,
-        "i10_index": null
+        "h_index": null
       },
-      "jumlah_terlihat": 0,
       "daftar_lengkap": false,
-      "publikasi": []
+      "publikasi": [
+        "10.1201/9781003662433-18"
+      ]
     },
     {
       "slug": "ika",
       "nama": "Ika Yusnita Sari",
       "sinta_id": "6745259",
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6745259/?view=scopus",
-      "status": "belum_tersinkron",
+      "jumlah_teridentifikasi": 0,
+      "status": "belum_ada_daftar",
       "metrik_scopus": {
         "dokumen": null,
         "sitasi": null,
-        "dokumen_disitasi": null,
-        "h_index": null,
-        "i10_index": null
+        "h_index": null
       },
-      "jumlah_terlihat": 0,
       "daftar_lengkap": false,
       "publikasi": []
     },
@@ -97,19 +103,274 @@
       "nama": "Puji Sari Ramadhan",
       "sinta_id": "6089755",
       "sinta_url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089755/?view=scopus",
-      "status": "belum_tersinkron",
+      "jumlah_teridentifikasi": 1,
+      "status": "daftar_disampaikan_pengguna",
       "metrik_scopus": {
         "dokumen": null,
         "sitasi": null,
-        "dokumen_disitasi": null,
-        "h_index": null,
-        "i10_index": null
+        "h_index": null
       },
-      "jumlah_terlihat": 0,
       "daftar_lengkap": false,
-      "publikasi": []
+      "publikasi": [
+        "2-s2.0-85102337587"
+      ]
     }
   ],
-  "publikasi": [],
-  "catatan": "3 dokumen adalah total milik profil Dedi pada cache, bukan daftar tiga EID. Lima dosen lain belum dapat diakses; kosong bukan nol. Dua kandidat jurnal dari pemeriksaan ISSN/Scopus tidak boleh dijumlahkan sebagai dokumen tersendiri."
+  "publikasi": [
+    {
+      "judul": "Evaluating browser-based immersive technology for cultural heritage",
+      "tahun": 2026,
+      "jenis": "jurnal",
+      "dosen": [
+        "dedi"
+      ],
+      "jurnal": "International Journal of Informatics and Communication Technology",
+      "volume": "15",
+      "nomor": "4",
+      "halaman": "1664–1672",
+      "doi": "10.11591/ijict.v15i4.pp1664-1672",
+      "sitasi_scopus": 0,
+      "scopus_eid": null,
+      "url_scopus": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "Genetic algorithm-optimized BERTopic with SHAP explainability for institutional research trend analysis",
+      "tahun": 2026,
+      "jenis": "jurnal",
+      "dosen": [
+        "dedi"
+      ],
+      "jurnal": "IAES International Journal of Artificial Intelligence",
+      "volume": "15",
+      "nomor": "4",
+      "halaman": "3818–3826",
+      "doi": "10.11591/ijai.v15.i4.pp3818-3826",
+      "sitasi_scopus": 0,
+      "scopus_eid": null,
+      "url_scopus": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "Future Trends in Intelligent Construction Monitoring Technologies",
+      "tahun": 2026,
+      "jenis": "bab_buku",
+      "dosen": [
+        "dedi"
+      ],
+      "jurnal": "Intelligent Construction Monitoring Systems: Real-Time Safety, Environmental Prediction, and Risk Management",
+      "halaman": "261–304",
+      "doi": "10.4018/979-8-3373-9245-5.ch010",
+      "sitasi_scopus": 0,
+      "tautan_penerbit": "https://www.igi-global.com/chapter/future-trends-in-intelligent-construction-monitoring-technologies/401484",
+      "catatan": "Penulis Muhammad Dedi Irawan tertera pada halaman penerbit.",
+      "scopus_eid": null,
+      "url_scopus": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna"
+    },
+    {
+      "judul": "Mapping of crime prone areas in Batubara districts using the k-means method",
+      "tahun": 2024,
+      "jenis": "prosiding",
+      "dosen": [
+        "dedi"
+      ],
+      "jurnal": "AIP Conference Proceedings",
+      "volume": "3024",
+      "nomor": "1",
+      "halaman": "040021",
+      "sitasi_scopus": 1,
+      "doi": null,
+      "scopus_eid": null,
+      "url_scopus": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "Latent Semantic Indexing for Indonesian text similarity",
+      "tahun": 2018,
+      "jenis": "jurnal",
+      "dosen": [
+        "dedi"
+      ],
+      "jurnal": "International Journal of Engineering and Technology (UAE)",
+      "volume": "7",
+      "halaman": "73–77",
+      "sitasi_scopus": 8,
+      "doi": null,
+      "scopus_eid": null,
+      "url_scopus": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "AI for Inclusion: Sign Language Recognition to Support Hajj Pilgrims",
+      "tahun": 2026,
+      "jenis": "bab_buku",
+      "dosen": [
+        "siddik",
+        "aidil"
+      ],
+      "jurnal": "From Smart Cities to the Metaverse: Games, Immersive Experiences, and the Future of Digital Interaction",
+      "halaman": "195–208",
+      "doi": "10.1201/9781003662433-18",
+      "scopus_eid": "2-s2.0-105035278259",
+      "url_scopus": "https://www.scopus.com/pages/publications/105035278259?origin=resultslist",
+      "sitasi_scopus": 0,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "Higher Education and Health Breakthroughs: Residual Network for Pneumonia Detection from Chest X-ray Images",
+      "tahun": 2025,
+      "jenis": "jurnal",
+      "dosen": [
+        "siddik"
+      ],
+      "jurnal": "International Journal on Advanced Science, Engineering and Information Technology",
+      "volume": "15",
+      "nomor": "5",
+      "halaman": "1575–1581",
+      "sitasi_scopus": 0,
+      "doi": null,
+      "scopus_eid": null,
+      "url_scopus": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "NEURO NETWORK TECHNIQUES OF TELEMETRY MULTIVARIATE TIME SERIES PROCESSING AND THEIR APPLICATIONS IN INDUSTRY",
+      "tahun": 2022,
+      "jenis": "jurnal",
+      "dosen": [
+        "siddik"
+      ],
+      "jurnal": "Journal of Theoretical and Applied Information Technology",
+      "volume": "100",
+      "nomor": "9",
+      "halaman": "2696–2702",
+      "sitasi_scopus": 0,
+      "doi": null,
+      "scopus_eid": null,
+      "url_scopus": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "Intelligent LPG Gas Leak Detection Tool with SMS Notification",
+      "tahun": 2019,
+      "jenis": "prosiding",
+      "dosen": [
+        "siddik"
+      ],
+      "jurnal": "Journal of Physics: Conference Series",
+      "volume": "1424",
+      "nomor": "1",
+      "halaman": "012020",
+      "sitasi_scopus": 14,
+      "doi": null,
+      "scopus_eid": null,
+      "url_scopus": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "Checking the Answer Sheet with Image Recognition",
+      "tahun": 2018,
+      "jenis": "jurnal",
+      "dosen": [
+        "siddik"
+      ],
+      "jurnal": "Journal of Information Technology Education: Research",
+      "volume": "2",
+      "nomor": "1",
+      "halaman": "1–8",
+      "sitasi_scopus": 0,
+      "doi": null,
+      "scopus_eid": null,
+      "url_scopus": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "A Micromechanical Data-Driven Machine-Learning Approach for Microstructural Characterization of Solder Balls in Electronic Packages Subjected to Thermomechanical Fatigue",
+      "tahun": 2023,
+      "jenis": "jurnal",
+      "dosen": [
+        "rakhmat"
+      ],
+      "jurnal": "Journal of Electronic Materials",
+      "volume": "52",
+      "nomor": "7",
+      "halaman": "4614–4625",
+      "scopus_eid": "2-s2.0-85153088849",
+      "url_scopus": "https://www.scopus.com/pages/publications/85153088849?origin=resultslist",
+      "doi": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "Smart Machine Learning Approaches for Detection of Malicious Unified Resource Locator: Towards Sustainable Cybersecurity Systems",
+      "tahun": 2026,
+      "jenis": "bab_buku",
+      "dosen": [
+        "rakhmat"
+      ],
+      "jurnal": "Smart, Secure, and Sustainable Digital Futures: AI, Cybersecurity, and Governance in Emerging Digital Systems",
+      "halaman": "117–134",
+      "doi": "10.1201/9781042013098-10",
+      "scopus_eid": "2-s2.0-105051027879",
+      "url_scopus": "https://www.scopus.com/pages/publications/105051027879?origin=resultslist",
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "Comparison of Knowledge-Based Reasoning Methods to Measure the Effectiveness of Diagnostic Results",
+      "tahun": 2021,
+      "jenis": "prosiding",
+      "dosen": [
+        "puji"
+      ],
+      "jurnal": "Journal of Physics: Conference Series",
+      "volume": "1783",
+      "nomor": "1",
+      "halaman": "012049",
+      "scopus_eid": "2-s2.0-85102337587",
+      "url_scopus": "https://www.scopus.com/pages/publications/85102337587?origin=resultslist",
+      "sitasi_scopus": 0,
+      "doi": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    }
+  ],
+  "rekap_jenis": {
+    "jurnal": 7,
+    "prosiding": 3,
+    "bab_buku": 3
+  },
+  "rekap_tahunan": {
+    "2018": 2,
+    "2019": 1,
+    "2021": 1,
+    "2022": 1,
+    "2023": 1,
+    "2024": 1,
+    "2025": 1,
+    "2026": 5
+  }
 }
