@@ -1,10 +1,10 @@
 {
-  "versi": 3,
+  "versi": 4,
   "diperbarui_tanggal": "2026-11-22",
   "sumber": "Daftar publikasi Scopus yang disalin pengguna, dilengkapi DOI dan EID jika tersedia; bukan hasil API atau verifikasi kuartil.",
   "jenis_jumlah": "Dokumen unik: berdasarkan judul + tahun / DOI / EID, dosen bersama dihitung satu kali pada tingkat prodi.",
   "dokumen_teridentifikasi_unik": 13,
-  "catatan": "Angka per dosen merupakan minimum berdasarkan daftar yang diberikan, bukan total dokumen pada akun Scopus/SINTA. Kuartil tidak diisi tanpa bukti per artikel dan tahun.",
+  "catatan": "Angka per dosen merupakan minimum berdasarkan daftar yang diberikan, bukan total dokumen pada akun Scopus/SINTA. Kuartil tidak diisi tanpa bukti per artikel dan tahun. Tambahan nomor EID dan kuartil 2025/2026 diambil dari ekspor Scopus institusi yang diunggah pengguna. Kuartil kosong tetap tidak diisi, jumlah dan daftar karya lama dipertahankan.",
   "dosen": [
     {
       "slug": "siddik",
@@ -130,11 +130,14 @@
       "halaman": "1664–1672",
       "doi": "10.11591/ijict.v15i4.pp1664-1672",
       "sitasi_scopus": 0,
-      "scopus_eid": null,
-      "url_scopus": null,
+      "scopus_eid": "2-s2.0-105055955041",
+      "url_scopus": "https://www.scopus.com/pages/publications/105055955041?origin=resultslist",
       "quartile_sinta": null,
       "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
-      "tautan_penerbit": null
+      "tautan_penerbit": null,
+      "quartile_scopus": "Q4",
+      "kuartil_sumber": "Ekspor institusi Scopus tahun 2026",
+      "verifikasi_sumber_ekspor": "export_scopus_publication_2026_Universitas_Islam_Negeri_Sumatera_Utara.xlsx"
     },
     {
       "judul": "Genetic algorithm-optimized BERTopic with SHAP explainability for institutional research trend analysis",
@@ -149,11 +152,14 @@
       "halaman": "3818–3826",
       "doi": "10.11591/ijai.v15.i4.pp3818-3826",
       "sitasi_scopus": 0,
-      "scopus_eid": null,
-      "url_scopus": null,
+      "scopus_eid": "2-s2.0-105047502775",
+      "url_scopus": "https://www.scopus.com/pages/publications/105047502775?origin=resultslist",
       "quartile_sinta": null,
       "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
-      "tautan_penerbit": null
+      "tautan_penerbit": null,
+      "quartile_scopus": "Q2",
+      "kuartil_sumber": "Ekspor institusi Scopus tahun 2026",
+      "verifikasi_sumber_ekspor": "export_scopus_publication_2026_Universitas_Islam_Negeri_Sumatera_Utara.xlsx"
     },
     {
       "judul": "Future Trends in Intelligent Construction Monitoring Technologies",
@@ -168,10 +174,12 @@
       "sitasi_scopus": 0,
       "tautan_penerbit": "https://www.igi-global.com/chapter/future-trends-in-intelligent-construction-monitoring-technologies/401484",
       "catatan": "Penulis Muhammad Dedi Irawan tertera pada halaman penerbit.",
-      "scopus_eid": null,
-      "url_scopus": null,
+      "scopus_eid": "2-s2.0-105033821989",
+      "url_scopus": "https://www.scopus.com/pages/publications/105033821989?origin=resultslist",
       "quartile_sinta": null,
-      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna"
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "kuartil_sumber": null,
+      "verifikasi_sumber_ekspor": "export_scopus_publication_2026_Universitas_Islam_Negeri_Sumatera_Utara.xlsx"
     },
     {
       "judul": "Mapping of crime prone areas in Batubara districts using the k-means method",
@@ -226,7 +234,9 @@
       "sitasi_scopus": 0,
       "quartile_sinta": null,
       "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
-      "tautan_penerbit": null
+      "tautan_penerbit": null,
+      "kuartil_sumber": null,
+      "verifikasi_sumber_ekspor": "export_scopus_publication_2026_Universitas_Islam_Negeri_Sumatera_Utara.xlsx"
     },
     {
       "judul": "Higher Education and Health Breakthroughs: Residual Network for Pneumonia Detection from Chest X-ray Images",
@@ -241,11 +251,14 @@
       "halaman": "1575–1581",
       "sitasi_scopus": 0,
       "doi": null,
-      "scopus_eid": null,
-      "url_scopus": null,
+      "scopus_eid": "2-s2.0-105026682438",
+      "url_scopus": "https://www.scopus.com/pages/publications/105026682438?origin=resultslist",
       "quartile_sinta": null,
       "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
-      "tautan_penerbit": null
+      "tautan_penerbit": null,
+      "quartile_scopus": "Q2",
+      "kuartil_sumber": "Ekspor institusi Scopus tahun 2025",
+      "verifikasi_sumber_ekspor": "export_scopus_publication_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx"
     },
     {
       "judul": "NEURO NETWORK TECHNIQUES OF TELEMETRY MULTIVARIATE TIME SERIES PROCESSING AND THEIR APPLICATIONS IN INDUSTRY",
@@ -336,7 +349,9 @@
       "url_scopus": "https://www.scopus.com/pages/publications/105051027879?origin=resultslist",
       "quartile_sinta": null,
       "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
-      "tautan_penerbit": null
+      "tautan_penerbit": null,
+      "kuartil_sumber": null,
+      "verifikasi_sumber_ekspor": "export_scopus_publication_2026_Universitas_Islam_Negeri_Sumatera_Utara.xlsx"
     },
     {
       "judul": "Comparison of Knowledge-Based Reasoning Methods to Measure the Effectiveness of Diagnostic Results",
