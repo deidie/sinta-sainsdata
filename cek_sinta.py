@@ -323,10 +323,23 @@ def harvest_sinta(sinta_id, name):
     return {'url': url, 'http_status': fetched['status'], 'error': None if valid_name else 'Nama penulis tidak cocok', 'metrics': metrics if valid_name else None, 'nama_tercocokkan': valid_name}
 
 def deduplicate(articles):
+    """Simpan tiap ID dokumen GARUDA sekali, meskipun DOI digunakan ulang.
+
+    Deduplikasi DOI untuk menghitung karya unik tingkat prodi dilakukan pada
+    tahap rekapitulasi, bukan pada tahap pengarsipan hasil profil GARUDA.
+    """
     out = []
     seen = set()
     for a in articles:
-        key = ('doi', a['doi'].lower()) if a['doi'] else ('garuda', a['garuda_document_id'])
+        document_id = str(a.get('garuda_document_id') or '').strip()
+        if document_id:
+            key = ('garuda_document_id', document_id)
+        else:
+            # Perlindungan data lama tanpa ID: jangan hilangkan DOI berbeda
+            # dan jangan gabung judul yang berbeda dengan DOI sama.
+            key = ('riwayat', str(a.get('url_garuda') or '').strip(),
+                   str(a.get('judul') or '').strip().casefold(),
+                   str(a.get('tahun') or ''))
         if key in seen:
             continue
         seen.add(key)
@@ -351,6 +364,13 @@ def garuda_main():
     started = datetime.now(timezone.utc).isoformat()
     output = {'versi': '1.0', 'diperbarui_utc': started, 'sumber': 'GARUDA dan halaman profil publik SINTA', 'catatan': 'Peringkat jurnal dan indeks Scopus setiap artikel belum diverifikasi otomatis.', 'dosen': []}
     diagnostics = {'diperbarui_utc': started, 'dosen': []}
+    # Identitas profil hanya diberi label valid jika telah dikonfirmasi pengguna.
+    try:
+        confirmed = json.loads(Path('data/profil_garuda_tervalidasi.json').read_text(encoding='utf-8'))
+        confirmed_ids = {p['slug']: set(str(v) for v in p.get('garuda_author_ids', []))
+                         for p in confirmed.get('dosen', [])}
+    except (OSError, ValueError, KeyError, TypeError):
+        confirmed_ids = {}
     for author in DOSEN:
         slug = author['slug']
         print(f"\nMemproses {author['nama']} (SINTA {author['sinta_id']})", flush=True)
@@ -385,9 +405,12 @@ def garuda_main():
             status = 'menggunakan_riwayat_tersimpan'
         if author['perlu_verifikasi_garuda'] and status == 'lengkap':
             status = 'perlu_verifikasi_identitas_garuda'
-        entry = {'slug': slug, 'nama': author['nama'], 'sinta_id': author['sinta_id'], 'sinta_url': sinta['url'], 'garuda_author_ids': author['garuda_ids'], 'perlu_verifikasi_identitas_garuda': author['perlu_verifikasi_garuda'], 'status': status, 'jumlah_artikel_terambil': len(articles), 'metrik_sinta': sinta['metrics'], 'metrik_sinta_status': sinta['error'] or 'berhasil', 'publikasi_garuda': articles}
+        valid_profile = bool(author['garuda_ids']) and all(
+            str(v) in confirmed_ids.get(slug, set()) for v in author['garuda_ids'])
+        entry = {'profil_garuda_terkonfirmasi': valid_profile,
+                 'slug': slug, 'nama': author['nama'], 'sinta_id': author['sinta_id'], 'sinta_url': sinta['url'], 'garuda_author_ids': author['garuda_ids'], 'perlu_verifikasi_identitas_garuda': author['perlu_verifikasi_garuda'], 'status': status, 'jumlah_artikel_terambil': len(articles), 'metrik_sinta': sinta['metrics'], 'metrik_sinta_status': sinta['error'] or 'berhasil', 'publikasi_garuda': articles}
         output['dosen'].append(entry)
-        diagnostics['dosen'].append({'slug': slug, 'nama': author['nama'], 'sinta_id': author['sinta_id'], 'jumlah_artikel': len(articles), 'status': status, 'profil_garuda': author_reports, 'sinta': {k: v for k, v in sinta.items() if k != 'metrics'}})
+        diagnostics['dosen'].append({'profil_garuda_terkonfirmasi': valid_profile, 'slug': slug, 'nama': author['nama'], 'sinta_id': author['sinta_id'], 'jumlah_artikel': len(articles), 'status': status, 'profil_garuda': author_reports, 'sinta': {k: v for k, v in sinta.items() if k != 'metrics'}})
         print(f"  {slug}: {len(articles)} artikel; status={status}; SINTA: {sinta['error'] or 'berhasil'}", flush=True)
     if len(output.get('dosen', [])) != 6 or any((len(x.get('publikasi_garuda', [])) == 0 for x in output.get('dosen', []))):
         raise RuntimeError('GARUDA menghasilkan data kosong/tidak lengkap. File publikasi sebelumnya dipertahankan.')
