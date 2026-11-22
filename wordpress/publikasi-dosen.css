@@ -279,3 +279,7 @@ body.sdpub26-page #sdpub26 .sdp-shell{max-width:1540px;width:100%;margin-inline:
 #sdpub26 .sdp-table .sdp-sort-arrow{margin-left:3px;font-weight:900;color:#d66a25}
 #sdpub26 .sdp-table th[aria-sort="descending"],#sdpub26 .sdp-table th[aria-sort="ascending"]{background:#fff0e1}
 
+
+/* Tautan Lihat Karya sekarang menuju bagian Direktori Karya. */
+#sdpub26 a.sdp-person-action{display:block;width:100%;text-align:center;text-decoration:none!important;box-sizing:border-box}
+#sdpub26 #sdp-library{scroll-margin-top:110px}
