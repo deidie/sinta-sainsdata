@@ -53,7 +53,7 @@ MAX_PAGES_PER_PROFILE = 120
 DELAY_SECONDS = 1.6
 TIMEOUT_SECONDS = 22
 USER_AGENT = 'SainsData-UINSU-Publication-Catalog/1.0 (public-academic-metadata)'
-DOSEN = [{'slug': 'siddik', 'nama': 'Muhammad Siddik Hasibuan', 'sinta_id': '5983919', 'garuda_ids': ['2406700'], 'perlu_verifikasi_garuda': False}, {'slug': 'dedi', 'nama': 'Muhammad Dedi Irawan', 'sinta_id': '6054939', 'garuda_ids': ['1197451'], 'perlu_verifikasi_garuda': False}, {'slug': 'rakhmat', 'nama': 'Rakhmat Kurniawan R', 'sinta_id': '6160028', 'garuda_ids': ['1733344'], 'perlu_verifikasi_garuda': False}, {'slug': 'aidil', 'nama': 'Aidil Halim Lubis', 'sinta_id': '6795618', 'garuda_ids': ['621444'], 'perlu_verifikasi_garuda': False}, {'slug': 'ika', 'nama': 'Ika Yusnita Sari', 'sinta_id': '6745259', 'garuda_ids': ['7443043'], 'perlu_verifikasi_garuda': True}, {'slug': 'puji', 'nama': 'Puji Sari Ramadhan', 'sinta_id': '6089755', 'garuda_ids': ['10712505'], 'perlu_verifikasi_garuda': False}]
+DOSEN = [{'slug': 'siddik', 'nama': 'Muhammad Siddik Hasibuan', 'sinta_id': '5983919', 'garuda_ids': ['2406700'], 'perlu_verifikasi_garuda': False}, {'slug': 'dedi', 'nama': 'Muhammad Dedi Irawan', 'sinta_id': '6054939', 'garuda_ids': ['1197451'], 'perlu_verifikasi_garuda': False}, {'slug': 'rakhmat', 'nama': 'Rakhmat Kurniawan R', 'sinta_id': '6160028', 'garuda_ids': ['1733344'], 'perlu_verifikasi_garuda': False}, {'slug': 'aidil', 'nama': 'Aidil Halim Lubis', 'sinta_id': '6795618', 'garuda_ids': ['621444'], 'perlu_verifikasi_garuda': False}, {'slug': 'ika', 'nama': 'Ika Yusnita Sari', 'sinta_id': '6745259', 'garuda_ids': ['7443043'], 'perlu_verifikasi_garuda': True}, {'slug': 'puji', 'nama': 'Puji Sari Ramadhan', 'sinta_id': '6089755', 'garuda_ids': ['2469503'], 'perlu_verifikasi_garuda': False}]
 DOCUMENT_RE = re.compile('/documents/detail/(\\d+)(?:[/?#]|$)')
 DOI_RE = re.compile('\\b10\\.\\d{4,9}/[^\\s<>"|]+', re.I)
 YEAR_RE = re.compile('\\b(?:19|20)\\d{2}\\b')
@@ -384,6 +384,14 @@ def garuda_main():
         prev_entry = previous_people.get(slug, {})
         prev_articles = prev_entry.get('publikasi_garuda', [])
         if not isinstance(prev_articles, list):
+            prev_articles = []
+        # Bila Author ID diganti atas validasi pengguna, jangan membawa
+        # rekaman profil lama yang identitasnya belum dipastikan.
+        old_ids = {str(v) for v in prev_entry.get('garuda_author_ids', [])}
+        new_ids = {str(v) for v in author['garuda_ids']}
+        if old_ids and old_ids != new_ids:
+            print(f'  {slug}: profil GARUDA berubah {sorted(old_ids)} -> '
+                  f'{sorted(new_ids)}; tidak mencampur riwayat Author ID lama', flush=True)
             prev_articles = []
         # Riwayat artikel sifatnya kumulatif: jangan hilangkan artikel yang
         # sudah terambil pada siklus sebelumnya hanya karena situs bermasalah.
