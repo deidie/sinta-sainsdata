@@ -3,7 +3,7 @@
   "dibuat_tanggal": "2026-11-22",
   "nama": "Pelengkap Publikasi Dosen Prodi Sains Data",
   "sumber": "Ekspor SINTA institusi UIN Sumatera Utara tahun 2025 dan 2026, disaring enam nama dosen",
-  "catatan": "Buku, HKI, penelitian, dan artikel Scholar adalah kategori terpisah. Judul yang sama pada buku dan HKI tidak dihapus, karena merupakan keluaran yang berbeda. Penelitian tidak dihitung sebagai publikasi jurnal. Rekaman Scopus/GARUDA lama tidak ditimpa.",
+  "catatan": "Hanya karya terbit berupa buku serta Hak Kekayaan Intelektual (HKI/IPR) untuk enam dosen Sains Data. Penelitian dan pengabdian tidak termasuk publikasi dan tidak disajikan di laman publikasi. Karya Scopus dan GARUDA tetap pada sumber terpisah.",
   "dosen_valid": [
     "siddik",
     "dedi",
@@ -214,37 +214,6 @@
       "nomor_baris": 213
     }
   ],
-  "penelitian": [
-    {
-      "id": "penelitian:2025:1",
-      "jenis": "penelitian",
-      "judul": "PENGEMBANGAN MODEL INTERAKTIF BERBASIS AUGMENTED REALITY DAN VIRTUAL REALITY UNTUK PELESTARIAN BATIK TULIS SEBAGAI WARISAN BUDAYA NASIONAL",
-      "tahun": 2025,
-      "ketua": "Muhammad Dedi Irawan",
-      "skema": "PENELITIAN TERAPAN PENGEMBANGAN NASIONAL",
-      "pendanaan": "Rp. 60.000.000",
-      "dosen": [
-        "dedi"
-      ],
-      "sumber_ekspor": "export_research_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
-      "nomor_baris": 1
-    },
-    {
-      "id": "penelitian:2025:4",
-      "jenis": "penelitian",
-      "judul": "DESAIN SISTEM INFORMASI TERINTEGRASI BERBASIS CLOUD-AI UNTUK PENJADWALAN DAN REKOMENDASI DOSEN PENGUJI SIDANG MUNAQASYAH",
-      "tahun": 2025,
-      "ketua": "Aidil Halim Lubis",
-      "skema": "PENELITIAN DASAR STRATEGIS PROGRAM STUDI",
-      "pendanaan": "Rp. 23.500.000",
-      "dosen": [
-        "aidil"
-      ],
-      "sumber_ekspor": "export_research_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
-      "nomor_baris": 4
-    }
-  ],
-  "pengabdian": [],
   "artikel_google": [
     {
       "id": "scholar:2025:2777",
@@ -263,9 +232,6 @@
   ],
   "rekap": {
     "buku": 3,
-    "ipr": 8,
-    "penelitian": 2,
-    "pengabdian": 0,
-    "artikel_google": 1
+    "ipr": 8
   }
 }
