@@ -1,0 +1,43 @@
+name: Perbarui Dashboard Ringkas Publikasi
+on:
+  push:
+    paths:
+      - "hasil/rekap_publikasi_wordpress.json"
+      - "hasil/sinta_laman_wordpress.json"
+      - "hasil/publikasi_scholar.json"
+      - "hasil/scopus_sinta_wordpress.json"
+      - "hasil/publikasi_tambahan_dosen.json"
+      - "buat_dashboard_ringkas_wordpress.py"
+      - ".github/workflows/dashboard-ringkas.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dashboard-ringkas-sainsdata
+  cancel-in-progress: false
+
+jobs:
+  ringkas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Ambil repository
+        uses: actions/checkout@v4
+      - name: Siapkan Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Buat data ringkas dari sumber lengkap
+        run: python buat_dashboard_ringkas_wordpress.py
+      - name: Simpan ringkasan ke GitHub
+        run: |
+          git add hasil/dashboard_ringkas_wordpress.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Perbarui rekap ringkas publikasi WordPress"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
