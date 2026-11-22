@@ -1,59 +1,59 @@
 {
   "versi": 1,
-  "dibuat_utc": "2026-11-21T20:11:07.544592+00:00",
+  "dibuat_utc": "2026-11-22T06:52:23.841862+00:00",
   "sumber": "GARUDA + katalog profil jurnal SINTA",
-  "garuda_diperbarui_utc": "2026-11-21T11:56:43.062490+00:00",
-  "peringkat_jurnal_diperbarui_utc": "2026-11-21T20:11:07.451667+00:00",
+  "garuda_diperbarui_utc": "2026-11-22T06:48:54.758696+00:00",
+  "peringkat_jurnal_diperbarui_utc": "2026-11-22T06:52:23.736745+00:00",
   "pemeriksaan_sinta_utc": "2026-11-21T18:03:55.716870+00:00",
   "pemeriksaan_sinta_terbatas": true,
   "tabel_per_dosen": [
     {
       "slug": "siddik",
       "nama": "Muhammad Siddik Hasibuan",
-      "garuda": 80,
+      "garuda": 90,
       "S1": 0,
       "S2": 3,
-      "S3": 11,
-      "S4": 26,
-      "S5": 4,
+      "S3": 12,
+      "S4": 31,
+      "S5": 5,
       "S6": 4,
-      "belum_tercocokkan": 32
+      "belum_tercocokkan": 35
     },
     {
       "slug": "dedi",
       "nama": "Muhammad Dedi Irawan",
-      "garuda": 164,
+      "garuda": 180,
       "S1": 1,
-      "S2": 2,
-      "S3": 16,
-      "S4": 51,
-      "S5": 18,
+      "S2": 3,
+      "S3": 19,
+      "S4": 57,
+      "S5": 19,
       "S6": 0,
-      "belum_tercocokkan": 76
+      "belum_tercocokkan": 81
     },
     {
       "slug": "rakhmat",
       "nama": "Rakhmat Kurniawan R",
-      "garuda": 131,
+      "garuda": 149,
       "S1": 0,
       "S2": 1,
-      "S3": 20,
-      "S4": 52,
-      "S5": 26,
+      "S3": 22,
+      "S4": 64,
+      "S5": 29,
       "S6": 0,
-      "belum_tercocokkan": 32
+      "belum_tercocokkan": 33
     },
     {
       "slug": "aidil",
       "nama": "Aidil Halim Lubis",
-      "garuda": 37,
+      "garuda": 46,
       "S1": 0,
       "S2": 0,
       "S3": 2,
-      "S4": 20,
-      "S5": 3,
+      "S4": 25,
+      "S5": 4,
       "S6": 0,
-      "belum_tercocokkan": 12
+      "belum_tercocokkan": 15
     },
     {
       "slug": "ika",
@@ -70,115 +70,115 @@
     {
       "slug": "puji",
       "nama": "Puji Sari Ramadhan",
-      "garuda": 2,
+      "garuda": 87,
       "S1": 0,
-      "S2": 0,
+      "S2": 2,
       "S3": 0,
-      "S4": 1,
-      "S5": 0,
+      "S4": 38,
+      "S5": 13,
       "S6": 0,
-      "belum_tercocokkan": 1
+      "belum_tercocokkan": 34
     }
   ],
   "tabel_per_tahun": [
     {
       "tahun": 2026,
-      "publikasi": 43,
+      "publikasi": 53,
       "S1": 0,
       "S2": 1,
       "S3": 5,
-      "S4": 14,
-      "S5": 1,
+      "S4": 16,
+      "S5": 3,
       "S6": 0,
-      "belum_tercocokkan": 22
+      "belum_tercocokkan": 28
     },
     {
       "tahun": 2025,
-      "publikasi": 89,
+      "publikasi": 98,
       "S1": 0,
       "S2": 2,
       "S3": 11,
-      "S4": 36,
-      "S5": 2,
+      "S4": 40,
+      "S5": 4,
       "S6": 0,
-      "belum_tercocokkan": 38
+      "belum_tercocokkan": 41
     },
     {
       "tahun": 2024,
-      "publikasi": 127,
+      "publikasi": 136,
       "S1": 0,
       "S2": 0,
       "S3": 18,
-      "S4": 54,
-      "S5": 12,
+      "S4": 59,
+      "S5": 13,
       "S6": 0,
-      "belum_tercocokkan": 43
+      "belum_tercocokkan": 46
     },
     {
       "tahun": 2023,
-      "publikasi": 68,
+      "publikasi": 81,
       "S1": 1,
-      "S2": 2,
+      "S2": 3,
       "S3": 7,
-      "S4": 25,
-      "S5": 6,
+      "S4": 30,
+      "S5": 8,
       "S6": 0,
-      "belum_tercocokkan": 27
+      "belum_tercocokkan": 32
     },
     {
       "tahun": 2022,
-      "publikasi": 37,
+      "publikasi": 54,
       "S1": 0,
       "S2": 0,
       "S3": 2,
-      "S4": 11,
-      "S5": 8,
+      "S4": 21,
+      "S5": 10,
       "S6": 0,
-      "belum_tercocokkan": 16
+      "belum_tercocokkan": 21
     },
     {
       "tahun": 2021,
-      "publikasi": 13,
+      "publikasi": 18,
       "S1": 0,
       "S2": 0,
       "S3": 1,
-      "S4": 2,
-      "S5": 5,
+      "S4": 5,
+      "S5": 6,
       "S6": 0,
-      "belum_tercocokkan": 5
+      "belum_tercocokkan": 6
     },
     {
       "tahun": 2020,
-      "publikasi": 14,
+      "publikasi": 18,
       "S1": 0,
-      "S2": 1,
+      "S2": 2,
       "S3": 3,
-      "S4": 4,
-      "S5": 4,
+      "S4": 5,
+      "S5": 5,
       "S6": 0,
-      "belum_tercocokkan": 2
+      "belum_tercocokkan": 3
     },
     {
       "tahun": 2019,
-      "publikasi": 7,
+      "publikasi": 19,
       "S1": 0,
       "S2": 0,
       "S3": 0,
-      "S4": 2,
-      "S5": 3,
+      "S4": 6,
+      "S5": 5,
       "S6": 0,
-      "belum_tercocokkan": 2
+      "belum_tercocokkan": 8
     },
     {
       "tahun": 2018,
-      "publikasi": 8,
+      "publikasi": 11,
       "S1": 0,
       "S2": 0,
       "S3": 1,
-      "S4": 1,
+      "S4": 2,
       "S5": 4,
       "S6": 1,
-      "belum_tercocokkan": 1
+      "belum_tercocokkan": 3
     },
     {
       "tahun": 2017,
@@ -215,18 +215,18 @@
     }
   ],
   "rekap_prodi": {
-    "garuda_unik": 417,
-    "garuda_rekaman_per_dosen": 430,
+    "garuda_unik": 499,
+    "garuda_rekaman_per_dosen": 568,
     "peringkat_jurnal": {
       "S1": 1,
-      "S2": 6,
+      "S2": 8,
       "S3": 49,
-      "S4": 152,
-      "S5": 48,
+      "S4": 187,
+      "S5": 61,
       "S6": 4,
-      "belum_tercocokkan": 157
+      "belum_tercocokkan": 189
     },
-    "peringkat_artikel_doi_terverifikasi": 9
+    "peringkat_artikel_doi_terverifikasi": 11
   },
   "keterangan": "S1-S6 dalam tabel berarti peringkat jurnal yang teramati. Ini bukan bukti peringkat akreditasi tiap artikel pada tahun terbit. Jumlah tahunan unik menghapus karya bersama. Belum cocok bukan berarti tidak terindeks SINTA."
 }

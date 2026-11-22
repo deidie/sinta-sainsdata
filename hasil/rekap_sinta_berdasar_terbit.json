@@ -1,12 +1,12 @@
 {
   "versi": 1,
-  "diperiksa_tanggal": "2026-11-21",
+  "diperiksa_tanggal": "2026-11-22",
   "metode": "Peringkat saat terbit berdasarkan DOI SINTA atau bukti periode jurnal; tidak mengasumsikan peringkat jurnal terkini berlaku historis.",
   "rekap_prodi": {
-    "garuda_unik": 417,
-    "jurnal_dipadan_peringkat_terkini": 260,
+    "garuda_unik": 499,
+    "jurnal_dipadan_peringkat_terkini": 310,
     "publikasi_sinta_saat_terbit_terverifikasi": 11,
-    "belum_divalidasi_periode": 406,
+    "belum_divalidasi_periode": 488,
     "peringkat": {
       "S1": 0,
       "S2": 3,
@@ -19,7 +19,7 @@
   "tabel_per_tahun": [
     {
       "tahun": 2026,
-      "publikasi": 43,
+      "publikasi": 53,
       "terverifikasi_terbit": 9,
       "S1": 0,
       "S2": 1,
@@ -30,7 +30,7 @@
     },
     {
       "tahun": 2025,
-      "publikasi": 89,
+      "publikasi": 98,
       "terverifikasi_terbit": 1,
       "S1": 0,
       "S2": 1,
@@ -41,7 +41,7 @@
     },
     {
       "tahun": 2024,
-      "publikasi": 127,
+      "publikasi": 136,
       "terverifikasi_terbit": 0,
       "S1": 0,
       "S2": 0,
@@ -52,7 +52,7 @@
     },
     {
       "tahun": 2023,
-      "publikasi": 68,
+      "publikasi": 81,
       "terverifikasi_terbit": 1,
       "S1": 0,
       "S2": 1,
@@ -63,7 +63,7 @@
     },
     {
       "tahun": 2022,
-      "publikasi": 37,
+      "publikasi": 54,
       "terverifikasi_terbit": 0,
       "S1": 0,
       "S2": 0,
@@ -74,7 +74,7 @@
     },
     {
       "tahun": 2021,
-      "publikasi": 13,
+      "publikasi": 18,
       "terverifikasi_terbit": 0,
       "S1": 0,
       "S2": 0,
@@ -85,7 +85,7 @@
     },
     {
       "tahun": 2020,
-      "publikasi": 14,
+      "publikasi": 18,
       "terverifikasi_terbit": 0,
       "S1": 0,
       "S2": 0,
@@ -96,7 +96,7 @@
     },
     {
       "tahun": 2019,
-      "publikasi": 7,
+      "publikasi": 19,
       "terverifikasi_terbit": 0,
       "S1": 0,
       "S2": 0,
@@ -107,7 +107,7 @@
     },
     {
       "tahun": 2018,
-      "publikasi": 8,
+      "publikasi": 11,
       "terverifikasi_terbit": 0,
       "S1": 0,
       "S2": 0,
@@ -154,7 +154,7 @@
     {
       "slug": "siddik",
       "nama": "Muhammad Siddik Hasibuan",
-      "total_publikasi_garuda": 80,
+      "total_publikasi_garuda": 90,
       "terverifikasi_terbit": 0,
       "S1": 0,
       "S2": 0,
@@ -166,10 +166,10 @@
     {
       "slug": "dedi",
       "nama": "Muhammad Dedi Irawan",
-      "total_publikasi_garuda": 164,
-      "terverifikasi_terbit": 3,
+      "total_publikasi_garuda": 180,
+      "terverifikasi_terbit": 4,
       "S1": 0,
-      "S2": 3,
+      "S2": 4,
       "S3": 0,
       "S4": 0,
       "S5": 0,
@@ -178,19 +178,19 @@
     {
       "slug": "rakhmat",
       "nama": "Rakhmat Kurniawan R",
-      "total_publikasi_garuda": 131,
-      "terverifikasi_terbit": 8,
+      "total_publikasi_garuda": 149,
+      "terverifikasi_terbit": 9,
       "S1": 0,
       "S2": 0,
       "S3": 1,
-      "S4": 6,
+      "S4": 7,
       "S5": 1,
       "S6": 0
     },
     {
       "slug": "aidil",
       "nama": "Aidil Halim Lubis",
-      "total_publikasi_garuda": 37,
+      "total_publikasi_garuda": 46,
       "terverifikasi_terbit": 0,
       "S1": 0,
       "S2": 0,
@@ -214,7 +214,7 @@
     {
       "slug": "puji",
       "nama": "Puji Sari Ramadhan",
-      "total_publikasi_garuda": 2,
+      "total_publikasi_garuda": 87,
       "terverifikasi_terbit": 0,
       "S1": 0,
       "S2": 0,

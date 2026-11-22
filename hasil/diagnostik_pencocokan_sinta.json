@@ -1,15 +1,27 @@
 {
-  "waktu": "2026-11-21T20:11:07.366017+00:00",
+  "waktu": "2026-11-22T06:52:23.634759+00:00",
   "nama_jurnal_dalam_katalog": 59,
   "jurnal_unik_tercocokkan": 59,
-  "rekaman_dengan_rank_jurnal_teramati": 268,
-  "rekaman_dengan_rank_artikel_terverifikasi": 9,
-  "rekaman_tanpa_rank_jurnal": 162,
+  "rekaman_dengan_rank_jurnal_teramati": 361,
+  "rekaman_dengan_rank_artikel_terverifikasi": 11,
+  "rekaman_tanpa_rank_jurnal": 207,
   "alasan": {
-    "profil_sinta_resmi_terindeks": 268,
-    "nama_belum_ditemukan": 162
+    "profil_sinta_resmi_terindeks": 361,
+    "nama_belum_ditemukan": 207
   },
   "jurnal_belum_tercocokkan": [
+    {
+      "nama": "Jurnal SAINTIKOM (Jurnal Sains Manajemen Informatika dan Komputer)",
+      "rekaman": 11
+    },
+    {
+      "nama": "Jurnal Pengabdian Masyarakat IPTEK",
+      "rekaman": 6
+    },
+    {
+      "nama": "Jurnal Sistem Komputer Triguna Dharma (JURSIK TGD)",
+      "rekaman": 5
+    },
     {
       "nama": "International Conference on Sciences Development and Technology The 1st ICoSDTech 2021",
       "rekaman": 4
@@ -19,11 +31,27 @@
       "rekaman": 4
     },
     {
+      "nama": "JIKO (Jurnal Informatika dan Komputer)",
+      "rekaman": 4
+    },
+    {
+      "nama": "JURNAL MEDIA INFORMATIKA BUDIDARMA",
+      "rekaman": 4
+    },
+    {
       "nama": "Marsipature Hutanabe: Jurnal Pengabdian Kepada Masyarakat",
       "rekaman": 4
     },
     {
+      "nama": "JURNAL TEKNOLOGI INFORMASI DAN KOMUNIKASI",
+      "rekaman": 3
+    },
+    {
       "nama": "Cosmic Jurnal Teknik",
+      "rekaman": 3
+    },
+    {
+      "nama": "Technologia : Jurnal Ilmiah",
       "rekaman": 3
     },
     {
@@ -35,11 +63,15 @@
       "rekaman": 2
     },
     {
-      "nama": "JURNAL TEKNOLOGI INFORMASI DAN KOMUNIKASI",
+      "nama": "Jurnal Sistem Informasi",
       "rekaman": 2
     },
     {
       "nama": "Jurnal Pengabdian Masyarakat",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal Teknik Elektro dan Komputer TRIAC",
       "rekaman": 2
     },
     {
@@ -63,6 +95,10 @@
       "rekaman": 2
     },
     {
+      "nama": "Jurnal Sistem Informasi Bisnis (JUNSIBI)",
+      "rekaman": 2
+    },
+    {
       "nama": "JURSIMA",
       "rekaman": 2
     },
@@ -79,15 +115,19 @@
       "rekaman": 2
     },
     {
-      "nama": "JIKO (Jurnal Informatika dan Komputer)",
-      "rekaman": 2
-    },
-    {
       "nama": "Journal of Information Technology",
       "rekaman": 2
     },
     {
       "nama": "Jurnal Saintekom : Sains, Teknologi, Komputer dan Manajemen",
+      "rekaman": 2
+    },
+    {
+      "nama": "INOVTEK Polbeng - Seri Informatika",
+      "rekaman": 2
+    },
+    {
+      "nama": "Jurnal RESPONSIF: Riset Sains & Informatika",
       "rekaman": 2
     },
     {
@@ -107,10 +147,6 @@
       "rekaman": 2
     },
     {
-      "nama": "Technologia : Jurnal Ilmiah",
-      "rekaman": 2
-    },
-    {
       "nama": "Jurnal Teknik Informatika UNIKA Santo Thomas",
       "rekaman": 2
     },
@@ -120,6 +156,18 @@
     },
     {
       "nama": "Jurnal Komputer Teknologi Informasi Sistem Komputer (JUKTISI)",
+      "rekaman": 2
+    },
+    {
+      "nama": "DEVICE : JOURNAL OF INFORMATION SYSTEM, COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "rekaman": 2
+    },
+    {
+      "nama": "JURIKOM (Jurnal Riset Komputer)",
+      "rekaman": 2
+    },
+    {
+      "nama": "JURNAL TEKNISI",
       "rekaman": 2
     },
     {
@@ -151,10 +199,6 @@
       "rekaman": 1
     },
     {
-      "nama": "Jurnal Sistem Informasi",
-      "rekaman": 1
-    },
-    {
       "nama": "International Journal of Artificial Intelligence & Robotics (IJAIR)",
       "rekaman": 1
     },
@@ -168,10 +212,6 @@
     },
     {
       "nama": "Jurnal Pendidikan dan Teknologi Indonesia",
-      "rekaman": 1
-    },
-    {
-      "nama": "Jurnal Teknik Elektro dan Komputer TRIAC",
       "rekaman": 1
     },
     {
@@ -251,10 +291,6 @@
       "rekaman": 1
     },
     {
-      "nama": "Jurnal Sistem Informasi Bisnis (JUNSIBI)",
-      "rekaman": 1
-    },
-    {
       "nama": "International Conference on Sciences Development and Technology The 2nd ICoSDTech 2022",
       "rekaman": 1
     },
@@ -308,10 +344,6 @@
     },
     {
       "nama": "Balance : Jurnal Akuntansi dan Manajemen",
-      "rekaman": 1
-    },
-    {
-      "nama": "INOVTEK Polbeng - Seri Informatika",
       "rekaman": 1
     },
     {
@@ -403,10 +435,6 @@
       "rekaman": 1
     },
     {
-      "nama": "JURNAL MEDIA INFORMATIKA BUDIDARMA",
-      "rekaman": 1
-    },
-    {
       "nama": "Progresif: Jurnal Ilmiah Komputer",
       "rekaman": 1
     },
@@ -479,11 +507,11 @@
       "rekaman": 1
     },
     {
-      "nama": "DEVICE : JOURNAL OF INFORMATION SYSTEM, COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "nama": "Jurnal IT UHB",
       "rekaman": 1
     },
     {
-      "nama": "Jurnal IT UHB",
+      "nama": "Elkom: Jurnal Elektronika dan Komputer",
       "rekaman": 1
     },
     {
@@ -492,6 +520,10 @@
     },
     {
       "nama": "Algebra : Jurnal Pendidikan, Sosial dan Sains",
+      "rekaman": 1
+    },
+    {
+      "nama": "Yusrizal Hakim; Dhafa Hibrizi Sitorus JOURNAL OF SCIENCE AND SOCIAL RESEARCH",
       "rekaman": 1
     },
     {
@@ -515,7 +547,19 @@
       "rekaman": 1
     },
     {
-      "nama": "Jurnal Sistem Komputer Triguna Dharma (JURSIK TGD)",
+      "nama": "Informatika Mulawarman : Jurnal Ilmiah Ilmu Komputer",
+      "rekaman": 1
+    },
+    {
+      "nama": "Sebatik",
+      "rekaman": 1
+    },
+    {
+      "nama": "The IJICS (International Journal of Informatics and Computer Science)",
+      "rekaman": 1
+    },
+    {
+      "nama": "Al-Khidmah Jurnal Pengabdian Masyarakat",
       "rekaman": 1
     }
   ],

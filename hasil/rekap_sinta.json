@@ -1,14 +1,14 @@
 {
-  "diperbarui_utc": "2026-11-21T20:11:07.366017+00:00",
-  "total_rekaman": 430,
-  "artikel_sinta_terverifikasi": 9,
-  "artikel_belum_terverifikasi": 421,
-  "artikel_dengan_peringkat_jurnal_terkini": 268,
+  "diperbarui_utc": "2026-11-22T06:52:23.634759+00:00",
+  "total_rekaman": 568,
+  "artikel_sinta_terverifikasi": 11,
+  "artikel_belum_terverifikasi": 557,
+  "artikel_dengan_peringkat_jurnal_terkini": 361,
   "dosen": [
     {
       "slug": "siddik",
       "nama": "Muhammad Siddik Hasibuan",
-      "total": 80,
+      "total": 90,
       "peringkat": {
         "S1": 0,
         "S2": 0,
@@ -16,7 +16,7 @@
         "S4": 0,
         "S5": 0,
         "S6": 0,
-        "belum_terverifikasi": 80
+        "belum_terverifikasi": 90
       },
       "per_tahun": {
         "2026": {
@@ -26,13 +26,13 @@
           "belum_terverifikasi": 10
         },
         "2024": {
-          "belum_terverifikasi": 28
+          "belum_terverifikasi": 36
         },
         "2023": {
           "belum_terverifikasi": 13
         },
         "2022": {
-          "belum_terverifikasi": 7
+          "belum_terverifikasi": 8
         },
         "2021": {
           "belum_terverifikasi": 2
@@ -44,7 +44,7 @@
           "belum_terverifikasi": 3
         },
         "2018": {
-          "belum_terverifikasi": 3
+          "belum_terverifikasi": 4
         },
         "2017": {
           "belum_terverifikasi": 1
@@ -57,38 +57,38 @@
     {
       "slug": "dedi",
       "nama": "Muhammad Dedi Irawan",
-      "total": 164,
+      "total": 180,
       "peringkat": {
         "S1": 0,
-        "S2": 1,
+        "S2": 2,
         "S3": 0,
         "S4": 0,
         "S5": 0,
         "S6": 0,
-        "belum_terverifikasi": 163
+        "belum_terverifikasi": 178
       },
       "per_tahun": {
         "2026": {
           "belum_terverifikasi": 16
         },
         "2025": {
-          "belum_terverifikasi": 28,
-          "S2": 1
+          "belum_terverifikasi": 30,
+          "S2": 2
         },
         "2024": {
-          "belum_terverifikasi": 38
+          "belum_terverifikasi": 44
         },
         "2023": {
-          "belum_terverifikasi": 33
+          "belum_terverifikasi": 36
         },
         "2022": {
-          "belum_terverifikasi": 21
+          "belum_terverifikasi": 22
         },
         "2021": {
           "belum_terverifikasi": 7
         },
         "2020": {
-          "belum_terverifikasi": 7
+          "belum_terverifikasi": 9
         },
         "2019": {
           "belum_terverifikasi": 3
@@ -100,38 +100,38 @@
           "belum_terverifikasi": 4
         },
         "2013": {
-          "belum_terverifikasi": 1
+          "belum_terverifikasi": 2
         }
       }
     },
     {
       "slug": "rakhmat",
       "nama": "Rakhmat Kurniawan R",
-      "total": 131,
+      "total": 149,
       "peringkat": {
         "S1": 0,
         "S2": 0,
         "S3": 1,
-        "S4": 6,
+        "S4": 7,
         "S5": 1,
         "S6": 0,
-        "belum_terverifikasi": 123
+        "belum_terverifikasi": 140
       },
       "per_tahun": {
         "2026": {
-          "S4": 6,
+          "S4": 7,
           "S3": 1,
           "S5": 1,
           "belum_terverifikasi": 5
         },
         "2025": {
-          "belum_terverifikasi": 41
+          "belum_terverifikasi": 43
         },
         "2024": {
-          "belum_terverifikasi": 48
+          "belum_terverifikasi": 60
         },
         "2023": {
-          "belum_terverifikasi": 10
+          "belum_terverifikasi": 12
         },
         "2022": {
           "belum_terverifikasi": 7
@@ -140,7 +140,7 @@
           "belum_terverifikasi": 5
         },
         "2020": {
-          "belum_terverifikasi": 6
+          "belum_terverifikasi": 7
         },
         "2017": {
           "belum_terverifikasi": 1
@@ -150,7 +150,7 @@
     {
       "slug": "aidil",
       "nama": "Aidil Halim Lubis",
-      "total": 37,
+      "total": 46,
       "peringkat": {
         "S1": 0,
         "S2": 0,
@@ -158,20 +158,20 @@
         "S4": 0,
         "S5": 0,
         "S6": 0,
-        "belum_terverifikasi": 37
+        "belum_terverifikasi": 46
       },
       "per_tahun": {
         "2026": {
-          "belum_terverifikasi": 3
+          "belum_terverifikasi": 4
         },
         "2025": {
-          "belum_terverifikasi": 10
+          "belum_terverifikasi": 11
         },
         "2024": {
-          "belum_terverifikasi": 12
+          "belum_terverifikasi": 17
         },
         "2023": {
-          "belum_terverifikasi": 7
+          "belum_terverifikasi": 9
         },
         "2022": {
           "belum_terverifikasi": 2
@@ -218,7 +218,7 @@
     {
       "slug": "puji",
       "nama": "Puji Sari Ramadhan",
-      "total": 2,
+      "total": 87,
       "peringkat": {
         "S1": 0,
         "S2": 0,
@@ -226,49 +226,70 @@
         "S4": 0,
         "S5": 0,
         "S6": 0,
-        "belum_terverifikasi": 2
+        "belum_terverifikasi": 87
       },
       "per_tahun": {
         "2026": {
-          "belum_terverifikasi": 1
+          "belum_terverifikasi": 11
         },
         "2025": {
-          "belum_terverifikasi": 1
+          "belum_terverifikasi": 10
+        },
+        "2024": {
+          "belum_terverifikasi": 9
+        },
+        "2023": {
+          "belum_terverifikasi": 13
+        },
+        "2022": {
+          "belum_terverifikasi": 19
+        },
+        "2021": {
+          "belum_terverifikasi": 6
+        },
+        "2020": {
+          "belum_terverifikasi": 4
+        },
+        "2019": {
+          "belum_terverifikasi": 12
+        },
+        "2018": {
+          "belum_terverifikasi": 3
         }
       }
     }
   ],
   "rekap_tahunan": {
     "2026": {
-      "belum_terverifikasi": 35,
-      "S4": 6,
+      "belum_terverifikasi": 46,
+      "S4": 7,
       "S3": 1,
       "S5": 1
     },
     "2025": {
-      "belum_terverifikasi": 91,
-      "S2": 1
+      "belum_terverifikasi": 105,
+      "S2": 2
     },
     "2024": {
-      "belum_terverifikasi": 133
+      "belum_terverifikasi": 173
     },
     "2023": {
-      "belum_terverifikasi": 68
+      "belum_terverifikasi": 88
     },
     "2022": {
-      "belum_terverifikasi": 39
+      "belum_terverifikasi": 60
     },
     "2021": {
-      "belum_terverifikasi": 14
+      "belum_terverifikasi": 20
     },
     "2020": {
-      "belum_terverifikasi": 15
+      "belum_terverifikasi": 22
     },
     "2019": {
-      "belum_terverifikasi": 7
+      "belum_terverifikasi": 19
     },
     "2018": {
-      "belum_terverifikasi": 8
+      "belum_terverifikasi": 12
     },
     "2017": {
       "belum_terverifikasi": 8
@@ -277,7 +298,7 @@
       "belum_terverifikasi": 2
     },
     "2013": {
-      "belum_terverifikasi": 1
+      "belum_terverifikasi": 2
     }
   },
   "catatan": "Per dosen memuat publikasi kolaborasi pada tiap profil, sehingga tidak sama dengan jumlah publikasi unik lintas dosen."

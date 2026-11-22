@@ -1,0 +1,260 @@
+{
+  "diperbarui_utc": "2026-11-22T06:52:23.546413+00:00",
+  "total_rekaman": 568,
+  "artikel_scopus_terverifikasi": 0,
+  "artikel_belum_terverifikasi": 568,
+  "dosen": [
+    {
+      "slug": "siddik",
+      "nama": "Muhammad Siddik Hasibuan",
+      "rekap": {
+        "terverifikasi": 0,
+        "belum_terverifikasi": 90
+      },
+      "per_tahun": {
+        "2026": {
+          "belum_terverifikasi": 9
+        },
+        "2025": {
+          "belum_terverifikasi": 10
+        },
+        "2024": {
+          "belum_terverifikasi": 36
+        },
+        "2023": {
+          "belum_terverifikasi": 13
+        },
+        "2022": {
+          "belum_terverifikasi": 8
+        },
+        "2021": {
+          "belum_terverifikasi": 2
+        },
+        "2020": {
+          "belum_terverifikasi": 2
+        },
+        "2019": {
+          "belum_terverifikasi": 3
+        },
+        "2018": {
+          "belum_terverifikasi": 4
+        },
+        "2017": {
+          "belum_terverifikasi": 1
+        },
+        "2016": {
+          "belum_terverifikasi": 2
+        }
+      }
+    },
+    {
+      "slug": "dedi",
+      "nama": "Muhammad Dedi Irawan",
+      "rekap": {
+        "terverifikasi": 0,
+        "belum_terverifikasi": 180
+      },
+      "per_tahun": {
+        "2026": {
+          "belum_terverifikasi": 16
+        },
+        "2025": {
+          "belum_terverifikasi": 32
+        },
+        "2024": {
+          "belum_terverifikasi": 44
+        },
+        "2023": {
+          "belum_terverifikasi": 36
+        },
+        "2022": {
+          "belum_terverifikasi": 22
+        },
+        "2021": {
+          "belum_terverifikasi": 7
+        },
+        "2020": {
+          "belum_terverifikasi": 9
+        },
+        "2019": {
+          "belum_terverifikasi": 3
+        },
+        "2018": {
+          "belum_terverifikasi": 5
+        },
+        "2017": {
+          "belum_terverifikasi": 4
+        },
+        "2013": {
+          "belum_terverifikasi": 2
+        }
+      }
+    },
+    {
+      "slug": "rakhmat",
+      "nama": "Rakhmat Kurniawan R",
+      "rekap": {
+        "terverifikasi": 0,
+        "belum_terverifikasi": 149
+      },
+      "per_tahun": {
+        "2026": {
+          "belum_terverifikasi": 14
+        },
+        "2025": {
+          "belum_terverifikasi": 43
+        },
+        "2024": {
+          "belum_terverifikasi": 60
+        },
+        "2023": {
+          "belum_terverifikasi": 12
+        },
+        "2022": {
+          "belum_terverifikasi": 7
+        },
+        "2021": {
+          "belum_terverifikasi": 5
+        },
+        "2020": {
+          "belum_terverifikasi": 7
+        },
+        "2017": {
+          "belum_terverifikasi": 1
+        }
+      }
+    },
+    {
+      "slug": "aidil",
+      "nama": "Aidil Halim Lubis",
+      "rekap": {
+        "terverifikasi": 0,
+        "belum_terverifikasi": 46
+      },
+      "per_tahun": {
+        "2026": {
+          "belum_terverifikasi": 4
+        },
+        "2025": {
+          "belum_terverifikasi": 11
+        },
+        "2024": {
+          "belum_terverifikasi": 17
+        },
+        "2023": {
+          "belum_terverifikasi": 9
+        },
+        "2022": {
+          "belum_terverifikasi": 2
+        },
+        "2019": {
+          "belum_terverifikasi": 1
+        },
+        "2017": {
+          "belum_terverifikasi": 2
+        }
+      }
+    },
+    {
+      "slug": "ika",
+      "nama": "Ika Yusnita Sari",
+      "rekap": {
+        "terverifikasi": 0,
+        "belum_terverifikasi": 16
+      },
+      "per_tahun": {
+        "2026": {
+          "belum_terverifikasi": 1
+        },
+        "2025": {
+          "belum_terverifikasi": 1
+        },
+        "2024": {
+          "belum_terverifikasi": 7
+        },
+        "2023": {
+          "belum_terverifikasi": 5
+        },
+        "2022": {
+          "belum_terverifikasi": 2
+        }
+      }
+    },
+    {
+      "slug": "puji",
+      "nama": "Puji Sari Ramadhan",
+      "rekap": {
+        "terverifikasi": 0,
+        "belum_terverifikasi": 87
+      },
+      "per_tahun": {
+        "2026": {
+          "belum_terverifikasi": 11
+        },
+        "2025": {
+          "belum_terverifikasi": 10
+        },
+        "2024": {
+          "belum_terverifikasi": 9
+        },
+        "2023": {
+          "belum_terverifikasi": 13
+        },
+        "2022": {
+          "belum_terverifikasi": 19
+        },
+        "2021": {
+          "belum_terverifikasi": 6
+        },
+        "2020": {
+          "belum_terverifikasi": 4
+        },
+        "2019": {
+          "belum_terverifikasi": 12
+        },
+        "2018": {
+          "belum_terverifikasi": 3
+        }
+      }
+    }
+  ],
+  "rekap_tahunan": {
+    "2026": {
+      "belum_terverifikasi": 55
+    },
+    "2025": {
+      "belum_terverifikasi": 107
+    },
+    "2024": {
+      "belum_terverifikasi": 173
+    },
+    "2023": {
+      "belum_terverifikasi": 88
+    },
+    "2022": {
+      "belum_terverifikasi": 60
+    },
+    "2021": {
+      "belum_terverifikasi": 20
+    },
+    "2020": {
+      "belum_terverifikasi": 22
+    },
+    "2019": {
+      "belum_terverifikasi": 19
+    },
+    "2018": {
+      "belum_terverifikasi": 12
+    },
+    "2017": {
+      "belum_terverifikasi": 8
+    },
+    "2016": {
+      "belum_terverifikasi": 2
+    },
+    "2013": {
+      "belum_terverifikasi": 2
+    }
+  },
+  "catatan": "Tanpa akses API, belum terverifikasi bukan berarti tidak terindeks. Daftar dibatasi artikel yang ada di GARUDA."
+}

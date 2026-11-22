@@ -1,11 +1,12 @@
 {
-  "diperbarui_utc": "2026-11-21T11:56:43.062490+00:00",
+  "diperbarui_utc": "2026-11-22T06:48:54.758696+00:00",
   "dosen": [
     {
+      "profil_garuda_terkonfirmasi": true,
       "slug": "siddik",
       "nama": "Muhammad Siddik Hasibuan",
       "sinta_id": "5983919",
-      "jumlah_artikel": 80,
+      "jumlah_artikel": 90,
       "status": "lengkap",
       "profil_garuda": [
         {
@@ -85,10 +86,11 @@
       }
     },
     {
+      "profil_garuda_terkonfirmasi": true,
       "slug": "dedi",
       "nama": "Muhammad Dedi Irawan",
       "sinta_id": "6054939",
-      "jumlah_artikel": 164,
+      "jumlah_artikel": 180,
       "status": "lengkap",
       "profil_garuda": [
         {
@@ -222,10 +224,11 @@
       }
     },
     {
+      "profil_garuda_terkonfirmasi": false,
       "slug": "rakhmat",
       "nama": "Rakhmat Kurniawan R",
       "sinta_id": "6160028",
-      "jumlah_artikel": 131,
+      "jumlah_artikel": 149,
       "status": "lengkap",
       "profil_garuda": [
         {
@@ -341,10 +344,11 @@
       }
     },
     {
+      "profil_garuda_terkonfirmasi": false,
       "slug": "aidil",
       "nama": "Aidil Halim Lubis",
       "sinta_id": "6795618",
-      "jumlah_artikel": 37,
+      "jumlah_artikel": 46,
       "status": "lengkap",
       "profil_garuda": [
         {
@@ -400,6 +404,7 @@
       }
     },
     {
+      "profil_garuda_terkonfirmasi": false,
       "slug": "ika",
       "nama": "Ika Yusnita Sari",
       "sinta_id": "6745259",
@@ -441,24 +446,73 @@
       }
     },
     {
+      "profil_garuda_terkonfirmasi": true,
       "slug": "puji",
       "nama": "Puji Sari Ramadhan",
       "sinta_id": "6089755",
-      "jumlah_artikel": 2,
+      "jumlah_artikel": 87,
       "status": "lengkap",
       "profil_garuda": [
         {
-          "garuda_author_id": "10712505",
-          "url": "https://garuda.kemdiktisaintek.go.id/author/view/10712505",
+          "garuda_author_id": "2469503",
+          "url": "https://garuda.kemdiktisaintek.go.id/author/view/2469503",
           "pages": [
             {
               "page": 1,
               "http_status": 200,
-              "count": 2,
-              "new": 2
+              "count": 10,
+              "new": 10
             },
             {
               "page": 2,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 3,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 4,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 5,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 6,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 7,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 8,
+              "http_status": 200,
+              "count": 10,
+              "new": 10
+            },
+            {
+              "page": 9,
+              "http_status": 200,
+              "count": 7,
+              "new": 7
+            },
+            {
+              "page": 10,
               "http_status": 200,
               "count": 0,
               "new": 0

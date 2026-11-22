@@ -1,140 +1,140 @@
 {
   "versi": 2,
-  "dibuat_tanggal": "2026-11-21",
+  "dibuat_tanggal": "2026-11-22",
   "sumber": "GARUDA + katalog jurnal SINTA + bukti periode terbit",
   "metode": "Peringkat tahun terbit diutamakan jika memiliki bukti; sumber lain memakai peringkat jurnal saat ini.",
-  "total_publikasi_unik": 417,
-  "total_sinta": 262,
+  "total_publikasi_unik": 499,
+  "total_sinta": 312,
   "peringkat": {
     "S1": 0,
-    "S2": 7,
+    "S2": 9,
     "S3": 49,
-    "S4": 153,
-    "S5": 49,
+    "S4": 188,
+    "S5": 62,
     "S6": 4
   },
   "per_tahun": [
     {
       "tahun": 2026,
-      "publikasi": 43,
-      "sinta": 23,
+      "publikasi": 53,
+      "sinta": 27,
       "peringkat": {
         "S1": 0,
         "S2": 1,
         "S3": 5,
-        "S4": 15,
-        "S5": 2,
+        "S4": 17,
+        "S5": 4,
         "S6": 0
       },
       "historis_terverifikasi": 9
     },
     {
       "tahun": 2025,
-      "publikasi": 89,
-      "sinta": 51,
+      "publikasi": 98,
+      "sinta": 57,
       "peringkat": {
         "S1": 0,
         "S2": 2,
         "S3": 11,
-        "S4": 36,
-        "S5": 2,
+        "S4": 40,
+        "S5": 4,
         "S6": 0
       },
       "historis_terverifikasi": 1
     },
     {
       "tahun": 2024,
-      "publikasi": 127,
-      "sinta": 84,
+      "publikasi": 136,
+      "sinta": 90,
       "peringkat": {
         "S1": 0,
         "S2": 0,
         "S3": 18,
-        "S4": 54,
-        "S5": 12,
+        "S4": 59,
+        "S5": 13,
         "S6": 0
       },
       "historis_terverifikasi": 0
     },
     {
       "tahun": 2023,
-      "publikasi": 68,
-      "sinta": 41,
+      "publikasi": 81,
+      "sinta": 49,
       "peringkat": {
         "S1": 0,
-        "S2": 3,
+        "S2": 4,
         "S3": 7,
-        "S4": 25,
-        "S5": 6,
+        "S4": 30,
+        "S5": 8,
         "S6": 0
       },
       "historis_terverifikasi": 1
     },
     {
       "tahun": 2022,
-      "publikasi": 37,
-      "sinta": 21,
+      "publikasi": 54,
+      "sinta": 33,
       "peringkat": {
         "S1": 0,
         "S2": 0,
         "S3": 2,
-        "S4": 11,
-        "S5": 8,
+        "S4": 21,
+        "S5": 10,
         "S6": 0
       },
       "historis_terverifikasi": 0
     },
     {
       "tahun": 2021,
-      "publikasi": 13,
-      "sinta": 8,
+      "publikasi": 18,
+      "sinta": 12,
       "peringkat": {
         "S1": 0,
         "S2": 0,
         "S3": 1,
-        "S4": 2,
-        "S5": 5,
+        "S4": 5,
+        "S5": 6,
         "S6": 0
       },
       "historis_terverifikasi": 0
     },
     {
       "tahun": 2020,
-      "publikasi": 14,
-      "sinta": 12,
+      "publikasi": 18,
+      "sinta": 15,
       "peringkat": {
         "S1": 0,
-        "S2": 1,
+        "S2": 2,
         "S3": 3,
-        "S4": 4,
-        "S5": 4,
+        "S4": 5,
+        "S5": 5,
         "S6": 0
       },
       "historis_terverifikasi": 0
     },
     {
       "tahun": 2019,
-      "publikasi": 7,
-      "sinta": 5,
+      "publikasi": 19,
+      "sinta": 11,
       "peringkat": {
         "S1": 0,
         "S2": 0,
         "S3": 0,
-        "S4": 2,
-        "S5": 3,
+        "S4": 6,
+        "S5": 5,
         "S6": 0
       },
       "historis_terverifikasi": 0
     },
     {
       "tahun": 2018,
-      "publikasi": 8,
-      "sinta": 7,
+      "publikasi": 11,
+      "sinta": 8,
       "peringkat": {
         "S1": 0,
         "S2": 0,
         "S3": 1,
-        "S4": 1,
+        "S4": 2,
         "S5": 4,
         "S6": 1
       },
@@ -257,13 +257,13 @@
     {
       "slug": "puji",
       "nama": "Puji Sari Ramadhan",
-      "total": 1,
+      "total": 51,
       "peringkat": {
         "S1": 0,
-        "S2": 0,
+        "S2": 2,
         "S3": 0,
-        "S4": 1,
-        "S5": 0,
+        "S4": 36,
+        "S5": 13,
         "S6": 0
       },
       "historis_terverifikasi": 0
@@ -4194,6 +4194,711 @@
       "jenis_label": "jurnal_saat_ini"
     },
     {
+      "judul": "Biometric Technology Using Eigenface Algorithm",
+      "tahun": 2022,
+      "doi": "10.24114/cess.v7i1.28918",
+      "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol 7, No 1 (2022): January 2022",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.24114/cess.v7i1.28918",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Penerapan Metode WASPAS Dan MOORA Dalam Pengambilan Keputusan",
+      "tahun": 2021,
+      "doi": "10.24114/cess.v6i2.24805",
+      "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol 6, No 2 (2021): Juli 2021",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.24114/cess.v6i2.24805",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Penerapan Euclidean Probability Dalam Pendeteksian Penyakit Impetigo",
+      "tahun": 2019,
+      "doi": "10.24114/cess.v4i1.11186",
+      "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol 4, No 1 (2019): Januari 2019",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.24114/cess.v4i1.11186",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "SISTEM PAKAR PENDETEKSIAN PSORIASIS POSTULAR MENGGUNAKAN KOMBINASI TEOREMA BAYES DENGAN EUCLIDEAN PROBABILITY",
+      "tahun": 2019,
+      "doi": "10.24114/cess.v4i2.13203",
+      "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol 4, No 2 (2019): JULI 2019",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.24114/cess.v4i2.13203",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Perbandingan Multiple Regression dengan Fuzzy Tsukamoto Dalam Memprediksi Produksi Barang",
+      "tahun": 2020,
+      "doi": "10.30743/infotekjar.v4i2.2287",
+      "jurnal": "InfoTekJar : Jurnal Nasional Informatika dan Teknologi Jaringan Vol 4, No 2 (2020): InfoTekJar Maret",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.30743/infotekjar.v4i2.2287",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Pengujian Efektifitas Metode Multi Factor Evaluation Process dan Weight Product dalam Pengambilan Keputusan",
+      "tahun": 2021,
+      "doi": "10.30743/infotekjar.v6i1.3798",
+      "jurnal": "InfoTekJar : Jurnal Nasional Informatika dan Teknologi Jaringan Vol 6, No 1 (2021): InfoTekJar September",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.30743/infotekjar.v6i1.3798",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem Pakar Pendiagnosaan Dermatitis Imun Menggunakan Teorema Bayes",
+      "tahun": 2018,
+      "doi": "10.30743/infotekjar.v3i1.643",
+      "jurnal": "InfoTekJar : Jurnal Nasional Informatika dan Teknologi Jaringan Vol 3, No 1 (2018): InfoTekJar September",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.30743/infotekjar.v3i1.643",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Penerapan K-Nearest Neighbor dalam Pendeteksian Abcessus",
+      "tahun": 2019,
+      "doi": "10.30743/infotekjar.v3i2.1003",
+      "jurnal": "InfoTekJar : Jurnal Nasional Informatika dan Teknologi Jaringan Vol 3, No 2 (2019): InfoTekJar Maret",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.30743/infotekjar.v3i2.1003",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Penerapan Komparasi Teorema Bayes dengan Euclidean Probability dalam Pendiagnosaan Dermatic Bacterial",
+      "tahun": 2019,
+      "doi": "10.30743/infotekjar.v4i1.1579",
+      "jurnal": "InfoTekJar : Jurnal Nasional Informatika dan Teknologi Jaringan Vol 4, No 1 (2019): InfoTekJar September",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.30743/infotekjar.v4i1.1579",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Analisis Perbandingan Classycal Probability dengan Metode Certainty Factor Dalam Penyelesaian Kasus Ketidakpastian (Studi Kasus : Identifikasi Jenis Racun Bisa Ular)",
+      "tahun": 2019,
+      "doi": "10.30829/algoritma.v3i1.7193",
+      "jurnal": "ALGORITMA : JURNAL ILMU KOMPUTER DAN INFORMATIKA Vol 3, No 1 (2019): April 2019",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 5,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.30829/algoritma.v3i1.7193",
+      "peringkat_tampilan": 5,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Implementasi K-Nearest Neighbor Untuk Pendiagnosaan Gangguan Inflamasi Pada Ana",
+      "tahun": 2019,
+      "doi": "10.53513/jsk.v2i1.86",
+      "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol 2, No 1 (2019): J-SISKO TECH EDISI JANUARI",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 5,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jsk.v2i1.86",
+      "peringkat_tampilan": 5,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem Pendukung Keputusan dalam Menenetukan Calon (Tailor) Penjahit di Ranhouse Medan dengan Menggunakan Metode AggregatedSum Product Assesment",
+      "tahun": 2020,
+      "doi": "10.53513/jsk.v3i2.2029",
+      "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol 3, No 2 (2020): J SISKO TECH EDISI JULI",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 5,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jsk.v3i2.2029",
+      "peringkat_tampilan": 5,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "IMPLEMENTASI SISTEM PAKAR MENDIAGNOSA PENYAKIT PENYAKIT GASTRITIS DENGAN MENGGUNAKAN METODE TEOREMA BAYES",
+      "tahun": 2021,
+      "doi": "10.53513/jsk.v4i1.2439",
+      "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol 4, No 1 (2021): J-SISKO TECH EDISI JANUARI",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 5,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jsk.v4i1.2439",
+      "peringkat_tampilan": 5,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Implementasi Algoritma Schnorr Untuk Tanda Tangan Digital Pada Surat Pendaftaran Online PKBM Hanuba Medan",
+      "tahun": 2022,
+      "doi": "10.53513/jsk.v5i1.3827",
+      "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol 5, No 1 (2022): J-SISKO TECH EDISI JANUARI",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 5,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jsk.v5i1.3827",
+      "peringkat_tampilan": 5,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "K-Nearest Neighbor's Accuracy in Dermatic Bacterial Disease Diagnosis Results",
+      "tahun": 2022,
+      "doi": "10.24114/cess.v7i2.34855",
+      "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol 7, No 2 (2022): July 2022",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.24114/cess.v7i2.34855",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Aplikasi Penentuan Tingkat Buta Warna Menggunakan Metode Ishihara",
+      "tahun": 2022,
+      "doi": "10.53513/jursi.v1i4.5368",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol 1, No 4 (2022): EDISI JULI 2022",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v1i4.5368",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Penentuan Lokasi Cabang Baru Swalayan Menggunakan Preference Selection Index (PSI)",
+      "tahun": 2022,
+      "doi": "10.53513/jursi.v1i2.5104",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol 1, No 2 (2022): EDISI MARET 2022",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v1i2.5104",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem Pendukung Keputusan Menentukan Status Asesor Menggunakan Metode MOORA",
+      "tahun": 2022,
+      "doi": "10.53513/jursi.v1i3.4824",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol 1, No 3 (2022): EDISI MEI 2022",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v1i3.4824",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Penerapan Teorema Bayes Untuk Mendeteksi Kerusakan Mesin Sepeda Motor",
+      "tahun": 2022,
+      "doi": "10.53513/jursi.v1i2.4907",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol 1, No 2 (2022): EDISI MARET 2022",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v1i2.4907",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Komparasi 3 Metode Algoritma Klasifikasi Data Mining Pada Prediksi Kenaikan Jabatan",
+      "tahun": 2022,
+      "doi": "10.53513/jsk.v5i2.5642",
+      "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol. 5 No. 2 (2022): J-SISKO TECH EDISI JULI",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 5,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jsk.v5i2.5642",
+      "peringkat_tampilan": 5,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Simulasi Alat Pintu Otomatis Kereta Api Menggunakan Sensor Ultrasonic Berbasis Microcontroller",
+      "tahun": 2021,
+      "doi": "10.54314/jssr.v4i2.550",
+      "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 4, No 2 (2021): June 2021",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.54314/jssr.v4i2.550",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "ALGORITMA C45 DALAM MEMPREDIKSI MINAT CALON MAHASISWA",
+      "tahun": 2022,
+      "doi": "10.54314/jssr.v5i1.809",
+      "jurnal": "JOURNAL OF SCIENCE AND SOCIAL RESEARCH Vol 5, No 1 (2022): February 2022",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.54314/jssr.v5i1.809",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Menentukan Biji Kopi Berkualitas Menggunakan Metode Preference Selection Index (PSI)",
+      "tahun": 2022,
+      "doi": "10.53513/jursi.v1i5.5272",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol 1, No 5 (2022): EDISI SEPTEMBER 2022",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v1i5.5272",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Implementasi Metode Certainty Factor Dalam Mendiagnosa Penyakit Celebrity Worship Syndrome Pada Fans K-Pop",
+      "tahun": 2022,
+      "doi": "10.53513/jursi.v1i6.5216",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol 1, No 6 (2022): EDISI NOVEMBER 2022",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v1i6.5216",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem Pakar Mendiagnosa Penyakit Mata Pada Anak Menggunakan Metode Dempster Shafer",
+      "tahun": 2022,
+      "doi": "10.53513/jursi.v1i6.5286",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol 1, No 6 (2022): EDISI NOVEMBER 2022",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v1i6.5286",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Transaction Data Security Using AES and RC4",
+      "tahun": 2023,
+      "doi": "10.24114/cess.v8i1.41212",
+      "jurnal": "CESS (Journal of Computer Engineering, System and Science) Vol 8, No 1 (2023): January 2023",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.24114/cess.v8i1.41212",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Implementasi RSA Untuk Enkripsi Dan Dekripsi File Dokumen",
+      "tahun": 2023,
+      "doi": "10.53513/jursi.v2i1.5324",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 2 No. 1 (2023): EDISI JANUARI 2023",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v2i1.5324",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem Pakar Mendiagnosa Penyakit Demam Berdarah Dengue (DBD) Pada Anak Metode Dempster Shafer",
+      "tahun": 2023,
+      "doi": "10.53513/jursi.v2i1.7053",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 2 No. 1 (2023): EDISI JANUARI 2023",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v2i1.7053",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem Pakar Dalam Mendiagnosa Penyakit Cholelithiasis Menggunakan Metode Teorema Bayes",
+      "tahun": 2023,
+      "doi": "10.53513/jsk.v6i1.7455",
+      "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol. 6 No. 1 (2023): J-SISKO TECH EDISI JANUARI",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 5,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jsk.v6i1.7455",
+      "peringkat_tampilan": 5,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem Pendukung Keputusan Untuk Pengangkatan Aparatur Desa Menggunakan Metode Multi Attribute Utility Theory",
+      "tahun": 2023,
+      "doi": "10.53513/jursi.v2i4.5518",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 2 No. 5 (2023): EDISI SEPTEMBER 2023",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v2i4.5518",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem Pendukung Dalam Pemilihan Produk Asuransi Unit Link Menggunakan Metode OCRA",
+      "tahun": 2023,
+      "doi": "10.53513/jursi.v2i6.8834",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 2 No. 6 (2023): EDISI NOVEMBER 2023",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v2i6.8834",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Perbandingan Metode Canny, Sobel, Dan Laplacian of Gaussian Dalam Mendeteksi Tepi Citra Objek Bergerak",
+      "tahun": 2024,
+      "doi": "10.53513/jursi.v3i4.6466",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 3 No. 4 (2024): Edisi Juli 2024",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v3i4.6466",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem Pakar Mendeteksi Kerusakan Pada Mesin Lokomotif Type CC 201 Menggunakan Metode Certainty Factor",
+      "tahun": 2024,
+      "doi": "10.53513/jursi.v3i6.8650",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 3 No. 6 (2024): Edisi November 2024",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v3i6.8650",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Penerapan Data Mining Menentukan Menu Potensial Menggunakaan Metode Clustering Dengan Algoritma Fuzzy C-Mean",
+      "tahun": 2025,
+      "doi": "10.53513/jsk.v8i1.10719",
+      "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol. 8 No. 1 (2025): J-SISKO TECH EDISI JANUARI",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 5,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jsk.v8i1.10719",
+      "peringkat_tampilan": 5,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem Pakar Mendiagnosa Penyakit Tanaman Jagung Menggunakan Metode Dempster Shafer",
+      "tahun": 2025,
+      "doi": "10.53513/jursi.v4i1.7763",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 4 No. 1 (2025): EDISI JANUARI 2025",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v4i1.7763",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Penerapan Apriori Dalam Menganalisa Strategi Penjualan Perlengkapan",
+      "tahun": 2025,
+      "doi": "10.53513/jsk.v8i1.10743",
+      "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol. 8 No. 1 (2025): J-SISKO TECH EDISI JANUARI",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 5,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jsk.v8i1.10743",
+      "peringkat_tampilan": 5,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem Pendukung Keputusan Untuk Mengukur Penilaian Kinerja Karyawan Menggunakan Metode EDAS",
+      "tahun": 2025,
+      "doi": "10.53513/jursi.v4i2.9639",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 4 No. 2 (2025): EDISI MARET 2025",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v4i2.9639",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem Pendukung Keputusan Menentukan Nasabah Yang Bermasalah Dalam Pembayaran Kredit Angsuran Dengan Metode Fuzzy Tsukamoto",
+      "tahun": 2024,
+      "doi": "10.53513/jursi.v3i1.5668",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 3 No. 1 (2024): EDISI JANUARI 2024",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v3i1.5668",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Penebalan Karakter Huruf Pada Citra Teks Menggunakan Teknik Dilasi",
+      "tahun": 2024,
+      "doi": "10.53513/jursi.v3i4.6124",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 3 No. 4 (2024): Edisi Juli 2024",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v3i4.6124",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Implementasi Sistem Pakar Dalam Mendeteksi Kerusakan Pada Sistem Smart DVR CCTV Menggunakan Metode Certainty Factor",
+      "tahun": 2025,
+      "doi": "10.53513/jursi.v4i3.8454",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 4 No. 3 (2025): EDISI MEI 2025",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v4i3.8454",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "A Penerapan Data Mining Menentukan Menu Potensial Menggunakaan Metode Clustering Dengan Algoritma Fuzzy C-Mean",
+      "tahun": 2025,
+      "doi": "10.53513/jursi.v4i4.10546",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 4 No. 4 (2025): EDISI JULI 2025",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v4i4.10546",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Penerapan Euclidean Probability dalam Mendiagnosis Atopik Dermatis",
+      "tahun": 2020,
+      "doi": "10.25126/jtiik.2020752023",
+      "jurnal": "Jurnal Teknologi Informasi dan Ilmu Komputer Vol 7 No 5: Oktober 2020",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 2,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.25126/jtiik.2020752023",
+      "peringkat_tampilan": 2,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Keamanan Data Menggunakan Secure Hashing Algorithm (SHA)-256 dan Rivest Shamir Adleman (RSA) pada Digital Signature",
+      "tahun": 2023,
+      "doi": "10.25126/jtiik.2023107319",
+      "jurnal": "Jurnal Teknologi Informasi dan Ilmu Komputer Vol 10 No 6: Desember 2023",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 2,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.25126/jtiik.2023107319",
+      "peringkat_tampilan": 2,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem Pakar Mendeteksi Kerusakan Sepeda Motor Scoopy Dengan Menggunakan Metode Teorema Bayes",
+      "tahun": 2023,
+      "doi": "10.53513/jsk.v6i2.7946",
+      "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol. 6 No. 2 (2023): J-SISKO TECH EDISI JULI",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 5,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jsk.v6i2.7946",
+      "peringkat_tampilan": 5,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem Pendukung Keputusan Untuk Rekrutmen Pegawai Digital Marketing Menggunakan Weight Product (WP)",
+      "tahun": 2024,
+      "doi": "10.53513/jsk.v7i1.9580",
+      "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol. 7 No. 1 (2024): J-SISKO TECH EDISI JANUARI",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 5,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jsk.v7i1.9580",
+      "peringkat_tampilan": 5,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem Pakar Mendiagnosa Penyakit Paederus Dermatitis Pada Anak Menggunakan Metode Teorema Bayes",
+      "tahun": 2024,
+      "doi": "10.53513/jursi.v3i2.5942",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 3 No. 2 (2024): EDISI MARET 2024",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v3i2.5942",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Implementasi Algoritma K-Means Dalam Pengclusteran Penerima Dana Bantuan Langsung Tunai (BLT) Di Desa Mulyoharjo",
+      "tahun": 2026,
+      "doi": "10.53513/jursi.v5i3.10345",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 5 No. 3 (2026): EDISI MEI 2026",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v5i3.10345",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
       "judul": "Sistem Pendukung Keputusan Menentukan Delegasi SMA Swasta Primbana Mengikuti OSN Kimia Menggunakan Metode MABAC",
       "tahun": 2025,
       "doi": "10.53513/jursi.v4i6.9709",
@@ -4206,6 +4911,51 @@
       "sinta_bukti_url": null,
       "url": "https://doi.org/10.53513/jursi.v4i6.9709",
       "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Sistem E-Healthcare Untuk Mendeteksi Penyakit Inflamasi Kulit Pada Anak",
+      "tahun": 2026,
+      "doi": "10.53513/jursi.v5i2.12588",
+      "jurnal": "Jurnal Sistem Informasi Triguna Dharma (JURSI TGD) Vol. 5 No. 2 (2026): EDISI MARET 2026",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 4,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jursi.v5i2.12588",
+      "peringkat_tampilan": 4,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Implementasi Sistem Pendukungn Keputusan Dalam Penentuan Kredit Macet Dengan Menggunakan Metode MOORA",
+      "tahun": 2026,
+      "doi": "10.53513/jsk.v9i1.13412",
+      "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol. 9 No. 1 (2026): J-SISKO TECH EDISI JANUARI",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 5,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jsk.v9i1.13412",
+      "peringkat_tampilan": 5,
+      "jenis_label": "jurnal_saat_ini"
+    },
+    {
+      "judul": "Impelementasi Sistem Pendukung Keputusan Dalam Perekrutan Karyawan Migran Menggunakan Metode Promethee",
+      "tahun": 2026,
+      "doi": "10.53513/jsk.v9i2.13445",
+      "jurnal": "Jurnal Teknologi Sistem Informasi dan Sistem Komputer TGD Vol. 9 No. 2 (2026): J-SISKO TECH EDISI JULI",
+      "dosen": [
+        "puji"
+      ],
+      "sinta_jurnal_kini": 5,
+      "sinta_saat_terbit": null,
+      "sinta_bukti_url": null,
+      "url": "https://doi.org/10.53513/jsk.v9i2.13445",
+      "peringkat_tampilan": 5,
       "jenis_label": "jurnal_saat_ini"
     }
   ]
