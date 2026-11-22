@@ -2,6 +2,11 @@ name: Publikasi Dosen Otomatis (GARUDA, SINTA, Scopus)
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "data/profil_garuda_tervalidasi.json"
+      - "cek_sinta.py"
+      - ".github/workflows/uji-sinta.yml"
   schedule:
     - cron: "17 5 1 * *"
       timezone: "Asia/Jakarta"
