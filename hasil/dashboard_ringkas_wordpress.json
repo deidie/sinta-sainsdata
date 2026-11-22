@@ -1,0 +1,716 @@
+{
+  "version": 1,
+  "updated": "2026-11-22",
+  "garuda_unique": 499,
+  "garuda_years": [
+    {
+      "tahun": 2026,
+      "publikasi": 53
+    },
+    {
+      "tahun": 2025,
+      "publikasi": 98
+    },
+    {
+      "tahun": 2024,
+      "publikasi": 136
+    },
+    {
+      "tahun": 2023,
+      "publikasi": 81
+    },
+    {
+      "tahun": 2022,
+      "publikasi": 54
+    },
+    {
+      "tahun": 2021,
+      "publikasi": 18
+    },
+    {
+      "tahun": 2020,
+      "publikasi": 18
+    },
+    {
+      "tahun": 2019,
+      "publikasi": 19
+    },
+    {
+      "tahun": 2018,
+      "publikasi": 11
+    },
+    {
+      "tahun": 2017,
+      "publikasi": 8
+    },
+    {
+      "tahun": 2016,
+      "publikasi": 2
+    },
+    {
+      "tahun": 2013,
+      "publikasi": 1
+    }
+  ],
+  "garuda_persons": [
+    {
+      "slug": "siddik",
+      "garuda": 90
+    },
+    {
+      "slug": "dedi",
+      "garuda": 180
+    },
+    {
+      "slug": "rakhmat",
+      "garuda": 149
+    },
+    {
+      "slug": "aidil",
+      "garuda": 46
+    },
+    {
+      "slug": "ika",
+      "garuda": 16
+    },
+    {
+      "slug": "puji",
+      "garuda": 87
+    }
+  ],
+  "sinta_total": 312,
+  "sinta_ranks": {
+    "S1": 0,
+    "S2": 9,
+    "S3": 49,
+    "S4": 188,
+    "S5": 62,
+    "S6": 4
+  },
+  "sinta_years": [
+    {
+      "tahun": 2026,
+      "sinta": 27,
+      "peringkat": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 5,
+        "S4": 17,
+        "S5": 4,
+        "S6": 0
+      }
+    },
+    {
+      "tahun": 2025,
+      "sinta": 57,
+      "peringkat": {
+        "S1": 0,
+        "S2": 2,
+        "S3": 11,
+        "S4": 40,
+        "S5": 4,
+        "S6": 0
+      }
+    },
+    {
+      "tahun": 2024,
+      "sinta": 90,
+      "peringkat": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 18,
+        "S4": 59,
+        "S5": 13,
+        "S6": 0
+      }
+    },
+    {
+      "tahun": 2023,
+      "sinta": 49,
+      "peringkat": {
+        "S1": 0,
+        "S2": 4,
+        "S3": 7,
+        "S4": 30,
+        "S5": 8,
+        "S6": 0
+      }
+    },
+    {
+      "tahun": 2022,
+      "sinta": 33,
+      "peringkat": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 2,
+        "S4": 21,
+        "S5": 10,
+        "S6": 0
+      }
+    },
+    {
+      "tahun": 2021,
+      "sinta": 12,
+      "peringkat": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 5,
+        "S5": 6,
+        "S6": 0
+      }
+    },
+    {
+      "tahun": 2020,
+      "sinta": 15,
+      "peringkat": {
+        "S1": 0,
+        "S2": 2,
+        "S3": 3,
+        "S4": 5,
+        "S5": 5,
+        "S6": 0
+      }
+    },
+    {
+      "tahun": 2019,
+      "sinta": 11,
+      "peringkat": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 6,
+        "S5": 5,
+        "S6": 0
+      }
+    },
+    {
+      "tahun": 2018,
+      "sinta": 8,
+      "peringkat": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 2,
+        "S5": 4,
+        "S6": 1
+      }
+    },
+    {
+      "tahun": 2017,
+      "sinta": 7,
+      "peringkat": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 2,
+        "S5": 3,
+        "S6": 1
+      }
+    },
+    {
+      "tahun": 2016,
+      "sinta": 2,
+      "peringkat": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 0,
+        "S5": 0,
+        "S6": 2
+      }
+    },
+    {
+      "tahun": 2013,
+      "sinta": 1,
+      "peringkat": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 0,
+        "S4": 1,
+        "S5": 0,
+        "S6": 0
+      }
+    }
+  ],
+  "sinta_persons": [
+    {
+      "slug": "siddik",
+      "total": 48,
+      "peringkat": {
+        "S1": 0,
+        "S2": 3,
+        "S3": 11,
+        "S4": 26,
+        "S5": 4,
+        "S6": 4
+      }
+    },
+    {
+      "slug": "dedi",
+      "total": 88,
+      "peringkat": {
+        "S1": 0,
+        "S2": 3,
+        "S3": 16,
+        "S4": 51,
+        "S5": 18,
+        "S6": 0
+      }
+    },
+    {
+      "slug": "rakhmat",
+      "total": 101,
+      "peringkat": {
+        "S1": 0,
+        "S2": 1,
+        "S3": 20,
+        "S4": 53,
+        "S5": 27,
+        "S6": 0
+      }
+    },
+    {
+      "slug": "aidil",
+      "total": 25,
+      "peringkat": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 2,
+        "S4": 20,
+        "S5": 3,
+        "S6": 0
+      }
+    },
+    {
+      "slug": "ika",
+      "total": 7,
+      "peringkat": {
+        "S1": 0,
+        "S2": 0,
+        "S3": 1,
+        "S4": 5,
+        "S5": 1,
+        "S6": 0
+      }
+    },
+    {
+      "slug": "puji",
+      "total": 51,
+      "peringkat": {
+        "S1": 0,
+        "S2": 2,
+        "S3": 0,
+        "S4": 36,
+        "S5": 13,
+        "S6": 0
+      }
+    }
+  ],
+  "scholars": [
+    {
+      "slug": "siddik",
+      "metrik_scholar": {
+        "sitasi": 529,
+        "h_index": 12,
+        "i10_index": 15
+      },
+      "sitasi_tahunan": {
+        "2017": 2,
+        "2018": 8,
+        "2019": 5,
+        "2020": 15,
+        "2021": 22,
+        "2022": 27,
+        "2023": 55,
+        "2024": 87,
+        "2025": 152,
+        "2026": 142
+      }
+    },
+    {
+      "slug": "dedi",
+      "metrik_scholar": {
+        "sitasi": 1629,
+        "h_index": 18,
+        "i10_index": 34
+      },
+      "sitasi_tahunan": {
+        "2018": 18,
+        "2019": 15,
+        "2020": 51,
+        "2021": 104,
+        "2022": 228,
+        "2023": 274,
+        "2024": 272,
+        "2025": 355,
+        "2026": 244
+      }
+    },
+    {
+      "slug": "rakhmat",
+      "metrik_scholar": {
+        "sitasi": 442,
+        "h_index": 10,
+        "i10_index": 11
+      },
+      "sitasi_tahunan": {
+        "2019": 3,
+        "2020": 5,
+        "2021": 15,
+        "2022": 21,
+        "2023": 24,
+        "2024": 74,
+        "2025": 160,
+        "2026": 130
+      }
+    },
+    {
+      "slug": "aidil",
+      "metrik_scholar": {
+        "sitasi": 326,
+        "h_index": 8,
+        "i10_index": 7
+      },
+      "sitasi_tahunan": {
+        "2019": 3,
+        "2020": 5,
+        "2021": 10,
+        "2022": 11,
+        "2023": 35,
+        "2024": 61,
+        "2025": 107,
+        "2026": 80
+      }
+    },
+    {
+      "slug": "ika",
+      "metrik_scholar": {
+        "sitasi": 200,
+        "h_index": 4,
+        "i10_index": 4
+      },
+      "sitasi_tahunan": {
+        "2020": 2,
+        "2021": 12,
+        "2022": 40,
+        "2023": 33,
+        "2024": 41,
+        "2025": 44,
+        "2026": 19
+      }
+    },
+    {
+      "slug": "puji",
+      "metrik_scholar": {
+        "sitasi": 894,
+        "h_index": 14,
+        "i10_index": 19
+      },
+      "sitasi_tahunan": {
+        "2018": 31,
+        "2019": 49,
+        "2020": 41,
+        "2021": 95,
+        "2022": 130,
+        "2023": 160,
+        "2024": 155,
+        "2025": 120,
+        "2026": 90
+      }
+    }
+  ],
+  "scopus": [
+    {
+      "judul": "Evaluating browser-based immersive technology for cultural heritage",
+      "tahun": 2026,
+      "jenis": "jurnal",
+      "dosen": [
+        "dedi"
+      ],
+      "jurnal": "International Journal of Informatics and Communication Technology",
+      "volume": "15",
+      "nomor": "4",
+      "halaman": "1664–1672",
+      "doi": "10.11591/ijict.v15i4.pp1664-1672",
+      "sitasi_scopus": 0,
+      "scopus_eid": "2-s2.0-105055955041",
+      "url_scopus": "https://www.scopus.com/pages/publications/105055955041?origin=resultslist",
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null,
+      "quartile_scopus": "Q4",
+      "kuartil_sumber": "Ekspor institusi Scopus tahun 2026",
+      "verifikasi_sumber_ekspor": "export_scopus_publication_2026_Universitas_Islam_Negeri_Sumatera_Utara.xlsx"
+    },
+    {
+      "judul": "Genetic algorithm-optimized BERTopic with SHAP explainability for institutional research trend analysis",
+      "tahun": 2026,
+      "jenis": "jurnal",
+      "dosen": [
+        "dedi"
+      ],
+      "jurnal": "IAES International Journal of Artificial Intelligence",
+      "volume": "15",
+      "nomor": "4",
+      "halaman": "3818–3826",
+      "doi": "10.11591/ijai.v15.i4.pp3818-3826",
+      "sitasi_scopus": 0,
+      "scopus_eid": "2-s2.0-105047502775",
+      "url_scopus": "https://www.scopus.com/pages/publications/105047502775?origin=resultslist",
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null,
+      "quartile_scopus": "Q2",
+      "kuartil_sumber": "Ekspor institusi Scopus tahun 2026",
+      "verifikasi_sumber_ekspor": "export_scopus_publication_2026_Universitas_Islam_Negeri_Sumatera_Utara.xlsx"
+    },
+    {
+      "judul": "Future Trends in Intelligent Construction Monitoring Technologies",
+      "tahun": 2026,
+      "jenis": "bab_buku",
+      "dosen": [
+        "dedi"
+      ],
+      "jurnal": "Intelligent Construction Monitoring Systems: Real-Time Safety, Environmental Prediction, and Risk Management",
+      "halaman": "261–304",
+      "doi": "10.4018/979-8-3373-9245-5.ch010",
+      "sitasi_scopus": 0,
+      "tautan_penerbit": "https://www.igi-global.com/chapter/future-trends-in-intelligent-construction-monitoring-technologies/401484",
+      "catatan": "Penulis Muhammad Dedi Irawan tertera pada halaman penerbit.",
+      "scopus_eid": "2-s2.0-105033821989",
+      "url_scopus": "https://www.scopus.com/pages/publications/105033821989?origin=resultslist",
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "kuartil_sumber": null,
+      "verifikasi_sumber_ekspor": "export_scopus_publication_2026_Universitas_Islam_Negeri_Sumatera_Utara.xlsx"
+    },
+    {
+      "judul": "Mapping of crime prone areas in Batubara districts using the k-means method",
+      "tahun": 2024,
+      "jenis": "prosiding",
+      "dosen": [
+        "dedi"
+      ],
+      "jurnal": "AIP Conference Proceedings",
+      "volume": "3024",
+      "nomor": "1",
+      "halaman": "040021",
+      "sitasi_scopus": 1,
+      "doi": null,
+      "scopus_eid": null,
+      "url_scopus": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "Latent Semantic Indexing for Indonesian text similarity",
+      "tahun": 2018,
+      "jenis": "jurnal",
+      "dosen": [
+        "dedi"
+      ],
+      "jurnal": "International Journal of Engineering and Technology (UAE)",
+      "volume": "7",
+      "halaman": "73–77",
+      "sitasi_scopus": 8,
+      "doi": null,
+      "scopus_eid": null,
+      "url_scopus": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "AI for Inclusion: Sign Language Recognition to Support Hajj Pilgrims",
+      "tahun": 2026,
+      "jenis": "bab_buku",
+      "dosen": [
+        "siddik",
+        "aidil"
+      ],
+      "jurnal": "From Smart Cities to the Metaverse: Games, Immersive Experiences, and the Future of Digital Interaction",
+      "halaman": "195–208",
+      "doi": "10.1201/9781003662433-18",
+      "scopus_eid": "2-s2.0-105035278259",
+      "url_scopus": "https://www.scopus.com/pages/publications/105035278259?origin=resultslist",
+      "sitasi_scopus": 0,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null,
+      "kuartil_sumber": null,
+      "verifikasi_sumber_ekspor": "export_scopus_publication_2026_Universitas_Islam_Negeri_Sumatera_Utara.xlsx"
+    },
+    {
+      "judul": "Higher Education and Health Breakthroughs: Residual Network for Pneumonia Detection from Chest X-ray Images",
+      "tahun": 2025,
+      "jenis": "jurnal",
+      "dosen": [
+        "siddik"
+      ],
+      "jurnal": "International Journal on Advanced Science, Engineering and Information Technology",
+      "volume": "15",
+      "nomor": "5",
+      "halaman": "1575–1581",
+      "sitasi_scopus": 0,
+      "doi": null,
+      "scopus_eid": "2-s2.0-105026682438",
+      "url_scopus": "https://www.scopus.com/pages/publications/105026682438?origin=resultslist",
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null,
+      "quartile_scopus": "Q2",
+      "kuartil_sumber": "Ekspor institusi Scopus tahun 2025",
+      "verifikasi_sumber_ekspor": "export_scopus_publication_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx"
+    },
+    {
+      "judul": "NEURO NETWORK TECHNIQUES OF TELEMETRY MULTIVARIATE TIME SERIES PROCESSING AND THEIR APPLICATIONS IN INDUSTRY",
+      "tahun": 2022,
+      "jenis": "jurnal",
+      "dosen": [
+        "siddik"
+      ],
+      "jurnal": "Journal of Theoretical and Applied Information Technology",
+      "volume": "100",
+      "nomor": "9",
+      "halaman": "2696–2702",
+      "sitasi_scopus": 0,
+      "doi": null,
+      "scopus_eid": null,
+      "url_scopus": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "Intelligent LPG Gas Leak Detection Tool with SMS Notification",
+      "tahun": 2019,
+      "jenis": "prosiding",
+      "dosen": [
+        "siddik"
+      ],
+      "jurnal": "Journal of Physics: Conference Series",
+      "volume": "1424",
+      "nomor": "1",
+      "halaman": "012020",
+      "sitasi_scopus": 14,
+      "doi": null,
+      "scopus_eid": null,
+      "url_scopus": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "Checking the Answer Sheet with Image Recognition",
+      "tahun": 2018,
+      "jenis": "jurnal",
+      "dosen": [
+        "siddik"
+      ],
+      "jurnal": "Journal of Information Technology Education: Research",
+      "volume": "2",
+      "nomor": "1",
+      "halaman": "1–8",
+      "sitasi_scopus": 0,
+      "doi": null,
+      "scopus_eid": null,
+      "url_scopus": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "A Micromechanical Data-Driven Machine-Learning Approach for Microstructural Characterization of Solder Balls in Electronic Packages Subjected to Thermomechanical Fatigue",
+      "tahun": 2023,
+      "jenis": "jurnal",
+      "dosen": [
+        "rakhmat"
+      ],
+      "jurnal": "Journal of Electronic Materials",
+      "volume": "52",
+      "nomor": "7",
+      "halaman": "4614–4625",
+      "scopus_eid": "2-s2.0-85153088849",
+      "url_scopus": "https://www.scopus.com/pages/publications/85153088849?origin=resultslist",
+      "doi": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    },
+    {
+      "judul": "Smart Machine Learning Approaches for Detection of Malicious Unified Resource Locator: Towards Sustainable Cybersecurity Systems",
+      "tahun": 2026,
+      "jenis": "bab_buku",
+      "dosen": [
+        "rakhmat"
+      ],
+      "jurnal": "Smart, Secure, and Sustainable Digital Futures: AI, Cybersecurity, and Governance in Emerging Digital Systems",
+      "halaman": "117–134",
+      "doi": "10.1201/9781042013098-10",
+      "scopus_eid": "2-s2.0-105051027879",
+      "url_scopus": "https://www.scopus.com/pages/publications/105051027879?origin=resultslist",
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null,
+      "kuartil_sumber": null,
+      "verifikasi_sumber_ekspor": "export_scopus_publication_2026_Universitas_Islam_Negeri_Sumatera_Utara.xlsx"
+    },
+    {
+      "judul": "Comparison of Knowledge-Based Reasoning Methods to Measure the Effectiveness of Diagnostic Results",
+      "tahun": 2021,
+      "jenis": "prosiding",
+      "dosen": [
+        "puji"
+      ],
+      "jurnal": "Journal of Physics: Conference Series",
+      "volume": "1783",
+      "nomor": "1",
+      "halaman": "012049",
+      "scopus_eid": "2-s2.0-85102337587",
+      "url_scopus": "https://www.scopus.com/pages/publications/85102337587?origin=resultslist",
+      "sitasi_scopus": 0,
+      "doi": null,
+      "quartile_sinta": null,
+      "status_verifikasi": "dicantumkan_dalam_daftar_scopus_pengguna",
+      "tautan_penerbit": null
+    }
+  ],
+  "extra_totals": {
+    "buku": 15,
+    "ipr": 23
+  },
+  "extra_persons": [
+    {
+      "slug": "siddik",
+      "buku": 3,
+      "ipr": 7
+    },
+    {
+      "slug": "dedi",
+      "buku": 8,
+      "ipr": 10
+    },
+    {
+      "slug": "rakhmat",
+      "buku": 0,
+      "ipr": 0
+    },
+    {
+      "slug": "aidil",
+      "buku": 0,
+      "ipr": 1
+    },
+    {
+      "slug": "ika",
+      "buku": 4,
+      "ipr": 2
+    },
+    {
+      "slug": "puji",
+      "buku": 2,
+      "ipr": 4
+    }
+  ]
+}
