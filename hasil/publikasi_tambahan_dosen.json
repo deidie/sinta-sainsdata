@@ -1,9 +1,9 @@
 {
-  "versi": 1,
+  "versi": 2,
   "dibuat_tanggal": "2026-11-22",
   "nama": "Pelengkap Publikasi Dosen Prodi Sains Data",
-  "sumber": "Ekspor SINTA institusi UIN Sumatera Utara tahun 2025 dan 2026, disaring enam nama dosen",
-  "catatan": "Hanya karya terbit berupa buku serta Hak Kekayaan Intelektual (HKI/IPR) untuk enam dosen Sains Data. Penelitian dan pengabdian tidak termasuk publikasi dan tidak disajikan di laman publikasi. Karya Scopus dan GARUDA tetap pada sumber terpisah.",
+  "sumber": "Ekspor SINTA institusi 2025–2026 dan riwayat buku/HKI profil SINTA dosen yang diberikan pengguna",
+  "catatan": "Hanya buku dan HKI enam dosen Sains Data. Buku dideduplikasi per ISBN, HKI per nomor permohonan; karya bersama terhitung satu kali di tingkat prodi. Penelitian/PkM bukan publikasi dalam dataset ini. Nomor Scopus dan GARUDA tidak diubah.",
   "dosen_valid": [
     "siddik",
     "dedi",
@@ -65,116 +65,219 @@
       "penulis": "Muhammad Siddik Hasibuan, M.Kom; Muhammad Dedi Irawan, M.Kom; Rizki Amelia Nasution, M.Si; M. Faisal Afif Tarigan, M.M; Muhammad Yasin Simargolang, M.Kom; editor: Raissa Amanda Putri, M.TI",
       "sumber_ekspor": "export_book_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
       "nomor_baris": 102
+    },
+    {
+      "id": "buku:9786342000649",
+      "jenis": "buku",
+      "judul": "Analisis Bibliometrik: Pemetaan Tren Penelitian Menggunakan Aplikasi R",
+      "tahun": 2024,
+      "isbn": "9786342000649",
+      "jenis_buku": "buku referensi",
+      "penerbit": "Deepublish Digital",
+      "tempat_terbit": "Yogyakarta",
+      "penulis": "Muhammad Dedi Irawan; M. Faisal Afiff Tarigan; Yustria Handika Siregar",
+      "dosen": [
+        "dedi"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=books#!",
+      "sumber": "riwayat_buku_sinta_diberikan_pengguna_2026-11-22"
+    },
+    {
+      "id": "buku:9786231029010",
+      "jenis": "buku",
+      "judul": "Dasar-dasar jaringan komputer",
+      "tahun": 2024,
+      "isbn": "9786231029010",
+      "jenis_buku": "lainnya",
+      "penerbit": "CV. Ro Bema",
+      "tempat_terbit": "Medan",
+      "penulis": "Siddik Karo Karo; Cosmas Samuel Daeli; Khairunnisa; Elvika Rahmi; Ika Yusnita Sari; Merjones Hardy H Sihombing",
+      "dosen": [
+        "ika"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6745259/?view=books#!",
+      "sumber": "riwayat_buku_sinta_diberikan_pengguna_2026-11-22"
+    },
+    {
+      "id": "buku:9786238849598",
+      "jenis": "buku",
+      "judul": "Aplikasi manajemen keuangan desa : penerapan tempu sebagai sarana pembayaran",
+      "tahun": 2023,
+      "isbn": "9786238849598",
+      "jenis_buku": "buku referensi",
+      "penerbit": "PT Cahaya Rahmat Rahmani",
+      "tempat_terbit": "Medan",
+      "penulis": "Muhammad Dedi Irawan; Laylan Syafina; Raissa Amanda Putri; Editor: Yustria Handika Siregar",
+      "dosen": [
+        "dedi"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=books#!",
+      "sumber": "riwayat_buku_sinta_diberikan_pengguna_2026-11-22"
+    },
+    {
+      "id": "buku:9786239513559",
+      "jenis": "buku",
+      "judul": "Mahir Program Web",
+      "tahun": 2023,
+      "isbn": "9786239513559",
+      "jenis_buku": "buku ajar",
+      "penerbit": "IOCS Publisher",
+      "tempat_terbit": "Medan",
+      "penulis": "Resianta Perangin-angin; Jamaluddin; Marlyna I. Hutapea; Marjones H. Sihombing; Ika Yusnita Sari; Elvika Rahmi; Eva J.G. Harianja; Rena Nainggolan; Gortap Lumbantoruan",
+      "dosen": [
+        "ika"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6745259/?view=books#!",
+      "sumber": "riwayat_buku_sinta_diberikan_pengguna_2026-11-22"
+    },
+    {
+      "id": "buku:9786234598957",
+      "jenis": "buku",
+      "judul": "SISTEM PENDUKUNG KEPUTUSAN: Metode Simple Multi-Attribute Rating Technique (SMART) dan BORDA",
+      "tahun": 2023,
+      "isbn": "9786234598957",
+      "jenis_buku": "buku monograf",
+      "penerbit": "WIDINA MEDIA UTAMA",
+      "tempat_terbit": "Bandung",
+      "penulis": "Muhammad Dedi Irawan; Editor: Yustria Handika Siregar",
+      "dosen": [
+        "dedi"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=books#!",
+      "sumber": "riwayat_buku_sinta_diberikan_pengguna_2026-11-22"
+    },
+    {
+      "id": "buku:9786233625333",
+      "jenis": "buku",
+      "judul": "Flowchart dan pseudo-code: implementasi notasi algoritma dan pemrograman",
+      "tahun": 2022,
+      "isbn": "9786233625333",
+      "jenis_buku": "buku ajar",
+      "penerbit": "CV. Media Sains Indonesia",
+      "tempat_terbit": "Bandung",
+      "penulis": "Muhammad Dedi Irawan; Editor: Rintho R. Rerung",
+      "dosen": [
+        "dedi"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=books#!",
+      "sumber": "riwayat_buku_sinta_diberikan_pengguna_2026-11-22"
+    },
+    {
+      "id": "buku:9786239943806",
+      "jenis": "buku",
+      "judul": "Mengenal pengelolaan proyek sistem informasi",
+      "tahun": 2022,
+      "isbn": "9786239943806",
+      "jenis_buku": "buku referensi",
+      "penerbit": "SI-TGD Press",
+      "tempat_terbit": "Medan",
+      "penulis": "Puji Sari Ramadhan; editor: Rini Susanti",
+      "dosen": [
+        "puji"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089755/?view=books#!",
+      "sumber": "riwayat_buku_sinta_diberikan_pengguna_2026-11-22"
+    },
+    {
+      "id": "buku:9786233625326",
+      "jenis": "buku",
+      "judul": "Pemrograman web [sumber elektronis]",
+      "tahun": 2022,
+      "isbn": "9786233625326",
+      "jenis_buku": "buku referensi",
+      "penerbit": "CV. Media Sains Indonesia",
+      "tempat_terbit": "Universitas Islam Negeri Sumatera Utara",
+      "penulis": "Muhammad Siddik Hasibuan; editor: Mhd. Furqan",
+      "dosen": [
+        "siddik"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/5983919/?view=books#!",
+      "sumber": "riwayat_buku_sinta_diberikan_pengguna_2026-11-22"
+    },
+    {
+      "id": "buku:9786233420730",
+      "jenis": "buku",
+      "judul": "Data mining dan penerapan algoritma",
+      "tahun": 2021,
+      "isbn": "9786233420730",
+      "jenis_buku": "buku referensi",
+      "penerbit": "Yayasan Kita Menulis",
+      "tempat_terbit": "Medan",
+      "penulis": "Ni Luh Wiwik Sri Rahayu Ginantra; Fatimah Nur Arifah; Anggi Hadi Wijaya; Ri Sabti Septiarini; Nazaruddin Ahmad; Dewa Putu Yudhi Ardiana; Faried Effendy; Akbar Iskandar; Hazriani; Ika Yusnita Sari; Zelvi Gustiana; Cahyo Prianto; Dudih Gustian; Edi Su",
+      "dosen": [
+        "ika"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6745259/?view=books#!",
+      "sumber": "riwayat_buku_sinta_diberikan_pengguna_2026-11-22"
+    },
+    {
+      "id": "buku:9786233423434",
+      "jenis": "buku",
+      "judul": "Jaringan komputer",
+      "tahun": 2021,
+      "isbn": "9786233423434",
+      "jenis_buku": "buku referensi",
+      "penerbit": "Yayasan Kita Menulis",
+      "tempat_terbit": "Medan",
+      "penulis": "Muhammad Yasin Simargolang; Adi Widarma; Muhammad Dedi Irawan",
+      "dosen": [
+        "dedi"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=books#!",
+      "sumber": "riwayat_buku_sinta_diberikan_pengguna_2026-11-22"
+    },
+    {
+      "id": "buku:9786236761809",
+      "jenis": "buku",
+      "judul": "Keamanan data dan informasi",
+      "tahun": 2020,
+      "isbn": "9786236761809",
+      "jenis_buku": "buku referensi",
+      "penerbit": "Yayasan Kita Menulis",
+      "tempat_terbit": "Medan",
+      "penulis": "Ika Yusnita Sari et al.; editor: Ronal Watrianthos",
+      "dosen": [
+        "ika"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6745259/?view=books#!",
+      "sumber": "riwayat_buku_sinta_diberikan_pengguna_2026-11-22"
+    },
+    {
+      "id": "buku:9786025891786",
+      "jenis": "buku",
+      "judul": "Mengenal metode sistem pakar",
+      "tahun": 2018,
+      "isbn": "9786025891786",
+      "jenis_buku": null,
+      "penerbit": "Uwais Inspirasi Indonesia",
+      "tempat_terbit": "Medan",
+      "penulis": "Puji Sari Ramadhan; Usti Fatimah; editor: Funky",
+      "dosen": [
+        "puji"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089755/?view=books#!",
+      "sumber": "riwayat_buku_sinta_diberikan_pengguna_2026-11-22"
     }
   ],
   "ipr": [
     {
-      "id": "ipr:EC002025037931",
+      "id": "ipr:EC002026238713",
       "jenis": "ipr",
       "kategori": "hak cipta",
-      "judul": "Algoritma dan Pemrograman dengan C++",
-      "tahun": 2025,
-      "nomor_permohonan": "EC002025037931",
-      "nomor_pencatatan": "000878192",
-      "penulis": "Norbertus Tri Suswanto Saptadi; Ma’shum Abdul Jabbar; Muhammad Dedi Irawan; Erna Hudianti Pujiarini; Mohammad Badrul; Susi Erlinda; Yusuf Ramadhan Nasution; Johan Suryo Prayogo; Cosmas Haryawan; Hidayatus Sibyan; Muhammad Agus Triawan; Tundo",
-      "pemegang_hak": "Norbertus Tri Suswanto Saptadi; Ma’shum Abdul Jabbar; Muhammad Dedi Irawan; Erna Hudianti Pujiarini; Mohammad Badrul; Susi Erlinda; Yusuf Ramadhan Nasution; Johan Suryo Prayogo; Cosmas Haryawan; Hidayatus Sibyan; Muhammad Agus Triawan; Tundo",
+      "judul": "INOVASI DESAIN FASHION GENERATIF BERBASIS AI UNTUK MENINGKATKAN DAYA SAING UMKM DAN MENDUKUNG PENCAPAIAN SUSTAINABLE DEVELOPMENT GOALS",
+      "tahun": 2026,
+      "nomor_permohonan": "EC002026238713",
+      "nomor_pencatatan": "001636535",
+      "penulis": "Muhammad Siddik Hasibuan dan Muhammad Dedi Irawan",
+      "pemegang_hak": "Muhammad Siddik Hasibuan dan Muhammad Dedi Irawan",
       "dosen": [
-        "dedi"
-      ],
-      "keterangan_ekspor": "Diterima",
-      "tanggal_sumber": "2025-04-11",
-      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
-      "nomor_baris": 22
-    },
-    {
-      "id": "ipr:EC002025162082",
-      "jenis": "ipr",
-      "kategori": "hak cipta",
-      "judul": "Pengembangan Model Interaktif Berbasis Augmented Reality Dan Virtual Reality Untuk Pelestarian Batik Tulis Sebagai Warisan Budaya Nasional",
-      "tahun": 2025,
-      "nomor_permohonan": "EC002025162082",
-      "nomor_pencatatan": "001002342",
-      "penulis": "Muhammad Dedi Irawan dan Yusuf Ramadhan Nasution",
-      "pemegang_hak": "Muhammad Dedi Irawan dan Yusuf Ramadhan Nasution",
-      "dosen": [
+        "siddik",
         "dedi"
       ],
       "keterangan_ekspor": "Poster",
-      "tanggal_sumber": "2025-10-23",
-      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
-      "nomor_baris": 54
-    },
-    {
-      "id": "ipr:EC002025227185",
-      "jenis": "ipr",
-      "kategori": "hak cipta",
-      "judul": "Desain Sistem Informasi Terintegrasi Berbasis Cloud-AI Untuk Penjadwalan Dan Rekomendasi Dosen Penguji Sidang Munaqasyah",
-      "tahun": 2025,
-      "nomor_permohonan": "EC002025227185",
-      "nomor_pencatatan": "001067445",
-      "penulis": "Aidil Halim Lubis, Armansyah, Ilka Zufria",
-      "pemegang_hak": "Ilka Zufria",
-      "dosen": [
-        "aidil"
-      ],
-      "keterangan_ekspor": "Terbit",
-      "tanggal_sumber": "2025-12-02",
-      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
-      "nomor_baris": 95
-    },
-    {
-      "id": "ipr:EC002025206544",
-      "jenis": "ipr",
-      "kategori": "hak cipta",
-      "judul": "Proteksi Citra Biometrik Sidik Jari dengan Pendekatan Kriptografi Route Cipher: Studi Eksperimen dan Analisis Ketahanan",
-      "tahun": 2025,
-      "nomor_permohonan": "EC002025206544",
-      "nomor_pencatatan": "001046804",
-      "penulis": "Suhardi dan Muhammad Siddik Hasibuan",
-      "pemegang_hak": "Suhardi dan Muhammad Siddik Hasibuan",
-      "dosen": [
-        "siddik"
-      ],
-      "keterangan_ekspor": "Approve",
-      "tanggal_sumber": "2025-12-08",
-      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
-      "nomor_baris": 96
-    },
-    {
-      "id": "ipr:EC002025162687",
-      "jenis": "ipr",
-      "kategori": "hak cipta",
-      "judul": "INOVASI KEAMANAN DATA PEMUNGUTAN SUARA NASIONAL: E-ELECTION DENGAN BIOMETRIK DAN KRIPTOGRAFI DIGITAL SIGNATURE ALGORITHM",
-      "tahun": 2025,
-      "nomor_permohonan": "EC002025162687",
-      "nomor_pencatatan": "001002947",
-      "penulis": "Muhammad Siddik Hasibuan dan Suhardi",
-      "pemegang_hak": "Muhammad Siddik Hasibuan dan Suhardi",
-      "dosen": [
-        "siddik"
-      ],
-      "keterangan_ekspor": "Approve",
-      "tanggal_sumber": "2025-10-24",
-      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
-      "nomor_baris": 97
-    },
-    {
-      "id": "ipr:EC002025222230",
-      "jenis": "ipr",
-      "kategori": "hak cipta",
-      "judul": "Sistem Informasi Pembayaran Uang SPP Di Sekolah MadrasahIbtidaiyah",
-      "tahun": 2025,
-      "nomor_permohonan": "EC002025222230",
-      "nomor_pencatatan": "001062490",
-      "penulis": "Puji Sari Ramadhan, S.Kom, M.Kom, Siti Julianita Siregar, S.Kom., M.Kom, Lusiyanti, S.Kom., M.Kom, Elfitriani, SPd., Msi, Atmaja Rizki Falij",
-      "pemegang_hak": "STMIK Triguna Dharma",
-      "dosen": [
-        "puji"
-      ],
-      "keterangan_ekspor": "diterima",
-      "tanggal_sumber": "2025-12-20",
-      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
-      "nomor_baris": 102
+      "tanggal_sumber": "2026-11-20",
+      "sumber_ekspor": "export_ipr_2026_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 213
     },
     {
       "id": "ipr:EC002026236906",
@@ -195,23 +298,356 @@
       "nomor_baris": 211
     },
     {
-      "id": "ipr:EC002026238713",
+      "id": "ipr:EC002025037931",
       "jenis": "ipr",
       "kategori": "hak cipta",
-      "judul": "INOVASI DESAIN FASHION GENERATIF BERBASIS AI UNTUK MENINGKATKAN DAYA SAING UMKM DAN MENDUKUNG PENCAPAIAN SUSTAINABLE DEVELOPMENT GOALS",
-      "tahun": 2026,
-      "nomor_permohonan": "EC002026238713",
-      "nomor_pencatatan": "001636535",
-      "penulis": "Muhammad Siddik Hasibuan dan Muhammad Dedi Irawan",
-      "pemegang_hak": "Muhammad Siddik Hasibuan dan Muhammad Dedi Irawan",
+      "judul": "Algoritma dan Pemrograman dengan C++",
+      "tahun": 2025,
+      "nomor_permohonan": "EC002025037931",
+      "nomor_pencatatan": "000878192",
+      "penulis": "Norbertus Tri Suswanto Saptadi; Ma’shum Abdul Jabbar; Muhammad Dedi Irawan; Erna Hudianti Pujiarini; Mohammad Badrul; Susi Erlinda; Yusuf Ramadhan Nasution; Johan Suryo Prayogo; Cosmas Haryawan; Hidayatus Sibyan; Muhammad Agus Triawan; Tundo",
+      "pemegang_hak": "Norbertus Tri Suswanto Saptadi; Ma’shum Abdul Jabbar; Muhammad Dedi Irawan; Erna Hudianti Pujiarini; Mohammad Badrul; Susi Erlinda; Yusuf Ramadhan Nasution; Johan Suryo Prayogo; Cosmas Haryawan; Hidayatus Sibyan; Muhammad Agus Triawan; Tundo",
       "dosen": [
-        "siddik",
+        "dedi"
+      ],
+      "keterangan_ekspor": "Diterima",
+      "tanggal_sumber": "2025-04-11",
+      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 22
+    },
+    {
+      "id": "ipr:EC002025227185",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Desain Sistem Informasi Terintegrasi Berbasis Cloud-AI Untuk Penjadwalan Dan Rekomendasi Dosen Penguji Sidang Munaqasyah",
+      "tahun": 2025,
+      "nomor_permohonan": "EC002025227185",
+      "nomor_pencatatan": "001067445",
+      "penulis": "Aidil Halim Lubis, Armansyah, Ilka Zufria",
+      "pemegang_hak": "Ilka Zufria",
+      "dosen": [
+        "aidil"
+      ],
+      "keterangan_ekspor": "Terbit",
+      "tanggal_sumber": "2025-12-02",
+      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 95
+    },
+    {
+      "id": "ipr:EC002025162687",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "INOVASI KEAMANAN DATA PEMUNGUTAN SUARA NASIONAL: E-ELECTION DENGAN BIOMETRIK DAN KRIPTOGRAFI DIGITAL SIGNATURE ALGORITHM",
+      "tahun": 2025,
+      "nomor_permohonan": "EC002025162687",
+      "nomor_pencatatan": "001002947",
+      "penulis": "Muhammad Siddik Hasibuan dan Suhardi",
+      "pemegang_hak": "Muhammad Siddik Hasibuan dan Suhardi",
+      "dosen": [
+        "siddik"
+      ],
+      "keterangan_ekspor": "Approve",
+      "tanggal_sumber": "2025-10-24",
+      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 97
+    },
+    {
+      "id": "ipr:EC002025162082",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Pengembangan Model Interaktif Berbasis Augmented Reality Dan Virtual Reality Untuk Pelestarian Batik Tulis Sebagai Warisan Budaya Nasional",
+      "tahun": 2025,
+      "nomor_permohonan": "EC002025162082",
+      "nomor_pencatatan": "001002342",
+      "penulis": "Muhammad Dedi Irawan dan Yusuf Ramadhan Nasution",
+      "pemegang_hak": "Muhammad Dedi Irawan dan Yusuf Ramadhan Nasution",
+      "dosen": [
         "dedi"
       ],
       "keterangan_ekspor": "Poster",
-      "tanggal_sumber": "2026-11-20",
-      "sumber_ekspor": "export_ipr_2026_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
-      "nomor_baris": 213
+      "tanggal_sumber": "2025-10-23",
+      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 54
+    },
+    {
+      "id": "ipr:EC002025206544",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Proteksi Citra Biometrik Sidik Jari dengan Pendekatan Kriptografi Route Cipher: Studi Eksperimen dan Analisis Ketahanan",
+      "tahun": 2025,
+      "nomor_permohonan": "EC002025206544",
+      "nomor_pencatatan": "001046804",
+      "penulis": "Suhardi dan Muhammad Siddik Hasibuan",
+      "pemegang_hak": "Suhardi dan Muhammad Siddik Hasibuan",
+      "dosen": [
+        "siddik"
+      ],
+      "keterangan_ekspor": "Approve",
+      "tanggal_sumber": "2025-12-08",
+      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 96
+    },
+    {
+      "id": "ipr:EC002025222230",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Sistem Informasi Pembayaran Uang SPP Di Sekolah MadrasahIbtidaiyah",
+      "tahun": 2025,
+      "nomor_permohonan": "EC002025222230",
+      "nomor_pencatatan": "001062490",
+      "penulis": "Puji Sari Ramadhan, S.Kom, M.Kom, Siti Julianita Siregar, S.Kom., M.Kom, Lusiyanti, S.Kom., M.Kom, Elfitriani, SPd., Msi, Atmaja Rizki Falij",
+      "pemegang_hak": "STMIK Triguna Dharma",
+      "dosen": [
+        "puji"
+      ],
+      "keterangan_ekspor": "diterima",
+      "tanggal_sumber": "2025-12-20",
+      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 102
+    },
+    {
+      "id": "ipr:EC002024100563",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Inovasi Dan Kolaborasi Dalam Pembangunan: Membangun Smart University Melalui Kemitraan Strategis Berbasis Kebutuhan Pemerintah Daerah",
+      "tahun": 2024,
+      "nomor_permohonan": "EC002024100563",
+      "penulis": "Ilham Anggianto; Muhammad Dedi Irawan; dkk",
+      "pemegang_hak": "Ilham Anggianto; Muhammad Dedi Irawan; dkk",
+      "dosen": [
+        "dedi"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=iprs#!",
+      "sumber": "riwayat_hki_sinta_diberikan_pengguna_2026-11-22",
+      "keterangan_ekspor": "Printed"
+    },
+    {
+      "id": "ipr:EC002024192807",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Pemetaan Tren Penelitian: Analisis Bibliometrik Bantuan Operasional Perguruan Tinggi Negeri Menggunakan Bibliometrix",
+      "tahun": 2024,
+      "nomor_permohonan": "EC002024192807",
+      "penulis": "Muhammad Dedi Irawan",
+      "pemegang_hak": "Muhammad Dedi Irawan",
+      "dosen": [
+        "dedi"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=iprs#!",
+      "sumber": "riwayat_hki_sinta_diberikan_pengguna_2026-11-22",
+      "keterangan_ekspor": "Printed"
+    },
+    {
+      "id": "ipr:EC00202404440",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Perancangan Animasi Pengenalan Nama Hewan Dan Buah Berbasis Flash Pada Anak Usia Dini",
+      "tahun": 2024,
+      "nomor_permohonan": "EC00202404440",
+      "penulis": "Puji Sari Ramadhan; Yopi Hendro Syahputra; dkk",
+      "pemegang_hak": "STMIK Triguna Dharma",
+      "dosen": [
+        "puji"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089755/?view=iprs#!",
+      "sumber": "riwayat_hki_sinta_diberikan_pengguna_2026-11-22",
+      "keterangan_ekspor": "Publish"
+    },
+    {
+      "id": "ipr:EC002024192010",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "PERGURUAN TINGGI DAN TEROBOSAN KESEHATAN: RESIDUAL NETWORK UNTUK IDENTIFIKASI PNEUMONIA DARI CITRA SINAR-X PARU",
+      "tahun": 2024,
+      "nomor_permohonan": "EC002024192010",
+      "penulis": "Muhammad Siddik Hasibuan; Suhardi",
+      "pemegang_hak": "Muhammad Siddik Hasibuan; Suhardi",
+      "dosen": [
+        "siddik"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/5983919/?view=iprs#!",
+      "sumber": "riwayat_hki_sinta_diberikan_pengguna_2026-11-22",
+      "keterangan_ekspor": "Approve"
+    },
+    {
+      "id": "ipr:EC00202270936",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Analisis Sentimen Kebijakan Pembelajaran Tatap Muka Menggunakan Support Vector Machine Dan Naive Bayes",
+      "tahun": 2023,
+      "nomor_permohonan": "EC00202270936",
+      "penulis": "Muhammad Siddik Hasibuan",
+      "pemegang_hak": "Muhammad Siddik Hasibuan",
+      "dosen": [
+        "siddik"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/5983919/?view=iprs#!",
+      "sumber": "riwayat_hki_sinta_diberikan_pengguna_2026-11-22",
+      "keterangan_ekspor": "Terbit",
+      "catatan_metadata": "Tahun yang ditulis profil SINTA 2023; nomor permohonan diawali EC002022."
+    },
+    {
+      "id": "ipr:EC00202396337",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Manajemen Keuangan Pasar Kamu: Pendampingan Komunitas Pada Penerapan Tempu Sebagai Sarana Pembayaran",
+      "tahun": 2023,
+      "nomor_permohonan": "EC00202396337",
+      "penulis": "Muhammad Dedi Irawan; Laylan Syafina",
+      "pemegang_hak": "Muhammad Dedi Irawan; Laylan Syafina",
+      "dosen": [
+        "dedi"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=iprs#!",
+      "sumber": "riwayat_hki_sinta_diberikan_pengguna_2026-11-22",
+      "keterangan_ekspor": "Printed"
+    },
+    {
+      "id": "ipr:EC00202314400",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Rancang Bangun Sistem Perangkap Hewan Pemangsa Pada Kandang Ayam Berbasis Mikrokontroler",
+      "tahun": 2023,
+      "nomor_permohonan": "EC00202314400",
+      "penulis": "Puji Sari Ramadhan; Dr. Rudi Gunawan; dkk",
+      "pemegang_hak": "STMIK Triguna Dharma",
+      "dosen": [
+        "puji"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089755/?view=iprs#!",
+      "sumber": "riwayat_hki_sinta_diberikan_pengguna_2026-11-22",
+      "keterangan_ekspor": "Diterima"
+    },
+    {
+      "id": "ipr:EC002023139122",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Text Preprocessing Dalam Text Mining : Pendekatan Dengan Algoritma Klasifikasi",
+      "tahun": 2023,
+      "nomor_permohonan": "EC002023139122",
+      "penulis": "Yusuf Ramadhan Nasution; Muhammad Siddik Hasibuan",
+      "pemegang_hak": "Yusuf Ramadhan Nasution; Muhammad Siddik Hasibuan",
+      "dosen": [
+        "siddik"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/5983919/?view=iprs#!",
+      "sumber": "riwayat_hki_sinta_diberikan_pengguna_2026-11-22",
+      "keterangan_ekspor": "terbit"
+    },
+    {
+      "id": "ipr:EC00202231977",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Aplikasi SIMRS Berbasis Website",
+      "tahun": 2022,
+      "nomor_permohonan": "EC00202231977",
+      "penulis": "Muhammad Iqbal Panjaitan; Yeyi Gusla Nengsih; dkk",
+      "pemegang_hak": "Universitas Imelda Medan",
+      "dosen": [
+        "ika"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6745259/?view=iprs#!",
+      "sumber": "riwayat_hki_sinta_diberikan_pengguna_2026-11-22",
+      "keterangan_ekspor": "DITERIMA",
+      "atribusi_profil": "tercantum_pada_profil_ika",
+      "perlu_verifikasi_pencipta": true,
+      "catatan_metadata": "Nama Ika Yusnita Sari belum eksplisit dalam kutipan inventor ('dkk'); tercantum pada daftar HKI profil SINTA Ika."
+    },
+    {
+      "id": "ipr:EC00202228278",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Perancangan Aplikasi Pendaftaran Siswa Baru Pada SMK YAPIM Biru-Biru Berbasis Web",
+      "tahun": 2022,
+      "nomor_permohonan": "EC00202228278",
+      "penulis": "Puji Sari Ramadhan; Sobirin; dkk",
+      "pemegang_hak": "STMIK Triguna Dharma",
+      "dosen": [
+        "puji"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089755/?view=iprs#!",
+      "sumber": "riwayat_hki_sinta_diberikan_pengguna_2026-11-22",
+      "keterangan_ekspor": "GRANTED"
+    },
+    {
+      "id": "ipr:EC00202293533",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "SISTEM PENDUKUNG KEPUTUSAN PEMBELIAN LIMBAH YANG DAPAT DIDAUR ULANG MENGGUNAKAN METODE SMART",
+      "tahun": 2022,
+      "nomor_permohonan": "EC00202293533",
+      "penulis": null,
+      "pemegang_hak": "Raissa Amanda Putri dan Muhammad Dedi Irawan",
+      "dosen": [
+        "dedi"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=iprs#!",
+      "sumber": "riwayat_hki_sinta_diberikan_pengguna_2026-11-22",
+      "keterangan_ekspor": "aktif",
+      "catatan_metadata": "Inventor pada kutipan SINTA tertulis 'Laporan Penelitian'; nama dosen terdapat pada kolom pemegang hak."
+    },
+    {
+      "id": "ipr:EC00202276971",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Sistem Pendukung Keputusan Ujian Tilawah Qur'an Menggunakan Metode SMART dan Borda",
+      "tahun": 2022,
+      "nomor_permohonan": "EC00202276971",
+      "penulis": "Muhammad Dedi Irawan",
+      "pemegang_hak": "Muhammad Dedi Irawan",
+      "dosen": [
+        "dedi"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=iprs#!",
+      "sumber": "riwayat_hki_sinta_diberikan_pengguna_2026-11-22",
+      "keterangan_ekspor": "Masih Berl"
+    },
+    {
+      "id": "ipr:EC00202164569",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Analisis Sentimen Kebijakan Vaksin Covid-19 Menggunakan SVM Dan C4.5",
+      "tahun": 2021,
+      "nomor_permohonan": "EC00202164569",
+      "penulis": "Muhammad Siddik Hasibuan; Suhardi",
+      "pemegang_hak": "Muhammad Siddik Hasibuan; Suhardi",
+      "dosen": [
+        "siddik"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/5983919/?view=iprs#!",
+      "sumber": "riwayat_hki_sinta_diberikan_pengguna_2026-11-22",
+      "keterangan_ekspor": "Approve"
+    },
+    {
+      "id": "ipr:EC00202109409",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Keamanan Data dan Informasi",
+      "tahun": 2021,
+      "nomor_permohonan": "EC00202109409",
+      "penulis": "Ika Yusnita Sari; Muttaqin; Janner Simarmata; Jamaludin; M. Arif Rahman; Akbar Iskandar; Andrew Fernando Pakpahan; Abdul Karim; Sugianto; Yo Ceng Giap; Hazriani; Devi Yendrianof; Sardjana Orba Manullang",
+      "pemegang_hak": "Ika Yusnita Sari; Muttaqin; Janner Simarmata; Jamaludin; M. Arif Rahman; Akbar Iskandar; Andrew Fernando Pakpahan; Abdul Karim; Sugianto; Yo Ceng Giap; Hazriani; Devi Yendrianof; Sardjana Orba Manullang",
+      "dosen": [
+        "ika"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6745259/?view=iprs#!",
+      "sumber": "riwayat_hki_sinta_diberikan_pengguna_2026-11-22"
+    },
+    {
+      "id": "ipr:EC00201989776",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Model Dan Simulasi Prototype Rangkaian Digital Konversi Gerbang AND, OR, NOT Menjadi Gerbang NAND Dan NOR",
+      "tahun": 2019,
+      "nomor_permohonan": "EC00201989776",
+      "penulis": "Helmi Fauzi Siregar",
+      "pemegang_hak": "Helmi Fauzi Siregar; Muhammad Dedi Irawan",
+      "dosen": [
+        "dedi"
+      ],
+      "sumber_profil_sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6054939/?view=iprs#!",
+      "sumber": "riwayat_hki_sinta_diberikan_pengguna_2026-11-22",
+      "keterangan_ekspor": "Diterima"
     }
   ],
   "artikel_google": [
@@ -231,7 +667,7 @@
     }
   ],
   "rekap": {
-    "buku": 3,
-    "ipr": 8
+    "buku": 15,
+    "ipr": 23
   }
 }
