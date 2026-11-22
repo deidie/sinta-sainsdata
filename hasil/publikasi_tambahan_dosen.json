@@ -1,0 +1,271 @@
+{
+  "versi": 1,
+  "dibuat_tanggal": "2026-11-22",
+  "nama": "Pelengkap Publikasi Dosen Prodi Sains Data",
+  "sumber": "Ekspor SINTA institusi UIN Sumatera Utara tahun 2025 dan 2026, disaring enam nama dosen",
+  "catatan": "Buku, HKI, penelitian, dan artikel Scholar adalah kategori terpisah. Judul yang sama pada buku dan HKI tidak dihapus, karena merupakan keluaran yang berbeda. Penelitian tidak dihitung sebagai publikasi jurnal. Rekaman Scopus/GARUDA lama tidak ditimpa.",
+  "dosen_valid": [
+    "siddik",
+    "dedi",
+    "rakhmat",
+    "aidil",
+    "ika",
+    "puji"
+  ],
+  "buku": [
+    {
+      "id": "buku:9786347037985",
+      "jenis": "buku",
+      "judul": "Algoritma dan Pemrograman dengan C++",
+      "tahun": 2025,
+      "isbn": "9786347037985",
+      "jenis_buku": "buku referensi",
+      "penerbit": "CV. Future Science",
+      "tempat_terbit": "Jawa Timur",
+      "halaman": 227,
+      "dosen": [
+        "dedi"
+      ],
+      "penulis": "Norbertus Tri Suswanto Saptadi; Ma’shum Abdul Jabbar; Muhammad Dedi Irawan; Erna Hudianti Pujiarini; Mohammad Badrul; Susi Erlinda; Yusuf Ramadhan Nasution; Johan Suryo Prayogo; Cosmas Haryawan; Hidayatus Sibyan; M. Agus Triawan; Tundo; Agung Yuli Nu",
+      "sumber_ekspor": "export_book_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 20
+    },
+    {
+      "id": "buku:9786347439017",
+      "jenis": "buku",
+      "judul": "Algoritma dan Pemrograman: Teori dan Penerapan dalam Java",
+      "tahun": 2025,
+      "isbn": "9786347439017",
+      "jenis_buku": "buku ajar",
+      "penerbit": "CV. Raskha Media Group",
+      "tempat_terbit": "Medan",
+      "halaman": 70,
+      "dosen": [
+        "dedi",
+        "siddik"
+      ],
+      "penulis": "Muhammad Dedi Irawan; Muhammad Siddik Hasibuan; Editor: Yustria Handika Siregar",
+      "sumber_ekspor": "export_book_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 85
+    },
+    {
+      "id": "buku:9786347439055",
+      "jenis": "buku",
+      "judul": "Fesyen Berkelanjutan dalam Era Digital:Konsep, Model, dan Rekomendasi",
+      "tahun": 2025,
+      "isbn": "9786347439055",
+      "jenis_buku": "buku monograf",
+      "penerbit": "CV. Raskha Media Group",
+      "tempat_terbit": "Medan",
+      "halaman": 90,
+      "dosen": [
+        "siddik",
+        "dedi"
+      ],
+      "penulis": "Muhammad Siddik Hasibuan, M.Kom; Muhammad Dedi Irawan, M.Kom; Rizki Amelia Nasution, M.Si; M. Faisal Afif Tarigan, M.M; Muhammad Yasin Simargolang, M.Kom; editor: Raissa Amanda Putri, M.TI",
+      "sumber_ekspor": "export_book_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 102
+    }
+  ],
+  "ipr": [
+    {
+      "id": "ipr:EC002025037931",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Algoritma dan Pemrograman dengan C++",
+      "tahun": 2025,
+      "nomor_permohonan": "EC002025037931",
+      "nomor_pencatatan": "000878192",
+      "penulis": "Norbertus Tri Suswanto Saptadi; Ma’shum Abdul Jabbar; Muhammad Dedi Irawan; Erna Hudianti Pujiarini; Mohammad Badrul; Susi Erlinda; Yusuf Ramadhan Nasution; Johan Suryo Prayogo; Cosmas Haryawan; Hidayatus Sibyan; Muhammad Agus Triawan; Tundo",
+      "pemegang_hak": "Norbertus Tri Suswanto Saptadi; Ma’shum Abdul Jabbar; Muhammad Dedi Irawan; Erna Hudianti Pujiarini; Mohammad Badrul; Susi Erlinda; Yusuf Ramadhan Nasution; Johan Suryo Prayogo; Cosmas Haryawan; Hidayatus Sibyan; Muhammad Agus Triawan; Tundo",
+      "dosen": [
+        "dedi"
+      ],
+      "keterangan_ekspor": "Diterima",
+      "tanggal_sumber": "2025-04-11",
+      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 22
+    },
+    {
+      "id": "ipr:EC002025162082",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Pengembangan Model Interaktif Berbasis Augmented Reality Dan Virtual Reality Untuk Pelestarian Batik Tulis Sebagai Warisan Budaya Nasional",
+      "tahun": 2025,
+      "nomor_permohonan": "EC002025162082",
+      "nomor_pencatatan": "001002342",
+      "penulis": "Muhammad Dedi Irawan dan Yusuf Ramadhan Nasution",
+      "pemegang_hak": "Muhammad Dedi Irawan dan Yusuf Ramadhan Nasution",
+      "dosen": [
+        "dedi"
+      ],
+      "keterangan_ekspor": "Poster",
+      "tanggal_sumber": "2025-10-23",
+      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 54
+    },
+    {
+      "id": "ipr:EC002025227185",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Desain Sistem Informasi Terintegrasi Berbasis Cloud-AI Untuk Penjadwalan Dan Rekomendasi Dosen Penguji Sidang Munaqasyah",
+      "tahun": 2025,
+      "nomor_permohonan": "EC002025227185",
+      "nomor_pencatatan": "001067445",
+      "penulis": "Aidil Halim Lubis, Armansyah, Ilka Zufria",
+      "pemegang_hak": "Ilka Zufria",
+      "dosen": [
+        "aidil"
+      ],
+      "keterangan_ekspor": "Terbit",
+      "tanggal_sumber": "2025-12-02",
+      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 95
+    },
+    {
+      "id": "ipr:EC002025206544",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Proteksi Citra Biometrik Sidik Jari dengan Pendekatan Kriptografi Route Cipher: Studi Eksperimen dan Analisis Ketahanan",
+      "tahun": 2025,
+      "nomor_permohonan": "EC002025206544",
+      "nomor_pencatatan": "001046804",
+      "penulis": "Suhardi dan Muhammad Siddik Hasibuan",
+      "pemegang_hak": "Suhardi dan Muhammad Siddik Hasibuan",
+      "dosen": [
+        "siddik"
+      ],
+      "keterangan_ekspor": "Approve",
+      "tanggal_sumber": "2025-12-08",
+      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 96
+    },
+    {
+      "id": "ipr:EC002025162687",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "INOVASI KEAMANAN DATA PEMUNGUTAN SUARA NASIONAL: E-ELECTION DENGAN BIOMETRIK DAN KRIPTOGRAFI DIGITAL SIGNATURE ALGORITHM",
+      "tahun": 2025,
+      "nomor_permohonan": "EC002025162687",
+      "nomor_pencatatan": "001002947",
+      "penulis": "Muhammad Siddik Hasibuan dan Suhardi",
+      "pemegang_hak": "Muhammad Siddik Hasibuan dan Suhardi",
+      "dosen": [
+        "siddik"
+      ],
+      "keterangan_ekspor": "Approve",
+      "tanggal_sumber": "2025-10-24",
+      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 97
+    },
+    {
+      "id": "ipr:EC002025222230",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "Sistem Informasi Pembayaran Uang SPP Di Sekolah MadrasahIbtidaiyah",
+      "tahun": 2025,
+      "nomor_permohonan": "EC002025222230",
+      "nomor_pencatatan": "001062490",
+      "penulis": "Puji Sari Ramadhan, S.Kom, M.Kom, Siti Julianita Siregar, S.Kom., M.Kom, Lusiyanti, S.Kom., M.Kom, Elfitriani, SPd., Msi, Atmaja Rizki Falij",
+      "pemegang_hak": "STMIK Triguna Dharma",
+      "dosen": [
+        "puji"
+      ],
+      "keterangan_ekspor": "diterima",
+      "tanggal_sumber": "2025-12-20",
+      "sumber_ekspor": "export_ipr_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 102
+    },
+    {
+      "id": "ipr:EC002026236906",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "PENDAMPINGAN DIGITALISASI TATA KELOLA PEMASARAN KOMUNITAS PENGRAJIN BATIK BERBASIS WebAR DAN WebVR MELALUI PENDEKATAN PARTICIPATORY ACTION RESEARCH (PAR)",
+      "tahun": 2026,
+      "nomor_permohonan": "EC002026236906",
+      "nomor_pencatatan": "001632299",
+      "penulis": "Muhammad Dedi Irawan",
+      "pemegang_hak": "Muhammad Dedi Irawan",
+      "dosen": [
+        "dedi"
+      ],
+      "keterangan_ekspor": "Poster",
+      "tanggal_sumber": "2026-11-19",
+      "sumber_ekspor": "export_ipr_2026_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 211
+    },
+    {
+      "id": "ipr:EC002026238713",
+      "jenis": "ipr",
+      "kategori": "hak cipta",
+      "judul": "INOVASI DESAIN FASHION GENERATIF BERBASIS AI UNTUK MENINGKATKAN DAYA SAING UMKM DAN MENDUKUNG PENCAPAIAN SUSTAINABLE DEVELOPMENT GOALS",
+      "tahun": 2026,
+      "nomor_permohonan": "EC002026238713",
+      "nomor_pencatatan": "001636535",
+      "penulis": "Muhammad Siddik Hasibuan dan Muhammad Dedi Irawan",
+      "pemegang_hak": "Muhammad Siddik Hasibuan dan Muhammad Dedi Irawan",
+      "dosen": [
+        "siddik",
+        "dedi"
+      ],
+      "keterangan_ekspor": "Poster",
+      "tanggal_sumber": "2026-11-20",
+      "sumber_ekspor": "export_ipr_2026_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 213
+    }
+  ],
+  "penelitian": [
+    {
+      "id": "penelitian:2025:1",
+      "jenis": "penelitian",
+      "judul": "PENGEMBANGAN MODEL INTERAKTIF BERBASIS AUGMENTED REALITY DAN VIRTUAL REALITY UNTUK PELESTARIAN BATIK TULIS SEBAGAI WARISAN BUDAYA NASIONAL",
+      "tahun": 2025,
+      "ketua": "Muhammad Dedi Irawan",
+      "skema": "PENELITIAN TERAPAN PENGEMBANGAN NASIONAL",
+      "pendanaan": "Rp. 60.000.000",
+      "dosen": [
+        "dedi"
+      ],
+      "sumber_ekspor": "export_research_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 1
+    },
+    {
+      "id": "penelitian:2025:4",
+      "jenis": "penelitian",
+      "judul": "DESAIN SISTEM INFORMASI TERINTEGRASI BERBASIS CLOUD-AI UNTUK PENJADWALAN DAN REKOMENDASI DOSEN PENGUJI SIDANG MUNAQASYAH",
+      "tahun": 2025,
+      "ketua": "Aidil Halim Lubis",
+      "skema": "PENELITIAN DASAR STRATEGIS PROGRAM STUDI",
+      "pendanaan": "Rp. 23.500.000",
+      "dosen": [
+        "aidil"
+      ],
+      "sumber_ekspor": "export_research_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 4
+    }
+  ],
+  "pengabdian": [],
+  "artikel_google": [
+    {
+      "id": "scholar:2025:2777",
+      "jenis": "artikel_google",
+      "judul": "Implementasi Sistem Akses Gerbang Otomatis dan Monitoring Penghuni Serta Keamanan Berbasis Arduino dan RFID Menggunakan Teknik Counter",
+      "tahun": 2025,
+      "penulis": "FS Muhammad Iqbal Pratama, Puji Sari Ramadhan",
+      "jurnal": "Jurnal Sistem Komputer Triguna Dharma (JURSIK TGD)",
+      "sitasi_sumber_ekspor": 0,
+      "dosen": [
+        "puji"
+      ],
+      "sumber_ekspor": "export_google_publication_2025_Universitas_Islam_Negeri_Sumatera_Utara.xlsx",
+      "nomor_baris": 2777
+    }
+  ],
+  "rekap": {
+    "buku": 3,
+    "ipr": 8,
+    "penelitian": 2,
+    "pengabdian": 0,
+    "artikel_google": 1
+  }
+}
