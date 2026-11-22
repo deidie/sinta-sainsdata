@@ -20,6 +20,15 @@
       ],
       "url": "https://garuda.kemdiktisaintek.go.id/author/view/2406700",
       "status": "dikonfirmasi_pengguna"
+    },
+    {
+      "slug": "puji",
+      "nama": "Puji Sari Ramadhan",
+      "garuda_author_ids": [
+        "2469503"
+      ],
+      "url": "https://garuda.kemdiktisaintek.go.id/author/view/2469503",
+      "status": "dikonfirmasi_pengguna"
     }
   ]
 }
