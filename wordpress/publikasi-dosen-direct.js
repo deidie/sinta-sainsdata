@@ -1,4 +1,6 @@
+/* Tahan inisialisasi sampai elemen Custom HTML siap. Aman bila JS ditempatkan sebelum HTML. */
 (function(){'use strict';
+ function bootPublication(){
  const root=document.getElementById('sdpub26');if(!root||root.dataset.ready)return;root.dataset.ready='1';document.body.classList.add('sdpub26-page');
  // Khusus halaman publikasi: buka pembungkus kolom WordPress, bukan hanya lebar panel internal.
  // Sidebar tema dapat berupa DIV kolom (.col-md-4) tanpa id #secondary.
@@ -310,4 +312,20 @@
   }
   render();
  }).catch(()=>{ /* Data awal tetap tampil. */ });
+ }
+ function available(){
+  const root=document.getElementById('sdpub26');
+  if(!root)return false;
+  if(root.dataset.ready==='1')return true;
+  if(!root.querySelector('#sdp-print')||!root.querySelector('#sdp-select-person')||!root.querySelector('#sdp-cite-head'))return false;
+  bootPublication();
+  return root.dataset.ready==='1';
+ }
+ if(available())return;
+ const observer=new MutationObserver(()=>{if(available())observer.disconnect();});
+ observer.observe(document.documentElement,{subtree:true,childList:true});
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>{if(available())observer.disconnect();},{once:true});
+ else if(available())observer.disconnect();
+ window.addEventListener('load',()=>{if(available())observer.disconnect();},{once:true});
+ setTimeout(()=>observer.disconnect(),20000);
 })();
