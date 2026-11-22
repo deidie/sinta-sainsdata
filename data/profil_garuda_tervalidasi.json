@@ -1,0 +1,25 @@
+{
+  "versi": 1,
+  "diperbarui_tanggal": "2026-11-22",
+  "keterangan": "Profil GARUDA yang identitas dosen dan afiliasinya telah dikonfirmasi langsung oleh pengguna; profil lain tetap menunggu konfirmasi.",
+  "dosen": [
+    {
+      "slug": "dedi",
+      "nama": "Muhammad Dedi Irawan",
+      "garuda_author_ids": [
+        "1197451"
+      ],
+      "url": "https://garuda.kemdiktisaintek.go.id/author/view/1197451",
+      "status": "dikonfirmasi_pengguna"
+    },
+    {
+      "slug": "siddik",
+      "nama": "Muhammad Siddik Hasibuan",
+      "garuda_author_ids": [
+        "2406700"
+      ],
+      "url": "https://garuda.kemdiktisaintek.go.id/author/view/2406700",
+      "status": "dikonfirmasi_pengguna"
+    }
+  ]
+}
